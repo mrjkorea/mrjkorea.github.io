@@ -23,6 +23,11 @@ function examUrl(L, u) {
   const X = C.exams; if (!X) return null; const b = X.books[L.name], t = X.tests[u]; if (!b || !t) return null;
   return (L.name.startsWith('Basic') ? X.base.basic : X.base.int) + '#/' + b + '/' + t;
 }
+// Per-unit deep link when the app supports it ({book} = level book id, {n} = unit number); else the app's index.
+function dayUrl(L, u, d) {
+  const b = C.exams && C.exams.books[L.name], n = u.replace('Unit ', '');
+  return d.unitUrl && b ? d.unitUrl.replace('{book}', b).replace('{n}', n) : d.url;
+}
 function steps(L) {
   const out = [];
   C.units.filter(u => u !== 'Final' || L.final).forEach(u => {
@@ -32,7 +37,7 @@ function steps(L) {
       return out.push({ id: `${L.name}|${u}|`, unit: u, label: u, sub: 'Big test (Day 5)', img: u === 'Final' ? 'toeic' : 'scores', url: examUrl(L, u), kind: 'exam' });
     }
     out.push({ id: `${L.name}|${u}|`, unit: u, label: u.replace('Unit ', 'Unit '), kind: 'unit' });
-    C.days.forEach(d => out.push({ id: `${L.name}|${u}|${d.day}`, unit: u, day: d.day, label: d.day, sub: d.label, img: d.img, url: d.url, kind: 'day' }));
+    C.days.forEach(d => out.push({ id: `${L.name}|${u}|${d.day}`, unit: u, day: d.day, label: d.day, sub: d.label, img: d.img, url: dayUrl(L, u, d), kind: 'day' }));
   });
   return out;
 }
