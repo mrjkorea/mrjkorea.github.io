@@ -70,32 +70,43 @@
    "day": "Day 2",
    "label": "Words",
    "img": "words",
-   "url": "https://mrjkorea.github.io/day2-words/"
+   "url": "https://mrjkorea.github.io/day2-words/",
+   "unitUrl": "https://mrjkorea.github.io/day2-words/#{book}_u{n}"
   },
   {
    "day": "Day 3",
    "label": "Activities",
    "img": "activities",
    "url": "https://mrjkorea.github.io/day2-words/day3/units.html",
-   "unitUrl": "https://mrjkorea.github.io/day2-words/day3/index.html?unit={book}_u{n}"
+   "unitUrl": "https://mrjkorea.github.io/day2-words/day3/index.html?unit={book}_u{n}",
+   "alias": {
+    "basic_a_u6": "basic_a_u06"
+   }
   },
   {
    "day": "Day 4",
    "label": "Speak",
    "img": "conversation",
-   "url": "https://mrjkorea.github.io/pronounce/"
+   "url": "https://mrjkorea.github.io/pronounce/",
+   "unitUrl": "https://mrjkorea.github.io/pronounce/#/book/{book}/unit/unit{nn}"
   },
   {
    "day": "Day 5",
    "label": "Unit test",
    "img": "tests",
-   "url": "https://mrjkorea.github.io/day5-practice/"
+   "url": "https://mrjkorea.github.io/day5-practice/",
+   "unitUrl": "https://mrjkorea.github.io/day5-practice/#/{book}/unit{nn}",
+   "unitUrlInt": "https://mrjkorea.github.io/day5-practice/intermediate/#/{book}/unit{nn}"
   },
   {
    "day": "Day 6",
    "label": "Interview",
    "img": "ai",
-   "url": "https://mrjkorea.github.io/day6-talk/"
+   "url": "https://mrjkorea.github.io/day6-talk/",
+   "unitUrl": "https://mrjkorea.github.io/day6-talk/?unit={book}_u{n}",
+   "missing": [
+    "int3c_u8"
+   ]
   }
  ],
  "home": [
@@ -267,5 +278,6 @@
    "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2c_mid2",
    "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2c_final"
   }
- }
+ },
+ "days_note": "unitUrl placeholders: {book}=exams.books id, {n}=unit number, {nn}=2-digit. unitUrlInt used for Int levels. alias maps {book}_u{n} to a different id. missing = no content yet (Coming soon)."
 }

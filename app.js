@@ -24,9 +24,13 @@ function examUrl(L, u) {
   return (L.name.startsWith('Basic') ? X.base.basic : X.base.int) + '#/' + b + '/' + t;
 }
 // Per-unit deep link when the app supports it ({book} = level book id, {n} = unit number); else the app's index.
+// {nn} = 2-digit unit; unitUrlInt = Int-level variant; alias = id rename; missing = no content yet (Coming soon).
 function dayUrl(L, u, d) {
-  const b = C.exams && C.exams.books[L.name], n = u.replace('Unit ', '');
-  return d.unitUrl && b ? d.unitUrl.replace('{book}', b).replace('{n}', n) : d.url;
+  const b = C.exams && C.exams.books[L.name], n = u.replace('Unit ', ''), id = `${b}_u${n}`;
+  if (!d.unitUrl || !b) return d.url;
+  if ((d.missing || []).includes(id)) return null;
+  const t = (!L.name.startsWith('Basic') && d.unitUrlInt) || d.unitUrl, a = d.alias && d.alias[id];
+  return (a ? t.replace('{book}_u{n}', a) : t).replace('{book}', b).replace('{nn}', n.padStart(2, '0')).replace('{n}', n);
 }
 function steps(L) {
   const out = [];
