@@ -15,7 +15,12 @@ with sync_playwright() as p:
     return f.evaluate("[...document.querySelectorAll('.ytp-caption-segment')].map(e=>e.textContent).join(' ')")
   print("EN:",cap())
   pg.get_by_role("button",name=re.compile("한국어")).click(); pg.wait_for_timeout(6000)
-  k=cap(); print("KO:",k, "hangul:",bool(re.search("[가-힣]",k)))
+  k=""
+  for i in range(10):
+    k=cap()
+    if re.search("[가-힣]",k): break
+    pg.wait_for_timeout(1500)
+  print("KO:",k, "hangul:",bool(re.search("[가-힣]",k)))
   if out: pg.screenshot(path=out)
   pg.get_by_role("button",name="🚫 Subtitles off").click(); pg.wait_for_timeout(3000); print("OFF:",repr(cap()))
   pg.get_by_role("button",name="💬 English subtitles").click(); pg.wait_for_timeout(5000); print("EN again:",cap())
