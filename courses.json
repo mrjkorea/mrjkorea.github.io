@@ -221,51 +221,51 @@
   }
  },
  "reviews": {
-  "note": "Review step before each exam. null = Coming soon (never blocks, not counted). Put the mountain review URL here when ready.",
+  "note": "Review climb before each exam (MRJ Conversation). null = Coming soon (never blocks, not counted).",
   "Basic A": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_a_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_a_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_a_final"
   },
   "Basic B": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_b_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_b_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_b_final"
   },
   "Basic C": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_c_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_c_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_c_final"
   },
   "Int 3 A": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3a_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3a_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3a_final"
   },
   "Int 3 B": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3b_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3b_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3b_final"
   },
   "Int 3 C": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3c_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3c_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3c_final"
   },
   "Int 2 A": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2a_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2a_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2a_final"
   },
   "Int 2 B": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2b_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2b_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2b_final"
   },
   "Int 2 C": {
-   "Midterm 1": null,
-   "Midterm 2": null,
-   "Final": null
+   "Midterm 1": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2c_mid1",
+   "Midterm 2": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2c_mid2",
+   "Final": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2c_final"
   }
  }
 }
