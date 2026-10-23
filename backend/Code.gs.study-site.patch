@@ -1,0 +1,25 @@
+--- /tmp/sg/mrj-signin/Code.gs	2026-10-23 02:31:46.023928067 +0900
++++ Code.gs	2026-10-23 02:33:27.399928067 +0900
+@@ -1974,9 +1974,22 @@
+   }
+ }
+ 
++/** Study site path progress: union of done steps, newest "last" wins (see study-site/progress.js). */
++function mergeStudySite_(storedRaw, incomingStr) {
++  function p(raw) { try { var d = JSON.parse(String(raw || "")); return d && typeof d === "object" && d.v ? d : null; } catch (e) { return null; } }
++  var a = p(storedRaw), b = p(incomingStr);
++  if (!b) return String(storedRaw || "{}");
++  if (!a) return incomingStr;
++  var n = toNum_(a.updatedAt) >= toNum_(b.updatedAt) ? a : b, o = n === a ? b : a, done = {}, k;
++  for (k in (o.done || {})) done[k] = toNum_(o.done[k]);
++  for (k in (n.done || {})) done[k] = Math.max(toNum_(n.done[k]), done[k] || 0);
++  return JSON.stringify({ v: 1, updatedAt: toNum_(n.updatedAt), last: n.last || o.last || null, done: done });
++}
++
+ function mergeProgressJson_(storedRaw, incomingRaw, program) {
+   var incomingStr = String(incomingRaw == null ? "{}" : incomingRaw);
+   var programKey = String(program || "").trim().toLowerCase();
++  if (programKey === "study-site") return mergeStudySite_(storedRaw, incomingStr);
+   if (programKey !== "decodable") return incomingStr;
+   var incoming = parseProgress_(incomingStr);
+   if (!incoming) return String(storedRaw || "{}");

@@ -1,0 +1,198 @@
+{
+ "levels": [
+  {
+   "name": "Basic A",
+   "color": "green",
+   "final": false
+  },
+  {
+   "name": "Basic B",
+   "color": "green",
+   "final": false
+  },
+  {
+   "name": "Basic C",
+   "color": "green",
+   "final": true
+  },
+  {
+   "name": "Int 3 A",
+   "color": "blue",
+   "final": true
+  },
+  {
+   "name": "Int 3 B",
+   "color": "blue",
+   "final": true
+  },
+  {
+   "name": "Int 3 C",
+   "color": "blue",
+   "final": true
+  },
+  {
+   "name": "Int 2 A",
+   "color": "red",
+   "final": true
+  },
+  {
+   "name": "Int 2 B",
+   "color": "red",
+   "final": true
+  },
+  {
+   "name": "Int 2 C",
+   "color": "red",
+   "final": true
+  }
+ ],
+ "units": [
+  "Unit 1",
+  "Unit 2",
+  "Unit 3",
+  "Unit 4",
+  "Midterm 1",
+  "Unit 5",
+  "Unit 6",
+  "Unit 7",
+  "Unit 8",
+  "Midterm 2",
+  "Final"
+ ],
+ "days": [
+  {
+   "day": "Day 1",
+   "label": "Video",
+   "img": "video",
+   "url": null
+  },
+  {
+   "day": "Day 2",
+   "label": "Words",
+   "img": "words",
+   "url": "https://mrjkorea.github.io/day2-words/"
+  },
+  {
+   "day": "Day 3",
+   "label": "Games",
+   "img": "games",
+   "url": null
+  },
+  {
+   "day": "Day 4",
+   "label": "Speak",
+   "img": "conversation",
+   "url": "https://mrjkorea.github.io/pronounce/"
+  },
+  {
+   "day": "Day 5",
+   "label": "Unit test",
+   "img": "tests",
+   "url": "https://mrjkorea.github.io/day5-practice/"
+  },
+  {
+   "day": "Day 6",
+   "label": "Interview",
+   "img": "ai",
+   "url": "https://mrjkorea.github.io/day6-talk/"
+  }
+ ],
+ "home": [
+  {
+   "id": "conversation",
+   "name": "Conversation",
+   "img": "conversation",
+   "room": "conversation"
+  },
+  {
+   "id": "grammar",
+   "name": "Grammar Books",
+   "img": "grammar",
+   "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/"
+  },
+  {
+   "id": "decodable",
+   "name": "Decodable Books",
+   "img": "decodable",
+   "url": "https://mrjkorea.github.io/mrj-decodable-try/"
+  },
+  {
+   "id": "tests",
+   "name": "Practice Tests",
+   "img": "tests",
+   "url": "https://mrjkorea.github.io/practice-tests/"
+  },
+  {
+   "id": "culture",
+   "name": "Culture Class",
+   "img": "culture"
+  },
+  {
+   "id": "toeicb",
+   "name": "TOEIC Bridge",
+   "img": "bridge"
+  },
+  {
+   "id": "toeic",
+   "name": "TOEIC",
+   "img": "toeic"
+  },
+  {
+   "id": "essay",
+   "name": "Essay",
+   "img": "essay"
+  }
+ ],
+ "links": [
+  {
+   "name": "Reading",
+   "img": "reading",
+   "url": "https://www.kidsa-z.com/ng/login/class-chart"
+  },
+  {
+   "name": "Typing",
+   "img": "typing",
+   "url": "https://www.typing.com/"
+  },
+  {
+   "name": "AI",
+   "img": "ai",
+   "url": "https://chatgpt.com/"
+  },
+  {
+   "name": "TOEIC Speaking",
+   "img": "speaking",
+   "url": "https://mrjkorea.github.io/speakpass/"
+  },
+  {
+   "name": "Skill Builder",
+   "img": "rocket",
+   "url": "https://mrjkorea.github.io/skill-builder-g1/"
+  }
+ ],
+ "bottom": [
+  {
+   "name": "Words",
+   "img": "words",
+   "url": "https://mrjkorea.github.io/word-master/"
+  },
+  {
+   "name": "News",
+   "img": "news",
+   "room": "news"
+  },
+  {
+   "name": "My scores",
+   "img": "scores"
+  },
+  {
+   "name": "Teacher dashboard",
+   "img": "teacher",
+   "url": "https://mrjkorea.github.io/mrj-signin/teacher-dashboard.html"
+  }
+ ],
+ "news": {
+  "wordQuiz": "https://mrjkorea.github.io/news-word-practice/?date=",
+  "compQuiz": "https://mrjkorea.github.io/daily-news-quiz/quiz.html?id="
+ }
+}
