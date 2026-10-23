@@ -1,6 +1,6 @@
 name: Refresh news list
 on:
-  schedule: [{ cron: "0 22 * * *" }]   # 07:00 KST
+  schedule: [{ cron: "30 22 * * *" }, { cron: "15 */2 * * *" }]   # 07:30 KST (just after the ~07:10 upload) + every 2 h for late uploads
   workflow_dispatch: {}
 permissions: { contents: write }
 jobs:

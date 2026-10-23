@@ -77,14 +77,39 @@ function conversation() {
 function news(sel) {
   const v = NEWS.find(x => x.id === sel) || NEWS[0];
   if (!v) { A.innerHTML = back('#home', 'News') + '<p>No videos yet.</p>'; return; }
-  const src = `https://www.youtube-nocookie.com/embed/${v.id}?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1`;
+  const src = `https://www.youtube-nocookie.com/embed/${v.id}?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
   A.innerHTML = back('#home', 'News') + `<div class="news"><div class="vlist">${NEWS.map(x => `<button class="vitem${x.id === v.id ? ' sel' : ''}" data-id="${x.id}">
      <img src="https://i.ytimg.com/vi/${x.id}/mqdefault.jpg" alt=""><div><b>${esc(x.title)}</b><small>${x.date}</small></div></button>`).join('')}</div>
     <div class="stage"><iframe id="yt" src="${src}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+     <div class="subs"><button class="btn3d sub on" data-cc="en">💬 English subtitles</button><button class="btn3d sub" data-cc="ko">💬 한국어 자막 (Korean)</button><button class="btn3d sub" data-cc="off">🚫 Subtitles off</button></div>
      <h3>${esc(v.title)}</h3><div class="acts"><button class="btn3d go" data-q="${C.news.wordQuiz + v.date}"><img src="${im('words')}" style="width:34px;vertical-align:middle"> Word Quiz</button>
      <button class="btn3d purple" data-q="${C.news.compQuiz + v.date}"><img src="${im('tests')}" style="width:34px;vertical-align:middle"> Comprehension Quiz</button></div><div id="qz"></div></div></div>`;
+  subtitles();
   A.querySelectorAll('.vitem').forEach(b => b.onclick = () => { location.hash = 'news/' + b.dataset.id; });
   A.querySelectorAll('[data-q]').forEach(b => b.onclick = () => { A.querySelector('#qz').innerHTML = `<iframe class="quiz" src="${b.dataset.q}" title="Quiz"></iframe>`; A.querySelector('#qz').scrollIntoView({ behavior: 'smooth' }); });
+}
+let YTP = null, ccWant = 'en';
+function ytApi() {
+  if (window.YT && YT.Player) return Promise.resolve();
+  return new Promise(res => { const prev = window.onYouTubeIframeAPIReady; window.onYouTubeIframeAPIReady = () => { prev && prev(); res(); };
+    if (!document.getElementById('ytapi')) { const s = document.createElement('script'); s.id = 'ytapi'; s.src = 'https://www.youtube.com/iframe_api'; document.head.appendChild(s); } });
+}
+function applyCC() {
+  const p = YTP; if (!p || !p.setOption) return;
+  try {
+    if (ccWant === 'off') { p.unloadModule('captions'); p.unloadModule('cc'); return; }
+    p.loadModule('captions');
+    const tl = (p.getOption('captions', 'tracklist') || []);
+    const en = tl.find(t => t.languageCode === 'en' && t.kind !== 'asr') || tl.find(t => (t.languageCode || '').startsWith('en')) || tl[0];
+    const ko = tl.find(t => t.languageCode === 'ko');
+    if (ccWant === 'ko') p.setOption('captions', 'track', ko || Object.assign({}, en || { languageCode: 'en' }, { translationLanguage: { languageCode: 'ko', languageName: 'Korean' } }));
+    else p.setOption('captions', 'track', en || { languageCode: 'en' });
+  } catch (e) { console.warn('captions', e); }
+}
+function subtitles() {
+  const bs = A.querySelectorAll('[data-cc]');
+  bs.forEach(b => { b.classList.toggle('on', b.dataset.cc === ccWant); b.onclick = () => { ccWant = b.dataset.cc; bs.forEach(x => x.classList.toggle('on', x === b)); applyCC(); [400, 1200, 2500].forEach(t => setTimeout(applyCC, t)); }; });
+  ytApi().then(() => { YTP = new YT.Player('yt', { events: { onReady: applyCC, onStateChange: e => { if (e.data === 1) applyCC(); }, onApiChange: applyCC } }); });
 }
 function route() {
   M.innerHTML = '';
