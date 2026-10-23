@@ -19,19 +19,29 @@ function levels() {
     C.levels.map(l => `<a class="tile ${l.color}" href="#path/${encodeURIComponent(l.name)}" style="min-height:150px;justify-content:center">
       <span class="lvl">${l.name.split(' ').pop()}</span><b>${l.name}</b></a>`).join('')}</div>`;
 }
+function examUrl(L, u) {
+  const X = C.exams; if (!X) return null; const b = X.books[L.name], t = X.tests[u]; if (!b || !t) return null;
+  return (L.name.startsWith('Basic') ? X.base.basic : X.base.int) + '#/' + b + '/' + t;
+}
 function steps(L) {
   const out = [];
   C.units.filter(u => u !== 'Final' || L.final).forEach(u => {
-    if (!u.startsWith('Unit')) return out.push({ id: `${L.name}|${u}|`, unit: u, label: u, img: u === 'Final' ? 'toeic' : 'scores', kind: 'exam' });
+    if (!u.startsWith('Unit')) {
+      const rv = (C.reviews && C.reviews[L.name] && C.reviews[L.name][u]) || null;
+      out.push({ id: `${L.name}|${u}|Review`, unit: u, label: 'Review', sub: `Get ready for ${u}`, img: 'rocket', url: rv, kind: 'review' });
+      return out.push({ id: `${L.name}|${u}|`, unit: u, label: u, sub: 'Big test (Day 5)', img: u === 'Final' ? 'toeic' : 'scores', url: examUrl(L, u), kind: 'exam' });
+    }
     out.push({ id: `${L.name}|${u}|`, unit: u, label: u.replace('Unit ', 'Unit '), kind: 'unit' });
     C.days.forEach(d => out.push({ id: `${L.name}|${u}|${d.day}`, unit: u, day: d.day, label: d.day, sub: d.label, img: d.img, url: d.url, kind: 'day' }));
   });
   return out;
 }
+// Only steps that have an app count. "Coming soon" steps never block and never count.
+const counts = s => s.kind !== 'unit' && !!s.url;
 function curIndex(L, S) {
   const last = P().last();
-  if (last && last.level === L.name) { const i = S.findIndex(s => s.unit === last.unit && (s.day || '') === (last.day || '')); if (i >= 0) return i; }
-  const i = S.findIndex(s => s.kind !== 'unit' && !P().isDone(s.id)); return i < 0 ? S.length - 1 : i;
+  if (last && last.level === L.name) { const i = S.findIndex(s => s.unit === last.unit && (s.day || '') === (last.day || '') && (s.kind === 'review') === (last.day === 'Review')); if (i >= 0 && counts(S[i])) return i; }
+  const i = S.findIndex(s => counts(s) && !P().isDone(s.id)); return i < 0 ? S.length - 1 : i;
 }
 function pathMap(name) {
   const L = C.levels.find(l => l.name === name); if (!L) return levels();
@@ -43,10 +53,10 @@ function pathMap(name) {
   for (let i = 1; i < pos.length; i++) { const [x0, y0] = pos[i - 1], [x, y] = pos[i];
     d += y0 === y || Math.abs(y - y0) < 60 ? ` Q${(x0 + x) / 2},${(y0 + y) / 2 - 25} ${x},${y}` : ` C${x0 + (x0 > W / 2 ? 120 : -120)},${y0} ${x + (x > W / 2 ? 120 : -120)},${y} ${x},${y}`; }
   const nodes = S.map((s, i) => {
-    const done = s.kind === 'unit' ? S.filter(t => t.unit === s.unit && t.kind === 'day').every(t => P().isDone(t.id)) : P().isDone(s.id);
-    const st = (done ? ' done' : '') + (i === ci ? ' cur' : i > ci ? ' later' : '');
+    const done = s.kind === 'unit' ? S.filter(t => t.unit === s.unit && t.kind === 'day' && counts(t)).every(t => P().isDone(t.id)) : P().isDone(s.id);
+    const st = (done ? ' done' : '') + (!s.url && s.kind !== 'unit' ? ' soonstep' : '') + (i === ci ? ' cur' : i > ci ? ' later' : '');
     const disc = s.kind === 'unit' ? `<div class="disc">${s.label.replace('Unit ', 'U')}</div>` : `<div class="disc"><img src="${im(s.img)}" alt=""></div>`;
-    return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span>${esc(s.kind === 'day' ? s.label + ' · ' + s.sub : s.label)}</span></button>`;
+    return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span>${esc(s.kind === 'day' ? s.label + ' · ' + s.sub : s.kind === 'review' ? 'Review · ' + s.unit : s.label)}</span></button>`;
   }).join('');
   A.innerHTML = back('#levels', `${L.name} · Conversation`) +
     `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div>`;
@@ -54,11 +64,11 @@ function pathMap(name) {
   const cur = A.querySelector('.node.cur'); if (cur && !window.__shot) cur.scrollIntoView({ block: 'center' });
 }
 function stepCard(L, s) {
-  const place = { course: 'conversation', level: L.name, unit: s.unit, day: s.day || '' };
-  const title = s.kind === 'day' ? `${s.unit} · ${s.day}` : s.label;
+  const place = { course: 'conversation', level: L.name, unit: s.unit, day: s.kind === 'review' ? 'Review' : (s.day || '') };
+  const title = s.kind === 'day' ? `${s.unit} · ${s.day}` : s.kind === 'review' ? `Review · ${s.unit}` : s.label;
   const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}" target="_blank" rel="noopener">▶ Open</a>` : `<span class="btn3d no">⏳ Coming soon</span>`;
-  M.innerHTML = `<div class="card"><img src="${im(s.img || 'conversation')}" alt=""><h3>${esc(title)}</h3><p>${esc(s.sub || (s.kind === 'unit' ? 'Start here' : 'Big test'))}</p>
-    <div class="acts">${open}${s.kind !== 'unit' ? `<button class="btn3d purple" id="md">✔ Mark done</button>` : ''}<button class="btn3d gold" id="cl">✖</button></div></div>`;
+  M.innerHTML = `<div class="card"><img src="${im(s.img || 'conversation')}" alt=""><h3>${esc(title)}</h3><p>${esc(s.sub || (s.kind === 'unit' ? 'Start here' : 'Big test'))}${!s.url && s.kind !== 'unit' ? ' · Coming soon. You can skip this for now.' : ''}</p>
+    <div class="acts">${open}${counts(s) ? `<button class="btn3d purple" id="md">✔ Mark done</button>` : ''}<button class="btn3d gold" id="cl">✖</button></div></div>`;
   P().setLast(place);
   const close = () => { M.innerHTML = ''; pathMap(L.name); };
   M.querySelector('#cl').onclick = close; M.onclick = e => { if (e.target === M) close(); };
@@ -118,6 +128,7 @@ function route() {
   if (r === 'levels') return levels();
   if (r === 'path') return pathMap(a);
   if (r === 'news') return news(a);
+  if (r === 'scores') return window.MyScores ? MyScores.show(A, C, steps) : home();
   home(); scrollTo(0, 0);
 }
 function signinButton() {

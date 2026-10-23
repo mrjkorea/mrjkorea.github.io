@@ -3,12 +3,12 @@
   {
    "name": "Basic A",
    "color": "green",
-   "final": false
+   "final": true
   },
   {
    "name": "Basic B",
    "color": "green",
-   "final": false
+   "final": true
   },
   {
    "name": "Basic C",
@@ -74,9 +74,9 @@
   },
   {
    "day": "Day 3",
-   "label": "Games",
-   "img": "games",
-   "url": null
+   "label": "Activities",
+   "img": "activities",
+   "url": "https://mrjkorea.github.io/day3-workbook/"
   },
   {
    "day": "Day 4",
@@ -183,7 +183,8 @@
   },
   {
    "name": "My scores",
-   "img": "scores"
+   "img": "scores",
+   "room": "scores"
   },
   {
    "name": "Teacher dashboard",
@@ -194,5 +195,76 @@
  "news": {
   "wordQuiz": "https://mrjkorea.github.io/news-word-practice/?date=",
   "compQuiz": "https://mrjkorea.github.io/daily-news-quiz/quiz.html?id="
+ },
+ "exams": {
+  "note": "Day 5 deep links: base + '#/' + book + '/' + test",
+  "base": {
+   "basic": "https://mrjkorea.github.io/day5-practice/",
+   "int": "https://mrjkorea.github.io/day5-practice/intermediate/"
+  },
+  "books": {
+   "Basic A": "basic_a",
+   "Basic B": "basic_b",
+   "Basic C": "basic_c",
+   "Int 3 A": "int3a",
+   "Int 3 B": "int3b",
+   "Int 3 C": "int3c",
+   "Int 2 A": "int2a",
+   "Int 2 B": "int2b",
+   "Int 2 C": "int2c"
+  },
+  "tests": {
+   "Midterm 1": "midterm_1_4",
+   "Midterm 2": "midterm_5_8",
+   "Final": "final"
+  }
+ },
+ "reviews": {
+  "note": "Review step before each exam. null = Coming soon (never blocks, not counted). Put the mountain review URL here when ready.",
+  "Basic A": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Basic B": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Basic C": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 3 A": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 3 B": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 3 C": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 2 A": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 2 B": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  },
+  "Int 2 C": {
+   "Midterm 1": null,
+   "Midterm 2": null,
+   "Final": null
+  }
  }
 }
