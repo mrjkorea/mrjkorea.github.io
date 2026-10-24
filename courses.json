@@ -333,7 +333,28 @@
    "int2c_u5": "int2c_u05_b",
    "int2c_u6": "int2c_u06_b",
    "int2c_u7": "int2c_u07_b",
-   "int2c_u8": "int2c_u08_b"
+   "int2c_u8": "int2c_u08_b",
+   "int3a_u1": "int3a_u01_b",
+   "int3a_u2": "int3a_u02_b",
+   "int3a_u3": "int3a_u03_b",
+   "int3a_u4": "int3a_u04_a",
+   "int3a_u5": "int3a_u05_b",
+   "int3a_u6": "int3a_u06_a",
+   "int3a_u7": "int3a_u07_a",
+   "int3a_u8": "int3a_u08_b",
+   "int3b_u1": "int3b_u01_a",
+   "int3b_u3": "int3b_u03_b",
+   "int3b_u4": "int3b_u04_a",
+   "int3b_u5": "int3b_u05_b",
+   "int3b_u6": "int3b_u06_b",
+   "int3b_u8": "int3b_u08_b",
+   "int3c_u2": "int3c_u02_a",
+   "int3c_u3": "int3c_u03_b",
+   "int3c_u4": "int3c_u04_a",
+   "int3c_u5": "int3c_u05_a",
+   "int3c_u6": "int3c_u06_a",
+   "int3c_u7": "int3c_u07_a",
+   "int3c_u8": "int3c_u08_b"
   }
  }
 }
