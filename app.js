@@ -32,6 +32,12 @@ function dayUrl(L, u, d) {
   const t = (!L.name.startsWith('Basic') && d.unitUrlInt) || d.unitUrl, a = d.alias && d.alias[id];
   return (a ? t.replace('{book}_u{n}', a) : t).replace('{book}', b).replace('{nn}', n.padStart(2, '0')).replace('{n}', n);
 }
+// Song step (new id "<level>|<unit>|Song"; existing step ids unchanged). Song id from the baked catalog map.
+function songStep(L, u) {
+  const S = C.songs, b = C.exams && C.exams.books[L.name], n = u.replace('Unit ', '');
+  const sid = b && (S.ids[`${b}_u${n}`] || S.ids[`${b}_u${n.padStart(2, '0')}`]);
+  return { id: `${L.name}|${u}|Song`, unit: u, day: 'Song', label: 'Song', sub: 'Sing along', img: S.img, url: sid ? S.url.replace('{id}', encodeURIComponent(sid)) : null, kind: 'day' };
+}
 function steps(L) {
   const out = [];
   C.units.filter(u => u !== 'Final' || L.final).forEach(u => {
@@ -41,7 +47,10 @@ function steps(L) {
       return out.push({ id: `${L.name}|${u}|`, unit: u, label: u, sub: 'Big test (Day 5)', img: u === 'Final' ? 'toeic' : 'scores', url: examUrl(L, u), kind: 'exam' });
     }
     out.push({ id: `${L.name}|${u}|`, unit: u, label: u.replace('Unit ', 'Unit '), kind: 'unit' });
-    C.days.forEach(d => out.push({ id: `${L.name}|${u}|${d.day}`, unit: u, day: d.day, label: d.day, sub: d.label, img: d.img, url: dayUrl(L, u, d), kind: 'day' }));
+    C.days.forEach(d => {
+      out.push({ id: `${L.name}|${u}|${d.day}`, unit: u, day: d.day, label: d.day, sub: d.label, img: d.img, url: dayUrl(L, u, d), kind: 'day' });
+      if (C.songs && d.day === C.songs.after) out.push(songStep(L, u));
+    });
   });
   return out;
 }
