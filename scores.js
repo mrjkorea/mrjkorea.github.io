@@ -56,7 +56,8 @@
   function render(A, C, stepsOf, head, pr, done) {
     var rows = (pr.progress || []).map(function (r) { return { app: String(r.program || ''), item: String(r.item || ''), raw: r.score, sc: parseScore(r.score), day: dayKey(r.date) }; });
     // path completion from study-site pack (only steps with an app count)
-    var levels = C.levels.map(function (L) {
+    var reviewLv = (C.reviewCourses && C.reviewCourses.courses || []).map(function (c) { return { name: c.name, color: c.color, reviewCourse: c }; });
+    var levels = C.levels.concat(reviewLv).map(function (L) {
       var S = stepsOf(L).filter(function (s) { return s.kind !== 'unit' && s.url; });
       var d = S.filter(function (s) { return done[s.id]; }).length; return { L: L, total: S.length, done: d };
     });

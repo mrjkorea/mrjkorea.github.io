@@ -357,5 +357,232 @@
    "int3c_u7": "int3c_u07_a",
    "int3c_u8": "int3c_u08_b"
   }
+ },
+ "reviewCourses": {
+  "note": "End-of-band Review courses (separate from per-book Midterm/Final Review climbs). quizLive/testLive=false → Coming soon on that step only; chat and songs always linked.",
+  "courses": [
+   {
+    "name": "Basic Review",
+    "color": "green",
+    "units": [
+     {
+      "id": "ONE",
+      "subtitle": "Basic A/B/C · Units 1–2",
+      "songs": [
+       "basic_a_u01_a",
+       "basic_a_u02_b",
+       "basic_b_u01_a",
+       "basic_b_u02_b",
+       "basic_c_u01_b",
+       "basic_c_u02_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u1",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit01",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u1"
+     },
+     {
+      "id": "TWO",
+      "subtitle": "Basic A/B/C · Units 3–4",
+      "songs": [
+       "basic_a_u03_b",
+       "basic_a_u04_b",
+       "basic_b_u03_b",
+       "basic_b_u04_a",
+       "basic_c_u03_a",
+       "basic_c_u04_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u2",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit02",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u2"
+     },
+     {
+      "id": "THREE",
+      "subtitle": "Basic A/B/C · Units 5–6",
+      "songs": [
+       "basic_a_u05_b",
+       "basic_a_u06_a",
+       "basic_b_u05_b",
+       "basic_b_u06_b",
+       "basic_c_u05_a",
+       "basic_c_u06_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u3",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit03",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u3"
+     },
+     {
+      "id": "FOUR",
+      "subtitle": "Basic A/B/C · Units 7–8",
+      "songs": [
+       "basic_a_u07_b",
+       "basic_a_u08_a",
+       "basic_b_u07_b",
+       "basic_b_u08_b",
+       "basic_c_u07_b",
+       "basic_c_u08_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u4",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit04",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u4"
+     }
+    ]
+   },
+   {
+    "name": "Int 3 Review",
+    "color": "blue",
+    "units": [
+     {
+      "id": "ONE",
+      "subtitle": "Int 3 A/B/C · Units 1–2",
+      "songs": [
+       "int3a_u01_b",
+       "int3a_u02_b",
+       "int3b_u01_a",
+       "int3b_u02_a",
+       "int3c_u01_b",
+       "int3c_u02_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u1",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit01",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u1"
+     },
+     {
+      "id": "TWO",
+      "subtitle": "Int 3 A/B/C · Units 3–4",
+      "songs": [
+       "int3a_u03_b",
+       "int3a_u04_a",
+       "int3b_u03_b",
+       "int3b_u04_a",
+       "int3c_u03_b",
+       "int3c_u04_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u2",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit02",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u2"
+     },
+     {
+      "id": "THREE",
+      "subtitle": "Int 3 A/B/C · Units 5–6",
+      "songs": [
+       "int3a_u05_b",
+       "int3a_u06_a",
+       "int3b_u05_b",
+       "int3b_u06_b",
+       "int3c_u05_a",
+       "int3c_u06_a"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u3",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit03",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u3"
+     },
+     {
+      "id": "FOUR",
+      "subtitle": "Int 3 A/B/C · Units 7–8",
+      "songs": [
+       "int3a_u07_a",
+       "int3a_u08_b",
+       "int3b_u07_a",
+       "int3b_u08_b",
+       "int3c_u07_a",
+       "int3c_u08_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u4",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit04",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u4"
+     }
+    ]
+   },
+   {
+    "name": "Int 2 Review",
+    "color": "red",
+    "units": [
+     {
+      "id": "ONE",
+      "subtitle": "Int 2 A/B/C · Units 1–2",
+      "songs": [
+       "int2a_u01_b",
+       "int2a_u02_a",
+       "int2b_u01_a",
+       "int2b_u02_a",
+       "int2c_u01_b",
+       "int2c_u02_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u1",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit01",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u1"
+     },
+     {
+      "id": "TWO",
+      "subtitle": "Int 2 A/B/C · Units 3–4",
+      "songs": [
+       "int2a_u03_b",
+       "int2a_u04_b",
+       "int2b_u03_b",
+       "int2b_u04_a",
+       "int2c_u03_b",
+       "int2c_u04_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u2",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit02",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u2"
+     },
+     {
+      "id": "THREE",
+      "subtitle": "Int 2 A/B/C · Units 5–6",
+      "songs": [
+       "int2a_u05_b",
+       "int2a_u06_b",
+       "int2b_u05_a",
+       "int2b_u06_a",
+       "int2c_u05_b",
+       "int2c_u06_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u3",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit03",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u3"
+     },
+     {
+      "id": "FOUR",
+      "subtitle": "Int 2 A/B/C · Units 7–8",
+      "songs": [
+       "int2a_u07_b",
+       "int2a_u08_a",
+       "int2b_u07_b",
+       "int2b_u08_b",
+       "int2c_u07_b",
+       "int2c_u08_b"
+      ],
+      "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u4",
+      "quizLive": false,
+      "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit04",
+      "testLive": false,
+      "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u4"
+     }
+    ]
+   }
+  ]
  }
 }
