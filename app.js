@@ -86,12 +86,11 @@ function stepCard(L, s) {
   const title = s.kind === 'day' ? `${s.unit} · ${s.day}` : s.kind === 'review' ? `Review · ${s.unit}` : s.label;
   const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}" target="_blank" rel="noopener">▶ Open</a>` : `<span class="btn3d no">⏳ Coming soon</span>`;
   M.innerHTML = `<div class="card"><img src="${im(s.img || 'conversation')}" alt=""><h3>${esc(title)}</h3><p>${esc(s.sub || (s.kind === 'unit' ? 'Start here' : 'Big test'))}${!s.url && s.kind !== 'unit' ? ' · Coming soon. You can skip this for now.' : ''}</p>
-    <div class="acts">${open}${counts(s) ? `<button class="btn3d purple" id="md">✔ Mark done</button>` : ''}<button class="btn3d gold" id="cl">✖</button></div></div>`;
+    <div class="acts">${open}<button class="btn3d gold" id="cl">✖</button></div></div>`;
   P().setLast(place);
   const close = () => { M.innerHTML = ''; pathMap(L.name); };
   M.querySelector('#cl').onclick = close; M.onclick = e => { if (e.target === M) close(); };
-  const go = M.querySelector('#go'); if (go) go.onclick = () => { P().markDone(s.id); setTimeout(close, 50); };
-  const md = M.querySelector('#md'); if (md) md.onclick = () => { P().markDone(s.id); close(); };
+  const go = M.querySelector('#go'); if (go) go.onclick = () => { setTimeout(close, 50); };
 }
 function conversation() {
   const l = P().last();
