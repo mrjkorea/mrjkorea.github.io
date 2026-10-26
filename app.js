@@ -36,7 +36,7 @@ function dayUrl(L, u, d) {
 function songStep(L, u) {
   const S = C.songs, b = C.exams && C.exams.books[L.name], n = u.replace('Unit ', '');
   const sid = b && (S.ids[`${b}_u${n}`] || S.ids[`${b}_u${n.padStart(2, '0')}`]);
-  return { id: `${L.name}|${u}|Song`, unit: u, day: 'Song', label: 'Song', sub: 'Sing along', img: S.img, url: sid ? S.url.replace('{id}', encodeURIComponent(sid)) : null, kind: 'day' };
+  return { id: `${L.name}|${u}|Song`, unit: u, day: 'Song', label: 'Song', sub: 'Sing along', img: S.img, url: sid ? S.url.replace('{id}', encodeURIComponent(sid)) + `&return=${encodeURIComponent(location.origin + location.pathname + '#path/' + encodeURIComponent(L.name))}&step=${encodeURIComponent(`${L.name}|${u}|Song`)}` : null, song: true, kind: 'day' };
 }
 function steps(L) {
   const out = [];
@@ -84,7 +84,7 @@ function pathMap(name) {
 function stepCard(L, s) {
   const place = { course: 'conversation', level: L.name, unit: s.unit, day: s.kind === 'review' ? 'Review' : (s.day || '') };
   const title = s.kind === 'day' ? `${s.unit} · ${s.day}` : s.kind === 'review' ? `Review · ${s.unit}` : s.label;
-  const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}" target="_blank" rel="noopener">▶ Open</a>` : `<span class="btn3d no">⏳ Coming soon</span>`;
+  const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}"${s.song ? '' : ' target="_blank" rel="noopener"'}>▶ Open</a>` : `<span class="btn3d no">⏳ Coming soon</span>`;
   M.innerHTML = `<div class="card"><img src="${im(s.img || 'conversation')}" alt=""><h3>${esc(title)}</h3><p>${esc(s.sub || (s.kind === 'unit' ? 'Start here' : 'Big test'))}${!s.url && s.kind !== 'unit' ? ' · Coming soon. You can skip this for now.' : ''}</p>
     <div class="acts">${open}<button class="btn3d gold" id="cl">✖</button></div></div>`;
   P().setLast(place);
