@@ -1,4 +1,4 @@
-/** MRJ /welcome — Jay fills in null URLs when ready. Do not commit secrets here. */
+/** MRJ /welcome — Kakao channel still pending; other social URLs set. Do not commit secrets here. */
 window.MRJ_WELCOME_CONFIG = {
   phone: "010-6616-2125",
   phoneTel: "tel:+821066162125",
@@ -11,8 +11,8 @@ window.MRJ_WELCOME_CONFIG = {
     youtube: "https://www.youtube.com/@mrjayenglish",
     newsletter: "https://mrjkorea.github.io/wait-for-languages/",
     kakao: null,
-    instagram: null,
-    naverBlog: null,
+    instagram: "https://www.instagram.com/mrjkorea/",
+    naverBlog: "https://blog.naver.com/mrjasia",
   },
   /** Hero / teacher media — null shows “준비 중” placeholders */
   media: {
@@ -47,8 +47,8 @@ window.MRJ_WELCOME_CONFIG = {
     },
     {
       title: "네이버 블로그",
-      excerpt: "링크 준비 중 — 곧 연결됩니다",
-      url: null,
+      excerpt: "학원·학습 소식",
+      url: "https://blog.naver.com/mrjasia",
       tag: "블로그",
     },
   ],
