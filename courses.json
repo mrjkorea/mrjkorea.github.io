@@ -109,6 +109,12 @@
  ],
  "home": [
   {
+   "id": "placement",
+   "name": "Placement",
+   "img": "tests",
+   "room": "placement"
+  },
+  {
    "id": "conversation",
    "name": "Conversation",
    "img": "conversation",

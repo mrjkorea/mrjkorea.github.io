@@ -1,0 +1,1093 @@
+{
+  "note": "Sourced from MRJ Word Master packs.",
+  "bands": [
+    "Band 1 (100)",
+    "Band 2 (200)",
+    "Band 3 (300)",
+    "Band 4 (500)",
+    "Band 5 (800)",
+    "Band 6 (1200)"
+  ],
+  "items": [
+    {
+      "band": 1,
+      "q": "What is \"child\"?",
+      "choices": [
+        "water",
+        "business",
+        "problem",
+        "a young boy or girl"
+      ],
+      "answer": 3,
+      "ko": "\uc544\uc774"
+    },
+    {
+      "band": 1,
+      "q": "What is \"case\"?",
+      "choices": [
+        "a special situation or example",
+        "society",
+        "interest",
+        "form"
+      ],
+      "answer": 0,
+      "ko": "\uacbd\uc6b0"
+    },
+    {
+      "band": 1,
+      "q": "What is \"life\"?",
+      "choices": [
+        "home",
+        "being alive and living",
+        "percent",
+        "minister"
+      ],
+      "answer": 1,
+      "ko": "\uc0dd\uba85"
+    },
+    {
+      "band": 1,
+      "q": "What is \"question\"?",
+      "choices": [
+        "party",
+        "part",
+        "something you ask to learn",
+        "right"
+      ],
+      "answer": 2,
+      "ko": "\uc9c8\ubb38"
+    },
+    {
+      "band": 1,
+      "q": "What is \"problem\"?",
+      "choices": [
+        "question",
+        "something that needs to be fixed",
+        "business",
+        "development"
+      ],
+      "answer": 1,
+      "ko": "\ubb38\uc81c"
+    },
+    {
+      "band": 1,
+      "q": "What is \"sort\"?",
+      "choices": [
+        "system",
+        "way",
+        "a kind or type",
+        "head"
+      ],
+      "answer": 2,
+      "ko": "\uc885\ub958"
+    },
+    {
+      "band": 1,
+      "q": "What is \"door\"?",
+      "choices": [
+        "view",
+        "way",
+        "law",
+        "a way to enter a room"
+      ],
+      "answer": 3,
+      "ko": "\ubb38"
+    },
+    {
+      "band": 1,
+      "q": "What is \"home\"?",
+      "choices": [
+        "part",
+        "minister",
+        "right",
+        "the place where you live"
+      ],
+      "answer": 3,
+      "ko": "\uc9d1 (Hom)"
+    },
+    {
+      "band": 1,
+      "q": "What is \"end\"?",
+      "choices": [
+        "society",
+        "the last part of something",
+        "door",
+        "woman"
+      ],
+      "answer": 1,
+      "ko": "\ub05d"
+    },
+    {
+      "band": 1,
+      "q": "What is \"view\"?",
+      "choices": [
+        "woman",
+        "idea",
+        "what you think about something",
+        "term"
+      ],
+      "answer": 2,
+      "ko": "\uacac\ud574"
+    },
+    {
+      "band": 1,
+      "q": "What is \"point\"?",
+      "choices": [
+        "order",
+        "time",
+        "a small dot or spot",
+        "voice"
+      ],
+      "answer": 2,
+      "ko": "\uc810"
+    },
+    {
+      "band": 1,
+      "q": "What is \"man\"?",
+      "choices": [
+        "report",
+        "an adult male person",
+        "subject",
+        "way"
+      ],
+      "answer": 1,
+      "ko": "\ub0a8\uc790"
+    },
+    {
+      "band": 1,
+      "q": "What is \"friend\"?",
+      "choices": [
+        "life",
+        "idea",
+        "court",
+        "person you like and trust"
+      ],
+      "answer": 3,
+      "ko": "\uce5c\uad6c"
+    },
+    {
+      "band": 1,
+      "q": "What is \"office\"?",
+      "choices": [
+        "fact",
+        "night",
+        "case",
+        "a room for doing work"
+      ],
+      "answer": 3,
+      "ko": "\uc0ac\ubb34\uc2e4"
+    },
+    {
+      "band": 1,
+      "q": "What is \"company\"?",
+      "choices": [
+        "authority",
+        "area",
+        "minister",
+        "a group of people working together"
+      ],
+      "answer": 3,
+      "ko": "\ud68c\uc0ac"
+    },
+    {
+      "band": 2,
+      "q": "What is \"product\"?",
+      "choices": [
+        "sale",
+        "management",
+        "light",
+        "a thing that is made"
+      ],
+      "answer": 3,
+      "ko": "\uc81c\ud488"
+    },
+    {
+      "band": 2,
+      "q": "What is \"section\"?",
+      "choices": [
+        "parent",
+        "a part of something",
+        "role",
+        "road"
+      ],
+      "answer": 1,
+      "ko": "\ubd80\ubd84"
+    },
+    {
+      "band": 2,
+      "q": "What is \"project\"?",
+      "choices": [
+        "a school task",
+        "boy",
+        "section",
+        "health"
+      ],
+      "answer": 0,
+      "ko": "\ud504\ub85c\uc81d\ud2b8"
+    },
+    {
+      "band": 2,
+      "q": "What is \"light\"?",
+      "choices": [
+        "brightness from the sun",
+        "table",
+        "girl",
+        "management"
+      ],
+      "answer": 0,
+      "ko": "\ube5b"
+    },
+    {
+      "band": 2,
+      "q": "What is \"city\"?",
+      "choices": [
+        "field",
+        "a big town with many people",
+        "relation",
+        "art"
+      ],
+      "answer": 1,
+      "ko": "\ub3c4\uc2dc"
+    },
+    {
+      "band": 2,
+      "q": "What is \"relation\"?",
+      "choices": [
+        "value",
+        "a link between two people",
+        "girl",
+        "activity"
+      ],
+      "answer": 1,
+      "ko": "\uad00\uacc4 (Relation)"
+    },
+    {
+      "band": 2,
+      "q": "What is \"food\"?",
+      "choices": [
+        "things we eat",
+        "activity",
+        "road",
+        "story"
+      ],
+      "answer": 0,
+      "ko": "\uc74c\uc2dd"
+    },
+    {
+      "band": 2,
+      "q": "What is \"language\"?",
+      "choices": [
+        "words people use to talk",
+        "field",
+        "action",
+        "experience"
+      ],
+      "answer": 0,
+      "ko": "\uc5b8\uc5b4"
+    },
+    {
+      "band": 2,
+      "q": "What is \"town\"?",
+      "choices": [
+        "light",
+        "small place with houses",
+        "act",
+        "manager"
+      ],
+      "answer": 1,
+      "ko": "\ub9c8\uc744"
+    },
+    {
+      "band": 2,
+      "q": "What is \"act\"?",
+      "choices": [
+        "sense",
+        "something someone does on purpose",
+        "paper",
+        "project"
+      ],
+      "answer": 1,
+      "ko": "\ud589\ub3d9 (Act)"
+    },
+    {
+      "band": 2,
+      "q": "What is \"sale\"?",
+      "choices": [
+        "stage",
+        "selling things for money",
+        "foot",
+        "city"
+      ],
+      "answer": 1,
+      "ko": "\ud310\ub9e4"
+    },
+    {
+      "band": 2,
+      "q": "What is \"rule\"?",
+      "choices": [
+        "section",
+        "condition",
+        "community",
+        "a law or instruction"
+      ],
+      "answer": 3,
+      "ko": "\uaddc\uce59"
+    },
+    {
+      "band": 2,
+      "q": "What is \"window\"?",
+      "choices": [
+        "cost",
+        "an opening with glass in a wall",
+        "father",
+        "moment"
+      ],
+      "answer": 1,
+      "ko": "\ucc3d\ubb38"
+    },
+    {
+      "band": 2,
+      "q": "What is \"type\"?",
+      "choices": [
+        "art",
+        "kind or sort of thing",
+        "letter",
+        "sense"
+      ],
+      "answer": 1,
+      "ko": "\uc885\ub958 (T)"
+    },
+    {
+      "band": 2,
+      "q": "What is \"quality\"?",
+      "choices": [
+        "how good something is",
+        "industry",
+        "town",
+        "patient"
+      ],
+      "answer": 0,
+      "ko": "\ud488\uc9c8"
+    },
+    {
+      "band": 3,
+      "q": "What is \"method\"?",
+      "choices": [
+        "a way to do something",
+        "movement",
+        "feature",
+        "demand"
+      ],
+      "answer": 0,
+      "ko": "\ubc29\ubc95"
+    },
+    {
+      "band": 3,
+      "q": "What is \"principle\"?",
+      "choices": [
+        "colour",
+        "application",
+        "piece",
+        "a basic rule or idea"
+      ],
+      "answer": 3,
+      "ko": "\uc6d0\uce59"
+    },
+    {
+      "band": 3,
+      "q": "What is \"top\"?",
+      "choices": [
+        "basis",
+        "highest part of something",
+        "list",
+        "love"
+      ],
+      "answer": 1,
+      "ko": "\uaf2d\ub300\uae30"
+    },
+    {
+      "band": 3,
+      "q": "What is \"computer\"?",
+      "choices": [
+        "movement",
+        "pattern",
+        "machine that runs programs",
+        "choice"
+      ],
+      "answer": 2,
+      "ko": "\ucef4\ud4e8\ud130"
+    },
+    {
+      "band": 3,
+      "q": "What is \"theory\"?",
+      "choices": [
+        "an idea to explain something",
+        "son",
+        "analysis",
+        "doctor"
+      ],
+      "answer": 0,
+      "ko": "\uc774\ub860"
+    },
+    {
+      "band": 3,
+      "q": "What is \"future\"?",
+      "choices": [
+        "time that has not happened yet",
+        "doctor",
+        "son",
+        "performance"
+      ],
+      "answer": 0,
+      "ko": "\ubbf8\ub798"
+    },
+    {
+      "band": 3,
+      "q": "What is \"design\"?",
+      "choices": [
+        "plant",
+        "picture",
+        "doctor",
+        "a plan or drawing for something"
+      ],
+      "answer": 3,
+      "ko": "\ub514\uc790\uc778"
+    },
+    {
+      "band": 3,
+      "q": "What is \"chance\"?",
+      "choices": [
+        "a time when you can try something",
+        "series",
+        "hair",
+        "bed"
+      ],
+      "answer": 0,
+      "ko": "\uae30\ud68c (C)"
+    },
+    {
+      "band": 3,
+      "q": "What is \"training\"?",
+      "choices": [
+        "pressure",
+        "success",
+        "practice to learn a skill",
+        "bed"
+      ],
+      "answer": 2,
+      "ko": "\ud6c8\ub828"
+    },
+    {
+      "band": 3,
+      "q": "What is \"model\"?",
+      "choices": [
+        "environment",
+        "shop",
+        "small copy of something",
+        "success"
+      ],
+      "answer": 2,
+      "ko": "\ubaa8\ud615"
+    },
+    {
+      "band": 3,
+      "q": "What is \"love\"?",
+      "choices": [
+        "street",
+        "performance",
+        "a strong feeling of care",
+        "factor"
+      ],
+      "answer": 2,
+      "ko": "\uc0ac\ub791"
+    },
+    {
+      "band": 3,
+      "q": "What is \"front\"?",
+      "choices": [
+        "firm",
+        "hair",
+        "the side that faces forward",
+        "share"
+      ],
+      "answer": 2,
+      "ko": "\uc55e\uba74"
+    },
+    {
+      "band": 3,
+      "q": "What is \"list\"?",
+      "choices": [
+        "a written series of things",
+        "piece",
+        "individual",
+        "firm"
+      ],
+      "answer": 0,
+      "ko": "\ubaa9\ub85d"
+    },
+    {
+      "band": 3,
+      "q": "What is \"security\"?",
+      "choices": [
+        "safety from danger or harm",
+        "director",
+        "property",
+        "colour"
+      ],
+      "answer": 0,
+      "ko": "\uc548\uc804"
+    },
+    {
+      "band": 3,
+      "q": "What is \"amount\"?",
+      "choices": [
+        "standard",
+        "how much of something",
+        "unit",
+        "series"
+      ],
+      "answer": 1,
+      "ko": "\uc591"
+    },
+    {
+      "band": 4,
+      "q": "What is \"chairman\"?",
+      "choices": [
+        "leader of a meeting",
+        "option",
+        "stock",
+        "north"
+      ],
+      "answer": 0,
+      "ko": "\uc758\uc7a5"
+    },
+    {
+      "band": 4,
+      "q": "What is \"variety\"?",
+      "choices": [
+        "lack",
+        "many different kinds of things",
+        "past",
+        "career"
+      ],
+      "answer": 1,
+      "ko": "\ub2e4\uc591\uc131"
+    },
+    {
+      "band": 4,
+      "q": "What is \"call\"?",
+      "choices": [
+        "a phone conversation",
+        "access",
+        "sex",
+        "race"
+      ],
+      "answer": 0,
+      "ko": "\uc804\ud654"
+    },
+    {
+      "band": 4,
+      "q": "What is \"advice\"?",
+      "choices": [
+        "words that help decide",
+        "stone",
+        "sex",
+        "career"
+      ],
+      "answer": 0,
+      "ko": "\uc870\uc5b8"
+    },
+    {
+      "band": 4,
+      "q": "What is \"survey\"?",
+      "choices": [
+        "mouth",
+        "importance",
+        "band",
+        "questions to collect answers"
+      ],
+      "answer": 3,
+      "ko": "\uc124\ubb38\uc870\uc0ac"
+    },
+    {
+      "band": 4,
+      "q": "What is \"institution\"?",
+      "choices": [
+        "an important organization or place",
+        "culture",
+        "extent",
+        "context"
+      ],
+      "answer": 0,
+      "ko": "\uae30\uad00 (I)"
+    },
+    {
+      "band": 4,
+      "q": "What is \"chair\"?",
+      "choices": [
+        "a seat with four legs and a back",
+        "extent",
+        "race",
+        "stone"
+      ],
+      "answer": 0,
+      "ko": "\uc758\uc790"
+    },
+    {
+      "band": 4,
+      "q": "What is \"return\"?",
+      "choices": [
+        "edge",
+        "concept",
+        "survey",
+        "the act of giving something back"
+      ],
+      "answer": 3,
+      "ko": "\ubc18\ud658"
+    },
+    {
+      "band": 4,
+      "q": "What is \"access\"?",
+      "choices": [
+        "the ability to enter a place",
+        "general",
+        "second",
+        "radio"
+      ],
+      "answer": 0,
+      "ko": "\uc811\uadfc"
+    },
+    {
+      "band": 4,
+      "q": "What is \"finger\"?",
+      "choices": [
+        "mouth",
+        "part of the hand",
+        "career",
+        "communication"
+      ],
+      "answer": 1,
+      "ko": "\uc190\uac00\ub77d"
+    },
+    {
+      "band": 4,
+      "q": "What is \"sex\"?",
+      "choices": [
+        "trouble",
+        "river",
+        "television",
+        "male or female"
+      ],
+      "answer": 3,
+      "ko": "\uc131\ubcc4"
+    },
+    {
+      "band": 4,
+      "q": "What is \"pupil\"?",
+      "choices": [
+        "start",
+        "reference",
+        "official",
+        "child who goes to school"
+      ],
+      "answer": 3,
+      "ko": "\ud559\uc0dd"
+    },
+    {
+      "band": 4,
+      "q": "What is \"campaign\"?",
+      "choices": [
+        "a planned effort for change",
+        "radio",
+        "text",
+        "edge"
+      ],
+      "answer": 0,
+      "ko": "\uc6b4\ub3d9"
+    },
+    {
+      "band": 4,
+      "q": "What is \"object\"?",
+      "choices": [
+        "institution",
+        "finger",
+        "parliament",
+        "a thing you can touch"
+      ],
+      "answer": 3,
+      "ko": "\ubb3c\uccb4"
+    },
+    {
+      "band": 4,
+      "q": "What is \"agency\"?",
+      "choices": [
+        "chairman",
+        "solution",
+        "campaign",
+        "an organization that helps people"
+      ],
+      "answer": 3,
+      "ko": "\uae30\uad00 (A)"
+    },
+    {
+      "band": 5,
+      "q": "What is \"magazine\"?",
+      "choices": [
+        "weapon",
+        "yard",
+        "a thin paper book with pictures",
+        "total"
+      ],
+      "answer": 2,
+      "ko": "\uc7a1\uc9c0"
+    },
+    {
+      "band": 5,
+      "q": "What is \"silence\"?",
+      "choices": [
+        "touch",
+        "no sound at all",
+        "egg",
+        "crisis"
+      ],
+      "answer": 1,
+      "ko": "\uce68\ubb35"
+    },
+    {
+      "band": 5,
+      "q": "What is \"row\"?",
+      "choices": [
+        "pension",
+        "enterprise",
+        "code",
+        "things in a straight line"
+      ],
+      "answer": 3,
+      "ko": "\uc904"
+    },
+    {
+      "band": 5,
+      "q": "What is \"middle\"?",
+      "choices": [
+        "asset",
+        "fee",
+        "reduction",
+        "the center point between two ends"
+      ],
+      "answer": 3,
+      "ko": "\uac00\uc6b4\ub370"
+    },
+    {
+      "band": 5,
+      "q": "What is \"yard\"?",
+      "choices": [
+        "module",
+        "an outdoor space next to a house",
+        "offence",
+        "pleasure"
+      ],
+      "answer": 1,
+      "ko": "\ub9c8\ub2f9"
+    },
+    {
+      "band": 5,
+      "q": "What is \"representative\"?",
+      "choices": [
+        "recognition",
+        "flight",
+        "a person who speaks for others",
+        "egg"
+      ],
+      "answer": 2,
+      "ko": "\ub300\ud45c"
+    },
+    {
+      "band": 5,
+      "q": "What is \"tour\"?",
+      "choices": [
+        "total",
+        "definition",
+        "a short trip to see places",
+        "finance"
+      ],
+      "answer": 2,
+      "ko": "\uad00\uad11"
+    },
+    {
+      "band": 5,
+      "q": "What is \"guest\"?",
+      "choices": [
+        "flight",
+        "a person who visits",
+        "selection",
+        "murder"
+      ],
+      "answer": 1,
+      "ko": "\uc190\ub2d8"
+    },
+    {
+      "band": 5,
+      "q": "What is \"cover\"?",
+      "choices": [
+        "spring",
+        "outer front of a book",
+        "thanks",
+        "human"
+      ],
+      "answer": 1,
+      "ko": "\ud45c\uc9c0"
+    },
+    {
+      "band": 5,
+      "q": "What is \"recognition\"?",
+      "choices": [
+        "silence",
+        "screen",
+        "being seen and praised",
+        "favour"
+      ],
+      "answer": 2,
+      "ko": "\uc778\uc815"
+    },
+    {
+      "band": 5,
+      "q": "What is \"cut\"?",
+      "choices": [
+        "middle",
+        "a small open mark on skin",
+        "crisis",
+        "metal"
+      ],
+      "answer": 1,
+      "ko": "\uc0c1\ucc98"
+    },
+    {
+      "band": 5,
+      "q": "What is \"kid\"?",
+      "choices": [
+        "metal",
+        "a young child",
+        "egg",
+        "sum"
+      ],
+      "answer": 1,
+      "ko": "\uc544\uc774"
+    },
+    {
+      "band": 5,
+      "q": "What is \"module\"?",
+      "choices": [
+        "recognition",
+        "favour",
+        "silence",
+        "a small part of a bigger thing"
+      ],
+      "answer": 3,
+      "ko": "\ubaa8\ub4c8"
+    },
+    {
+      "band": 5,
+      "q": "What is \"program\"?",
+      "choices": [
+        "TV show or plan",
+        "victory",
+        "metal",
+        "tour"
+      ],
+      "answer": 0,
+      "ko": "\ud504\ub85c\uadf8\ub7a8"
+    },
+    {
+      "band": 5,
+      "q": "What is \"brain\"?",
+      "choices": [
+        "the thinking part inside the head",
+        "asset",
+        "dream",
+        "youth"
+      ],
+      "answer": 0,
+      "ko": "\ub1cc"
+    },
+    {
+      "band": 6,
+      "q": "What is \"jacket\"?",
+      "choices": [
+        "advertising",
+        "short coat you wear",
+        "emotion",
+        "prince"
+      ],
+      "answer": 1,
+      "ko": "\uc7ac\ud0b7"
+    },
+    {
+      "band": 6,
+      "q": "What is \"hearing\"?",
+      "choices": [
+        "coach",
+        "rent",
+        "intervention",
+        "power to hear sounds"
+      ],
+      "answer": 3,
+      "ko": "\uccad\ub825"
+    },
+    {
+      "band": 6,
+      "q": "What is \"awareness\"?",
+      "choices": [
+        "reply",
+        "knowing about something",
+        "shirt",
+        "prince"
+      ],
+      "answer": 1,
+      "ko": "\uc54c\uc544\ucc28\ub9bc"
+    },
+    {
+      "band": 6,
+      "q": "What is \"retirement\"?",
+      "choices": [
+        "golf",
+        "phenomenon",
+        "time after stopping work",
+        "habit"
+      ],
+      "answer": 2,
+      "ko": "\uc740\ud1f4"
+    },
+    {
+      "band": 6,
+      "q": "What is \"certificate\"?",
+      "choices": [
+        "paper that proves something",
+        "promotion",
+        "equation",
+        "sleep"
+      ],
+      "answer": 0,
+      "ko": "\uc99d\uba85\uc11c"
+    },
+    {
+      "band": 6,
+      "q": "What is \"sleep\"?",
+      "choices": [
+        "reply",
+        "bath",
+        "rest you take at night",
+        "hearing"
+      ],
+      "answer": 2,
+      "ko": "\uc7a0"
+    },
+    {
+      "band": 6,
+      "q": "What is \"landscape\"?",
+      "choices": [
+        "bomb",
+        "land and scenery you see",
+        "enquiry",
+        "round"
+      ],
+      "answer": 1,
+      "ko": "\ud48d\uacbd"
+    },
+    {
+      "band": 6,
+      "q": "What is \"discovery\"?",
+      "choices": [
+        "finding something new",
+        "scope",
+        "co-operation",
+        "certificate"
+      ],
+      "answer": 0,
+      "ko": "\ubc1c\uacac"
+    },
+    {
+      "band": 6,
+      "q": "What is \"tendency\"?",
+      "choices": [
+        "philosophy",
+        "dance",
+        "what you often do",
+        "retirement"
+      ],
+      "answer": 2,
+      "ko": "\uacbd\ud5a5"
+    },
+    {
+      "band": 6,
+      "q": "What is \"chip\"?",
+      "choices": [
+        "tiny computer square piece",
+        "governor",
+        "philosophy",
+        "phenomenon"
+      ],
+      "answer": 0,
+      "ko": "\uce69"
+    },
+    {
+      "band": 6,
+      "q": "What is \"allowance\"?",
+      "choices": [
+        "throat",
+        "regular pocket money",
+        "producer",
+        "illness"
+      ],
+      "answer": 1,
+      "ko": "\uc6a9\ub3c8"
+    },
+    {
+      "band": 6,
+      "q": "What is \"promise\"?",
+      "choices": [
+        "rent",
+        "equation",
+        "advertising",
+        "words you will keep"
+      ],
+      "answer": 3,
+      "ko": "\uc57d\uc18d"
+    },
+    {
+      "band": 6,
+      "q": "What is \"throat\"?",
+      "choices": [
+        "golf",
+        "tube in your neck",
+        "ratio",
+        "guy"
+      ],
+      "answer": 1,
+      "ko": "\ubaa9"
+    },
+    {
+      "band": 6,
+      "q": "What is \"furniture\"?",
+      "choices": [
+        "advertising",
+        "meat",
+        "tables chairs and beds",
+        "creature"
+      ],
+      "answer": 2,
+      "ko": "\uac00\uad6c"
+    },
+    {
+      "band": 6,
+      "q": "What is \"net\"?",
+      "choices": [
+        "equation",
+        "mesh for catching things",
+        "marketing",
+        "meat"
+      ],
+      "answer": 1,
+      "ko": "\uadf8\ubb3c"
+    }
+  ]
+}

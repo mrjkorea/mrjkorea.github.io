@@ -13,10 +13,22 @@
   function empty() { return { v: 1, updatedAt: 0, last: null, done: {}, undone: {} }; }
   function mx(x, y) { var r = {}, k; for (k in (x || {})) r[k] = x[k]; for (k in (y || {})) r[k] = Math.max(y[k], r[k] || 0); return r; }
   function parse(s) { try { var o = JSON.parse(s); return o && o.v ? o : null; } catch (e) { return null; } }
+  function mergePlacement(pa, pb) {
+    if (!pa) return pb || null; if (!pb) return pa;
+    var out = { updatedAt: Math.max(pa.updatedAt || 0, pb.updatedAt || 0) };
+    var keys = ["conversation", "wordMaster", "grammar", "phonics", "reading", "typing"], k, a, b;
+    for (var i = 0; i < keys.length; i++) {
+      k = keys[i]; a = pa[k]; b = pb[k];
+      if (!a) out[k] = b; else if (!b) out[k] = a;
+      else out[k] = ((a.at || a.openedAt || 0) >= (b.at || b.openedAt || 0)) ? a : b;
+    }
+    return out;
+  }
   function merge(a, b) {               // same rule as the server patch
     if (!a) return b || empty(); if (!b) return a;
     var n = a.updatedAt >= b.updatedAt ? a : b, o = n === a ? b : a;
-    return { v: 1, updatedAt: n.updatedAt, last: n.last || o.last, done: mx(o.done, n.done), undone: mx(o.undone, n.undone) };
+    var placement = mergePlacement(a.placement, b.placement);
+    return { v: 1, updatedAt: n.updatedAt, last: n.last || o.last, done: mx(o.done, n.done), undone: mx(o.undone, n.undone), placement: placement };
   }
   var rec = empty(), dirty = false, saving = null;
   function cacheKey() { return CACHE + (user() || "guest"); }
@@ -56,6 +68,13 @@
     // Teacher unlock only: set passed / not passed for many steps in one save.
     setPassed: function (map) { var t = Date.now(), k; rec.undone = rec.undone || {};
       for (k in map) { if (map[k]) rec.done[k] = t; else if (rec.done[k]) rec.undone[k] = t; } return touch(); },
+    getPlacement: function () { return (rec.placement || {}); },
+    setPlacementPart: function (key, data) {
+      rec.placement = rec.placement || { updatedAt: 0 };
+      rec.placement[key] = data;
+      rec.placement.updatedAt = Date.now();
+      return touch();
+    },
     _merge: merge
   };
 })(window);

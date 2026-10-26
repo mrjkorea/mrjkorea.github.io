@@ -1,0 +1,613 @@
+{
+  "note": "Based on MRJ Decodable Books letter/sound map (not Day 4 Pronounce).",
+  "bands": [
+    "Band 1",
+    "Band 2",
+    "Band 3",
+    "Band 4",
+    "Band 5",
+    "Band 6"
+  ],
+  "items": [
+    {
+      "band": 1,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (short vowel I\u2026)",
+      "choices": [
+        "G",
+        "GO",
+        "X",
+        "K"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 1,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (consonant P\u2026)",
+      "choices": [
+        "C",
+        "IS",
+        "G",
+        "X"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".tip A",
+        "cat",
+        "sun",
+        "A pit."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".taP",
+        "sun",
+        "Pat.",
+        "dog"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".maS",
+        "map",
+        "cat",
+        "Sam."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "cat",
+        "map",
+        "An ant is in Min's pants.",
+        ".stnap s'niM ni si tna nA"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 1,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (short vowel A \u00b7 consonant M \u00b7 consonant \u2026)",
+      "choices": [
+        "T",
+        "A",
+        "Q",
+        "C"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "mat",
+        "sun",
+        ".pas spis niM",
+        "Min sips sap."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "It is a pit.",
+        "cat",
+        ".tip a si tI",
+        "dog"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".maP",
+        "Pam.",
+        "dog",
+        "sun"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "dog",
+        ".nips a ni si naf A",
+        "A fan is in a spin.",
+        "sun"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 2,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (consonant D\u2026)",
+      "choices": [
+        "X",
+        "M",
+        "ME",
+        "R"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".dnop a ta dnats daD dna naD",
+        "cat",
+        "dog",
+        "Dan and Dad stand at a pond."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "map",
+        "cat",
+        ".dnop a ta pmad si dnaS",
+        "Sand is damp at a pond."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "A pot is tin. A top fits it.",
+        "map",
+        ".ti stif pot A .nit si top A",
+        "sun"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (consonant F\u2026)",
+      "choices": [
+        "W",
+        "SEE",
+        "Q",
+        "E"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "See a pot!",
+        "sun",
+        "!top a eeS",
+        "dog"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (short vowel O\u2026)",
+      "choices": [
+        "L",
+        "HE",
+        "S",
+        "K"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 2,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (hard consonant C\u2026)",
+      "choices": [
+        "E",
+        "S",
+        "N",
+        "WE"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 2,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "!naf a eeS",
+        "See a fan!",
+        "dog",
+        "cat"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "!god a eeS",
+        "map",
+        "See a dog!",
+        "mat"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 3,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (short vowel U\u2026)",
+      "choices": [
+        "F",
+        "BE",
+        "S",
+        "L"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".gib eb nac gub A !gub A",
+        "cat",
+        "map",
+        "A bug! A bug can be big."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 3,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+e\u2026)",
+      "choices": [
+        "J",
+        "G",
+        "M",
+        "ALL"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 3,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+b\u2026)",
+      "choices": [
+        "R",
+        "S",
+        "SHE",
+        "L"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 3,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (consonant G\u2026)",
+      "choices": [
+        "MY",
+        "Z",
+        "C",
+        "M"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "Amit is up. It is sunup!",
+        "cat",
+        "!punus si tI .pu si timA",
+        "sun"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "map",
+        "dog",
+        "!tod a eb nac gub A",
+        "A bug can be a dot!"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "Fen gets ten pet ants.",
+        "dog",
+        ".stna tep net steg neF",
+        "map"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "mat",
+        "!tops nus A",
+        "A sun spot!",
+        "sun"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "dog",
+        "This is a hen.",
+        "map",
+        ".neh a si sihT"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "dog",
+        "sun",
+        "A hen sits in a hen hut.",
+        ".tuh neh a ni stis neh A"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+l (l onset, l-blends bl cl fl gl pl, an\u2026)",
+      "choices": [
+        "L",
+        "N",
+        "WITH",
+        "E"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+h\u2026)",
+      "choices": [
+        "Q",
+        "THIS",
+        "K",
+        "C"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "map",
+        ".blub a steg pmal A",
+        "A lamp gets a bulb.",
+        "cat"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "sun",
+        "dog",
+        ".ksed a no tik a ni tis sksaM",
+        "Masks sit in a kit on a desk."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 4,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+r (r onset + r-blends; r-controlled car\u2026)",
+      "choices": [
+        "E",
+        "J",
+        "V",
+        "THAT"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 4,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+k\u2026)",
+      "choices": [
+        "P",
+        "B",
+        "LOOK",
+        "V"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "sun",
+        "A rat can be tan and red.",
+        ".der dna nat eb nac tar A",
+        "map"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 4,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "Look! A mask can be a cat.",
+        ".tac a eb nac ksam A !kooL",
+        "dog",
+        "sun"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "mat",
+        "Kim got a job.",
+        "map",
+        ".boj a tog miK"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+y\u2026)",
+      "choices": [
+        "MAKE",
+        "M",
+        "E",
+        "C"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "map",
+        "cat",
+        "A web is silk.",
+        ".klis si bew A"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".taf dna gib si kay A",
+        "map",
+        "A yak is big and fat.",
+        "dog"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "sun",
+        "cat",
+        "A fox can dig a den.",
+        ".ned a gid nac xof A"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        "sun",
+        "map",
+        "!bew siht ta kooL",
+        "Look at this web!"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".der si xof A .xof a si sihT",
+        "dog",
+        "sun",
+        "This is a fox. A fox is red."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 5,
+      "type": "decode",
+      "q": "Which word can you read from Decodable practice?",
+      "choices": [
+        ".kay a si sihT",
+        "cat",
+        "dog",
+        "This is a yak."
+      ],
+      "answer": 3
+    },
+    {
+      "band": 5,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+w\u2026)",
+      "choices": [
+        "T",
+        "B",
+        "P",
+        "WILL"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 5,
+      "type": "letter",
+      "q": "Which letter is in this book focus? (+x\u2026)",
+      "choices": [
+        "LIKE",
+        "G",
+        "Y",
+        "W"
+      ],
+      "answer": 0
+    }
+  ]
+}

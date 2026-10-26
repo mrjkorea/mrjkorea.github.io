@@ -1,0 +1,139 @@
+{
+  "note": "Original MRJ-written passages for placement. Adaptive reading bands (Level A–F), not commercial Lexile text.",
+  "bands": [
+    "Level A",
+    "Level B",
+    "Level C",
+    "Level D",
+    "Level E",
+    "Level F"
+  ],
+  "items": [
+    {
+      "band": 1,
+      "passage": "Kim has a red bag. She puts a book in the bag. Kim walks to school. Her teacher smiles.",
+      "q": "What color is Kim's bag?",
+      "choices": ["Red", "Blue", "Green", "Yellow"],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "passage": "Tom likes dogs. He sees a small dog in the park. The dog wags its tail. Tom says hello.",
+      "q": "Where does Tom see the dog?",
+      "choices": ["At home", "In the park", "At school", "In a shop"],
+      "answer": 1
+    },
+    {
+      "band": 2,
+      "passage": "Min and Jay eat lunch at noon. Min brings rice and soup. Jay brings a sandwich. They share an apple after they finish.",
+      "q": "What do they share after lunch?",
+      "choices": ["Soup", "Rice", "An apple", "A sandwich"],
+      "answer": 2
+    },
+    {
+      "band": 2,
+      "passage": "The library is quiet. Sara finds a story about the moon. She reads for twenty minutes. Then she returns the book.",
+      "q": "How long does Sara read?",
+      "choices": ["Ten minutes", "Twenty minutes", "One hour", "All day"],
+      "answer": 1
+    },
+    {
+      "band": 3,
+      "passage": "Last Saturday, our class visited a science museum. We learned how plants grow. My favorite part was the robot that could draw pictures.",
+      "q": "What was the writer's favorite part?",
+      "choices": ["Plants growing", "The robot that drew", "Buying snacks", "Riding the bus"],
+      "answer": 1
+    },
+    {
+      "band": 3,
+      "passage": "Hana practices piano every day after homework. At first, her fingers felt slow. Now she can play a short song without stopping.",
+      "q": "When does Hana practice piano?",
+      "choices": ["Before school", "After homework", "Only on Sunday", "At lunch"],
+      "answer": 1
+    },
+    {
+      "band": 4,
+      "passage": "City planners want more people to ride buses. New signs show when the next bus will arrive. Early results show fewer cars on the main road during rush hour.",
+      "q": "What changed during rush hour?",
+      "choices": ["More buses broke down", "Fewer cars used the main road", "Signs were removed", "School started later"],
+      "answer": 1
+    },
+    {
+      "band": 4,
+      "passage": "Maya kept a weather journal for one month. She noticed that rainy days were often cooler. On sunny days, the temperature went up in the afternoon.",
+      "q": "What did Maya learn about rainy days?",
+      "choices": ["They were hotter", "They were often cooler", "They had no wind", "They only happened at night"],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "passage": "When the hiking trail closed for repairs, volunteers marked a safer path. Hikers were asked to stay on the new route so plants could recover. The old trail may open again next spring.",
+      "q": "Why should hikers use the new route?",
+      "choices": ["To find treasure", "So plants can recover", "Because the old trail is longer", "To avoid paying a fee"],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "passage": "The debate team argued whether schools should start later. One side said teens need more sleep. The other side worried about after-school jobs and sports schedules.",
+      "q": "What is one concern about starting school later?",
+      "choices": ["Students would read less", "After-school activities might conflict", "Teachers would retire", "Buses would disappear"],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "passage": "Archaeologists uncovered pottery near a dry riverbed. The patterns matched designs from a distant region, suggesting trade long before written records. Careful digging will continue through the winter.",
+      "q": "What does the pottery suggest?",
+      "choices": ["The river was always dry", "Trade happened before written records", "No one lived nearby", "The designs were invented last year"],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "passage": "A student designed a filter that uses sand and charcoal to clean muddy water. Lab tests showed it removed many particles, but the team still needs to test whether it is safe to drink without boiling.",
+      "q": "What still needs to be tested?",
+      "choices": ["If sand floats", "Whether the water is safe to drink without boiling", "If charcoal is colorful", "How mud is made"],
+      "answer": 1
+    },
+    {
+      "band": 1,
+      "passage": "Ben has two pencils. One is short. One is long. Ben gives the long pencil to his friend.",
+      "q": "Which pencil does Ben give away?",
+      "choices": ["The short one", "The long one", "Both pencils", "Neither"],
+      "answer": 1
+    },
+    {
+      "band": 2,
+      "passage": "Our team plays soccer on Friday. We wear blue shirts. We drink water at halftime. We shake hands when the game ends.",
+      "q": "When do they drink water?",
+      "choices": ["Before the game", "At halftime", "After school on Monday", "Never"],
+      "answer": 1
+    },
+    {
+      "band": 3,
+      "passage": "The email reminded parents about the field trip. Students must bring a hat, a water bottle, and a signed form. The bus leaves at eight in the morning.",
+      "q": "What time does the bus leave?",
+      "choices": ["Eight in the morning", "Noon", "Three in the afternoon", "Eight at night"],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "passage": "Recycling bins were added near the cafeteria. Students sort plastic, paper, and food waste. The school hopes to send less trash to the landfill each month.",
+      "q": "What is the school's goal?",
+      "choices": ["To buy more plastic", "To send less trash to the landfill", "To remove all bins", "To cook more food"],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "passage": "Although the novel is fiction, the author interviewed nurses to describe hospital scenes accurately. Readers said the details felt real even when the plot was dramatic.",
+      "q": "Why do the hospital scenes feel real?",
+      "choices": ["The author copied a textbook", "The author interviewed nurses", "The book is a news report", "Hospitals are always quiet"],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "passage": "Economists compared two towns: one invested in broadband internet, another built a new sports stadium. After five years, the first town reported more remote jobs, while the second saw short-term tourism spikes.",
+      "q": "What happened in the town with better internet?",
+      "choices": ["More remote jobs", "No change", "The stadium closed", "Tourism stopped"],
+      "answer": 0
+    }
+  ]
+}

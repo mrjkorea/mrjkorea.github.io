@@ -1,0 +1,618 @@
+{
+  "note": "Sourced from MRJ day5-practice (Day 5 content).",
+  "bands": [
+    "Band 1 (Basic A)",
+    "Band 2 (Basic B)",
+    "Band 3 (Basic C)",
+    "Band 4 (Int 3)",
+    "Band 5 (Int 2 low)",
+    "Band 6 (Int 2 high)"
+  ],
+  "items": [
+    {
+      "band": 1,
+      "q": "I Am Not A Sheep I Am Mr Jay Ray 7D7F78",
+      "choices": [
+        "Hello, Mrs. Sheep.",
+        "Hello, Mrs. Duck.",
+        "Goodbye, mom."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "What Number Is It June D49601",
+      "choices": [
+        "Nine.",
+        "Three.",
+        "Five."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "See You Tomorrow Maya 9F0E83",
+      "choices": [
+        "tomorrow",
+        "afternoon",
+        "please"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Good Afternoon Class Ray 5747B3",
+      "choices": [
+        "Good afternoon, Mr. Jay!",
+        "Sorry.",
+        "Help me, please."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Sorry Maya 166A1C",
+      "choices": [
+        "That is okay.",
+        "See you tomorrow!",
+        "Quiet!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Hello Ms Chicken Maya D76581",
+      "choices": [
+        "\u2714",
+        "\u2718"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Say Hello June 37063E",
+      "choices": [
+        "Hello, Ms. Goat.",
+        "Hello, Ms. Chicken.",
+        "Hello, Mr. Horse."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "What Number Is It June D49601",
+      "choices": [
+        "Fifteen.",
+        "One hundred.",
+        "Ninety-nine."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Hello Mr Dog Leo 82D66F",
+      "choices": [
+        "I am not a dog! I am Mr. Jay.",
+        "I am not a cat! I am Mr. Jay.",
+        "Goodbye, Mr. Dog."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Eleven Leo 12B0D2",
+      "choices": [
+        "\u2714",
+        "\u2718"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "I Have Two Ears Leo 75D4B1",
+      "choices": [
+        "ears",
+        "ear",
+        "an ear"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "How Are You Pirate 563Ecc",
+      "choices": [
+        "I am scared.",
+        "I am sad.",
+        "I am tired."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "How Are You Pirate 563Ecc",
+      "choices": [
+        "I am sad.",
+        "I am angry.",
+        "I am bored."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "I Like Movies Maya 978263",
+      "choices": [
+        "Me too! I love scary movies.",
+        "Me too! I like jumping.",
+        "Me too! School is great!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "I Do Not Understand Maya 292Cb1",
+      "choices": [
+        "understand",
+        "know",
+        "trash"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "You Lose Cowboy 465Fa1",
+      "choices": [
+        "That makes me sad.",
+        "Good job!",
+        "I choose rock!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "It Is Purple Maya A08220",
+      "choices": [
+        "purple",
+        "a rainbow",
+        "green"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "I Am Angry Maya E6444E",
+      "choices": [
+        "Don't be angry. Relax!",
+        "Me too! I am very hungry.",
+        "Oh no! Sleep!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "How Old Are You Ray 71C011",
+      "choices": [
+        "I am one year old.",
+        "I am twenty-two years old.",
+        "I am one hundred years old."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "Good Idea Let S All Recycle Kitt 03C3Bd",
+      "choices": [
+        "Recycle this!",
+        "Thank you.",
+        "I do not know."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "I Want A New Brother Maya 7481C9",
+      "choices": [
+        "A new brother? Oh my god!",
+        "I have many pencil cases.",
+        "I have a very expensive bike."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "Don T Touch Your Ear Maya Af8459",
+      "choices": [
+        "Don't",
+        "Not",
+        "No"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "What Does Cat Mean Maya Bf5977",
+      "choices": [
+        "\u2714",
+        "\u2718"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "Don T Touch Your Ear Maya Af8459",
+      "choices": [
+        "\u2714",
+        "\u2718"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "I Want A New Phone Leo 4D3B94",
+      "choices": [
+        "\u2714",
+        "\u2718"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "What Can We See Near Jeju Walt 733B59",
+      "choices": [
+        "Jeju",
+        "Seoul",
+        "Busan"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "What Pet Do You Love Cowboy Ee4Ec2",
+      "choices": [
+        "I love my turtle Tom.",
+        "Yes, I do.",
+        "I love my snake Jessica."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "Choose the best answer.",
+      "choices": [
+        "C A T",
+        "C A T S",
+        "Have a nice weekend."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "My Leg Is Itchy Leo 9Ab151",
+      "choices": [
+        "is",
+        "am",
+        "are"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "Hurray I Win Maya 55A15A",
+      "choices": [
+        "Yes, you win!",
+        "No, sorry.",
+        "Spell cat!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "Look At The Elephant Ray 5740B9",
+      "choices": [
+        "It is big.",
+        "It is small.",
+        "It is soft.",
+        "It is quiet."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "What Flavor Do You Like Ray D4B71D",
+      "choices": [
+        "I like chocolate.",
+        "I like lemon.",
+        "I like vanilla.",
+        "I like melon."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "I Like Strawberry Leo B257F2",
+      "choices": [
+        "strawberry",
+        "mint",
+        "chocolate",
+        "melon"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "Stand Up Maya 970Eed",
+      "choices": [
+        "Stand",
+        "Stands",
+        "Standing",
+        "Stood"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "This Is Good Leo 2272B8",
+      "choices": [
+        "good",
+        "loud",
+        "soft",
+        "big"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "I Can Draw Poo Maya 1C8A3F",
+      "choices": [
+        "poo",
+        "star",
+        "Korea",
+        "toy"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "It Looks Like A Tiger Leo 19929B",
+      "choices": [
+        "looks",
+        "look",
+        "looking",
+        "see"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "How Old Is She Walt 4589Dd",
+      "choices": [
+        "She is 10 years old.",
+        "He is 5 years old.",
+        "He is 1 year old.",
+        "She is 30 years old."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "I Can Draw A Flag Maya 4698Cc",
+      "choices": [
+        "flag",
+        "monster",
+        "tree",
+        "apple"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "He Is Fifteen Years Old Maya 9Fc1Fd",
+      "choices": [
+        "Fifteen? Middle school already!",
+        "Fifteen? Kindergarten already!",
+        "She is fifteen.",
+        "He is a baby."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Do You Want Some Hot Soup Walt 0B874E",
+      "choices": [
+        "I am hungry.",
+        "I am bored.",
+        "I have a runny nose."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Where Is The Groundskeeper Cowboy Fa3E75",
+      "choices": [
+        "The groundskeeper is outside.",
+        "The principal is in the office.",
+        "Our teacher is in the classroom."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "I Cannot Speak French Leo 583525",
+      "choices": [
+        "cannot",
+        "am not",
+        "not"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "How Is The Weather Today June 14F967",
+      "choices": [
+        "It is snowing today.",
+        "It is humid today.",
+        "It is windy today."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Wow That Is A Lot Of Practice Ray C763Fe",
+      "choices": [
+        "I play the piano every day.",
+        "I just relax.",
+        "I watch TV."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Maybe It Is In The Lounge Leo De9E2A",
+      "choices": [
+        "lounge",
+        "kitchen",
+        "bathroom"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Turn It Down Please Maya 9143Ce",
+      "choices": [
+        "Look at this loud video.",
+        "Look at this quiet video.",
+        "Look at this weird video."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "What Do You See Kitt 2F07Af",
+      "choices": [
+        "There are spiders on the wall.",
+        "There is spiders on the wall.",
+        "Yes, I see."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "Where Is My Phone Walt 35410B",
+      "choices": [
+        "I don't know. Maybe it is in the kitchen.",
+        "Yes, it is my phone.",
+        "It is a phone."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "It Is Hailing Today Maya D50B68",
+      "choices": [
+        "is",
+        "are",
+        "be"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "Sit Down Do Not Walk Ray 812673",
+      "choices": [
+        "I sprained my ankle.",
+        "I have a sore throat.",
+        "My tooth hurts."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "What S Your Favorite Subject June 573Fb0",
+      "choices": [
+        "My favorite subject is science.",
+        "My favorite color is blue.",
+        "I go to school."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "What Do They Say On The Phone Pirate 07D75D",
+      "choices": [
+        "Please call his friend Taehwan.",
+        "Who is this?",
+        "His phone number is 010-3457-7543."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "What Do They Say On The Phone Pirate 07D75D",
+      "choices": [
+        "His phone number is 010-3457-7543.",
+        "What is his phone number?",
+        "Who is this?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "My Favorite Subject Is Science Maya A08Fc1",
+      "choices": [
+        "What's your favorite subject?",
+        "What's your favorite snack?",
+        "Who is your teacher?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "I Have A Bloody Nose Maya 8D7E3F",
+      "choices": [
+        "bloody nose",
+        "tooth",
+        "back"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "Whose Candy Is This Ray 920A94",
+      "choices": [
+        "It's mine. It's mine!",
+        "It's candy.",
+        "Yes, it is."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "I Must Be Going Maya 5775F5",
+      "choices": [
+        "Have a nice day!",
+        "Good morning!",
+        "Welcome!"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "We Can Ski And Skate Leo 737898",
+      "choices": [
+        "What can we do in Gangwon Province?",
+        "What can we see in Jinhae?",
+        "What can we do in Tongyeong?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "What Season Do You Love Pirate 406872",
+      "choices": [
+        "I love fall in Naejangsan National Park.",
+        "I love summer in Tongyeong City.",
+        "I love spring in Jinhae."
+      ],
+      "answer": 0
+    }
+  ]
+}
