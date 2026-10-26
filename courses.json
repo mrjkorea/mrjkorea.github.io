@@ -377,7 +377,7 @@
        "basic_c_u02_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u1",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit01",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u1"
@@ -394,7 +394,7 @@
        "basic_c_u04_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u2",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit02",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u2"
@@ -411,7 +411,7 @@
        "basic_c_u06_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u3",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit03",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u3"
@@ -428,7 +428,7 @@
        "basic_c_u08_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=basic_review_u4",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/#/basic_review/unit04",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=ba_review_u4"
@@ -451,7 +451,7 @@
        "int3c_u02_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u1",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit01",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u1"
@@ -468,7 +468,7 @@
        "int3c_u04_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u2",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit02",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u2"
@@ -485,7 +485,7 @@
        "int3c_u06_a"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u3",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit03",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u3"
@@ -502,7 +502,7 @@
        "int3c_u08_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int3_review_u4",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int3_review/unit04",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i3_review_u4"
@@ -525,7 +525,7 @@
        "int2c_u02_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u1",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit01",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u1"
@@ -542,7 +542,7 @@
        "int2c_u04_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u2",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit02",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u2"
@@ -559,7 +559,7 @@
        "int2c_u06_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u3",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit03",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u3"
@@ -576,7 +576,7 @@
        "int2c_u08_b"
       ],
       "quiz": "https://mrjkorea.github.io/day2-words/day3/climb.html?unit=int2_review_u4",
-      "quizLive": false,
+      "quizLive": true,
       "test": "https://mrjkorea.github.io/day5-practice/intermediate/#/int2_review/unit04",
       "testLive": false,
       "chat": "https://mrjkorea.github.io/day6-talk/?unit=i2_review_u4"
