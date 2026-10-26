@@ -1,0 +1,386 @@
+{
+  "note": "Sourced from MRJ Grammar Books (UI label: Grammar).",
+  "bands": [
+    "Band 1",
+    "Band 2",
+    "Band 3",
+    "Band 4",
+    "Band 5",
+    "Band 6"
+  ],
+  "items": [
+    {
+      "band": 1,
+      "q": "Bomi ________ English after school.",
+      "choices": [
+        "study",
+        "studys",
+        "studies",
+        "studying"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "My mother  ice cream.",
+      "choices": [
+        "isn't eat",
+        "don't eat",
+        "aren't eat",
+        "doesn't eat"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "I ________ my dog every day.",
+      "choices": [
+        "feed",
+        "feeds",
+        "feeding",
+        "don't feeds"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "We go to school by bus. \u2192 We ________ go to school by bus.",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "don't"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "My parents ________ in the living room now.",
+      "choices": [
+        "is",
+        "am",
+        "are",
+        "were"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "A soccer game is very interesting. \u2192 A soccer game ________ very interesting.",
+      "choices": [
+        "aren't",
+        "isn't",
+        "wasn't",
+        "don't"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Jane, are you busy now?",
+      "choices": [
+        "Yes, we are.",
+        "No, I am.",
+        "Yes, I do.",
+        "No, I'm not."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "\u2022 She ________ a new student here.\n\u2022 ________ you watch TV at night?",
+      "choices": [
+        "is \u2013 Are",
+        "are \u2013 Do",
+        "is \u2013 Does",
+        "does \u2013 Is"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "We  the piano at night.",
+      "choices": [
+        "aren't play",
+        "don't plays",
+        "isn't play",
+        "doesn't plays"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "\u2022 Suho ________ milk every day.\n\u2022 He doesn't ________ juice.",
+      "choices": [
+        "drink \u2013 drinks",
+        "drinks \u2013 drink",
+        "drink \u2013 drinking",
+        "drinks \u2013 drank"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 1,
+      "q": "Does he play badminton on weekends?",
+      "choices": [
+        "Yes, he is.",
+        "No, he isn't.",
+        "Yes, he does.",
+        "No, he didn't."
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "key \u2013 keys / box \u2013 boxs / hero \u2013 heros / sheep \u2013 sheeps / story \u2013 storyies",
+      "choices": [
+        "key \u2013 keys",
+        "box \u2013 boxs",
+        "hero \u2013 heros",
+        "sheep \u2013 sheeps"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "were coming here.",
+      "choices": [
+        "Two lady",
+        "Two ladys",
+        "Two ladyes",
+        "Two ladyies"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\ub2e4\uc74c \uc911 \uc140 \uc218 \uc788\ub294 \uba85\uc0ac\ub97c \uace0\ub974\uc138\uc694.",
+      "choices": [
+        "air",
+        "man",
+        "music",
+        "soccer"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\u2022 I ate three _____ of cake.\n\u2022 Mom ordered five _____ of milk.",
+      "choices": [
+        "piece \u2013 glass",
+        "pieces \u2013 glass",
+        "piece \u2013 glasses",
+        "a piece \u2013 glasses"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\uadf8\ub4e4\uc740 \uc5b4\uc81c \uace0\uae30\ub97c \uc57d\uac04 \uc0c0\ub2e4.\nThey bought some ( meats / meat ) yesterday.",
+      "choices": [
+        "meats",
+        "meat"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "My sister borrowed a dictionary from the library.  \u2192  My sister borrowed two _____ from the library.",
+      "choices": [
+        "dictionary",
+        "dictionarys",
+        "dictionaries",
+        "dictionaryes"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "They brought a _____ of flour to us.",
+      "choices": [
+        "slice",
+        "bag",
+        "bar",
+        "loaf"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\u2022 He bought two _____ of bread.\n\u2022 Claire put four _____ of sugar in her tea.",
+      "choices": [
+        "loaf \u2013 spoonful",
+        "loaves \u2013 spoonful",
+        "loaves \u2013 spoonfuls",
+        "loaf \u2013 spoonfuls"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\ub178\ud2bc \uc528\ub294 \uc6b0\uc720\ub97c \ub9c8\uc2dc\uace0 \uacc4\uc168\ub2e4.\nMs. Norton was drinking some ( milk / milks ).",
+      "choices": [
+        "milk",
+        "milks"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "country \u2013 countryes / dish \u2013 dishs / cave \u2013 cavees / tomato \u2013 tomatos / leaf \u2013 leaves",
+      "choices": [
+        "country \u2013 countryes",
+        "dish \u2013 dishs",
+        "cave \u2013 cavees",
+        "tomato \u2013 tomatos"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\ub098\ub294 \uc124\ud0d5\uc774 \ud544\uc694\ud558\uc9c0 \uc54a\ub2e4.\nI don't need ( sugar / a sugar ).",
+      "choices": [
+        "sugar",
+        "a sugar"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 2,
+      "q": "\ub2e4\uc74c \uc911 \uc140 \uc218 \uc5c6\ub294 \uba85\uc0ac\ub97c \uace0\ub974\uc138\uc694.",
+      "choices": [
+        "deer",
+        "doctor",
+        "milk",
+        "puppy"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "\uadf8\ub140\uac00 \uc5b8\uc81c \ub3c4\ucc29\ud560\uae4c?",
+      "choices": [
+        "When she will arrive?",
+        "When will she arrive?",
+        "When will she arrives?",
+        "When is she arrive?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "_____ are you from?",
+      "choices": [
+        "What",
+        "Who",
+        "Which",
+        "Where"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "(\ubc11\uc904: can I / will they / do you / we must / can I)",
+      "choices": [
+        "What can I do for you?",
+        "When will they leave?",
+        "Which do you want, milk or juice?",
+        "Why we must wear school uniforms?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "_____ is cheaper, this one or that one?",
+      "choices": [
+        "What",
+        "Who",
+        "Which",
+        "Where"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "\u2022 _____ is your favorite color? (\ub124\uac00 \ud2b9\ud788 \uc88b\uc544\ud558\ub294 \uc0c9\uc740 \ubb34\uc5c7\uc774\ub2c8?)\n\u2022 _____ do you like better, green or red? (\ucd08\ub85d\uc0c9\uacfc \ube68\uac04\uc0c9 \uc911\uc5d0\uc11c \ub108\ub294 \uc5b4\ub290 \uac83\uc744 \ub354 \uc88b\uc544\ud558\ub2c8?)",
+      "choices": [
+        "How \u2013 What",
+        "Where \u2013 Which",
+        "What \u2013 Who",
+        "What \u2013 Which"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "\u2022 _____ was the party? (\uadf8 \ud30c\ud2f0\ub294 \uc5b4\ub560\ub2c8?)\n\u2022 _____ did he invite? (\uadf8\ub294 \ub204\uad6c\ub97c \ucd08\ub300\ud588\ub2c8?)",
+      "choices": [
+        "Who \u2013 How",
+        "Who \u2013 Why",
+        "How \u2013 Who",
+        "What \u2013 Who"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "\ub108\ub294 \uadf8 \uac00\ubc29\uc744 \uc5b4\ub514\uc5d0\uc11c \uc0c0\ub2c8?",
+      "choices": [
+        "Where you bought the bag?",
+        "Where did you bought the bag?",
+        "Where do you buy the bag?",
+        "Where did you buy the bag?"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "A: ( What / Who ) does Mr. Davis teach?\nB: He teaches English.",
+      "choices": [
+        "What",
+        "Who"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "this problem?",
+      "choices": [
+        "Who solve can",
+        "Who can solve",
+        "Who did solve",
+        "Who solves"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "A: Which is bigger, an eagle ( or / and ) a hawk?\nB: An eagle is bigger.",
+      "choices": [
+        "or",
+        "and"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "A: Why was he late for school?\nB: ( And / Because ) he missed the bus.",
+      "choices": [
+        "And",
+        "Because"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 3,
+      "q": "How did Mr. White drive?",
+      "choices": [
+        "Yes, he was.",
+        "No, he wasn't.",
+        "Last month.",
+        "Because he was fast."
+      ],
+      "answer": 0
+    }
+  ]
+}

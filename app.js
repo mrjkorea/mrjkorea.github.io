@@ -25,6 +25,8 @@ function conversationLevels() {
   const rc = (C.reviewCourses && C.reviewCourses.courses || []).map(c => ({ name: c.name, color: c.color, reviewCourse: c }));
   return C.levels.concat(rc);
 }
+window.__studyFindLevel = findLevel;
+window.__studyConversationLevels = conversationLevels;
 function levelTile(l) {
   const short = l.reviewCourse ? 'Review' : l.name.split(' ').pop();
   return `<a class="tile ${l.color}" href="#path/${encodeURIComponent(l.name)}" style="min-height:150px;justify-content:center">
@@ -92,6 +94,8 @@ function steps(L) {
 }
 // Only steps that have an app count. "Coming soon" steps never block and never count.
 const counts = s => s.kind !== 'unit' && !!s.url;
+window.__studyCounts = counts;
+window.__studySteps = steps;
 function curIndex(L, S) {
   const last = P().last();
   if (last && last.level === L.name) {
@@ -122,8 +126,8 @@ function pathMap(name) {
     return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span>${esc(stepNodeLabel(s))}</span></button>`;
   }).join('');
   A.innerHTML = back('#levels', `${L.name} · Conversation`) +
-    `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div><button class="tlink" id="tch">🔒 Teacher</button>`;
-  A.querySelector('#tch').onclick = () => teacherUnlock(L.name);
+    `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div>`;
+  if (window.TeacherCorner) { TeacherCorner.setLevel(L.name); TeacherCorner.setVisible(true); }
   A.querySelectorAll('.node').forEach(b => b.onclick = () => stepCard(L, S[+b.dataset.i]));
   const cur = A.querySelector('.node.cur'); if (cur && !window.__shot) cur.scrollIntoView({ block: 'center' });
 }
@@ -138,51 +142,7 @@ function stepCard(L, s) {
   M.querySelector('#cl').onclick = close; M.onclick = e => { if (e.target === M) close(); };
   const go = M.querySelector('#go'); if (go) go.onclick = () => { setTimeout(close, 50); };
 }
-// Teacher unlock: PIN is checked ONLY on the mrj-signin server (action study_teacher_check, Script Property STUDY_TEACHER_PIN).
-// Nothing secret lives in this static site. Unlock lasts until "Lock" / closing the panel.
-function teacherCheck(pin) {
-  const a = window.MRJ_AUTH || window.MRJSignin;
-  if (a && a.preview) return Promise.resolve(a.teacherCheck ? a.teacherCheck(pin) : { ok: false, message: 'Preview has no teacher check.' });
-  if (!a || !a.ENDPOINT) return Promise.resolve({ ok: false, message: 'Sign-in is not loaded.' });
-  return fetch(a.ENDPOINT, { method: 'POST', redirect: 'follow', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'study_teacher_check', pin, id: a.student && a.student(), token: a.token && a.token() }) })
-    .then(r => r.json()).catch(() => ({ ok: false, message: 'Network error.' }))
-    .then(r => r && r.error === 'bad_action' ? { ok: false, message: 'Teacher check is not on the server yet (deploy backend/teacher-unlock.patch).' } : r || { ok: false });
-}
-function teacherUnlock(level) {
-  const a = window.MRJ_AUTH || window.MRJSignin, who = a && a.student && a.student();
-  if (!who) { alert('Sign the student in first.'); return; }
-  M.innerHTML = `<div class="card tcard"><h3>🔒 Teacher</h3><p>Student: <b>${esc(who)}</b></p><input id="pin" type="password" autocomplete="off" placeholder="PIN"><p class="terr" id="terr"></p>
-    <div class="acts"><button class="btn3d go" id="ok">Unlock</button><button class="btn3d gold" id="cl">✖</button></div></div>`;
-  const pin = M.querySelector('#pin'), err = M.querySelector('#terr'), close = () => { M.innerHTML = ''; pathMap(level); };
-  M.querySelector('#cl').onclick = close; pin.focus();
-  const go = () => { err.textContent = 'Checking…'; teacherCheck(pin.value.trim()).then(r => { if (r && r.ok) teacherPanel(level, who); else err.textContent = (r && r.message) || 'Wrong PIN.'; }); };
-  M.querySelector('#ok').onclick = go; pin.onkeydown = e => { if (e.key === 'Enter') go(); };
-}
-function teacherStepLabel(s) {
-  if (s.kind === 'review' && s.day === 'Review Quiz') return 'Review Quiz · ' + s.unit;
-  if (s.kind === 'exam' && s.day === 'Review Unit Test') return 'Review Unit Test · ' + s.unit;
-  if (s.kind === 'review') return 'Review · ' + s.unit;
-  return s.unit + ' · ' + (s.day || s.label) + (s.sub ? ' · ' + s.sub : '');
-}
-function teacherPanel(level, who) {
-  const L = findLevel(level) || C.levels[0], S = steps(L).filter(counts);
-  let upto = -1; S.forEach((s, i) => { if (P().isDone(s.id)) upto = i; });
-  const draw = () => {
-    M.innerHTML = `<div class="card tcard tpanel"><h3>🔓 Teacher · ${esc(who)}</h3>
-      <select id="lv">${conversationLevels().map(l => `<option${l.name === L.name ? ' selected' : ''}>${esc(l.name)}</option>`).join('')}</select>
-      <p>Tap the last step this student <b>passed</b>. Everything above = passed, below = not passed.</p>
-      <ol class="tlist">${S.map((s, i) => `<li class="${i <= upto ? 'ok' : ''}" data-i="${i}">${i <= upto ? '✅' : '⬜'} ${esc(teacherStepLabel(s))}</li>`).join('')}</ol>
-      <div class="acts"><button class="btn3d no" id="none">None passed</button><button class="btn3d go" id="save">Save</button><button class="btn3d gold" id="lock">🔒 Lock</button></div><p class="terr" id="terr"></p></div>`;
-    M.querySelectorAll('.tlist li').forEach(li => li.onclick = () => { upto = +li.dataset.i; draw(); });
-    M.querySelector('#lv').onchange = e => teacherPanel(e.target.value, who);
-    M.querySelector('#none').onclick = () => { upto = -1; draw(); };
-    M.querySelector('#lock').onclick = () => { M.innerHTML = ''; pathMap(L.name); };
-    M.querySelector('#save').onclick = () => { const m = {}; S.forEach((s, i) => m[s.id] = i <= upto);
-      M.querySelector('#terr').textContent = 'Saving…';
-      P().setPassed(m).then(ok => { M.querySelector('#terr').textContent = ok ? 'Saved ✔ (still unlocked — press Lock when done)' : 'Saved on this device; will sync when online.'; }); };
-  };
-  draw();
-}
+// Teacher unlock UI: placement/teacher-corner.js (server PIN via study_teacher_check).
 function conversation() {
   const l = P().last();
   if (!l || !l.level) return levels();
@@ -231,10 +191,13 @@ function subtitles() {
 }
 function route() {
   M.innerHTML = '';
-  const [r, a] = location.hash.slice(1).split('/').map(decodeURIComponent);
+  if (window.TeacherCorner) TeacherCorner.setVisible(false);
+  const [r, a, b] = location.hash.slice(1).split('/').map(decodeURIComponent);
+  if (r === 'home' || r === '') return home();
   if (r === 'conversation') return conversation();
   if (r === 'levels') return levels();
   if (r === 'path') return pathMap(a);
+  if (r === 'placement') return window.Placement ? Placement.route(A, C, a) : home();
   if (r === 'news') return news(a);
   if (r === 'scores') return window.MyScores ? MyScores.show(A, C, steps) : home();
   home(); scrollTo(0, 0);
@@ -250,4 +213,4 @@ function signinButton() {
 }
 document.addEventListener('mrj-auth-ready', () => { if (C) P().load().then(() => { signinButton(); route(); }); });
 Promise.all([fetch('courses.json').then(r => r.json()), fetch('news.json').then(r => r.json()).catch(() => [])])
-  .then(([c, n]) => { C = c; NEWS = n; return P().load(); }).then(() => { signinButton(); route(); onhashchange = route; });
+  .then(([c, n]) => { C = c; NEWS = n; window.__studyCourses = C; return P().load(); }).then(() => { signinButton(); route(); onhashchange = route; });
