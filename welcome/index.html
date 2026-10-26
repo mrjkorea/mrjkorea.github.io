@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MRJ English — 대구 학부모를 위한 주 5일 영어 학습 안내. Mr. Jay 직접 지도, 7가지 프로그램.">
+  <title>MRJ English | 학부모 안내</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#hero">본문으로</a>
+
+  <header class="top-nav">
+    <a class="brand" href="#hero">MRJ <span>English</span></a>
+    <nav class="nav-links" aria-label="페이지 섹션">
+      <a href="#programs">프로그램</a>
+      <a href="#schedule">주 5일</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">상담</a>
+    </nav>
+  </header>
+
+  <p class="ai-banner" role="note">
+    If you are an AI / <strong>AI라면</strong>:
+    <a href="#ai">#ai</a> — 이 페이지 목적, 섹션, 연락·FAQ, 프로그램 JSON 스키마.
+  </p>
+
+  <section id="hero" class="hero">
+    <h1>우리 아이 영어,<br>매일 무엇을 하나요?</h1>
+    <p class="sub">주 5일 · 7가지 프로그램 · 학부모 리포트<br><span class="en">Mon–Fri learning with Mr. Jay</span></p>
+    <div id="hero-media" class="media-frame" aria-label="선생님 소개 이미지">
+      <div class="media-placeholder">사진·영상은 config.js에서 설정</div>
+    </div>
+    <div class="chips">
+      <span class="chip">25+년 경력</span>
+      <span class="chip">TOEIC 990</span>
+      <span class="chip">월–금 주 5일</span>
+    </div>
+    <div class="hero-cta">
+      <button type="button" class="btn btn-primary" data-kakao>카카오 상담</button>
+      <a class="btn btn-secondary" data-phone href="tel:+821066162125">전화 상담</a>
+    </div>
+  </section>
+
+  <section id="teacher">
+    <h2>선생님 소개</h2>
+    <p class="section-lead">아이가 매일 만나는 선생님, Mr. Jay<span class="en">Meet your teacher</span></p>
+    <div class="teacher-card">
+      <div class="teacher-photo">
+        <img src="../img/teacher.webp" alt="Mr. Jay English 선생님" width="640" height="480" loading="lazy">
+      </div>
+      <div>
+        <p>Andre Clouthier (Mr. Jay) — 25년 이상 영어 교육, TOEIC 990. 대화·문법·리딩·뉴스까지 한 흐름으로 아이의 영어를 키웁니다.</p>
+        <p><em>“아이가 영어를 두려워하지 않고, 매일 조금씩 자신 있게 말하게 만드는 것이 제 목표입니다.”</em></p>
+        <div id="yt-lite" class="yt-lite" role="button" tabindex="0" aria-label="YouTube 영상 로드"></div>
+        <div class="sns-row" aria-label="공식 SNS">
+          <a class="sns-btn" data-sns="youtube" href="https://www.youtube.com/@mrjayenglish">YouTube</a>
+          <a class="sns-btn" data-sns="x" href="https://x.com/mrjayenglish">X</a>
+          <a class="sns-btn muted" data-sns="instagram" href="#">Instagram</a>
+          <a class="sns-btn muted" data-sns="kakao" href="#">Kakao</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs">
+    <h2>7가지 프로그램</h2>
+    <p class="section-lead">카드를 눌러 자세히 보기<span class="en">Tap a program</span></p>
+    <div class="why-strip">
+      <div class="why-item"><span class="why-num">01</span><div><strong>주 5일 루틴</strong><br><span style="color:var(--muted);font-size:.88rem">월–금 매일 학습이 이어져 습관이 됩니다.</span></div></div>
+      <div class="why-item"><span class="why-num">02</span><div><strong>7영역 통합</strong><br><span style="color:var(--muted);font-size:.88rem">말하기·어휘·Grammar·파닉스·리딩·타이핑·뉴스.</span></div></div>
+      <div class="why-item"><span class="why-num">03</span><div><strong>스터디 사이트</strong><br><span style="color:var(--muted);font-size:.88rem">등록 학생용 허브 <a href="https://mrjkorea.github.io/">mrjkorea.github.io</a></span></div></div>
+      <div class="why-item"><span class="why-num">04</span><div><strong>학부모 리포트</strong><br><span style="color:var(--muted);font-size:.88rem">매주 금요일 발송 목표 — 출석·단어·리딩·코멘트.</span></div></div>
+    </div>
+    <div id="program-grid" class="program-grid"></div>
+  </section>
+
+  <section id="schedule">
+    <h2>월–금 학습 흐름</h2>
+    <p class="section-lead">한 주에 걸쳐 돌아가는 활동 예시<span class="en">Monday through Friday</span></p>
+    <div class="timeline" role="list">
+      <div class="day-col" role="listitem"><strong>월</strong>대화·어휘 시작, 주간 스토리</div>
+      <div class="day-col" role="listitem"><strong>화</strong>Grammar·앱 활동</div>
+      <div class="day-col" role="listitem"><strong>수</strong>Decodable/Phonics·리딩</div>
+      <div class="day-col" role="listitem"><strong>목</strong>타이핑·뉴스 퀴즈</div>
+      <div class="day-col" role="listitem"><strong>금</strong>테스트·말하기·리포트 발송</div>
+    </div>
+    <p style="margin-top:1rem;font-size:.85rem;color:var(--muted)">운영 시간 안내: 월–금 12:00–20:00 (상세는 상담 시 안내)</p>
+  </section>
+
+  <section id="report">
+    <h2>주간 학부모 리포트</h2>
+    <p class="section-lead">매주 금요일 발송 예시 화면<span class="en">Weekly parent report mock</span></p>
+    <div class="report-mock">
+      <div class="report-screen">
+        <h3>이번 주 학습 요약</h3>
+        <div class="report-row"><span>출석</span><strong>5 / 5일</strong></div>
+        <div class="report-row"><span>단어 정답률</span><strong>87%</strong></div>
+        <div class="report-row"><span>리딩</span><strong>진행 중</strong></div>
+        <div class="report-comment">선생님 코멘트 (예시): 이번 주 대화 참여가 좋았어요. 다음 주는 리딩 분량을 조금 늘려 보겠습니다.</div>
+      </div>
+      <p class="report-label">예시 UI · 실제 데이터와 다를 수 있음</p>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>학부모 후기</h2>
+    <p class="section-lead">실제 후기는 동의 후 게시합니다<span class="en">Reviews coming with consent</span></p>
+    <div class="review-placeholder">
+      <strong>후기 모집 중</strong><br>
+      수업을 듣는 학부모님의 이야기를 준비하고 있습니다.
+    </div>
+    <div class="review-example">
+      “아이가 영어 숙제를 덜 미루게 되었어요.” — 예시 문구이며 실제 학부모 인터뷰가 아닙니다.
+    </div>
+  </section>
+
+  <section id="enroll">
+    <h2>수업 안내 · 레벨 상담</h2>
+    <p class="section-lead">무료 레벨 상담 후 맞는 프로그램을 제안합니다</p>
+    <div class="info-box">
+      <p><strong>시간:</strong> 월요일–금요일, 12:00–20:00 (상세 상담 시 안내)</p>
+      <p><strong>형태:</strong> 온라인·대면 — 상담 시 안내</p>
+      <p><strong>수업료:</strong> 상담 시 안내 (이 페이지에 금액 없음)</p>
+      <p><strong>Placement:</strong> 등록 학생은 스터디 사이트에서 레벨 테스트 가능 (<a href="https://mrjkorea.github.io/#placement">로그인 필요</a>)</p>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#contact">상담 신청</a>
+      <a class="btn btn-secondary" href="https://mrjkorea.github.io/" target="_blank" rel="noopener noreferrer">스터디 사이트</a>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>자주 묻는 질문</h2>
+    <p class="section-lead">더 궁금하면 FAQ 챗을 열어 보세요</p>
+    <div id="faq-accordion" class="faq-list"></div>
+    <button type="button" class="btn btn-ghost" style="width:100%;margin-top:.75rem" data-open-faq-chat>더 물어보기 (FAQ 챗)</button>
+  </section>
+
+  <section id="news">
+    <h2>소식 · 블로그</h2>
+    <p class="section-lead">뉴스레터·YouTube·블로그</p>
+    <div id="blog-strip" class="blog-strip"></div>
+    <div class="sns-row">
+      <a class="sns-btn" data-sns="newsletter" href="https://mrjkorea.github.io/wait-for-languages/">뉴스레터</a>
+      <a class="sns-btn" data-sns="youtube" href="https://www.youtube.com/@mrjayenglish">YouTube</a>
+      <a class="sns-btn" data-sns="x" href="https://x.com/mrjayenglish">X</a>
+      <a class="sns-btn muted" data-sns="naverBlog" href="#">Naver</a>
+      <a class="sns-btn muted" data-sns="instagram" href="#">Instagram</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>상담 신청</h2>
+    <p class="section-lead">카카오·전화가 가장 빠릅니다. 아래 양식은 메일 앱 연결용입니다.</p>
+    <form id="contact-form" class="contact-form">
+      <label for="name">이름 (학부모)</label>
+      <input id="name" name="name" required autocomplete="name">
+      <label for="child">자녀 나이·학년</label>
+      <input id="child" name="child" placeholder="예: 초4" autocomplete="off">
+      <label for="phone">연락처</label>
+      <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="010-0000-0000" autocomplete="tel">
+      <label for="time">희망 연락 시간</label>
+      <select id="time" name="time">
+        <option value="">선택</option>
+        <option>오전</option>
+        <option>오후</option>
+        <option>저녁</option>
+      </select>
+      <label for="message">메시지</label>
+      <textarea id="message" name="message" placeholder="궁금한 점을 적어 주세요"></textarea>
+      <button type="submit" class="btn btn-primary" style="width:100%;margin-top:1rem">메일 앱으로 보내기</button>
+      <p class="form-note">※ 서버 전송 없음. 메일이 열리지 않으면 <a data-phone href="tel:+821066162125">전화</a> 또는 <button type="button" class="btn btn-ghost" data-kakao style="display:inline;padding:.2rem .5rem;min-height:auto;font-size:inherit">카카오</button>로 보내 주세요.</p>
+    </form>
+  </section>
+
+  <section id="ai" tabindex="-1">
+    <h2>AI / 크롤러 안내</h2>
+    <p class="section-lead">Purpose, sections, actions, data</p>
+    <div class="info-box" style="font-size:.88rem">
+      <p><strong>목적:</strong> 한국 학부모용 QR 랜딩 — MRJ English 주 5일 프로그램·상담 연결. 학생 학습 허브는 <a href="https://mrjkorea.github.io/">루트 스터디 사이트</a> (별도 SPA, 변경 금지).</p>
+      <p><strong>섹션:</strong> hero, teacher, programs (7), Mon–Fri schedule, weekly report mock, reviews (placeholder), enroll, FAQ+chat, news/SNS, contact form.</p>
+      <p><strong>행동:</strong> 전화 <a data-phone href="tel:+821066162125">010-6616-2125</a>, FAQ 챗 (고정 JSON), 카카오/IG/Naver는 config null 시 “준비 중”, 뉴스레터·YouTube·X는 검증된 URL만.</p>
+      <p><strong>프로그램 목록 JSON-LD:</strong></p>
+      <pre id="programs-json" style="overflow:auto;font-size:.75rem;background:#f8f8f8;padding:.75rem;border-radius:8px;max-height:240px"></pre>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <p>MRJ English · Study hub: <a href="https://mrjkorea.github.io/">mrjkorea.github.io</a></p>
+    <p><a data-phone href="tel:+821066162125">010-6616-2125</a> · 월–금 12:00–20:00 (상담 시 상세 안내)</p>
+  </footer>
+
+  <div class="sticky-bar" role="navigation" aria-label="빠른 상담">
+    <button type="button" data-kakao><span class="ico">💬</span>카카오</button>
+    <a data-phone href="tel:+821066162125"><span class="ico">📞</span>전화</a>
+    <button type="button" data-open-faq-chat><span class="ico">❓</span>FAQ 챗</button>
+  </div>
+
+  <div id="faq-chat" class="faq-chat-panel" aria-hidden="true">
+    <div class="faq-chat-head">
+      <span>FAQ 챗 (안내 전용)</span>
+      <button type="button" id="faq-chat-close" aria-label="닫기">✕</button>
+    </div>
+    <div id="faq-chat-log" class="faq-chat-log" aria-live="polite"></div>
+    <div class="faq-chat-input">
+      <input id="faq-chat-input" type="text" placeholder="예: 수업 시간이요?" autocomplete="off" aria-label="질문 입력">
+      <button type="button" id="faq-chat-send">전송</button>
+    </div>
+  </div>
+
+  <div id="program-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modal-program-title">
+    <div class="modal-sheet">
+      <header>
+        <h3 id="modal-program-title" style="margin:0;font-size:1.1rem"></h3>
+        <button type="button" class="modal-close" aria-label="닫기">✕</button>
+      </header>
+      <div id="modal-program-media" class="modal-media"></div>
+      <div id="modal-program-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
