@@ -1,0 +1,28 @@
+mrj-signin Code.gs — Study World teacher unlock (server-side PIN check). Deploy by hand (Reg/Metrics/Hermes).
+The PIN is NOT in this repo. Put it in Apps Script > Project Settings > Script Properties:
+    STUDY_TEACHER_PIN = <value from /home/box/.secrets/study_site_teacher_pin on the box>
+
+1) In doPost's action switch (next to "save_pack"), add:
+    if (action === "study_teacher_check") return json_(studyTeacherCheck_(body));
+
+2) Add anywhere at top level:
+
+/** Study World "Teacher" link: checks a PIN kept only in Script Properties. Rate-limited like teacher_secret. */
+function studyTeacherCheck_(body) {
+  var pin = PropertiesService.getScriptProperties().getProperty("STUDY_TEACHER_PIN");
+  if (!pin) return { ok: false, error: "forbidden", message: "Teacher PIN is not set on the server." };
+  var cache = CacheService.getScriptCache(), key = "study_teacher_fail", n = Number(cache.get(key) || 0);
+  if (n >= 10) return { ok: false, error: "locked", message: "Too many tries. Wait 10 minutes." };
+  var given = String((body && body.pin) || "").trim().toLowerCase();
+  if (given && given === String(pin).trim().toLowerCase()) { cache.remove(key); return { ok: true, error: "", message: "" }; }
+  cache.put(key, String(n + 1), 600);
+  Utilities.sleep(Math.min(5000, 300 + n * 400));
+  return { ok: false, error: "forbidden", message: "Wrong PIN." };
+}
+
+3) If Code.gs.study-site.patch (mergeStudySite_) is deployed, it must also keep "undone"
+   (teacher "not passed" marks). Replace its return line with:
+    var und = {}; for (k in (o.undone || {})) und[k] = toNum_(o.undone[k]);
+    for (k in (n.undone || {})) und[k] = Math.max(toNum_(n.undone[k]), und[k] || 0);
+    return JSON.stringify({ v: 1, updatedAt: toNum_(n.updatedAt), last: n.last || o.last || null, done: done, undone: und });
+   (Today's save_pack without that patch is last-write-wins and already keeps "undone".)

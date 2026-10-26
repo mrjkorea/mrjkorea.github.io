@@ -77,7 +77,8 @@ function pathMap(name) {
     return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span>${esc(s.kind === 'day' ? s.label + ' · ' + s.sub : s.kind === 'review' ? 'Review · ' + s.unit : s.label)}</span></button>`;
   }).join('');
   A.innerHTML = back('#levels', `${L.name} · Conversation`) +
-    `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div>`;
+    `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div><button class="tlink" id="tch">🔒 Teacher</button>`;
+  A.querySelector('#tch').onclick = () => teacherUnlock(L.name);
   A.querySelectorAll('.node').forEach(b => b.onclick = () => stepCard(L, S[+b.dataset.i]));
   const cur = A.querySelector('.node.cur'); if (cur && !window.__shot) cur.scrollIntoView({ block: 'center' });
 }
@@ -91,6 +92,45 @@ function stepCard(L, s) {
   const close = () => { M.innerHTML = ''; pathMap(L.name); };
   M.querySelector('#cl').onclick = close; M.onclick = e => { if (e.target === M) close(); };
   const go = M.querySelector('#go'); if (go) go.onclick = () => { setTimeout(close, 50); };
+}
+// Teacher unlock: PIN is checked ONLY on the mrj-signin server (action study_teacher_check, Script Property STUDY_TEACHER_PIN).
+// Nothing secret lives in this static site. Unlock lasts until "Lock" / closing the panel.
+function teacherCheck(pin) {
+  const a = window.MRJ_AUTH || window.MRJSignin;
+  if (a && a.preview) return Promise.resolve(a.teacherCheck ? a.teacherCheck(pin) : { ok: false, message: 'Preview has no teacher check.' });
+  if (!a || !a.ENDPOINT) return Promise.resolve({ ok: false, message: 'Sign-in is not loaded.' });
+  return fetch(a.ENDPOINT, { method: 'POST', redirect: 'follow', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'study_teacher_check', pin, id: a.student && a.student(), token: a.token && a.token() }) })
+    .then(r => r.json()).catch(() => ({ ok: false, message: 'Network error.' }))
+    .then(r => r && r.error === 'bad_action' ? { ok: false, message: 'Teacher check is not on the server yet (deploy backend/teacher-unlock.patch).' } : r || { ok: false });
+}
+function teacherUnlock(level) {
+  const a = window.MRJ_AUTH || window.MRJSignin, who = a && a.student && a.student();
+  if (!who) { alert('Sign the student in first.'); return; }
+  M.innerHTML = `<div class="card tcard"><h3>🔒 Teacher</h3><p>Student: <b>${esc(who)}</b></p><input id="pin" type="password" autocomplete="off" placeholder="PIN"><p class="terr" id="terr"></p>
+    <div class="acts"><button class="btn3d go" id="ok">Unlock</button><button class="btn3d gold" id="cl">✖</button></div></div>`;
+  const pin = M.querySelector('#pin'), err = M.querySelector('#terr'), close = () => { M.innerHTML = ''; pathMap(level); };
+  M.querySelector('#cl').onclick = close; pin.focus();
+  const go = () => { err.textContent = 'Checking…'; teacherCheck(pin.value.trim()).then(r => { if (r && r.ok) teacherPanel(level, who); else err.textContent = (r && r.message) || 'Wrong PIN.'; }); };
+  M.querySelector('#ok').onclick = go; pin.onkeydown = e => { if (e.key === 'Enter') go(); };
+}
+function teacherPanel(level, who) {
+  const L = C.levels.find(l => l.name === level) || C.levels[0], S = steps(L).filter(counts);
+  let upto = -1; S.forEach((s, i) => { if (P().isDone(s.id)) upto = i; });
+  const draw = () => {
+    M.innerHTML = `<div class="card tcard tpanel"><h3>🔓 Teacher · ${esc(who)}</h3>
+      <select id="lv">${C.levels.map(l => `<option${l.name === L.name ? ' selected' : ''}>${esc(l.name)}</option>`).join('')}</select>
+      <p>Tap the last step this student <b>passed</b>. Everything above = passed, below = not passed.</p>
+      <ol class="tlist">${S.map((s, i) => `<li class="${i <= upto ? 'ok' : ''}" data-i="${i}">${i <= upto ? '✅' : '⬜'} ${esc(s.kind === 'review' ? 'Review · ' + s.unit : s.unit + ' · ' + (s.day || s.label) + (s.sub ? ' · ' + s.sub : ''))}</li>`).join('')}</ol>
+      <div class="acts"><button class="btn3d no" id="none">None passed</button><button class="btn3d go" id="save">Save</button><button class="btn3d gold" id="lock">🔒 Lock</button></div><p class="terr" id="terr"></p></div>`;
+    M.querySelectorAll('.tlist li').forEach(li => li.onclick = () => { upto = +li.dataset.i; draw(); });
+    M.querySelector('#lv').onchange = e => teacherPanel(e.target.value, who);
+    M.querySelector('#none').onclick = () => { upto = -1; draw(); };
+    M.querySelector('#lock').onclick = () => { M.innerHTML = ''; pathMap(L.name); };
+    M.querySelector('#save').onclick = () => { const m = {}; S.forEach((s, i) => m[s.id] = i <= upto);
+      M.querySelector('#terr').textContent = 'Saving…';
+      P().setPassed(m).then(ok => { M.querySelector('#terr').textContent = ok ? 'Saved ✔ (still unlocked — press Lock when done)' : 'Saved on this device; will sync when online.'; }); };
+  };
+  draw();
 }
 function conversation() {
   const l = P().last();

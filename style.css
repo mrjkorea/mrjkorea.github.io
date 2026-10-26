@@ -103,3 +103,10 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
   body{background:#fff!important}.sc-box,.sc-card{box-shadow:none;border:1px solid #cbd5e1;break-inside:avoid}
   .sc-grid{grid-template-columns:1fr 1fr}
 }
+/* Teacher unlock (discrete) */
+.tlink{display:block;margin:14px auto 30px;background:none;border:0;color:#fff9;font-size:13px;cursor:pointer;text-decoration:underline}
+.tcard input,.tcard select{font-size:18px;padding:8px 10px;border-radius:10px;border:2px solid #cbd5e1;margin:6px 0;width:80%}
+.terr{color:#b91c1c;min-height:1.2em;font-size:14px}
+.tpanel{max-height:86vh;overflow:auto}
+.tlist{text-align:left;max-height:50vh;overflow:auto;padding-left:36px;margin:8px 0}
+.tlist li{padding:5px 6px;cursor:pointer;border-radius:8px}.tlist li:hover{background:#fef3c7}.tlist li.ok{color:#166534}
