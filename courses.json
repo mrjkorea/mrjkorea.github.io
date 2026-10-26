@@ -104,9 +104,7 @@
    "img": "ai",
    "url": "https://mrjkorea.github.io/day6-talk/",
    "unitUrl": "https://mrjkorea.github.io/day6-talk/?unit={book}_u{n}",
-   "missing": [
-    "int3c_u8"
-   ]
+   "missing": []
   }
  ],
  "home": [
