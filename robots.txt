@@ -1,0 +1,4 @@
+# Student Study World and tools are not for public search; parent welcome page is OK to index.
+User-agent: *
+Allow: /welcome/
+Disallow: /
