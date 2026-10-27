@@ -145,8 +145,9 @@
   },
   {
    "id": "toeicb",
-   "name": "TOEIC Bridge",
-   "img": "bridge"
+   "name": "Step Up TOEIC Bridge",
+   "img": "bridge",
+   "url": "https://mrjkorea.github.io/step-up-toeic-bridge/"
   },
   {
    "id": "toeic",
