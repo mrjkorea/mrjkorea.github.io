@@ -8,7 +8,11 @@ body{margin:0;min-height:100vh;font-family:"Nunito","Baloo 2",system-ui,sans-ser
 .sky i:nth-child(4){top:40%;left:5%;animation-duration:65s;transform:scale(.5)}.sky i:nth-child(5){top:80%;left:40%;animation-duration:80s;opacity:.5}.sky i:nth-child(6){top:12%;left:75%;animation-duration:50s;transform:scale(.6)}
 @keyframes drift{from{translate:-20vw}to{translate:120vw}}
 header,main{position:relative;z-index:1}
-header{display:flex;justify-content:space-between;align-items:center;padding:14px 44px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 44px;gap:12px;flex-wrap:wrap}
+.header-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
+#teacher-header{font-size:18px;padding:10px 20px;white-space:nowrap}
+#teacher-header.tch-on{box-shadow:0 6px 0 #4c1d95,0 10px 16px #0003,inset 0 0 0 2px #fde047}
+#signin{max-width:min(42vw,280px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .logo{display:flex;align-items:center;gap:10px;font-size:32px;font-weight:900;color:#fff;text-shadow:0 3px 0 #6d28d9,0 6px 12px #0004}.logo img{width:58px;filter:drop-shadow(0 6px 6px #0003)}
 main{padding:6px 44px 60px;max-width:1440px;margin:auto}
 h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3px 0 #0e7490,0 5px 10px #0003}
@@ -105,9 +109,13 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
 }
 /* Teacher corner (fixed FAB) */
 #teacher-corner{position:fixed;right:18px;bottom:18px;z-index:20;display:none;pointer-events:none}
-#teacher-corner.on{display:block;pointer-events:auto}
+#teacher-corner.on,#teacher-corner.tch-open{display:block;pointer-events:auto}
+#teacher-corner .tch-fab{display:none}
+#teacher-corner.on .tch-fab{display:block}
 .tch-fab{width:56px;height:56px;border-radius:50%;border:0;font-size:26px;cursor:pointer;box-shadow:0 8px 0 #334155,0 14px 24px #0005;background:linear-gradient(#fcd34d,var(--gold));color:#78350f}
 .tch-panel{position:absolute;right:0;bottom:68px;width:min(420px,calc(100vw - 36px));max-height:70vh;overflow:auto;background:#fff;border-radius:24px;padding:16px 18px;box-shadow:0 12px 0 #cbd5e1,0 24px 48px #0006;text-align:left}
+#teacher-corner.tch-from-header .tch-panel{position:fixed;right:12px;top:72px;bottom:auto;max-height:min(70vh,calc(100vh - 88px))}
+@media (min-width:601px){#teacher-corner.tch-from-header .tch-panel{right:44px;top:78px}}
 .tch-inner h3{margin:0 0 8px;font-size:22px}
 .tch-inner .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .tcard input,.tcard select,.tch-inner input,.tch-inner select{font-size:18px;padding:8px 10px;border-radius:10px;border:2px solid #cbd5e1;margin:6px 0;width:100%;box-sizing:border-box}
@@ -134,6 +142,12 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
 .pl-report{background:#fff;border-radius:24px;padding:24px 28px;margin-top:16px;box-shadow:0 8px 0 #cbd5e1}
 .pl-parent{font-size:15px;line-height:1.5;margin-top:20px}
 .pl-foot{color:#64748b;font-size:13px;margin-top:24px}
+@media (max-width:600px){
+  header{padding:10px 12px}.logo{font-size:22px}.logo img{width:44px}
+  main{padding:6px 12px 48px}
+  .btn3d{font-size:17px;padding:10px 14px}
+  #teacher-header{font-size:16px;padding:8px 12px}
+}
 .pl-print-area{display:none}
 @media print{
   .sky,header,main,#teacher-corner,.topbar,.pl-actions,.btn3d{display:none!important}

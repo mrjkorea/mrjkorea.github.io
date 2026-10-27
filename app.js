@@ -134,13 +134,16 @@ function pathMap(name) {
 function stepCard(L, s) {
   const place = { course: 'conversation', level: L.name, unit: s.unit, day: s.kind === 'review' && s.day !== 'Review Quiz' ? 'Review' : (s.day || '') };
   const title = s.kind === 'day' ? `${s.unit} · ${s.day}` : s.kind === 'review' ? `${s.day === 'Review Quiz' ? 'Review Quiz' : 'Review'} · ${s.unit}` : s.kind === 'exam' && s.day === 'Review Unit Test' ? `Review Unit Test · ${s.unit}` : s.label;
-  const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}"${s.song ? '' : ' target="_blank" rel="noopener"'}>▶ Open</a>` : `<span class="btn3d no">⏳ Coming soon</span>`;
+  const tchSkip = !s.url && s.kind !== 'unit' && window.TeacherCorner && TeacherCorner.isUnlocked();
+  const open = s.url ? `<a class="btn3d go" id="go" href="${s.url}"${s.song ? '' : ' target="_blank" rel="noopener"'}>▶ Open</a>` : (tchSkip ? `<button type="button" class="btn3d purple" id="tch-skip">✔ Mark passed (skip)</button>` : `<span class="btn3d no">⏳ Coming soon</span>`);
   M.innerHTML = `<div class="card"><img src="${im(s.img || 'conversation')}" alt=""><h3>${esc(title)}</h3><p>${esc(s.sub || (s.kind === 'unit' ? 'Start here' : 'Big test'))}${!s.url && s.kind !== 'unit' ? ' · Coming soon. You can skip this for now.' : ''}</p>
     <div class="acts">${open}<button class="btn3d gold" id="cl">✖</button></div></div>`;
   P().setLast(place);
   const close = () => { M.innerHTML = ''; pathMap(L.name); };
   M.querySelector('#cl').onclick = close; M.onclick = e => { if (e.target === M) close(); };
   const go = M.querySelector('#go'); if (go) go.onclick = () => { setTimeout(close, 50); };
+  const skip = M.querySelector('#tch-skip');
+  if (skip) skip.onclick = () => { P().markDone(s.id).then(() => close()); };
 }
 // Teacher unlock UI: placement/teacher-corner.js (server PIN via study_teacher_check).
 function conversation() {
@@ -206,11 +209,12 @@ function signinButton() {
   const b = document.getElementById('signin'), a = window.MRJ_AUTH || window.MRJSignin, who = a && a.student && a.student();
   b.textContent = who ? `👤 ${who}` : '👤 Sign in';
   b.onclick = () => {
-    if (a && a.preview) { if (who) a.signOut(); else { const n = prompt('Preview sign-in (stub, no password). Your ID:'); if (n) a.signInStub(n); } P().load().then(() => { signinButton(); route(); }); }
+    if (a && a.preview) { if (who) a.signOut(); else { const n = prompt('Preview sign-in (stub, no password). Your ID:'); if (n) a.signInStub(n); } P().load().then(() => { signinButton(); if (window.TeacherCorner) TeacherCorner.onSignInChange(); route(); }); }
     else if (a && who) { if (confirm('Sign out?')) { a.signOut && a.signOut(); location.reload(); } }
     else location.reload();   // live: the shared mrj-signin gate shows on load
   };
+  if (window.TeacherCorner) TeacherCorner.onSignInChange();
 }
-document.addEventListener('mrj-auth-ready', () => { if (C) P().load().then(() => { signinButton(); route(); }); });
+document.addEventListener('mrj-auth-ready', () => { if (C) P().load().then(() => { signinButton(); if (window.TeacherCorner) TeacherCorner.onSignInChange(); route(); }); });
 Promise.all([fetch('courses.json').then(r => r.json()), fetch('news.json').then(r => r.json()).catch(() => [])])
   .then(([c, n]) => { C = c; NEWS = n; window.__studyCourses = C; return P().load(); }).then(() => { signinButton(); route(); onhashchange = route; });
