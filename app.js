@@ -118,20 +118,35 @@ function pathMap(name) {
   const pos = S.map((s, i) => { const r = Math.floor(i / per), c = i % per, cc = r % 2 ? per - 1 - c : c;
     return [80 + cc * dx + (r % 2 ? -1 : 1) * 14 * Math.sin(c), 90 + r * dy + 18 * Math.sin(c * 1.3)]; });
   const H = pos[pos.length - 1][1] + 110;
-  let d = `M${pos[0][0]},${pos[0][1]}`;
-  for (let i = 1; i < pos.length; i++) { const [x0, y0] = pos[i - 1], [x, y] = pos[i];
-    d += y0 === y || Math.abs(y - y0) < 60 ? ` Q${(x0 + x) / 2},${(y0 + y) / 2 - 25} ${x},${y}` : ` C${x0 + (x0 > W / 2 ? 120 : -120)},${y0} ${x + (x > W / 2 ? 120 : -120)},${y} ${x},${y}`; }
+  const seg = (from, to) => {
+    if (to <= from) return '';
+    let s = `M${pos[from][0]},${pos[from][1]}`;
+    for (let i = from + 1; i <= to; i++) {
+      const [x0, y0] = pos[i - 1], [x, y] = pos[i];
+      s += y0 === y || Math.abs(y - y0) < 60 ? ` Q${(x0 + x) / 2},${(y0 + y) / 2 - 25} ${x},${y}` : ` C${x0 + (x0 > W / 2 ? 120 : -120)},${y0} ${x + (x > W / 2 ? 120 : -120)},${y} ${x},${y}`;
+    }
+    return s;
+  };
+  const last = pos.length - 1, d = seg(0, last);
+  const dDone = ci > 0 ? seg(0, ci) : (last > 0 ? seg(0, 1) : '');
+  const dLater = ci < last ? (ci === 0 && last > 1 ? seg(1, last) : seg(ci, last)) : '';
   const nodes = S.map((s, i) => {
     const done = s.kind === 'unit' ? S.filter(t => t.unit === s.unit && t.kind === 'day' && counts(t)).every(t => P().isDone(t.id)) : P().isDone(s.id);
     const st = (done ? ' done' : '') + (!s.url && s.kind !== 'unit' ? ' soonstep' : '') + (i === ci ? ' cur' : i > ci ? ' later' : '');
-    const disc = s.kind === 'unit' ? `<div class="disc">${s.label.replace('Unit ', 'U')}</div>` : `<div class="disc"><img src="${im(s.img)}" alt=""></div>`;
-    return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span>${esc(stepNodeLabel(s))}</span></button>`;
+    const disc = s.kind === 'unit' ? `<div class="disc"><span class="disc-ring"></span>${s.label.replace('Unit ', 'U')}</div>` : `<div class="disc"><span class="disc-ring"></span><img src="${im(s.img)}" alt=""></div>`;
+    return `<button class="node ${s.kind}${st}" style="left:${pos[i][0]}px;top:${pos[i][1]}px" data-i="${i}">${disc}<span class="node-lbl">${esc(stepNodeLabel(s))}</span></button>`;
   }).join('');
+  const trail = `<svg class="map-trail" width="${W + 60}" height="${H}" aria-hidden="true"><defs><filter id="mapTrailGlow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity=".25"/></filter></defs>` +
+    `<path class="trail-bed" d="${d}"/><path class="trail-rim" d="${d}"/>` +
+    (dDone ? `<path class="trail-done" d="${dDone}"/>` : '') +
+    (dLater ? `<path class="trail-later" d="${dLater}"/>` : '') +
+    `<path class="trail-dash" d="${d}"/><path class="trail-spark" d="${d}"/></svg>`;
+  const deco = '<div class="map-deco" aria-hidden="true"><i class="map-cloud c1"></i><i class="map-cloud c2"></i><i class="map-cloud c3"></i><i class="map-bush b1"></i><i class="map-bush b2"></i></div>';
   A.innerHTML = back('#levels', `${L.name} · Conversation`) +
-    `<div class="map ${L.color}" style="height:${H}px;width:${W + 60}px"><svg width="${W + 60}" height="${H}"><path d="${d}" fill="none" stroke="#fff8" stroke-width="34" stroke-linecap="round"/><path d="${d}" fill="none" stroke="#fde68a" stroke-width="20" stroke-linecap="round" stroke-dasharray="2 26"/></svg>${nodes}</div>`;
+    `<div class="map-scroll"><div class="map ${L.color}" style="height:${H}px;width:${W + 60}px">${deco}${trail}${nodes}</div></div>`;
   if (window.TeacherCorner) { TeacherCorner.setLevel(L.name); TeacherCorner.setVisible(true); }
   A.querySelectorAll('.node').forEach(b => b.onclick = () => stepCard(L, S[+b.dataset.i]));
-  const cur = A.querySelector('.node.cur'); if (cur && !window.__shot) cur.scrollIntoView({ block: 'center' });
+  const cur = A.querySelector('.node.cur'); if (cur && !window.__shot) cur.scrollIntoView({ block: 'center', inline: 'center' });
 }
 function stepCard(L, s) {
   const place = { course: 'conversation', level: L.name, unit: s.unit, day: s.kind === 'review' && s.day !== 'Review Quiz' ? 'Review' : (s.day || '') };
