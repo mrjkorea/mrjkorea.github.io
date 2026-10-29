@@ -1,4 +1,6 @@
 let C, NEWS = [];
+/** Bump when courses.json or news.json changes (GitHub Pages CDN max-age=600). */
+const CONFIG_V = '1';
 const A = document.getElementById('app'), M = document.getElementById('modal'), P = () => window.StudyProgress;
 const im = n => `img/${n}.webp`;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -216,5 +218,8 @@ function signinButton() {
   if (window.TeacherCorner) TeacherCorner.onSignInChange();
 }
 document.addEventListener('mrj-auth-ready', () => { if (C) P().load().then(() => { signinButton(); if (window.TeacherCorner) TeacherCorner.onSignInChange(); route(); }); });
-Promise.all([fetch('courses.json').then(r => r.json()), fetch('news.json').then(r => r.json()).catch(() => [])])
+Promise.all([
+  fetch(`courses.json?v=${CONFIG_V}`).then(r => r.json()),
+  fetch(`news.json?v=${CONFIG_V}`).then(r => r.json()).catch(() => []),
+])
   .then(([c, n]) => { C = c; NEWS = n; window.__studyCourses = C; return P().load(); }).then(() => { signinButton(); route(); onhashchange = route; });
