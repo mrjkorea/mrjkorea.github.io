@@ -1,5 +1,5 @@
 {
-  "note": "Sourced from MRJ Grammar Books (UI label: Grammar).",
+  "note": "Sourced from MRJ Grammar Books (UI label: Grammar). Answer keys repaired 2026-11-02 (were all 0). Bands 4–6 listed but not yet populated — next pass.",
   "bands": [
     "Band 1",
     "Band 2",
@@ -18,7 +18,7 @@
         "studies",
         "studying"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 1,
@@ -29,7 +29,7 @@
         "aren't eat",
         "doesn't eat"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 1,
@@ -44,14 +44,14 @@
     },
     {
       "band": 1,
-      "q": "We go to school by bus. \u2192 We ________ go to school by bus.",
+      "q": "We go to school by bus. → We ________ go to school by bus.",
       "choices": [
         "aren't",
         "isn't",
         "wasn't",
         "don't"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 1,
@@ -62,18 +62,18 @@
         "are",
         "were"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 1,
-      "q": "A soccer game is very interesting. \u2192 A soccer game ________ very interesting.",
+      "q": "A soccer game is very interesting. → A soccer game ________ very interesting.",
       "choices": [
         "aren't",
         "isn't",
         "wasn't",
         "don't"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 1,
@@ -84,40 +84,40 @@
         "Yes, I do.",
         "No, I'm not."
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 1,
-      "q": "\u2022 She ________ a new student here.\n\u2022 ________ you watch TV at night?",
+      "q": "• She ________ a new student here.\n• ________ you watch TV at night?",
       "choices": [
-        "is \u2013 Are",
-        "are \u2013 Do",
-        "is \u2013 Does",
-        "does \u2013 Is"
+        "is – Are",
+        "are – Do",
+        "is – Do",
+        "does – Is"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 1,
-      "q": "We  the piano at night.",
+      "q": "We ________ the piano at night.",
       "choices": [
         "aren't play",
-        "don't plays",
+        "don't play",
         "isn't play",
-        "doesn't plays"
+        "doesn't play"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 1,
-      "q": "\u2022 Suho ________ milk every day.\n\u2022 He doesn't ________ juice.",
+      "q": "• Suho ________ milk every day.\n• He doesn't ________ juice.",
       "choices": [
-        "drink \u2013 drinks",
-        "drinks \u2013 drink",
-        "drink \u2013 drinking",
-        "drinks \u2013 drank"
+        "drink – drinks",
+        "drinks – drink",
+        "drink – drinking",
+        "drinks – drank"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 1,
@@ -128,71 +128,71 @@
         "Yes, he does.",
         "No, he didn't."
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 2,
-      "q": "key \u2013 keys / box \u2013 boxs / hero \u2013 heros / sheep \u2013 sheeps / story \u2013 storyies",
+      "q": "key – keys / box – boxs / hero – heros / sheep – sheeps / story – storyies",
       "choices": [
-        "key \u2013 keys",
-        "box \u2013 boxs",
-        "hero \u2013 heros",
-        "sheep \u2013 sheeps"
+        "key – keys",
+        "box – boxs",
+        "hero – heros",
+        "sheep – sheeps"
       ],
       "answer": 0
     },
     {
       "band": 2,
-      "q": "were coming here.",
+      "q": "________ were coming here.",
       "choices": [
         "Two lady",
         "Two ladys",
-        "Two ladyes",
+        "Two ladies",
         "Two ladyies"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 2,
-      "q": "\ub2e4\uc74c \uc911 \uc140 \uc218 \uc788\ub294 \uba85\uc0ac\ub97c \uace0\ub974\uc138\uc694.",
+      "q": "다음 중 셀 수 있는 명사를 고르세요.",
       "choices": [
         "air",
         "man",
         "music",
         "soccer"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 2,
-      "q": "\u2022 I ate three _____ of cake.\n\u2022 Mom ordered five _____ of milk.",
+      "q": "• I ate three _____ of cake.\n• Mom ordered five _____ of milk.",
       "choices": [
-        "piece \u2013 glass",
-        "pieces \u2013 glass",
-        "piece \u2013 glasses",
-        "a piece \u2013 glasses"
+        "piece – glass",
+        "pieces – glass",
+        "pieces – glasses",
+        "a piece – glasses"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 2,
-      "q": "\uadf8\ub4e4\uc740 \uc5b4\uc81c \uace0\uae30\ub97c \uc57d\uac04 \uc0c0\ub2e4.\nThey bought some ( meats / meat ) yesterday.",
+      "q": "그들은 어제 고기를 약간 샀다.\nThey bought some ( meats / meat ) yesterday.",
       "choices": [
         "meats",
         "meat"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 2,
-      "q": "My sister borrowed a dictionary from the library.  \u2192  My sister borrowed two _____ from the library.",
+      "q": "My sister borrowed a dictionary from the library.  →  My sister borrowed two _____ from the library.",
       "choices": [
         "dictionary",
         "dictionarys",
         "dictionaries",
         "dictionaryes"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 2,
@@ -203,22 +203,22 @@
         "bar",
         "loaf"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 2,
-      "q": "\u2022 He bought two _____ of bread.\n\u2022 Claire put four _____ of sugar in her tea.",
+      "q": "• He bought two _____ of bread.\n• Claire put four _____ of sugar in her tea.",
       "choices": [
-        "loaf \u2013 spoonful",
-        "loaves \u2013 spoonful",
-        "loaves \u2013 spoonfuls",
-        "loaf \u2013 spoonfuls"
+        "loaf – spoonful",
+        "loaves – spoonful",
+        "loaves – spoonfuls",
+        "loaf – spoonfuls"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 2,
-      "q": "\ub178\ud2bc \uc528\ub294 \uc6b0\uc720\ub97c \ub9c8\uc2dc\uace0 \uacc4\uc168\ub2e4.\nMs. Norton was drinking some ( milk / milks ).",
+      "q": "노튼 씨는 우유를 마시고 계셨다.\nMs. Norton was drinking some ( milk / milks ).",
       "choices": [
         "milk",
         "milks"
@@ -227,18 +227,18 @@
     },
     {
       "band": 2,
-      "q": "country \u2013 countryes / dish \u2013 dishs / cave \u2013 cavees / tomato \u2013 tomatos / leaf \u2013 leaves",
+      "q": "country – countryes / dish – dishs / cave – cavees / tomato – tomatos / leaf – leaves",
       "choices": [
-        "country \u2013 countryes",
-        "dish \u2013 dishs",
-        "cave \u2013 cavees",
-        "tomato \u2013 tomatos"
+        "country – countryes",
+        "dish – dishs",
+        "tomato – tomatos",
+        "leaf – leaves"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 2,
-      "q": "\ub098\ub294 \uc124\ud0d5\uc774 \ud544\uc694\ud558\uc9c0 \uc54a\ub2e4.\nI don't need ( sugar / a sugar ).",
+      "q": "나는 설탕이 필요하지 않다.\nI don't need ( sugar / a sugar ).",
       "choices": [
         "sugar",
         "a sugar"
@@ -247,25 +247,25 @@
     },
     {
       "band": 2,
-      "q": "\ub2e4\uc74c \uc911 \uc140 \uc218 \uc5c6\ub294 \uba85\uc0ac\ub97c \uace0\ub974\uc138\uc694.",
+      "q": "다음 중 셀 수 없는 명사를 고르세요.",
       "choices": [
         "deer",
         "doctor",
         "milk",
         "puppy"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 3,
-      "q": "\uadf8\ub140\uac00 \uc5b8\uc81c \ub3c4\ucc29\ud560\uae4c?",
+      "q": "그녀가 언제 도착할까?",
       "choices": [
         "When she will arrive?",
         "When will she arrive?",
         "When will she arrives?",
         "When is she arrive?"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 3,
@@ -276,18 +276,18 @@
         "Which",
         "Where"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 3,
-      "q": "(\ubc11\uc904: can I / will they / do you / we must / can I)",
+      "q": "(밑줄: can I / will they / do you / we must / can I)",
       "choices": [
         "What can I do for you?",
         "When will they leave?",
         "Which do you want, milk or juice?",
         "Why we must wear school uniforms?"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 3,
@@ -298,40 +298,40 @@
         "Which",
         "Where"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 3,
-      "q": "\u2022 _____ is your favorite color? (\ub124\uac00 \ud2b9\ud788 \uc88b\uc544\ud558\ub294 \uc0c9\uc740 \ubb34\uc5c7\uc774\ub2c8?)\n\u2022 _____ do you like better, green or red? (\ucd08\ub85d\uc0c9\uacfc \ube68\uac04\uc0c9 \uc911\uc5d0\uc11c \ub108\ub294 \uc5b4\ub290 \uac83\uc744 \ub354 \uc88b\uc544\ud558\ub2c8?)",
+      "q": "• _____ is your favorite color? (네가 특히 좋아하는 색은 무엇이니?)\n• _____ do you like better, green or red? (초록색과 빨간색 중에서 너는 어느 것을 더 좋아하니?)",
       "choices": [
-        "How \u2013 What",
-        "Where \u2013 Which",
-        "What \u2013 Who",
-        "What \u2013 Which"
+        "How – What",
+        "Where – Which",
+        "What – Who",
+        "What – Which"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 3,
-      "q": "\u2022 _____ was the party? (\uadf8 \ud30c\ud2f0\ub294 \uc5b4\ub560\ub2c8?)\n\u2022 _____ did he invite? (\uadf8\ub294 \ub204\uad6c\ub97c \ucd08\ub300\ud588\ub2c8?)",
+      "q": "• _____ was the party? (그 파티는 어땠니?)\n• _____ did he invite? (그는 누구를 초대했니?)",
       "choices": [
-        "Who \u2013 How",
-        "Who \u2013 Why",
-        "How \u2013 Who",
-        "What \u2013 Who"
+        "Who – How",
+        "Who – Why",
+        "How – Who",
+        "What – Who"
       ],
-      "answer": 0
+      "answer": 2
     },
     {
       "band": 3,
-      "q": "\ub108\ub294 \uadf8 \uac00\ubc29\uc744 \uc5b4\ub514\uc5d0\uc11c \uc0c0\ub2c8?",
+      "q": "너는 그 가방을 어디에서 샀니?",
       "choices": [
         "Where you bought the bag?",
         "Where did you bought the bag?",
         "Where do you buy the bag?",
         "Where did you buy the bag?"
       ],
-      "answer": 0
+      "answer": 3
     },
     {
       "band": 3,
@@ -351,7 +351,7 @@
         "Who did solve",
         "Who solves"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 3,
@@ -369,7 +369,7 @@
         "And",
         "Because"
       ],
-      "answer": 0
+      "answer": 1
     },
     {
       "band": 3,
@@ -378,9 +378,9 @@
         "Yes, he was.",
         "No, he wasn't.",
         "Last month.",
-        "Because he was fast."
+        "Carefully."
       ],
-      "answer": 0
+      "answer": 3
     }
   ]
 }
