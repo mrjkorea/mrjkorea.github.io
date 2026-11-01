@@ -1,5 +1,5 @@
 {
-  "note": "Sourced from MRJ Grammar Books (UI label: Grammar). Answer keys repaired 2026-11-02 (were all 0). Bands 4–6 listed but not yet populated — next pass.",
+  "note": "Sourced from MRJ Grammar Books / GreenZap packs (UI label: Grammar). Answer keys repaired 2026-11-02. Bands 4–6 added from Grammar bot Zap handoff (GZ3/GZ4 unit tests & reviews; positive correct-answer sections only).",
   "bands": [
     "Band 1",
     "Band 2",
@@ -381,6 +381,354 @@
         "Carefully."
       ],
       "answer": 3
+    },
+    {
+      "band": 4,
+      "q": "• Her song _____ very popular.\n• Sarah _____ an astronaut.",
+      "choices": [
+        "became",
+        "grew",
+        "went",
+        "got",
+        "felt"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 4,
+      "q": "• He cooked dinner _____ his family.\n• Dad bought some flowers _____ Mom.",
+      "choices": [
+        "of",
+        "at",
+        "to",
+        "for",
+        "on"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 4,
+      "q": "• Has she _____ for the airport already?\n• Have you ever _____ a pet?",
+      "choices": [
+        "leave - have",
+        "leaves - had",
+        "left - have",
+        "left - has",
+        "left - had"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "q": "• I wrote a card _____ my mother.\n• They sold their fruit _____ us.",
+      "choices": [
+        "of",
+        "by",
+        "to",
+        "at",
+        "on"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "q": "• The kids are growing _____ every day.\n• The leaves turn _____ in fall.",
+      "choices": [
+        "students – fruit",
+        "taller – fruit",
+        "taller – yellow",
+        "students – yellow",
+        "tall – sweetly"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "q": "• Has she _____ shopping?\n• I haven't _____ well since Monday.",
+      "choices": [
+        "go – feel",
+        "went – felt",
+        "gone – felt",
+        "goes – feel",
+        "gone – feel"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "q": "• He has _____ my best friend for six years.\n• Have you _____ a horse before?",
+      "choices": [
+        "is – rides",
+        "be – ride",
+        "was – rode",
+        "were – ridden",
+        "been – ridden"
+      ],
+      "answer": 4
+    },
+    {
+      "band": 4,
+      "q": "• I _____ already eaten three sandwiches.\n• He _____ never run a marathon.",
+      "choices": [
+        "have - does",
+        "have - have",
+        "have - has",
+        "do - has",
+        "do - does"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 4,
+      "q": "• The medicine tasted _____.\n• I feel _____ today.",
+      "choices": [
+        "bitter – good",
+        "salty – sadly",
+        "sourly – happy",
+        "spicy – happily",
+        "sweetly – good"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 5,
+      "q": "• We ______ talked to each other for two months.\n• He ______ lost a lot of weight.",
+      "choices": [
+        "didn't – did",
+        "don't – does",
+        "hasn't – have",
+        "haven't – has",
+        "haven't – have"
+      ],
+      "answer": 4
+    },
+    {
+      "band": 5,
+      "q": "• They traveled _____ a week.\n• My dad comes home _____ dinner.",
+      "choices": [
+        "for - at",
+        "during - on",
+        "for - from",
+        "during - to",
+        "for - before"
+      ],
+      "answer": 4
+    },
+    {
+      "band": 5,
+      "q": "• The panda was ________ to the zoo.\n• ________ the book written in English?",
+      "choices": [
+        "sending – Was",
+        "sent – Was",
+        "sent – Did",
+        "to send – Did",
+        "send – Was"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "q": "• Rice is ________ in Korea.\n• His song is loved ________ a lot of people.",
+      "choices": [
+        "eat – by",
+        "eating – with",
+        "eaten – by",
+        "eating – by",
+        "ate – by"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 5,
+      "q": "• Rice _____ eaten in Asia.\n• The park _____ closed at 9 p.m.",
+      "choices": [
+        "are",
+        "is",
+        "has",
+        "have",
+        "does"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 5,
+      "q": "• We went camping ______ ten days.\n• I will learn to swim ______ the vacation.",
+      "choices": [
+        "for – from",
+        "during – during",
+        "from – for",
+        "during – for",
+        "for – during"
+      ],
+      "answer": 4
+    },
+    {
+      "band": 5,
+      "q": "• He often _____ lunch outside.\n• Mom always _____ me water the plants.",
+      "choices": [
+        "cooks",
+        "asks",
+        "brings",
+        "has",
+        "wants"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 5,
+      "q": "• Dad makes me _____ my vegetables.\n• He saw you _____ for a bus.",
+      "choices": [
+        "to eat – to wait",
+        "eat – to wait",
+        "eat – wait",
+        "to eat – wait",
+        "eating – to wait"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 5,
+      "q": "• Her sister _____ hungry.\n• Lucy _____ the wind blow.",
+      "choices": [
+        "heard",
+        "had",
+        "smelled",
+        "saw",
+        "felt"
+      ],
+      "answer": 4
+    },
+    {
+      "band": 5,
+      "q": "• School begins _____ March.\n• Mom cooked dinner _____ the kitchen.",
+      "choices": [
+        "on",
+        "in",
+        "during",
+        "at",
+        "for"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "q": "• ______ we are busy now, we can't help you.\n• ______ Clara is kind, she is popular.",
+      "choices": [
+        "Because",
+        "When",
+        "If",
+        "That",
+        "After"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "• ________ he has dinner, he plays chess.\n• I believe ________ she is right.",
+      "choices": [
+        "Before – that",
+        "If – that",
+        "After – that",
+        "Before – if",
+        "That – after"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 6,
+      "q": "The picture ________ in China.",
+      "choices": [
+        "was taken",
+        "was taking",
+        "has taken",
+        "took",
+        "takes"
+      ],
+      "answer": 0
+    },
+    {
+      "band": 6,
+      "q": "• She told Jim ________ the door.\n• He will let you ________ his bike.",
+      "choices": [
+        "lock – ride",
+        "lock – to ride",
+        "to lock – ride",
+        "to lock – to ride",
+        "locking – riding"
+      ],
+      "answer": 2
+    },
+    {
+      "band": 6,
+      "q": "• Her problem is ______ she is too lazy.\n• We believe ______ he is a great musician.",
+      "choices": [
+        "after",
+        "that",
+        "when",
+        "if",
+        "because"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "q": "I found something strange in the sky.\n→ I didn't find ______ strange in the sky.",
+      "choices": [
+        "something",
+        "anything",
+        "one",
+        "the other",
+        "another"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "q": "Those cameras are made in Thailand. (의문문)\n→ _____ in Thailand?",
+      "choices": [
+        "Do those cameras made",
+        "Do those cameras make",
+        "Are made those cameras",
+        "Are those cameras made",
+        "Have those cameras made"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 6,
+      "q": "A: ______ you ever been to Canada?\nB: Yes, I have.",
+      "choices": [
+        "Are",
+        "Do",
+        "Did",
+        "Have",
+        "Has"
+      ],
+      "answer": 3
+    },
+    {
+      "band": 6,
+      "q": "After he made some sandwiches, he gave his dog a bone.\n= __________ he gave his dog a bone, he made some sandwiches.",
+      "choices": [
+        "While",
+        "Before",
+        "But",
+        "During",
+        "When"
+      ],
+      "answer": 1
+    },
+    {
+      "band": 6,
+      "q": "A: Has he ______ in a diary since the first grade?\nB: No, he ______. He has never written in a diary.",
+      "choices": [
+        "write – does",
+        "write – did",
+        "write – has",
+        "written – has",
+        "written – hasn't"
+      ],
+      "answer": 4
     }
   ]
 }
