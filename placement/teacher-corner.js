@@ -156,12 +156,25 @@
     return s.unit + ' · ' + (s.day || s.label) + (s.sub ? ' · ' + s.sub : '');
   }
 
+  function teacherPanelError(msg) {
+    panel.innerHTML = '<div class="tch-inner"><h3>🔓 Teacher</h3><p class="terr">' + esc(msg) +
+      '</p><div class="acts"><button class="btn3d gold" id="tch-lock">Lock</button></div></div>';
+    panel.querySelector('#tch-lock').onclick = lockSession;
+  }
+
   function teacherPanel(who) {
     var C = g.__studyCourses;
     var P = g.StudyProgress;
     var findLevel = g.__studyFindLevel;
     var allLevels = g.__studyConversationLevels;
-    if (!C || !P || !levelName || !findLevel || !allLevels) return;
+    if (!C || !P || !levelName) {
+      teacherPanelError('Courses or progress did not load. Reload the page and try again.');
+      return;
+    }
+    if (!findLevel || !allLevels) {
+      teacherPanelError('Teacher tools are not ready yet. Reload the page and try again.');
+      return;
+    }
     var L = findLevel(levelName) || C.levels[0];
     var stepsFn = g.__studySteps;
     var S = stepsFn(L).filter(g.__studyCounts);
@@ -172,7 +185,8 @@
         '<select id="tch-lv">' + allLevels().map(function (l) {
           return '<option' + (l.name === L.name ? ' selected' : '') + '>' + esc(l.name) + '</option>';
         }).join('') + '</select>' +
-        '<p>Tap the last step this student <b>passed</b>. Everything above = passed, below = not passed.</p>' +
+        '<p class="tch-help"><b>Save</b> marks progress on the path map (checks and “You are here”). Tap the last step this student has <b>passed</b> — that step and everything above count as passed.</p>' +
+        '<p class="tch-help">Dimmed steps can still use <b>Open</b> when they have a lesson. <b>Coming soon</b> has no lesson yet — after PIN unlock, open the step and use <b>Mark passed (skip)</b>.</p>' +
         '<ol class="tlist">' + S.map(function (s, i) {
           return '<li class="' + (i <= upto ? 'ok' : '') + '" data-i="' + i + '">' + (i <= upto ? '✅' : '⬜') + ' ' + esc(teacherStepLabel(s)) + '</li>';
         }).join('') + '</ol>' +
@@ -196,6 +210,7 @@
         S.forEach(function (s, i) { m[s.id] = i <= upto; });
         panel.querySelector('#tch-terr').textContent = 'Saving…';
         P.setPassed(m).then(function (ok) {
+          if (g.__studyRedrawPath) g.__studyRedrawPath();
           panel.querySelector('#tch-terr').textContent = ok
             ? 'Saved ✔ (still unlocked — press Lock when done)'
             : 'Saved on this device; will sync when online.';

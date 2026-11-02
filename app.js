@@ -112,6 +112,11 @@ function stepNodeLabel(s) {
   if (s.kind === 'exam' && s.day === 'Review Unit Test') return 'Review Unit Test · ' + s.unit;
   return s.label;
 }
+/** Redraw conversation path when progress changes (e.g. teacher Save) without leaving #path/…. */
+window.__studyRedrawPath = function () {
+  const [r, a] = location.hash.slice(1).split('/').map(decodeURIComponent);
+  if (r === 'path' && a) pathMap(a);
+};
 function pathMap(name) {
   const L = findLevel(name); if (!L) return levels();
   const S = steps(L), ci = curIndex(L, S), per = 7, W = 1290, dx = (W - 160) / (per - 1), dy = 175;
