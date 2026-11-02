@@ -168,13 +168,26 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
 #teacher-corner.tch-from-header .tch-panel{position:fixed;right:12px;top:72px;bottom:auto;max-height:min(70vh,calc(100vh - 88px))}
 @media (min-width:601px){#teacher-corner.tch-from-header .tch-panel{right:44px;top:78px}}
 .tch-inner h3{margin:0 0 8px;font-size:22px}
-.tch-inner .tch-help{margin:8px 0 0;font-size:14px;line-height:1.45;color:#475569}
+.tch-inner .tch-help{margin:8px 0 0;font-size:13px;line-height:1.4;color:#475569}
+.tch-field-lbl{display:block;font-size:13px;font-weight:800;color:#334155;margin:10px 0 4px}
+.tch-pick-hdr{margin:14px 0 10px;padding:12px 14px;background:linear-gradient(#fef9c3,#fde68a);border-radius:14px;border:3px solid #f59e0b;box-shadow:0 4px 0 #d97706;font-size:16px;line-height:1.35;color:#78350f}
+.tch-pick-hdr strong{display:block;font-size:18px;margin-bottom:4px}
+.tch-ko{display:block;font-size:15px;font-weight:700;color:#92400e}
 .tch-inner .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .tcard input,.tcard select,.tch-inner input,.tch-inner select{font-size:18px;padding:8px 10px;border-radius:10px;border:2px solid #cbd5e1;margin:6px 0;width:100%;box-sizing:border-box}
 .terr{color:#b91c1c;min-height:1.2em;font-size:14px}
-.tpanel{max-height:60vh;overflow:auto}
-.tlist{text-align:left;max-height:40vh;overflow:auto;padding-left:36px;margin:8px 0;font-size:14px}
-.tlist li{padding:5px 6px;cursor:pointer;border-radius:8px}.tlist li:hover{background:#fef3c7}.tlist li.ok{color:#166534}
+.tpanel{max-height:min(70vh,calc(100vh - 100px));overflow:auto}
+.tlist{list-style:none;text-align:left;max-height:42vh;overflow:auto;padding:0;margin:0 0 10px;font-size:15px}
+.tlist li{display:flex;align-items:center;gap:10px;padding:10px 12px;margin-bottom:8px;cursor:pointer;border-radius:14px;border:2px solid #e2e8f0;background:#f8fafc}
+.tlist li:hover{background:#fef3c7;border-color:#fcd34d}
+.tlist li.ok{color:#166534;background:#f0fdf4;border-color:#86efac}
+.tlist li.sel{background:linear-gradient(#ddd6fe,#c4b5fd);border:3px solid #7c3aed;box-shadow:0 4px 0 #5b21b6;color:#3b0764;font-weight:800}
+.tlist li.sel.ok{background:linear-gradient(#bbf7d0,#86efac);border-color:#15803d;box-shadow:0 4px 0 #166534;color:#14532d}
+.tch-mark{flex:0 0 28px;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:900;background:#fff;border:2px solid #cbd5e1}
+.tlist li.sel .tch-mark{background:#fef08a;border-color:#ca8a04;transform:scale(1.08)}
+.tch-step-txt{flex:1;min-width:0}
+.tch-last-badge{flex:0 0 auto;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.03em;padding:4px 8px;border-radius:999px;background:#7c3aed;color:#fff}
+.tlist li.sel.ok .tch-last-badge{background:#15803d}
 /* Placement */
 .pl-intro{color:#fff;font-weight:800;font-size:18px;text-shadow:0 2px 4px #0003}
 .pl-actions{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 20px}
