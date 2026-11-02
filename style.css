@@ -168,6 +168,7 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
 #teacher-corner.tch-from-header .tch-panel{position:fixed;right:12px;top:72px;bottom:auto;max-height:min(70vh,calc(100vh - 88px))}
 @media (min-width:601px){#teacher-corner.tch-from-header .tch-panel{right:44px;top:78px}}
 .tch-inner h3{margin:0 0 8px;font-size:22px}
+.tch-inner .tch-help{margin:8px 0 0;font-size:14px;line-height:1.45;color:#475569}
 .tch-inner .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .tcard input,.tcard select,.tch-inner input,.tch-inner select{font-size:18px;padding:8px 10px;border-radius:10px;border:2px solid #cbd5e1;margin:6px 0;width:100%;box-sizing:border-box}
 .terr{color:#b91c1c;min-height:1.2em;font-size:14px}
