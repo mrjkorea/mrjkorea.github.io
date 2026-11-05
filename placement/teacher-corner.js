@@ -196,81 +196,152 @@
     panel.querySelector('#tch-lock').onclick = lockSession;
   }
 
-  function stepRowHtml(s, i, upto) {
-    var passed = i <= upto;
-    var selected = i === upto;
-    var cls = (passed ? 'ok' : '') + (selected ? ' sel' : '');
-    var mark = selected ? '★' : (passed ? '✓' : '○');
-    var badge = selected ? '<span class="tch-last-badge">Last finished</span>' : '';
-    return '<li class="' + cls + '" data-i="' + i + '" role="button" tabindex="0">' +
-      '<span class="tch-mark" aria-hidden="true">' + mark + '</span>' +
-      '<span class="tch-step-txt">' + esc(teacherStepLabel(s)) + '</span>' + badge + '</li>';
+  // ---------- flat program chart (Jay 2026-11-06) ----------
+  // One list, grouped by program, every activity visible. One tap on an activity:
+  // steps before it are marked passed, that activity is left open, the student starts there.
+
+  function conversationGroups() {
+    var C = g.__studyCourses;
+    var findLevel = g.__studyFindLevel;
+    var allLevels = g.__studyConversationLevels;
+    var stepsFn = g.__studySteps;
+    var countsFn = g.__studyCounts;
+    var out = [];
+    if (!allLevels || !findLevel || !stepsFn) return out;
+    allLevels().forEach(function (l) {
+      var L = findLevel(l.name);
+      if (!L) return;
+      var S = stepsFn(L).filter(countsFn);
+      if (!S.length) return;
+      out.push({
+        key: 'conv:' + l.name,
+        name: 'Conversation · ' + l.name,
+        color: l.color || '',
+        steps: S,
+        level: l.name,
+        open: l.name === levelName
+      });
+    });
+    return out;
+  }
+
+  function otherProgramRows() {
+    var C = g.__studyCourses || {};
+    var seen = {}, out = [];
+    function add(name, url) {
+      if (!name || !url || seen[name]) return;
+      seen[name] = 1;
+      out.push({ name: name, url: url });
+    }
+    (C.home || []).forEach(function (x) {
+      if (x.url) add(x.name, x.url);
+      else if (x.room === 'placement') add('Placement', location.pathname + '#placement');
+    });
+    (C.links || []).forEach(function (x) { if (x.url) add(x.name, x.url); });
+    (C.bottom || []).forEach(function (x) {
+      if (x.url) add(x.name, x.url);
+      else if (x.room === 'scores') add('My scores', location.pathname + '#scores');
+    });
+    return out;
+  }
+
+  function stepRow(s, i) {
+    var P = g.StudyProgress;
+    var done = P.isDone(s.id);
+    var label = teacherStepLabel(s);
+    var url = s.url;
+    return '<button type="button" class="tch-act' + (done ? ' ok' : '') + '" data-i="' + i + '"' +
+      (url ? '' : ' data-nourl="1"') + '>' +
+      '<span class="tch-mark" aria-hidden="true">' + (done ? '\u2713' : '\u25cb') + '</span>' +
+      '<span class="tch-step-txt">' + esc(label) + '</span>' +
+      '<span class="tch-go">' + (url ? '\u25b6 Start' : 'no page yet') + '</span>' +
+      '</button>';
+  }
+
+  function groupHtml(grp) {
+    var head = '<summary class="tch-prog-sum"><span class="tch-prog-name">' + esc(grp.name) + '</span>' +
+      '<span class="tch-prog-count">' + (grp.steps.length ? grp.steps.length + ' activities' : '') + '</span></summary>';
+    var body = grp.steps.map(stepRow).join('');
+    return '<details class="tch-prog"' + (grp.open ? ' open' : '') + ' data-key="' + esc(grp.key) + '">' + head +
+      '<div class="tch-prog-body">' + body + '</div></details>';
   }
 
   function teacherPanel(who) {
     var C = g.__studyCourses;
     var P = g.StudyProgress;
-    var findLevel = g.__studyFindLevel;
-    var allLevels = g.__studyConversationLevels;
     if (!coursesReady()) {
       teacherPanelError('Courses or progress did not load. Reload the page and try again.');
       return;
     }
-    levelName = pickDefaultLevel();
-    if (!levelName) {
+    var groups = conversationGroups();
+    var others = otherProgramRows();
+    if (!groups.length) {
       teacherPanelError('No Conversation levels found. Reload the page and try again.');
       return;
     }
-    var L = findLevel(levelName) || C.levels[0];
-    var stepsFn = g.__studySteps;
-    var S = stepsFn(L).filter(g.__studyCounts);
-    var upto = -1;
-    S.forEach(function (s, i) { if (P.isDone(s.id)) upto = i; });
+    levelName = levelName || groups[0].level;
     var draw = function () {
-      panel.innerHTML = '<div class="tch-inner tpanel"><h3>🔓 Teacher · ' + esc(who) + '</h3>' +
-        '<label class="tch-field-lbl" for="tch-lv">Conversation level · 대화 레벨</label>' +
-        '<select id="tch-lv" aria-label="Conversation level">' + allLevels().map(function (l) {
-          return '<option' + (l.name === L.name ? ' selected' : '') + '>' + esc(l.name) + '</option>';
-        }).join('') + '</select>' +
-        '<p class="tch-pick-hdr"><strong>Tap the last step this student finished</strong>' +
-        '<span class="tch-ko">학생이 마친 마지막 단계를 누르세요</span></p>' +
-        '<ol class="tlist" aria-label="Steps">' + S.map(function (s, i) {
-          return stepRowHtml(s, i, upto);
-        }).join('') + '</ol>' +
-        '<p class="tch-help">Press <b>Save</b> to update stars on the path. <b>None passed</b> clears progress for this level.</p>' +
-        '<div class="acts"><button class="btn3d no" id="tch-none">None passed</button><button class="btn3d go" id="tch-save">Save</button><button class="btn3d gold" id="tch-lock">Lock</button></div>' +
+      panel.innerHTML = '<div class="tch-inner tpanel"><h3>\ud83d\udd13 Teacher \u00b7 ' + esc(who) + '</h3>' +
+        '<p class="tch-help">Tap an activity. Everything before it is marked passed. The student starts there.</p>' +
+        '<div class="tch-chart">' + groups.map(groupHtml).join('') +
+        '<details class="tch-prog" data-key="other"><summary class="tch-prog-sum"><span class="tch-prog-name">Other programs</span>' +
+        '<span class="tch-prog-count">' + others.length + '</span></summary><div class="tch-prog-body">' +
+        others.map(function (a) {
+          return '<a class="tch-act" href="' + esc(a.url) + '"><span class="tch-mark">\u25b6</span>' +
+            '<span class="tch-step-txt">' + esc(a.name) + '</span><span class="tch-go">Open</span></a>';
+        }).join('') +
+        '</div></details></div>' +
+        '<div class="acts"><button class="btn3d no" id="tch-none">None passed (this level)</button>' +
+        '<button class="btn3d gold" id="tch-lock">Lock</button></div>' +
         '<p class="terr" id="tch-terr"></p></div>';
-      panel.querySelectorAll('.tlist li').forEach(function (li) {
-        var pick = function () { upto = +li.dataset.i; draw(); };
-        li.onclick = pick;
-        li.onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(); } };
+      panel.querySelectorAll('.tch-prog').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          if (d.open && d.dataset.key && d.dataset.key.indexOf('conv:') === 0) levelName = d.dataset.key.slice(5);
+        });
       });
-      panel.querySelector('#tch-lv').onchange = function (e) {
-        levelName = e.target.value;
-        L = findLevel(levelName) || C.levels[0];
-        S = stepsFn(L).filter(g.__studyCounts);
-        upto = -1;
-        S.forEach(function (s, i) { if (P.isDone(s.id)) upto = i; });
-        draw();
-      };
-      panel.querySelector('#tch-none').onclick = function () { upto = -1; draw(); };
-      panel.querySelector('#tch-lock').onclick = lockSession;
-      panel.querySelector('#tch-save').onclick = function () {
-        var m = {};
-        S.forEach(function (s, i) { m[s.id] = i <= upto; });
-        panel.querySelector('#tch-terr').textContent = 'Saving…';
-        P.setPassed(m).then(function (ok) {
+      panel.querySelectorAll('.tch-prog[data-key^="conv:"]').forEach(function (d) {
+        var grp = groups.filter(function (x) { return x.key === d.dataset.key; })[0];
+        if (!grp) return;
+        d.querySelectorAll('.tch-act').forEach(function (btn) {
+          btn.onclick = function () { startAt(grp, +btn.dataset.i); };
+        });
+      });
+      panel.querySelector('#tch-none').onclick = function () {
+        var clear = {};
+        var g0 = groups.filter(function (x) { return x.level === levelName; })[0] || groups[0];
+        g0.steps.forEach(function (s) { clear[s.id] = false; });
+        panel.querySelector('#tch-terr').textContent = 'Saving\u2026';
+        P.setPassed(clear).then(function (ok) {
           if (g.__studyRedrawPath) g.__studyRedrawPath();
-          panel.querySelector('#tch-terr').textContent = ok
-            ? 'Saved ✔ (still unlocked — press Lock when done)'
-            : 'Saved on this device; will sync when online.';
+          draw();
+          panel.querySelector('#tch-terr').textContent = ok ? 'Cleared \u2714' : 'Cleared on this device; will sync when online.';
         });
       };
-      var sel = panel.querySelector('.tlist li.sel');
-      if (sel) sel.scrollIntoView({ block: 'nearest' });
+      panel.querySelector('#tch-lock').onclick = lockSession;
+      var open = panel.querySelector('details.tch-prog[open]');
+      if (open) open.scrollIntoView({ block: 'nearest' });
     };
     showPanel();
     draw();
+  }
+
+  function startAt(grp, idx) {
+    var P = g.StudyProgress;
+    var s = grp.steps[idx];
+    if (!s) return;
+    if (!s.url) {
+      var t = panel.querySelector('#tch-terr');
+      if (t) t.textContent = 'This activity has no page yet: ' + teacherStepLabel(s);
+      return;
+    }
+    var map = {};
+    grp.steps.forEach(function (x, i) { if (i < idx) map[x.id] = true; else if (i === idx) map[x.id] = false; });
+    var err = panel.querySelector('#tch-terr');
+    if (err) err.textContent = 'Saving\u2026';
+    P.setPassed(map).then(function () {
+      if (g.__studyRedrawPath) g.__studyRedrawPath();
+      location.href = s.url;
+    });
   }
 
   g.TeacherCorner = {

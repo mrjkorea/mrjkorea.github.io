@@ -221,3 +221,19 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
   .pl-report,.pl-report-print{box-shadow:none;border:1px solid #000}
   .ko{color:#000}
 }
+
+/* Teacher chart: one flat list, grouped by program (Jay 2026-11-06) */
+.tch-chart{max-height:46vh;overflow:auto;text-align:left;margin:6px 0 4px}
+.tch-prog{border:2px solid #e2e8f0;border-radius:14px;margin:8px 0;background:#f8fafc}
+.tch-prog[open]{background:#fff}
+.tch-prog-sum{display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:pointer;padding:12px 14px;font-size:16px;font-weight:900;color:#1e293b;border-radius:14px}
+.tch-prog-sum:hover{background:#fef3c7}
+.tch-prog-count{font-size:12px;font-weight:800;color:#64748b}
+.tch-prog-body{padding:0 10px 10px}
+.tch-act{display:flex;align-items:center;gap:10px;width:100%;text-align:left;min-height:50px;padding:10px 12px;margin:6px 0;
+  border-radius:12px;border:2px solid #dbe4f0;background:#f1f6ff;color:#1e293b;font-size:15px;text-decoration:none;cursor:pointer}
+.tch-act:hover{background:#e3edff;border-color:#93b4ea}
+.tch-act.ok{background:#f0fdf4;border-color:#86efac;color:#14532d}
+.tch-act .tch-mark{flex:0 0 26px;width:26px;height:26px;font-size:14px}
+.tch-go{flex:0 0 auto;font-size:13px;font-weight:900;color:#1d4ed8;text-transform:none}
+.tch-act.ok .tch-go{color:#15803d}
