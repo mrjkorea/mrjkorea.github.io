@@ -197,32 +197,42 @@
   }
 
   // ---------- flat program chart (Jay 2026-11-06) ----------
-  // One list, grouped by program, every activity visible. One tap on an activity:
-  // steps before it are marked passed, that activity is left open, the student starts there.
+  // One list, grouped by program and level, every activity visible.
+  // Source of truth: placement/data/conversation-activities.json (1242 rows, page_id per row).
+  // One tap = open that activity's own url. The chart writes NO progress and marks nothing done
+  // (MRJ CONVERSATION rule 3). coming_soon rows are greyed and never linked.
 
-  function conversationGroups() {
-    var C = g.__studyCourses;
-    var findLevel = g.__studyFindLevel;
-    var allLevels = g.__studyConversationLevels;
-    var stepsFn = g.__studySteps;
-    var countsFn = g.__studyCounts;
-    var out = [];
-    if (!allLevels || !findLevel || !stepsFn) return out;
-    allLevels().forEach(function (l) {
-      var L = findLevel(l.name);
-      if (!L) return;
-      var S = stepsFn(L).filter(countsFn);
-      if (!S.length) return;
-      out.push({
-        key: 'conv:' + l.name,
-        name: 'Conversation · ' + l.name,
-        color: l.color || '',
-        steps: S,
-        level: l.name,
-        open: l.name === levelName
-      });
+  var inventory = null, inventoryState = 'loading';
+
+  function loadInventory() {
+    inventoryState = 'loading';
+    return fetch('placement/data/conversation-activities.json?v=20261106-1', { cache: 'force-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (d && d.activities && d.activities.length) {
+          d.activities.sort(function (a, b) { return (a.order || 0) - (b.order || 0); });
+          inventory = d;
+          inventoryState = 'ready';
+        } else inventoryState = 'error';
+        return inventory;
+      })
+      .catch(function () { inventoryState = 'error'; return null; });
+  }
+
+  function levelGroups() {
+    if (!inventory) return [];
+    var order = [], byLevel = {};
+    inventory.activities.forEach(function (a) {
+      if (!byLevel[a.level]) { byLevel[a.level] = { key: 'conv:' + a.level, name: a.level, rows: [], live: 0, soon: 0 }; order.push(a.level); }
+      var grp = byLevel[a.level];
+      grp.rows.push(a);
+      if (a.status === 'live') grp.live++; else grp.soon++;
     });
-    return out;
+    return order.map(function (name) {
+      var grp = byLevel[name];
+      grp.open = name === levelName;
+      return grp;
+    });
   }
 
   function otherProgramRows() {
@@ -233,10 +243,7 @@
       seen[name] = 1;
       out.push({ name: name, url: url });
     }
-    (C.home || []).forEach(function (x) {
-      if (x.url) add(x.name, x.url);
-      else if (x.room === 'placement') add('Placement', location.pathname + '#placement');
-    });
+    (C.home || []).forEach(function (x) { if (x.url) add(x.name, x.url); });
     (C.links || []).forEach(function (x) { if (x.url) add(x.name, x.url); });
     (C.bottom || []).forEach(function (x) {
       if (x.url) add(x.name, x.url);
@@ -245,103 +252,86 @@
     return out;
   }
 
-  function stepRow(s, i) {
-    var P = g.StudyProgress;
-    var done = P.isDone(s.id);
-    var label = teacherStepLabel(s);
-    var url = s.url;
-    return '<button type="button" class="tch-act' + (done ? ' ok' : '') + '" data-i="' + i + '"' +
-      (url ? '' : ' data-nourl="1"') + '>' +
-      '<span class="tch-mark" aria-hidden="true">' + (done ? '\u2713' : '\u25cb') + '</span>' +
+  function rowLabel(a) {
+    var unit = a.unit_type === 'review' ? a.unit : a.unit;
+    return unit + ' \u00b7 ' + (a.day || '') + ' \u00b7 ' + (a.activity || '');
+  }
+
+  function actRow(a) {
+    var live = a.status === 'live' && !!a.url && a.teacher_can_start !== false;
+    var label = rowLabel(a);
+    if (!live) {
+      return '<div class="tch-act soon" aria-disabled="true">' +
+        '<span class="tch-mark" aria-hidden="true">\u00b7</span>' +
+        '<span class="tch-step-txt">' + esc(label) + '</span>' +
+        '<span class="tch-go soon">coming soon</span></div>';
+    }
+    return '<button type="button" class="tch-act" data-page="' + esc(a.page_id || a.id) + '"' +
+      ' data-url="' + esc(a.url) + '">' +
+      '<span class="tch-mark" aria-hidden="true">\u25b6</span>' +
       '<span class="tch-step-txt">' + esc(label) + '</span>' +
-      '<span class="tch-go">' + (url ? '\u25b6 Start' : 'no page yet') + '</span>' +
-      '</button>';
+      '<span class="tch-go">Start</span></button>';
   }
 
   function groupHtml(grp) {
-    var head = '<summary class="tch-prog-sum"><span class="tch-prog-name">' + esc(grp.name) + '</span>' +
-      '<span class="tch-prog-count">' + (grp.steps.length ? grp.steps.length + ' activities' : '') + '</span></summary>';
-    var body = grp.steps.map(stepRow).join('');
+    var head = '<summary class="tch-prog-sum"><span class="tch-prog-name">Conversation \u00b7 ' + esc(grp.name) + '</span>' +
+      '<span class="tch-prog-count">' + grp.live + ' live' + (grp.soon ? ' \u00b7 ' + grp.soon + ' soon' : '') + '</span></summary>';
     return '<details class="tch-prog"' + (grp.open ? ' open' : '') + ' data-key="' + esc(grp.key) + '">' + head +
-      '<div class="tch-prog-body">' + body + '</div></details>';
+      '<div class="tch-prog-body">' + grp.rows.map(actRow).join('') + '</div></details>';
   }
 
   function teacherPanel(who) {
     var C = g.__studyCourses;
-    var P = g.StudyProgress;
-    if (!coursesReady()) {
+    if (!coursesReady() && !inventory) {
       teacherPanelError('Courses or progress did not load. Reload the page and try again.');
       return;
     }
-    var groups = conversationGroups();
     var others = otherProgramRows();
+    if (!inventory && inventoryState !== 'error') {
+      showPanel();
+      panel.innerHTML = '<div class="tch-inner"><h3>\ud83d\udd13 Teacher \u00b7 ' + esc(who) + '</h3><p>Loading the activity chart\u2026</p></div>';
+      loadInventory().then(function () { teacherPanel(who); });
+      return;
+    }
+    var groups = levelGroups();
     if (!groups.length) {
-      teacherPanelError('No Conversation levels found. Reload the page and try again.');
+      teacherPanelError('The activity list did not load. Reload the page and try again.');
       return;
     }
-    levelName = levelName || groups[0].level;
-    var draw = function () {
-      panel.innerHTML = '<div class="tch-inner tpanel"><h3>\ud83d\udd13 Teacher \u00b7 ' + esc(who) + '</h3>' +
-        '<p class="tch-help">Tap an activity. Everything before it is marked passed. The student starts there.</p>' +
-        '<div class="tch-chart">' + groups.map(groupHtml).join('') +
-        '<details class="tch-prog" data-key="other"><summary class="tch-prog-sum"><span class="tch-prog-name">Other programs</span>' +
-        '<span class="tch-prog-count">' + others.length + '</span></summary><div class="tch-prog-body">' +
-        others.map(function (a) {
-          return '<a class="tch-act" href="' + esc(a.url) + '"><span class="tch-mark">\u25b6</span>' +
-            '<span class="tch-step-txt">' + esc(a.name) + '</span><span class="tch-go">Open</span></a>';
-        }).join('') +
-        '</div></details></div>' +
-        '<div class="acts"><button class="btn3d no" id="tch-none">None passed (this level)</button>' +
-        '<button class="btn3d gold" id="tch-lock">Lock</button></div>' +
-        '<p class="terr" id="tch-terr"></p></div>';
-      panel.querySelectorAll('.tch-prog').forEach(function (d) {
-        d.addEventListener('toggle', function () {
-          if (d.open && d.dataset.key && d.dataset.key.indexOf('conv:') === 0) levelName = d.dataset.key.slice(5);
-        });
+    levelName = levelName || groups[0].name;
+    var openGrp = groups.filter(function (x) { return x.name === levelName; })[0] || groups[0];
+    openGrp.open = true;
+    var liveTotal = 0, soonTotal = 0;
+    groups.forEach(function (x) { liveTotal += x.live; soonTotal += x.soon; });
+    panel.innerHTML = '<div class="tch-inner tpanel"><h3>\ud83d\udd13 Teacher \u00b7 ' + esc(who) + '</h3>' +
+      '<p class="tch-help">Tap an activity. The student starts at that activity. ' +
+      liveTotal + ' activities are live' + (soonTotal ? ', ' + soonTotal + ' coming soon' : '') + '.</p>' +
+      '<div class="tch-chart">' + groups.map(groupHtml).join('') +
+      '<details class="tch-prog" data-key="other"><summary class="tch-prog-sum"><span class="tch-prog-name">Other programs</span>' +
+      '<span class="tch-prog-count">' + others.length + '</span></summary><div class="tch-prog-body">' +
+      others.map(function (a) {
+        return '<a class="tch-act" href="' + esc(a.url) + '"><span class="tch-mark">\u25b6</span>' +
+          '<span class="tch-step-txt">' + esc(a.name) + '</span><span class="tch-go">Open</span></a>';
+      }).join('') + '</div></details></div>' +
+      '<div class="acts"><button class="btn3d gold" id="tch-lock">Lock</button></div>' +
+      '<p class="terr" id="tch-terr"></p></div>';
+    panel.querySelectorAll('.tch-prog').forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        if (d.open && d.dataset.key && d.dataset.key.indexOf('conv:') === 0) levelName = d.dataset.key.slice(5);
       });
-      panel.querySelectorAll('.tch-prog[data-key^="conv:"]').forEach(function (d) {
-        var grp = groups.filter(function (x) { return x.key === d.dataset.key; })[0];
-        if (!grp) return;
-        d.querySelectorAll('.tch-act').forEach(function (btn) {
-          btn.onclick = function () { startAt(grp, +btn.dataset.i); };
-        });
-      });
-      panel.querySelector('#tch-none').onclick = function () {
-        var clear = {};
-        var g0 = groups.filter(function (x) { return x.level === levelName; })[0] || groups[0];
-        g0.steps.forEach(function (s) { clear[s.id] = false; });
-        panel.querySelector('#tch-terr').textContent = 'Saving\u2026';
-        P.setPassed(clear).then(function (ok) {
-          if (g.__studyRedrawPath) g.__studyRedrawPath();
-          draw();
-          panel.querySelector('#tch-terr').textContent = ok ? 'Cleared \u2714' : 'Cleared on this device; will sync when online.';
-        });
-      };
-      panel.querySelector('#tch-lock').onclick = lockSession;
-      var open = panel.querySelector('details.tch-prog[open]');
-      if (open) open.scrollIntoView({ block: 'nearest' });
-    };
-    showPanel();
-    draw();
-  }
-
-  function startAt(grp, idx) {
-    var P = g.StudyProgress;
-    var s = grp.steps[idx];
-    if (!s) return;
-    if (!s.url) {
-      var t = panel.querySelector('#tch-terr');
-      if (t) t.textContent = 'This activity has no page yet: ' + teacherStepLabel(s);
-      return;
-    }
-    var map = {};
-    grp.steps.forEach(function (x, i) { if (i < idx) map[x.id] = true; else if (i === idx) map[x.id] = false; });
-    var err = panel.querySelector('#tch-terr');
-    if (err) err.textContent = 'Saving\u2026';
-    P.setPassed(map).then(function () {
-      if (g.__studyRedrawPath) g.__studyRedrawPath();
-      location.href = s.url;
     });
+    panel.querySelectorAll('.tch-act[data-url]').forEach(function (btn) {
+      btn.onclick = function () {
+        var url = btn.getAttribute('data-url');
+        if (!url) return;
+        var t = panel.querySelector('#tch-terr');
+        if (t) t.textContent = 'Starting\u2026';
+        location.href = url;
+      };
+    });
+    panel.querySelector('#tch-lock').onclick = lockSession;
+    var openEl = panel.querySelector('details.tch-prog[open]');
+    if (openEl) openEl.scrollIntoView({ block: 'nearest' });
   }
 
   g.TeacherCorner = {
