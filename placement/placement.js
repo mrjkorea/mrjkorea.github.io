@@ -23,7 +23,7 @@
     wordMaster: { en: 'Vocabulary placement estimates word knowledge band.', ko: '어휘 영역: 단어 수준 추정입니다.' },
     grammar: { en: 'Grammar placement estimates structure band.', ko: '문법 영역: 문법 수준 추정입니다.' },
     phonics: { en: 'Phonics placement estimates letter/sound and decoding.', ko: '파닉스: 글자·소리·디코딩 수준입니다.' },
-    reading: { en: 'Reading placement uses adaptive passages (not Lexile branded).', ko: '읽기: 적응형 지문 수준 (Lexile 상표 아님).' },
+    reading: { en: 'Reading placement uses adaptive passages (Level A–F).', ko: '읽기: 적응형 지문 수준 (Level A–F)입니다.' },
     typing: { en: 'Typing: linked practice; opening the site is recorded.', ko: '타이핑: 사이트 연결·이용 기록.' }
   };
 
@@ -137,26 +137,53 @@
     };
   }
 
+  function maxBandForBank(bank) {
+    var max = 0;
+    (bank.items || []).forEach(function (it) {
+      if (it.band > max) max = it.band;
+    });
+    return max || (bank.bands && bank.bands.length) || 6;
+  }
+
+  function shuffleChoices(item) {
+    var choices = item.choices.slice();
+    var correctText = choices[item.answer];
+    for (var i = choices.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = choices[i];
+      choices[i] = choices[j];
+      choices[j] = tmp;
+    }
+    return {
+      q: item.q,
+      passage: item.passage,
+      band: item.band,
+      choices: choices,
+      answer: choices.indexOf(correctText)
+    };
+  }
+
   function runQuiz(A, C, part, bank) {
-    var session = new g.PlacementAdaptive.AdaptiveSession(bank);
+    var session = new g.PlacementAdaptive.AdaptiveSession(bank, { maxBand: maxBandForBank(bank) });
     var item = session.current();
     var render = function () {
       if (!item) {
         finishQuiz(A, C, part, session);
         return;
       }
+      var view = shuffleChoices(item);
       var n = session.history.length + 1;
-      var passage = item.passage ? '<div class="pl-passage">' + esc(item.passage) + '</div>' : '';
+      var passage = view.passage ? '<div class="pl-passage">' + esc(view.passage) + '</div>' : '';
       A.innerHTML = back('#placement', part.label) +
         '<div class="pl-quiz"><p class="pl-meta">Question ' + n + ' · adaptive</p>' + passage +
-        '<h3 class="pl-q">' + esc(item.q) + '</h3>' +
-        '<div class="pl-choices">' + item.choices.map(function (c, i) {
+        '<h3 class="pl-q">' + esc(view.q) + '</h3>' +
+        '<div class="pl-choices">' + view.choices.map(function (c, i) {
           return '<button type="button" class="btn3d pl-choice" data-i="' + i + '">' + esc(c) + '</button>';
         }).join('') + '</div></div>';
       A.querySelectorAll('.pl-choice').forEach(function (btn) {
         btn.onclick = function () {
           var idx = +btn.dataset.i;
-          session.answer(idx, item);
+          session.answer(idx, view);
           item = session.current();
           render();
         };
