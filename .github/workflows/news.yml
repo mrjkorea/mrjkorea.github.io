@@ -1,6 +1,11 @@
 name: Refresh news list
 on:
-  schedule: [{ cron: "30 22 * * *" }, { cron: "15 */2 * * *" }]   # 07:30 KST (just after the ~07:10 upload) + every 2 h for late uploads
+  # Never run between 15:00 and 20:00 KST: students are on the site then (Jay via Fujimoto, 2026-11-06).
+  # 22:30 UTC = 07:30 KST (after the ~07:10 upload). The rest = 09:15, 11:15, 13:15, 21:15, 23:15,
+  # 01:15, 03:15, 05:15, 07:15 KST. Nothing lands in class hours.
+  schedule:
+    - cron: "30 22 * * *"
+    - cron: "15 0,2,4,12,14,16,18,20,22 * * *"
   workflow_dispatch: {}
 permissions: { contents: write }
 jobs:

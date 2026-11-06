@@ -113,6 +113,18 @@ if base_path.exists():
         print("keep-old failed", ex)
 
 out = sorted(by_id.values(), key=lambda r: r.get("date", ""), reverse=True)[:KEEP]
+
+# Fail loudly instead of committing an empty news.json (IT, 2026-11-06).
+# The scheduled workflow runs through class hours; an empty list would blank the
+# news list on Study World for every student. Exit != 0 so the job shows red.
+if not out:
+    sys.stderr.write("FAIL: build_news.py made 0 items; news.json left unchanged\n")
+    sys.exit(1)
+bad = [r for r in out if not r.get("id") or not str(r.get("title") or "").strip()]
+if bad:
+    sys.stderr.write("FAIL: %d items without an id or title; news.json left unchanged\n" % len(bad))
+    sys.exit(1)
+
 NEWS.write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
 print(len(out), "videos")
 for row in out[:6]:
