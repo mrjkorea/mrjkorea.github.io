@@ -1,0 +1,18 @@
+name: Guard
+# Cheap checks that stop classroom-breaking pushes (Jay 2026-11-06).
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: No scheduled job in class hours (15:00-20:00 KST)
+        run: node tools/check-cron-hours.mjs
+      - name: index.html script stamps are present
+        run: node -e "const t=require('fs').readFileSync('index.html','utf8');if(!/\?v=\d/.test(t))process.exit(1);console.log('stamps ok')"
