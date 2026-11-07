@@ -247,4 +247,4 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
    The page's own #teacher-header opens the PIN (teacher-corner.js -> study_teacher_check).
    The shared mrj-signin widget also draws a Teacher pill; hide it here so the header
    shows a single Teacher button. Other apps keep the shared one. */
-.mrj-auth-teacher-btn { display: none !important; }
+.mrj-auth-teacher-btn, #mrj-auth-chip-chrome .mrj-auth-teacher-btn { display: none !important; }
