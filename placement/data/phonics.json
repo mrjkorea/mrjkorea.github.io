@@ -1,613 +1,613 @@
 {
-  "note": "Based on MRJ Decodable Books letter/sound map (not Day 4 Pronounce).",
-  "bands": [
-    "Band 1",
-    "Band 2",
-    "Band 3",
-    "Band 4",
-    "Band 5",
-    "Band 6"
-  ],
-  "items": [
-    {
-      "band": 1,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (short vowel I\u2026)",
-      "choices": [
-        "G",
-        "GO",
-        "X",
-        "K"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 1,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (consonant P\u2026)",
-      "choices": [
-        "C",
-        "IS",
-        "G",
-        "X"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".tip A",
-        "cat",
-        "sun",
-        "A pit."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".taP",
-        "sun",
-        "Pat.",
-        "dog"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".maS",
-        "map",
-        "cat",
-        "Sam."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "cat",
-        "map",
-        "An ant is in Min's pants.",
-        ".stnap s'niM ni si tna nA"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 1,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (short vowel A \u00b7 consonant M \u00b7 consonant \u2026)",
-      "choices": [
-        "T",
-        "A",
-        "Q",
-        "C"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "mat",
-        "sun",
-        ".pas spis niM",
-        "Min sips sap."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "It is a pit.",
-        "cat",
-        ".tip a si tI",
-        "dog"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".maP",
-        "Pam.",
-        "dog",
-        "sun"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "dog",
-        ".nips a ni si naf A",
-        "A fan is in a spin.",
-        "sun"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 2,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (consonant D\u2026)",
-      "choices": [
-        "X",
-        "M",
-        "ME",
-        "R"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".dnop a ta dnats daD dna naD",
-        "cat",
-        "dog",
-        "Dan and Dad stand at a pond."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "map",
-        "cat",
-        ".dnop a ta pmad si dnaS",
-        "Sand is damp at a pond."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "A pot is tin. A top fits it.",
-        "map",
-        ".ti stif pot A .nit si top A",
-        "sun"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (consonant F\u2026)",
-      "choices": [
-        "W",
-        "SEE",
-        "Q",
-        "E"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "See a pot!",
-        "sun",
-        "!top a eeS",
-        "dog"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (short vowel O\u2026)",
-      "choices": [
-        "L",
-        "HE",
-        "S",
-        "K"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 2,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (hard consonant C\u2026)",
-      "choices": [
-        "E",
-        "S",
-        "N",
-        "WE"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 2,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "!naf a eeS",
-        "See a fan!",
-        "dog",
-        "cat"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "!god a eeS",
-        "map",
-        "See a dog!",
-        "mat"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 3,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (short vowel U\u2026)",
-      "choices": [
-        "F",
-        "BE",
-        "S",
-        "L"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".gib eb nac gub A !gub A",
-        "cat",
-        "map",
-        "A bug! A bug can be big."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 3,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+e\u2026)",
-      "choices": [
-        "J",
-        "G",
-        "M",
-        "ALL"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 3,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+b\u2026)",
-      "choices": [
-        "R",
-        "S",
-        "SHE",
-        "L"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 3,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (consonant G\u2026)",
-      "choices": [
-        "MY",
-        "Z",
-        "C",
-        "M"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "Amit is up. It is sunup!",
-        "cat",
-        "!punus si tI .pu si timA",
-        "sun"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "map",
-        "dog",
-        "!tod a eb nac gub A",
-        "A bug can be a dot!"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "Fen gets ten pet ants.",
-        "dog",
-        ".stna tep net steg neF",
-        "map"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "mat",
-        "!tops nus A",
-        "A sun spot!",
-        "sun"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "dog",
-        "This is a hen.",
-        "map",
-        ".neh a si sihT"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "dog",
-        "sun",
-        "A hen sits in a hen hut.",
-        ".tuh neh a ni stis neh A"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 4,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+l (l onset, l-blends bl cl fl gl pl, an\u2026)",
-      "choices": [
-        "L",
-        "N",
-        "WITH",
-        "E"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 4,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+h\u2026)",
-      "choices": [
-        "Q",
-        "THIS",
-        "K",
-        "C"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "map",
-        ".blub a steg pmal A",
-        "A lamp gets a bulb.",
-        "cat"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "sun",
-        "dog",
-        ".ksed a no tik a ni tis sksaM",
-        "Masks sit in a kit on a desk."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 4,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+r (r onset + r-blends; r-controlled car\u2026)",
-      "choices": [
-        "E",
-        "J",
-        "V",
-        "THAT"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 4,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+k\u2026)",
-      "choices": [
-        "P",
-        "B",
-        "LOOK",
-        "V"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "sun",
-        "A rat can be tan and red.",
-        ".der dna nat eb nac tar A",
-        "map"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 4,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "Look! A mask can be a cat.",
-        ".tac a eb nac ksam A !kooL",
-        "dog",
-        "sun"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "mat",
-        "Kim got a job.",
-        "map",
-        ".boj a tog miK"
-      ],
-      "answer": 1
-    },
-    {
-      "band": 5,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+y\u2026)",
-      "choices": [
-        "MAKE",
-        "M",
-        "E",
-        "C"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "map",
-        "cat",
-        "A web is silk.",
-        ".klis si bew A"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".taf dna gib si kay A",
-        "map",
-        "A yak is big and fat.",
-        "dog"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "sun",
-        "cat",
-        "A fox can dig a den.",
-        ".ned a gid nac xof A"
-      ],
-      "answer": 2
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        "sun",
-        "map",
-        "!bew siht ta kooL",
-        "Look at this web!"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".der si xof A .xof a si sihT",
-        "dog",
-        "sun",
-        "This is a fox. A fox is red."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 5,
-      "type": "decode",
-      "q": "Which word can you read from Decodable practice?",
-      "choices": [
-        ".kay a si sihT",
-        "cat",
-        "dog",
-        "This is a yak."
-      ],
-      "answer": 3
-    },
-    {
-      "band": 5,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+w\u2026)",
-      "choices": [
-        "T",
-        "B",
-        "P",
-        "WILL"
-      ],
-      "answer": 3
-    },
-    {
-      "band": 5,
-      "type": "letter",
-      "q": "Which letter is in this book focus? (+x\u2026)",
-      "choices": [
-        "LIKE",
-        "G",
-        "Y",
-        "W"
-      ],
-      "answer": 0
-    }
-  ]
+ "note": "Built 2026-11-08 from the MRJ Decodable letter map (mrj-decodable-try assets/decodable_library.json, books 1-20: A M S T P N I F O D C U G B E K H R L W J Y X). Bands 1-5 follow book order. Band 6 is mixed review with plural -s and -es. Not Day 4 Pronounce.",
+ "bands": [
+  "Band 1",
+  "Band 2",
+  "Band 3",
+  "Band 4",
+  "Band 5",
+  "Band 6"
+ ],
+ "items": [
+  {
+   "band": 1,
+   "type": "letter",
+   "q": "Which letter makes the /m/ sound?",
+   "choices": [
+    "P",
+    "T",
+    "S",
+    "M"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 1,
+   "type": "letter",
+   "q": "Which letter makes the /s/ sound?",
+   "choices": [
+    "N",
+    "T",
+    "S",
+    "P"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "type": "letter",
+   "q": "Which letter makes the /t/ sound?",
+   "choices": [
+    "S",
+    "T",
+    "P",
+    "M"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "type": "word",
+   "q": "Which word has the short /a/ sound?",
+   "choices": [
+    "pin",
+    "pet",
+    "mat",
+    "dog"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "type": "word",
+   "q": "Which word has the short /i/ sound?",
+   "choices": [
+    "pet",
+    "pit",
+    "pat",
+    "pot"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "type": "word",
+   "q": "Which word starts with the same sound as 'sun'?",
+   "choices": [
+    "sand",
+    "pin",
+    "mat",
+    "top"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 1,
+   "type": "word",
+   "q": "Which word rhymes with 'mat'?",
+   "choices": [
+    "cat",
+    "dog",
+    "sun",
+    "pin"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 1,
+   "type": "letter",
+   "q": "Which letter makes the /p/ sound?",
+   "choices": [
+    "G",
+    "D",
+    "P",
+    "B"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "type": "word",
+   "q": "Which word has the short /i/ sound, like 'pit'?",
+   "choices": [
+    "sit",
+    "sat",
+    "set",
+    "sun"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 2,
+   "type": "letter",
+   "q": "Which letter makes the /f/ sound?",
+   "choices": [
+    "S",
+    "M",
+    "N",
+    "F"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "type": "word",
+   "q": "Which word has the short /o/ sound?",
+   "choices": [
+    "pet",
+    "pat",
+    "pot",
+    "pit"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 2,
+   "type": "letter",
+   "q": "Which letter makes the /d/ sound?",
+   "choices": [
+    "T",
+    "P",
+    "B",
+    "D"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "type": "letter",
+   "q": "Which letter makes the hard /k/ sound?",
+   "choices": [
+    "G",
+    "C",
+    "X",
+    "S"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "type": "word",
+   "q": "Which word starts with the same sound as 'fan'?",
+   "choices": [
+    "mat",
+    "fin",
+    "sun",
+    "top"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "type": "word",
+   "q": "Which word has the short /o/ sound, like 'pot'?",
+   "choices": [
+    "dog",
+    "den",
+    "dug",
+    "dig"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 2,
+   "type": "word",
+   "q": "Which word rhymes with 'pot'?",
+   "choices": [
+    "map",
+    "dog",
+    "sit",
+    "dot"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "type": "letter",
+   "q": "Which letter makes the /n/ sound?",
+   "choices": [
+    "M",
+    "R",
+    "L",
+    "N"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word has the short /u/ sound?",
+   "choices": [
+    "set",
+    "sat",
+    "sit",
+    "sun"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "type": "letter",
+   "q": "Which letter makes the /g/ sound?",
+   "choices": [
+    "C",
+    "J",
+    "G",
+    "K"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "type": "letter",
+   "q": "Which letter makes the /b/ sound?",
+   "choices": [
+    "D",
+    "T",
+    "B",
+    "P"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word has the short /e/ sound?",
+   "choices": [
+    "hat",
+    "hot",
+    "hen",
+    "hut"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word starts with the same sound as 'bug'?",
+   "choices": [
+    "cat",
+    "mat",
+    "rat",
+    "bat"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word ends with the /g/ sound?",
+   "choices": [
+    "dock",
+    "dot",
+    "doll",
+    "dog"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word has the short /e/ sound, like 'hen'?",
+   "choices": [
+    "pan",
+    "pun",
+    "pen",
+    "pin"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "type": "word",
+   "q": "Which word ends with the /t/ sound?",
+   "choices": [
+    "can",
+    "cat",
+    "cap",
+    "cab"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 4,
+   "type": "letter",
+   "q": "Which letter makes the /h/ sound?",
+   "choices": [
+    "M",
+    "R",
+    "N",
+    "H"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "type": "letter",
+   "q": "Which letter makes the /r/ sound?",
+   "choices": [
+    "Y",
+    "R",
+    "L",
+    "W"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 4,
+   "type": "letter",
+   "q": "Which letter makes the /l/ sound?",
+   "choices": [
+    "N",
+    "H",
+    "R",
+    "L"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "type": "word",
+   "q": "Which word starts with the /h/ sound?",
+   "choices": [
+    "hat",
+    "rat",
+    "bat",
+    "mat"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "type": "word",
+   "q": "Which word starts with the same sound as 'lamp'?",
+   "choices": [
+    "hog",
+    "dog",
+    "fog",
+    "log"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "type": "word",
+   "q": "Which word starts with the /fl/ sound?",
+   "choices": [
+    "frog",
+    "clip",
+    "flag",
+    "glad"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 4,
+   "type": "word",
+   "q": "Which word has the short /a/ sound, like 'mat'?",
+   "choices": [
+    "glob",
+    "glow",
+    "glum",
+    "glad"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "type": "word",
+   "q": "Which word ends with the /p/ sound?",
+   "choices": [
+    "clan",
+    "clack",
+    "clap",
+    "clam"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 5,
+   "type": "letter",
+   "q": "Which letter makes the /w/ sound?",
+   "choices": [
+    "J",
+    "W",
+    "Y",
+    "X"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "type": "letter",
+   "q": "Which letter makes the /j/ sound?",
+   "choices": [
+    "J",
+    "G",
+    "W",
+    "Y"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "type": "letter",
+   "q": "Which letter makes the /y/ sound?",
+   "choices": [
+    "J",
+    "Y",
+    "W",
+    "X"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word ends with the /ks/ sound?",
+   "choices": [
+    "fog",
+    "fob",
+    "fox",
+    "fop"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word starts with the same sound as 'web'?",
+   "choices": [
+    "win",
+    "tin",
+    "pin",
+    "fin"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word has the /j/ sound?",
+   "choices": [
+    "ram",
+    "jam",
+    "yam",
+    "ham"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word has the short /o/ sound in 'box'?",
+   "choices": [
+    "box",
+    "six",
+    "mix",
+    "wax"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word starts with the /y/ sound?",
+   "choices": [
+    "yak",
+    "jack",
+    "back",
+    "wax"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "type": "word",
+   "q": "Which word has the /w/ sound?",
+   "choices": [
+    "bed",
+    "web",
+    "led",
+    "red"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word ends with the /s/ sound?",
+   "choices": [
+    "hand",
+    "hens",
+    "help",
+    "hen"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word means 'more than one fox'?",
+   "choices": [
+    "foxes",
+    "foxs",
+    "fox",
+    "foxies"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word means 'more than one rat'?",
+   "choices": [
+    "rates",
+    "ratss",
+    "rat",
+    "rats"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 6,
+   "type": "sentence",
+   "q": "Which sentence is correct?",
+   "choices": [
+    "The bug are big.",
+    "The bug is big.",
+    "Bug the is big.",
+    "The bug be big."
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word has the same vowel sound as 'cat'?",
+   "choices": [
+    "hit",
+    "hat",
+    "hot",
+    "hut"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word has the same vowel sound as 'pig'?",
+   "choices": [
+    "sat",
+    "set",
+    "sit",
+    "sun"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word has the same vowel sound as 'dog'?",
+   "choices": [
+    "pot",
+    "pat",
+    "pit",
+    "pet"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "type": "word",
+   "q": "Which word has the same vowel sound as 'sun'?",
+   "choices": [
+    "beg",
+    "bag",
+    "bug",
+    "big"
+   ],
+   "answer": 2
+  }
+ ]
 }

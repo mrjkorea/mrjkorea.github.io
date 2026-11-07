@@ -1,139 +1,445 @@
 {
-  "note": "Original MRJ-written passages for placement. Adaptive reading bands (Level A–F), not commercial Lexile text.",
-  "bands": [
-    "Level A",
-    "Level B",
-    "Level C",
-    "Level D",
-    "Level E",
-    "Level F"
-  ],
-  "items": [
-    {
-      "band": 1,
-      "passage": "Kim has a red bag. She puts a book in the bag. Kim walks to school. Her teacher smiles.",
-      "q": "What color is Kim's bag?",
-      "choices": ["Red", "Blue", "Green", "Yellow"],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "passage": "Tom likes dogs. He sees a small dog in the park. The dog wags its tail. Tom says hello.",
-      "q": "Where does Tom see the dog?",
-      "choices": ["At home", "In the park", "At school", "In a shop"],
-      "answer": 1
-    },
-    {
-      "band": 2,
-      "passage": "Min and Jay eat lunch at noon. Min brings rice and soup. Jay brings a sandwich. They share an apple after they finish.",
-      "q": "What do they share after lunch?",
-      "choices": ["Soup", "Rice", "An apple", "A sandwich"],
-      "answer": 2
-    },
-    {
-      "band": 2,
-      "passage": "The library is quiet. Sara finds a story about the moon. She reads for twenty minutes. Then she returns the book.",
-      "q": "How long does Sara read?",
-      "choices": ["Ten minutes", "Twenty minutes", "One hour", "All day"],
-      "answer": 1
-    },
-    {
-      "band": 3,
-      "passage": "Last Saturday, our class visited a science museum. We learned how plants grow. My favorite part was the robot that could draw pictures.",
-      "q": "What was the writer's favorite part?",
-      "choices": ["Plants growing", "The robot that drew", "Buying snacks", "Riding the bus"],
-      "answer": 1
-    },
-    {
-      "band": 3,
-      "passage": "Hana practices piano every day after homework. At first, her fingers felt slow. Now she can play a short song without stopping.",
-      "q": "When does Hana practice piano?",
-      "choices": ["Before school", "After homework", "Only on Sunday", "At lunch"],
-      "answer": 1
-    },
-    {
-      "band": 4,
-      "passage": "City planners want more people to ride buses. New signs show when the next bus will arrive. Early results show fewer cars on the main road during rush hour.",
-      "q": "What changed during rush hour?",
-      "choices": ["More buses broke down", "Fewer cars used the main road", "Signs were removed", "School started later"],
-      "answer": 1
-    },
-    {
-      "band": 4,
-      "passage": "Maya kept a weather journal for one month. She noticed that rainy days were often cooler. On sunny days, the temperature went up in the afternoon.",
-      "q": "What did Maya learn about rainy days?",
-      "choices": ["They were hotter", "They were often cooler", "They had no wind", "They only happened at night"],
-      "answer": 1
-    },
-    {
-      "band": 5,
-      "passage": "When the hiking trail closed for repairs, volunteers marked a safer path. Hikers were asked to stay on the new route so plants could recover. The old trail may open again next spring.",
-      "q": "Why should hikers use the new route?",
-      "choices": ["To find treasure", "So plants can recover", "Because the old trail is longer", "To avoid paying a fee"],
-      "answer": 1
-    },
-    {
-      "band": 5,
-      "passage": "The debate team argued whether schools should start later. One side said teens need more sleep. The other side worried about after-school jobs and sports schedules.",
-      "q": "What is one concern about starting school later?",
-      "choices": ["Students would read less", "After-school activities might conflict", "Teachers would retire", "Buses would disappear"],
-      "answer": 1
-    },
-    {
-      "band": 6,
-      "passage": "Archaeologists uncovered pottery near a dry riverbed. The patterns matched designs from a distant region, suggesting trade long before written records. Careful digging will continue through the winter.",
-      "q": "What does the pottery suggest?",
-      "choices": ["The river was always dry", "Trade happened before written records", "No one lived nearby", "The designs were invented last year"],
-      "answer": 1
-    },
-    {
-      "band": 6,
-      "passage": "A student designed a filter that uses sand and charcoal to clean muddy water. Lab tests showed it removed many particles, but the team still needs to test whether it is safe to drink without boiling.",
-      "q": "What still needs to be tested?",
-      "choices": ["If sand floats", "Whether the water is safe to drink without boiling", "If charcoal is colorful", "How mud is made"],
-      "answer": 1
-    },
-    {
-      "band": 1,
-      "passage": "Ben has two pencils. One is short. One is long. Ben gives the long pencil to his friend.",
-      "q": "Which pencil does Ben give away?",
-      "choices": ["The short one", "The long one", "Both pencils", "Neither"],
-      "answer": 1
-    },
-    {
-      "band": 2,
-      "passage": "Our team plays soccer on Friday. We wear blue shirts. We drink water at halftime. We shake hands when the game ends.",
-      "q": "When do they drink water?",
-      "choices": ["Before the game", "At halftime", "After school on Monday", "Never"],
-      "answer": 1
-    },
-    {
-      "band": 3,
-      "passage": "The email reminded parents about the field trip. Students must bring a hat, a water bottle, and a signed form. The bus leaves at eight in the morning.",
-      "q": "What time does the bus leave?",
-      "choices": ["Eight in the morning", "Noon", "Three in the afternoon", "Eight at night"],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "passage": "Recycling bins were added near the cafeteria. Students sort plastic, paper, and food waste. The school hopes to send less trash to the landfill each month.",
-      "q": "What is the school's goal?",
-      "choices": ["To buy more plastic", "To send less trash to the landfill", "To remove all bins", "To cook more food"],
-      "answer": 1
-    },
-    {
-      "band": 5,
-      "passage": "Although the novel is fiction, the author interviewed nurses to describe hospital scenes accurately. Readers said the details felt real even when the plot was dramatic.",
-      "q": "Why do the hospital scenes feel real?",
-      "choices": ["The author copied a textbook", "The author interviewed nurses", "The book is a news report", "Hospitals are always quiet"],
-      "answer": 1
-    },
-    {
-      "band": 6,
-      "passage": "Economists compared two towns: one invested in broadband internet, another built a new sports stadium. After five years, the first town reported more remote jobs, while the second saw short-term tourism spikes.",
-      "q": "What happened in the town with better internet?",
-      "choices": ["More remote jobs", "No change", "The stadium closed", "Tourism stopped"],
-      "answer": 0
-    }
-  ]
+ "note": "Original MRJ-written passages (no commercial text, no Lexile brand). Six levels, six passages each. Level A-F is a difficulty order only.",
+ "bands": [
+  "Level A",
+  "Level B",
+  "Level C",
+  "Level D",
+  "Level E",
+  "Level F"
+ ],
+ "items": [
+  {
+   "band": 1,
+   "passage": "Kim has a red bag. She puts a book in the bag. Kim walks to school. Her teacher smiles.",
+   "q": "What color is Kim's bag?",
+   "choices": [
+    "Green",
+    "Yellow",
+    "Blue",
+    "Red"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 1,
+   "passage": "Tom likes dogs. He sees a small dog in the park. The dog wags its tail. Tom says hello.",
+   "q": "Where does Tom see the dog?",
+   "choices": [
+    "At school",
+    "In the park",
+    "At home",
+    "In a shop"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "passage": "Min and Jay eat lunch at noon. Min brings rice and soup. Jay brings a sandwich. They share an apple after they finish.",
+   "q": "What do they share after lunch?",
+   "choices": [
+    "A sandwich",
+    "An apple",
+    "Soup",
+    "Rice"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "passage": "The library is quiet. Sara finds a story about the moon. She reads for twenty minutes. Then she returns the book.",
+   "q": "How long does Sara read?",
+   "choices": [
+    "Ten minutes",
+    "All day",
+    "One hour",
+    "Twenty minutes"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "passage": "Last Saturday, our class visited a science museum. We learned how plants grow. My favorite part was the robot that could draw pictures.",
+   "q": "What was the writer's favorite part?",
+   "choices": [
+    "Riding the bus",
+    "The robot that drew",
+    "Plants growing",
+    "Buying snacks"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 3,
+   "passage": "Hana practices piano every day after homework. At first, her fingers felt slow. Now she can play a short song without stopping.",
+   "q": "When does Hana practice piano?",
+   "choices": [
+    "At lunch",
+    "Only on Sunday",
+    "Before school",
+    "After homework"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "passage": "City planners want more people to ride buses. New signs show when the next bus will arrive. Early results show fewer cars on the main road during rush hour.",
+   "q": "What changed during rush hour?",
+   "choices": [
+    "Signs were removed",
+    "School started later",
+    "Fewer cars used the main road",
+    "More buses broke down"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 4,
+   "passage": "Maya kept a weather journal for one month. She noticed that rainy days were often cooler. On sunny days, the temperature went up in the afternoon.",
+   "q": "What did Maya learn about rainy days?",
+   "choices": [
+    "They were often cooler",
+    "They only happened at night",
+    "They had no wind",
+    "They were hotter"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "passage": "When the hiking trail closed for repairs, volunteers marked a safer path. Hikers were asked to stay on the new route so plants could recover. The old trail may open again next spring.",
+   "q": "Why should hikers use the new route?",
+   "choices": [
+    "So plants can recover",
+    "To avoid paying a fee",
+    "To find treasure",
+    "Because the old trail is longer"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "passage": "The debate team argued whether schools should start later. One side said teens need more sleep. The other side worried about after-school jobs and sports schedules.",
+   "q": "What is one concern about starting school later?",
+   "choices": [
+    "After-school activities might conflict",
+    "Teachers would retire",
+    "Buses would disappear",
+    "Students would read less"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "passage": "Archaeologists uncovered pottery near a dry riverbed. The patterns matched designs from a distant region, suggesting trade long before written records. Careful digging will continue through the winter.",
+   "q": "What does the pottery suggest?",
+   "choices": [
+    "The designs were invented last year",
+    "The river was always dry",
+    "Trade happened before written records",
+    "No one lived nearby"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 6,
+   "passage": "A student designed a filter that uses sand and charcoal to clean muddy water. Lab tests showed it removed many particles, but the team still needs to test whether it is safe to drink without boiling.",
+   "q": "What still needs to be tested?",
+   "choices": [
+    "Whether the water is safe to drink without boiling",
+    "If sand floats",
+    "How mud is made",
+    "If charcoal is colorful"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 1,
+   "passage": "Ben has two pencils. One is short. One is long. Ben gives the long pencil to his friend.",
+   "q": "Which pencil does Ben give away?",
+   "choices": [
+    "Both pencils",
+    "Neither",
+    "The short one",
+    "The long one"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "passage": "Our team plays soccer on Friday. We wear blue shirts. We drink water at halftime. We shake hands when the game ends.",
+   "q": "When do they drink water?",
+   "choices": [
+    "Never",
+    "At halftime",
+    "Before the game",
+    "After school on Monday"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 3,
+   "passage": "The email reminded parents about the field trip. Students must bring a hat, a water bottle, and a signed form. The bus leaves at eight in the morning.",
+   "q": "What time does the bus leave?",
+   "choices": [
+    "Eight in the morning",
+    "Eight at night",
+    "Noon",
+    "Three in the afternoon"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "passage": "Recycling bins were added near the cafeteria. Students sort plastic, paper, and food waste. The school hopes to send less trash to the landfill each month.",
+   "q": "What is the school's goal?",
+   "choices": [
+    "To buy more plastic",
+    "To cook more food",
+    "To remove all bins",
+    "To send less trash to the landfill"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 5,
+   "passage": "Although the novel is fiction, the author interviewed nurses to describe hospital scenes accurately. Readers said the details felt real even when the plot was dramatic.",
+   "q": "Why do the hospital scenes feel real?",
+   "choices": [
+    "The author interviewed nurses",
+    "The author copied a textbook",
+    "The book is a news report",
+    "Hospitals are always quiet"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "passage": "Economists compared two towns: one invested in broadband internet, another built a new sports stadium. After five years, the first town reported more remote jobs, while the second saw short-term tourism spikes.",
+   "q": "What happened in the town with better internet?",
+   "choices": [
+    "The stadium closed",
+    "More remote jobs",
+    "No change",
+    "Tourism stopped"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "passage": "Amy has a cat. The cat is black. The cat sleeps on her bed.",
+   "q": "Where does the cat sleep?",
+   "choices": [
+    "Under a chair",
+    "At school",
+    "On her bed",
+    "In a box"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "passage": "It is hot today. Jon drinks cold water. He sits under a tree.",
+   "q": "What does Jon drink?",
+   "choices": [
+    "Milk",
+    "Juice",
+    "Cold water",
+    "Soup"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "passage": "Mia goes to the shop with her dad. She buys milk. Then they walk home.",
+   "q": "What does Mia buy?",
+   "choices": [
+    "A book",
+    "Bread",
+    "Milk",
+    "A hat"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 2,
+   "passage": "The bus is late. Sam waits at the stop for ten minutes. Then the bus comes and he finds a seat.",
+   "q": "How long does Sam wait?",
+   "choices": [
+    "All morning",
+    "Two minutes",
+    "Ten minutes",
+    "One hour"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 2,
+   "passage": "We make a card for our teacher. We draw a sun and write a message. We give the card after class.",
+   "q": "What do they draw?",
+   "choices": [
+    "A tree",
+    "A bus",
+    "A dog",
+    "A sun"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "passage": "Jin feeds the fish every morning. He does not feed them at night. The fish tank is near the window.",
+   "q": "When does Jin feed the fish?",
+   "choices": [
+    "On Sunday only",
+    "Every morning",
+    "At noon",
+    "Every night"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 3,
+   "passage": "On Monday it rained all day, so the football match moved to Tuesday. The players were happy because the field was dry the next day.",
+   "q": "Why did the match move?",
+   "choices": [
+    "The field was too big",
+    "The players were tired",
+    "The coach was late",
+    "It rained all day"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "passage": "Our class grew beans in paper cups. We put the cups near the window and added water every day. After one week, small green leaves appeared.",
+   "q": "What did they add every day?",
+   "choices": [
+    "Sand",
+    "Sugar",
+    "Paper",
+    "Water"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "passage": "Sora forgot her lunch money. Her friend shared a sandwich with her. Sora said thank you and promised to bring extra snacks next week.",
+   "q": "What did Sora promise?",
+   "choices": [
+    "To bring extra snacks",
+    "To share her money",
+    "To stay at home",
+    "To buy a sandwich"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "passage": "The school library closes at five, but many students study until late. The principal now keeps one room open until seven with a teacher present.",
+   "q": "What change did the principal make?",
+   "choices": [
+    "Students study at home",
+    "The library closes earlier",
+    "One room is open until seven",
+    "Teachers leave at five"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 4,
+   "passage": "A small bakery sells only three kinds of bread. The owner says this helps him bake everything fresh each morning and waste less food.",
+   "q": "Why does the owner sell only three kinds?",
+   "choices": [
+    "To bake fresh and waste less",
+    "To close early",
+    "To hire more staff",
+    "To charge more money"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "passage": "Before the storm, the neighbors moved chairs and pots into the garage. The next morning the garden was messy, but nothing broke.",
+   "q": "What did the neighbors do before the storm?",
+   "choices": [
+    "Stayed outside",
+    "Moved things into the garage",
+    "Washed the garden",
+    "Bought new chairs"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "passage": "Scientists tracked birds with tiny light tags. The data showed the birds rested on small islands that people thought they never visited. Researchers now want those islands protected.",
+   "q": "What surprised the researchers?",
+   "choices": [
+    "The birds flew south",
+    "Birds rested on islands people thought they never visited",
+    "The tags were too heavy",
+    "The islands had no plants"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "passage": "The museum offers free entry on the last Sunday of the month. Attendance rose, but donations fell slightly. Staff say the free day brings new visitors who later buy tickets.",
+   "q": "What happened to donations?",
+   "choices": [
+    "They stayed the same",
+    "They doubled",
+    "They fell slightly",
+    "They stopped completely"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 5,
+   "passage": "When the river pollution increased, local fishers stopped selling their catch. The city then tested the water and closed one factory until it fixed its filters.",
+   "q": "What did the city do?",
+   "choices": [
+    "Built a new river",
+    "Opened two factories",
+    "Paid the fishers",
+    "Closed one factory until filters were fixed"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 6,
+   "passage": "The author of the study admits the sample was small. She argues that the pattern is still worth reporting, because the effect appeared in every one of the twelve classrooms she observed.",
+   "q": "Why does the author still report the pattern?",
+   "choices": [
+    "The pattern was easy to explain",
+    "It appeared in every classroom observed",
+    "Another author asked her to",
+    "The sample was very large"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "passage": "Rapid growth in the town brought new shops and jobs, but rents rose faster than wages. Many workers now commute from nearby towns, and the schools have fewer families.",
+   "q": "What problem did rapid growth cause?",
+   "choices": [
+    "Shops closed quickly",
+    "Schools grew larger",
+    "Rents rose faster than wages",
+    "Jobs disappeared"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 6,
+   "passage": "The committee rejected the cheaper plan, not because the cost was high, but because the maintenance contract would expire before the building opened.",
+   "q": "Why was the cheaper plan rejected?",
+   "choices": [
+    "The maintenance contract would expire too soon",
+    "The committee wanted a longer meeting",
+    "The building was too small",
+    "The cost was too high"
+   ],
+   "answer": 0
+  }
+ ]
 }
