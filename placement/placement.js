@@ -18,14 +18,42 @@
     typing: { en: 'Practice on typing.com; we record when you open it.', ko: 'typing.com 연습 — 열었는지 기록합니다.' }
   };
 
-  var PARENT = {
-    conversation: { en: 'Conversation placement estimates Day 5 speaking/listening band.', ko: '대화 영역: Day 5 수준 추정입니다.' },
-    wordMaster: { en: 'Vocabulary placement estimates word knowledge band.', ko: '어휘 영역: 단어 수준 추정입니다.' },
-    grammar: { en: 'Grammar placement estimates structure band.', ko: '문법 영역: 문법 수준 추정입니다.' },
-    phonics: { en: 'Phonics placement estimates letter/sound and decoding.', ko: '파닉스: 글자·소리·디코딩 수준입니다.' },
-    reading: { en: 'Reading placement uses adaptive passages (not Lexile branded).', ko: '읽기: 적응형 지문 수준 (Lexile 상표 아님).' },
-    typing: { en: 'Typing: linked practice; opening the site is recorded.', ko: '타이핑: 사이트 연결·이용 기록.' }
-  };
+  var MAPPING_URL = 'placement/data/mapping.json';
+  var mappingPromise = null;
+
+  function loadMapping() {
+    if (mappingPromise) return mappingPromise;
+    mappingPromise = fetch(MAPPING_URL).then(function (r) { return r.json(); }).catch(function () { return { parts: {} }; });
+    return mappingPromise;
+  }
+
+  function bandEntry(map, partId, band) {
+    var part = (map.parts || {})[partId];
+    if (!part) return null;
+    if (partId === 'typing') return part;
+    var b = part.bands && part.bands[String(band || 1)];
+    return b || null;
+  }
+
+  function recommendLine(map, partId, band) {
+    var e = bandEntry(map, partId, band);
+    if (e && e.recommend) return e.recommend;
+    return { en: 'Ask your teacher for the matching class line.', ko: '담당 선생님께 맞는 수업 라인을 문의하세요.' };
+  }
+
+  function parentText(map, partId, band) {
+    var e = bandEntry(map, partId, band);
+    if (e && e.parent) return e.parent;
+    return {
+      en: 'Placement estimates a level band; your teacher will confirm the class or book.',
+      ko: '배치 검사로 수준 밴드를 추정합니다. 수업·교재는 선생님이 확정합니다.'
+    };
+  }
+
+  /** Parent report may name Zap lanes; student part-finish screen must not. */
+  function studentReportCopy(text) {
+    return String(text).replace(/GreenZap|RedZap|BlueZap/g, 'Grammar program');
+  }
 
   function esc(s) {
     return String(s).replace(/[&<>"]/g, function (c) {
@@ -76,38 +104,49 @@
 
   function showSummary(A, C, forPrint) {
     var pl = P().getPlacement(), who = student();
-    var rows = PARTS.map(function (p) {
-      var r = pl[p.id];
-      if (!r) return '<tr><td>' + esc(p.label) + '</td><td colspan="2">Not taken yet</td></tr>';
-      if (p.id === 'typing') {
-        return '<tr><td>' + esc(p.label) + '</td><td>' + (r.openedAt ? 'Opened' : '—') + '</td><td>' + (r.openedAt ? new Date(r.openedAt).toLocaleString() : '') + '</td></tr>';
-      }
-      return '<tr><td>' + esc(p.label) + '</td><td>' + esc(r.bandLabel || ('Band ' + r.band)) + '</td><td>' + r.correct + '/' + r.total + ' (' + r.pct + '%)</td></tr>';
-    }).join('');
-    var html = '<div class="pl-report' + (forPrint ? ' pl-report-print' : '') + '">' +
-      '<h2>Placement summary / 배치 결과</h2>' +
-      '<p class="pl-student"><b>Student:</b> ' + esc(who || '(not signed in)') + '</p>' +
-      '<table class="pl-table"><thead><tr><th>Section</th><th>Level</th><th>Score</th></tr></thead><tbody>' + rows + '</tbody></table>' +
-      '<div class="pl-parent">' + PARTS.map(function (p) {
+    loadMapping().then(function (map) {
+      var rows = PARTS.map(function (p) {
         var r = pl[p.id];
-        if (!r || p.id === 'typing') return '';
-        var par = PARENT[p.id];
-        return '<p><b>' + esc(p.label) + '</b><br>' + esc(par.en) + '<br><span class="ko">' + esc(par.ko) + '</span></p>';
-      }).join('') + '</div>' +
-      '<p class="pl-foot">Study World · MRJ Placement · ' + new Date().toLocaleDateString() + '</p></div>';
-    if (forPrint) {
-      var area = document.getElementById('pl-print-area') || document.createElement('div');
-      area.id = 'pl-print-area';
-      area.className = 'pl-print-area';
-      area.innerHTML = html;
-      area.hidden = false;
-      document.body.appendChild(area);
-      window.print();
-      return;
-    }
-    A.innerHTML = back('#placement', 'Placement results') + html +
-      '<div class="acts" style="margin-top:20px"><button class="btn3d gold sc-print" id="pl-print2">Print parent report</button></div>';
-    A.querySelector('#pl-print2').onclick = function () { showSummary(A, C, true); };
+        if (!r) {
+          return '<tr><td>' + esc(p.label) + '</td><td colspan="3">Not taken yet</td></tr>';
+        }
+        if (p.id === 'typing') {
+          var tRec = recommendLine(map, 'typing');
+          return '<tr><td>' + esc(p.label) + '</td><td>' + (r.openedAt ? 'Opened' : '—') + '</td><td>' +
+            (r.openedAt ? new Date(r.openedAt).toLocaleString() : '—') + '</td><td>' +
+            esc(tRec.en) + '<br><span class="ko">' + esc(tRec.ko) + '</span></td></tr>';
+        }
+        var rec = recommendLine(map, p.id, r.band);
+        return '<tr><td>' + esc(p.label) + '</td><td>' + esc(r.bandLabel || ('Band ' + r.band)) + '</td><td>' +
+          r.correct + '/' + r.total + ' (' + r.pct + '%)</td><td>' +
+          esc(rec.en) + '<br><span class="ko">' + esc(rec.ko) + '</span></td></tr>';
+      }).join('');
+      var html = '<div class="pl-report' + (forPrint ? ' pl-report-print' : '') + '">' +
+        '<h2>Placement summary / 배치 결과</h2>' +
+        '<p class="pl-student"><b>Student:</b> ' + esc(who || '(not signed in)') + '</p>' +
+        '<table class="pl-table"><thead><tr><th>Section</th><th>Level</th><th>Score</th><th>Recommended / 추천</th></tr></thead><tbody>' +
+        rows + '</tbody></table>' +
+        '<div class="pl-parent">' + PARTS.map(function (p) {
+          var r = pl[p.id];
+          if (!r) return '';
+          var par = p.id === 'typing' ? parentText(map, 'typing') : parentText(map, p.id, r.band);
+          return '<p><b>' + esc(p.label) + '</b><br>' + esc(par.en) + '<br><span class="ko">' + esc(par.ko) + '</span></p>';
+        }).join('') + '</div>' +
+        '<p class="pl-foot">Study World · MRJ Placement · ' + new Date().toLocaleDateString() + '</p></div>';
+      if (forPrint) {
+        var area = document.getElementById('pl-print-area') || document.createElement('div');
+        area.id = 'pl-print-area';
+        area.className = 'pl-print-area';
+        area.innerHTML = html;
+        area.hidden = false;
+        document.body.appendChild(area);
+        window.print();
+        return;
+      }
+      A.innerHTML = back('#placement', 'Placement results') + html +
+        '<div class="acts" style="margin-top:20px"><button class="btn3d gold sc-print" id="pl-print2">Print parent report</button></div>';
+      A.querySelector('#pl-print2').onclick = function () { showSummary(A, C, true); };
+    });
   }
 
   function partRoute(A, C, partId) {
@@ -167,7 +206,6 @@
 
   function finishQuiz(A, C, part, session) {
     var r = session.getResult();
-    var par = PARENT[part.id];
     P().setPlacementPart(part.id, {
       band: r.band,
       bandLabel: r.bandLabel,
@@ -176,14 +214,21 @@
       pct: r.pct,
       at: Date.now()
     }).then(function () {
-      A.innerHTML = back('#placement', part.label + ' — done') +
-        '<div class="card pl-card"><h3>Your level</h3>' +
-        '<p class="pl-level">' + esc(r.bandLabel) + '</p>' +
-        '<p>' + r.correct + ' / ' + r.total + ' correct (' + r.pct + '%)</p>' +
-        '<p class="pl-parent-blurb">' + esc(par.en) + '</p><p class="ko">' + esc(par.ko) + '</p>' +
-        '<div class="acts"><a class="btn3d go" href="#placement">Back to Placement</a>' +
-        '<button class="btn3d purple" id="pl-retake">Retake</button></div></div>';
-      A.querySelector('#pl-retake').onclick = function () { location.hash = 'placement/' + part.id; };
+      loadMapping().then(function (map) {
+        var rec = recommendLine(map, part.id, r.band);
+        var par = parentText(map, part.id, r.band);
+        var recEn = part.id === 'grammar' ? studentReportCopy(rec.en) : rec.en;
+        var parEn = part.id === 'grammar' ? studentReportCopy(par.en) : par.en;
+        A.innerHTML = back('#placement', part.label + ' — done') +
+          '<div class="card pl-card"><h3>Your level</h3>' +
+          '<p class="pl-level">' + esc(r.bandLabel) + '</p>' +
+          '<p>' + r.correct + ' / ' + r.total + ' correct (' + r.pct + '%)</p>' +
+          '<p class="pl-recommend"><b>Recommended:</b> ' + esc(recEn) + '<br><span class="ko">' + esc(rec.ko) + '</span></p>' +
+          '<p class="pl-parent-blurb">' + esc(parEn) + '</p><p class="ko">' + esc(par.ko) + '</p>' +
+          '<div class="acts"><a class="btn3d go" href="#placement">Back to Placement</a>' +
+          '<button class="btn3d purple" id="pl-retake">Retake</button></div></div>';
+        A.querySelector('#pl-retake').onclick = function () { location.hash = 'placement/' + part.id; };
+      });
     });
   }
 

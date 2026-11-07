@@ -1,0 +1,335 @@
+{
+  "note": "Band → MRJ program lines for parent/teacher reports only. Student Grammar quiz UI stays label Grammar (no Zap on screen).",
+  "parts": {
+    "conversation": {
+      "bands": {
+        "1": {
+          "recommend": {
+            "en": "Day 5 · Basic A",
+            "ko": "Day 5 · Basic A"
+          },
+          "parent": {
+            "en": "Conversation band 1 (Basic A). Your child handles very short Day 5 dialogues. Recommended class line: Day 5 Basic A units with teacher support on new patterns.",
+            "ko": "대화 밴드 1 (Basic A). 아주 짧은 Day 5 대화를 이해합니다. 추천 수업: Day 5 Basic A 유닛, 새 패턴은 선생님과 함께 연습."
+          }
+        },
+        "2": {
+          "recommend": {
+            "en": "Day 5 · Basic B",
+            "ko": "Day 5 · Basic B"
+          },
+          "parent": {
+            "en": "Conversation band 2 (Basic B). Simple Q&A and daily phrases are mostly solid. Recommended: Day 5 Basic B conversation units.",
+            "ko": "대화 밴드 2 (Basic B). 간단한 질문·답과 일상 표현이 대체로 안정적입니다. 추천: Day 5 Basic B 대화 유닛."
+          }
+        },
+        "3": {
+          "recommend": {
+            "en": "Day 5 · Basic C",
+            "ko": "Day 5 · Basic C"
+          },
+          "parent": {
+            "en": "Conversation band 3 (Basic C). Can follow longer basic exchanges. Recommended: Day 5 Basic C before moving to intermediate review.",
+            "ko": "대화 밴드 3 (Basic C). 조금 긴 기본 대화를 따라갑니다. 추천: Day 5 Basic C, 중급 리뷰 전 단계."
+          }
+        },
+        "4": {
+          "recommend": {
+            "en": "Day 5 · Int 3",
+            "ko": "Day 5 · Int 3"
+          },
+          "parent": {
+            "en": "Conversation band 4 (Int 3). Intermediate patterns and longer turns are emerging. Recommended: Day 5 Int 3 A/B/C units.",
+            "ko": "대화 밴드 4 (Int 3). 중급 패턴과 긴 문장이 나타납니다. 추천: Day 5 Int 3 A/B/C 유닛."
+          }
+        },
+        "5": {
+          "recommend": {
+            "en": "Day 5 · Int 2 (lower)",
+            "ko": "Day 5 · Int 2 (하)"
+          },
+          "parent": {
+            "en": "Conversation band 5 (Int 2 low). Strong on intermediate review-style items. Recommended: Day 5 Int 2 lower units or mixed Int 2 review.",
+            "ko": "대화 밴드 5 (Int 2 하). 중급 리뷰 유형에 강합니다. 추천: Day 5 Int 2 하위 유닛 또는 Int 2 리뷰 혼합."
+          }
+        },
+        "6": {
+          "recommend": {
+            "en": "Day 5 · Int 2 (upper)",
+            "ko": "Day 5 · Int 2 (상)"
+          },
+          "parent": {
+            "en": "Conversation band 6 (Int 2 high). Handles upper Int 2 conversation checks. Recommended: Day 5 Int 2 upper units and stretch speaking tasks.",
+            "ko": "대화 밴드 6 (Int 2 상). Int 2 상위 대화 점검을 소화합니다. 추천: Day 5 Int 2 상위 유닛과 말하기 확장 과제."
+          }
+        }
+      }
+    },
+    "wordMaster": {
+      "bands": {
+        "1": {
+          "recommend": {
+            "en": "Word Master · 100-word level",
+            "ko": "Word Master · 100 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 1 (100-word level). Core sight words and very high-frequency items. Recommended: Word Master 100 lists with daily review.",
+            "ko": "어휘 밴드 1 (100 단어급). 핵심 기초·고빈도 단어입니다. 추천: Word Master 100 리스트 매일 복습."
+          }
+        },
+        "2": {
+          "recommend": {
+            "en": "Word Master · 200-word level",
+            "ko": "Word Master · 200 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 2 (200-word level). Expanding everyday nouns and verbs. Recommended: Word Master 200 packs.",
+            "ko": "어휘 밴드 2 (200 단어급). 일상 명사·동사가 늘고 있습니다. 추천: Word Master 200 팩."
+          }
+        },
+        "3": {
+          "recommend": {
+            "en": "Word Master · 300-word level",
+            "ko": "Word Master · 300 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 3 (300-word level). School and story words are building. Recommended: Word Master 300 with sentence use in class.",
+            "ko": "어휘 밴드 3 (300 단어급). 학교·이야기 어휘가 쌓입니다. 추천: Word Master 300, 수업에서 문장으로 사용."
+          }
+        },
+        "4": {
+          "recommend": {
+            "en": "Word Master · 500-word level",
+            "ko": "Word Master · 500 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 4 (500-word level). Wider topic words and phrases. Recommended: Word Master 500 lists.",
+            "ko": "어휘 밴드 4 (500 단어급). 주제 어휘·구가 넓어집니다. 추천: Word Master 500 리스트."
+          }
+        },
+        "5": {
+          "recommend": {
+            "en": "Word Master · 800-word level",
+            "ko": "Word Master · 800 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 5 (800-word level). Academic-lite and multi-meaning words appear. Recommended: Word Master 800 with reading tie-ins.",
+            "ko": "어휘 밴드 5 (800 단어급). 학습·다의어 어휘가 보입니다. 추천: Word Master 800, 읽기와 연결."
+          }
+        },
+        "6": {
+          "recommend": {
+            "en": "Word Master · 1200-word level",
+            "ko": "Word Master · 1200 단어급"
+          },
+          "parent": {
+            "en": "Vocabulary band 6 (1200-word level). Strong breadth for junior-high style texts. Recommended: Word Master 1200 maintenance and essay prep words.",
+            "ko": "어휘 밴드 6 (1200 단어급). 중등 수준 지문에 필요한 폭이 있습니다. 추천: Word Master 1200 유지 및 에세이 준비 어휘."
+          }
+        }
+      }
+    },
+    "grammar": {
+      "bands": {
+        "1": {
+          "recommend": {
+            "en": "GreenZap lane · early (teacher assigns Grammar book)",
+            "ko": "GreenZap 라인 · 초급 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 1 — GreenZap early lane for routing. Be verbs, simple present, and short patterns. Teacher will assign the exact middle-school Grammar book.",
+            "ko": "문법 밴드 1 — GreenZap 초급 라인(배치용). be동사·현재형 등 짧은 패턴입니다. 정확한 중등 Grammar 교재는 선생님이 배정합니다."
+          }
+        },
+        "2": {
+          "recommend": {
+            "en": "GreenZap lane · core (teacher assigns Grammar book)",
+            "ko": "GreenZap 라인 · 기본 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 2 — GreenZap core lane. Basic tense and agreement work. Recommended program line: GreenZap core; teacher picks the book unit.",
+            "ko": "문법 밴드 2 — GreenZap 기본 라인. 시제·수일치 기초입니다. 추천: GreenZap 기본 라인, 유닛은 선생님 지정."
+          }
+        },
+        "3": {
+          "recommend": {
+            "en": "RedZap lane · early (teacher assigns Grammar book)",
+            "ko": "RedZap 라인 · 초급 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 3 — RedZap early lane. Longer sentences and common middle patterns. Teacher assigns the Grammar book title.",
+            "ko": "문법 밴드 3 — RedZap 초급 라인. 긴 문장·중등 빈출 패턴입니다. Grammar 교재명은 선생님이 배정합니다."
+          }
+        },
+        "4": {
+          "recommend": {
+            "en": "RedZap lane · core (teacher assigns Grammar book)",
+            "ko": "RedZap 라인 · 기본 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 4 — RedZap core lane. Mixed clauses and harder drills. Recommended: RedZap core; exact book from teacher.",
+            "ko": "문법 밴드 4 — RedZap 기본 라인. 혼합 구문·심화 드릴입니다. 추천: RedZap 기본, 교재는 선생님 지정."
+          }
+        },
+        "5": {
+          "recommend": {
+            "en": "BlueZap lane · early (teacher assigns Grammar book)",
+            "ko": "BlueZap 라인 · 초급 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 5 — BlueZap early lane. Upper-middle structure items. Teacher will match a BlueZap Grammar book.",
+            "ko": "문법 밴드 5 — BlueZap 초급 라인. 중등 상위 구조 문제입니다. BlueZap Grammar 교재는 선생님이 맞춥니다."
+          }
+        },
+        "6": {
+          "recommend": {
+            "en": "BlueZap lane · core (teacher assigns Grammar book)",
+            "ko": "BlueZap 라인 · 기본 (선생님이 Grammar 교재 배정)"
+          },
+          "parent": {
+            "en": "Grammar band 6 — BlueZap core lane. Strongest placement band; advanced Grammar book units as assigned by teacher.",
+            "ko": "문법 밴드 6 — BlueZap 기본 라인. 최상위 밴드입니다. 선생님이 배정하는 Grammar 심화 유닛을 권장합니다."
+          }
+        }
+      }
+    },
+    "phonics": {
+      "bands": {
+        "1": {
+          "recommend": {
+            "en": "Decodable Books 1–3",
+            "ko": "Decodable Books 1–3"
+          },
+          "parent": {
+            "en": "Phonics band 1. Letter names, first short vowels, and early consonants. Recommended: MRJ Decodable Books 1–3 on the letter map.",
+            "ko": "파닉스 밴드 1. 글자 이름·첫 단모음·기본 자음입니다. 추천: MRJ Decodable Books 1–3."
+          }
+        },
+        "2": {
+          "recommend": {
+            "en": "Decodable Books 4–6",
+            "ko": "Decodable Books 4–6"
+          },
+          "parent": {
+            "en": "Phonics band 2. Blending simple CVC words and more consonants. Recommended: Decodable Books 4–6.",
+            "ko": "파닉스 밴드 2. 짧은 CVC 블렌딩·추가 자음입니다. 추천: Decodable Books 4–6."
+          }
+        },
+        "3": {
+          "recommend": {
+            "en": "Decodable Books 7–10",
+            "ko": "Decodable Books 7–10"
+          },
+          "parent": {
+            "en": "Phonics band 3. Mixed vowel patterns and longer decode practice. Recommended: Decodable Books 7–10.",
+            "ko": "파닉스 밴드 3. 혼합 모음 패턴·긴 디코딩 연습입니다. 추천: Decodable Books 7–10."
+          }
+        },
+        "4": {
+          "recommend": {
+            "en": "Decodable Books 11–14",
+            "ko": "Decodable Books 11–14"
+          },
+          "parent": {
+            "en": "Phonics band 4. Fluency on decodable sentences and digraph-style patterns. Recommended: Decodable Books 11–14.",
+            "ko": "파닉스 밴드 4. 디코더블 문장 유창성·이중자음 패턴입니다. 추천: Decodable Books 11–14."
+          }
+        },
+        "5": {
+          "recommend": {
+            "en": "Decodable Books 15–17",
+            "ko": "Decodable Books 15–17"
+          },
+          "parent": {
+            "en": "Phonics band 5. Strong decoding before free reading. Recommended: Decodable Books 15–17.",
+            "ko": "파닉스 밴드 5. 자유 읽기 전 디코딩이 탄탄합니다. 추천: Decodable Books 15–17."
+          }
+        },
+        "6": {
+          "recommend": {
+            "en": "Decodable Books 18–20",
+            "ko": "Decodable Books 18–20"
+          },
+          "parent": {
+            "en": "Phonics band 6. Upper decodable set (Books 18–20) and bridge to graded reading. Keep daily read-aloud at home.",
+            "ko": "파닉스 밴드 6. 상위 Decodable 18–20권·단계 읽기 연결입니다. 가정에서 매일 소리 내어 읽기를 권합니다."
+          }
+        }
+      }
+    },
+    "reading": {
+      "bands": {
+        "1": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 1 (Level A)",
+            "ko": "MRJ Reading · 1단계 (Level A)"
+          },
+          "parent": {
+            "en": "Reading Level A — very short passages, one idea per sentence. Recommended: MRJ Reading Stage 1 plus Decodable follow-up at home.",
+            "ko": "읽기 Level A — 아주 짧은 지문, 문장당 한 가지 내용입니다. 추천: MRJ Reading 1단계, 가정에서는 Decodable 병행."
+          }
+        },
+        "2": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 2 (Level B)",
+            "ko": "MRJ Reading · 2단계 (Level B)"
+          },
+          "parent": {
+            "en": "Reading Level B — simple stories with clear who/where questions. Recommended: MRJ Reading Stage 2 classroom passages.",
+            "ko": "읽기 Level B — 단순 이야기, 누가/어디 질문이 분명합니다. 추천: MRJ Reading 2단계 지문."
+          }
+        },
+        "3": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 3 (Level C)",
+            "ko": "MRJ Reading · 3단계 (Level C)"
+          },
+          "parent": {
+            "en": "Reading Level C — longer paragraphs and detail questions. Recommended: MRJ Reading Stage 3 with daily 10-minute silent reading.",
+            "ko": "읽기 Level C — 문단이 길어지고 세부 질문이 있습니다. 추천: MRJ Reading 3단계, 매일 10분 조용히 읽기."
+          }
+        },
+        "4": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 4 (Level D)",
+            "ko": "MRJ Reading · 4단계 (Level D)"
+          },
+          "parent": {
+            "en": "Reading Level D — inference and vocabulary in context. Recommended: MRJ Reading Stage 4 and Word Master tie-ins.",
+            "ko": "읽기 Level D — 추론·문맥 어휘가 포함됩니다. 추천: MRJ Reading 4단계, Word Master 연계."
+          }
+        },
+        "5": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 5 (Level E)",
+            "ko": "MRJ Reading · 5단계 (Level E)"
+          },
+          "parent": {
+            "en": "Reading Level E — multi-paragraph texts and main-idea focus. Recommended: MRJ Reading Stage 5.",
+            "ko": "읽기 Level E — 여러 문단, 중심 내용 파악입니다. 추천: MRJ Reading 5단계."
+          }
+        },
+        "6": {
+          "recommend": {
+            "en": "MRJ Reading · Stage 6 (Level F)",
+            "ko": "MRJ Reading · 6단계 (Level F)"
+          },
+          "parent": {
+            "en": "Reading Level F — strongest band on adaptive MRJ passages. Recommended: MRJ Reading Stage 6 and essay-style summaries.",
+            "ko": "읽기 Level F — MRJ 적응형 지문 최상위 밴드입니다. 추천: MRJ Reading 6단계, 요약 글쓰기 연습."
+          }
+        }
+      }
+    },
+    "typing": {
+      "recommend": {
+        "en": "typing.com practice (link on Placement)",
+        "ko": "typing.com 연습 (Placement 링크)"
+      },
+      "parent": {
+        "en": "Typing is practice on typing.com; we record when the student opens the link. Recommended: 10–15 minutes most days on home row lessons until teacher sets a WPM goal.",
+        "ko": "타이핑은 typing.com 연습이며, 학생이 링크를 열면 기록합니다. 추천: 홈 로우 레슨을 거의 매일 10–15분, WPM 목표는 선생님이 정합니다."
+      }
+    }
+  }
+}
