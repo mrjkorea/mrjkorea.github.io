@@ -242,3 +242,9 @@ h2{font-size:30px;font-weight:900;color:#fff;margin:26px 0 14px;text-shadow:0 3p
 .tch-act.ok .tch-go{color:#15803d}
 .tch-act.soon{background:#f1f5f9;border-color:#e2e8f0;color:#94a3b8;cursor:default}
 .tch-act.soon .tch-go.soon{color:#94a3b8;font-weight:800}
+
+/* One Teacher control only (IT 2026-11-07).
+   The page's own #teacher-header opens the PIN (teacher-corner.js -> study_teacher_check).
+   The shared mrj-signin widget also draws a Teacher pill; hide it here so the header
+   shows a single Teacher button. Other apps keep the shared one. */
+.mrj-auth-teacher-btn { display: none !important; }
