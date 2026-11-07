@@ -1,618 +1,662 @@
 {
-  "note": "Sourced from MRJ day5-practice (Day 5 content).",
-  "bands": [
-    "Band 1 (Basic A)",
-    "Band 2 (Basic B)",
-    "Band 3 (Basic C)",
-    "Band 4 (Int 3)",
-    "Band 5 (Int 2 low)",
-    "Band 6 (Int 2 high)"
-  ],
-  "items": [
-    {
-      "band": 1,
-      "q": "I Am Not A Sheep I Am Mr Jay Ray 7D7F78",
-      "choices": [
-        "Hello, Mrs. Sheep.",
-        "Hello, Mrs. Duck.",
-        "Goodbye, mom."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "What Number Is It June D49601",
-      "choices": [
-        "Nine.",
-        "Three.",
-        "Five."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "See You Tomorrow Maya 9F0E83",
-      "choices": [
-        "tomorrow",
-        "afternoon",
-        "please"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Good Afternoon Class Ray 5747B3",
-      "choices": [
-        "Good afternoon, Mr. Jay!",
-        "Sorry.",
-        "Help me, please."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Sorry Maya 166A1C",
-      "choices": [
-        "That is okay.",
-        "See you tomorrow!",
-        "Quiet!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Hello Ms Chicken Maya D76581",
-      "choices": [
-        "\u2714",
-        "\u2718"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Say Hello June 37063E",
-      "choices": [
-        "Hello, Ms. Goat.",
-        "Hello, Ms. Chicken.",
-        "Hello, Mr. Horse."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "What Number Is It June D49601",
-      "choices": [
-        "Fifteen.",
-        "One hundred.",
-        "Ninety-nine."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Hello Mr Dog Leo 82D66F",
-      "choices": [
-        "I am not a dog! I am Mr. Jay.",
-        "I am not a cat! I am Mr. Jay.",
-        "Goodbye, Mr. Dog."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 1,
-      "q": "Eleven Leo 12B0D2",
-      "choices": [
-        "\u2714",
-        "\u2718"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "I Have Two Ears Leo 75D4B1",
-      "choices": [
-        "ears",
-        "ear",
-        "an ear"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "How Are You Pirate 563Ecc",
-      "choices": [
-        "I am scared.",
-        "I am sad.",
-        "I am tired."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "How Are You Pirate 563Ecc",
-      "choices": [
-        "I am sad.",
-        "I am angry.",
-        "I am bored."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "I Like Movies Maya 978263",
-      "choices": [
-        "Me too! I love scary movies.",
-        "Me too! I like jumping.",
-        "Me too! School is great!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "I Do Not Understand Maya 292Cb1",
-      "choices": [
-        "understand",
-        "know",
-        "trash"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "You Lose Cowboy 465Fa1",
-      "choices": [
-        "That makes me sad.",
-        "Good job!",
-        "I choose rock!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "It Is Purple Maya A08220",
-      "choices": [
-        "purple",
-        "a rainbow",
-        "green"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "I Am Angry Maya E6444E",
-      "choices": [
-        "Don't be angry. Relax!",
-        "Me too! I am very hungry.",
-        "Oh no! Sleep!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "How Old Are You Ray 71C011",
-      "choices": [
-        "I am one year old.",
-        "I am twenty-two years old.",
-        "I am one hundred years old."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 2,
-      "q": "Good Idea Let S All Recycle Kitt 03C3Bd",
-      "choices": [
-        "Recycle this!",
-        "Thank you.",
-        "I do not know."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "I Want A New Brother Maya 7481C9",
-      "choices": [
-        "A new brother? Oh my god!",
-        "I have many pencil cases.",
-        "I have a very expensive bike."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "Don T Touch Your Ear Maya Af8459",
-      "choices": [
-        "Don't",
-        "Not",
-        "No"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "What Does Cat Mean Maya Bf5977",
-      "choices": [
-        "\u2714",
-        "\u2718"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "Don T Touch Your Ear Maya Af8459",
-      "choices": [
-        "\u2714",
-        "\u2718"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "I Want A New Phone Leo 4D3B94",
-      "choices": [
-        "\u2714",
-        "\u2718"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "What Can We See Near Jeju Walt 733B59",
-      "choices": [
-        "Jeju",
-        "Seoul",
-        "Busan"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "What Pet Do You Love Cowboy Ee4Ec2",
-      "choices": [
-        "I love my turtle Tom.",
-        "Yes, I do.",
-        "I love my snake Jessica."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "Choose the best answer.",
-      "choices": [
-        "C A T",
-        "C A T S",
-        "Have a nice weekend."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "My Leg Is Itchy Leo 9Ab151",
-      "choices": [
-        "is",
-        "am",
-        "are"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 3,
-      "q": "Hurray I Win Maya 55A15A",
-      "choices": [
-        "Yes, you win!",
-        "No, sorry.",
-        "Spell cat!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "Look At The Elephant Ray 5740B9",
-      "choices": [
-        "It is big.",
-        "It is small.",
-        "It is soft.",
-        "It is quiet."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "What Flavor Do You Like Ray D4B71D",
-      "choices": [
-        "I like chocolate.",
-        "I like lemon.",
-        "I like vanilla.",
-        "I like melon."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "I Like Strawberry Leo B257F2",
-      "choices": [
-        "strawberry",
-        "mint",
-        "chocolate",
-        "melon"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "Stand Up Maya 970Eed",
-      "choices": [
-        "Stand",
-        "Stands",
-        "Standing",
-        "Stood"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "This Is Good Leo 2272B8",
-      "choices": [
-        "good",
-        "loud",
-        "soft",
-        "big"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "I Can Draw Poo Maya 1C8A3F",
-      "choices": [
-        "poo",
-        "star",
-        "Korea",
-        "toy"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "It Looks Like A Tiger Leo 19929B",
-      "choices": [
-        "looks",
-        "look",
-        "looking",
-        "see"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "How Old Is She Walt 4589Dd",
-      "choices": [
-        "She is 10 years old.",
-        "He is 5 years old.",
-        "He is 1 year old.",
-        "She is 30 years old."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "I Can Draw A Flag Maya 4698Cc",
-      "choices": [
-        "flag",
-        "monster",
-        "tree",
-        "apple"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 4,
-      "q": "He Is Fifteen Years Old Maya 9Fc1Fd",
-      "choices": [
-        "Fifteen? Middle school already!",
-        "Fifteen? Kindergarten already!",
-        "She is fifteen.",
-        "He is a baby."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Do You Want Some Hot Soup Walt 0B874E",
-      "choices": [
-        "I am hungry.",
-        "I am bored.",
-        "I have a runny nose."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Where Is The Groundskeeper Cowboy Fa3E75",
-      "choices": [
-        "The groundskeeper is outside.",
-        "The principal is in the office.",
-        "Our teacher is in the classroom."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "I Cannot Speak French Leo 583525",
-      "choices": [
-        "cannot",
-        "am not",
-        "not"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "How Is The Weather Today June 14F967",
-      "choices": [
-        "It is snowing today.",
-        "It is humid today.",
-        "It is windy today."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Wow That Is A Lot Of Practice Ray C763Fe",
-      "choices": [
-        "I play the piano every day.",
-        "I just relax.",
-        "I watch TV."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Maybe It Is In The Lounge Leo De9E2A",
-      "choices": [
-        "lounge",
-        "kitchen",
-        "bathroom"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Turn It Down Please Maya 9143Ce",
-      "choices": [
-        "Look at this loud video.",
-        "Look at this quiet video.",
-        "Look at this weird video."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "What Do You See Kitt 2F07Af",
-      "choices": [
-        "There are spiders on the wall.",
-        "There is spiders on the wall.",
-        "Yes, I see."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "Where Is My Phone Walt 35410B",
-      "choices": [
-        "I don't know. Maybe it is in the kitchen.",
-        "Yes, it is my phone.",
-        "It is a phone."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 5,
-      "q": "It Is Hailing Today Maya D50B68",
-      "choices": [
-        "is",
-        "are",
-        "be"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "Sit Down Do Not Walk Ray 812673",
-      "choices": [
-        "I sprained my ankle.",
-        "I have a sore throat.",
-        "My tooth hurts."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "What S Your Favorite Subject June 573Fb0",
-      "choices": [
-        "My favorite subject is science.",
-        "My favorite color is blue.",
-        "I go to school."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "What Do They Say On The Phone Pirate 07D75D",
-      "choices": [
-        "Please call his friend Taehwan.",
-        "Who is this?",
-        "His phone number is 010-3457-7543."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "What Do They Say On The Phone Pirate 07D75D",
-      "choices": [
-        "His phone number is 010-3457-7543.",
-        "What is his phone number?",
-        "Who is this?"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "My Favorite Subject Is Science Maya A08Fc1",
-      "choices": [
-        "What's your favorite subject?",
-        "What's your favorite snack?",
-        "Who is your teacher?"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "I Have A Bloody Nose Maya 8D7E3F",
-      "choices": [
-        "bloody nose",
-        "tooth",
-        "back"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "Whose Candy Is This Ray 920A94",
-      "choices": [
-        "It's mine. It's mine!",
-        "It's candy.",
-        "Yes, it is."
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "I Must Be Going Maya 5775F5",
-      "choices": [
-        "Have a nice day!",
-        "Good morning!",
-        "Welcome!"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "We Can Ski And Skate Leo 737898",
-      "choices": [
-        "What can we do in Gangwon Province?",
-        "What can we see in Jinhae?",
-        "What can we do in Tongyeong?"
-      ],
-      "answer": 0
-    },
-    {
-      "band": 6,
-      "q": "What Season Do You Love Pirate 406872",
-      "choices": [
-        "I love fall in Naejangsan National Park.",
-        "I love summer in Tongyeong City.",
-        "I love spring in Jinhae."
-      ],
-      "answer": 0
-    }
-  ]
+ "note": "Built 2026-11-08 from the real Day 5 practice packs (mrjkorea/day5-practice questions.json). Text-only items: dialog_pick_reply (choose Mr Jay's reply) and cue_pick_english (Korean cue, choose the English). No audio is needed. Choice order is balanced, so the correct answer is spread across all four positions.",
+ "bands": [
+  "Band 1 (Basic A)",
+  "Band 2 (Basic B)",
+  "Band 3 (Basic C)",
+  "Band 4 (Basic C high)",
+  "Band 5 (Int 3 B)",
+  "Band 6 (Int 2 low)"
+ ],
+ "items": [
+  {
+   "band": 1,
+   "q": "Student says: “Goodbye mom” What does Mr Jay say?",
+   "choices": [
+    "I am not a cat! I am Mr. Jay",
+    "I am not a dog! I am Mr. Jay",
+    "I am not a cow! I am Mr. Jay",
+    "I am not your mom! I am Mr. Jay"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 1,
+   "q": "Student says: “Hello, Mr. Cat” What does Mr Jay say?",
+   "choices": [
+    "I am not a cow! I am Mr. Jay",
+    "I am not a cat! I am Mr. Jay",
+    "I am not your mom! I am Mr. Jay",
+    "I am not a dog! I am Mr. Jay"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "q": "Student says: “Hello, Mr. Dog” What does Mr Jay say?",
+   "choices": [
+    "I am not a cat! I am Mr. Jay",
+    "I am not your mom! I am Mr. Jay",
+    "I am not a dog! I am Mr. Jay",
+    "I am not a cow! I am Mr. Jay"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "q": "Student says: “This is my mom” What does Mr Jay say?",
+   "choices": [
+    "I have five brothers",
+    "I have six sisters",
+    "She is beautiful",
+    "He is handsome"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "q": "Student says: “This is my dad” What does Mr Jay say?",
+   "choices": [
+    "He is handsome",
+    "I have five brothers",
+    "I have six sisters",
+    "She is beautiful"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 1,
+   "q": "Student says: “This is my sister” What does Mr Jay say?",
+   "choices": [
+    "He is handsome",
+    "I have six sisters",
+    "I have five brothers",
+    "She is beautiful"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "q": "Cue: 1 / 일 → Click the English.",
+   "choices": [
+    "three",
+    "one",
+    "two",
+    "four"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 1,
+   "q": "Cue: 2 / 이 → Click the English.",
+   "choices": [
+    "two",
+    "four",
+    "one",
+    "three"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 1,
+   "q": "Cue: 고양이 → Click the English.",
+   "choices": [
+    "cow",
+    "dog",
+    "cat",
+    "horse"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 1,
+   "q": "Cue: 강아지 → Click the English.",
+   "choices": [
+    "cat",
+    "dog",
+    "cow",
+    "horse"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I am happy” What does Mr Jay say?",
+   "choices": [
+    "Me too! I am very hungry.",
+    "Good! I am happy too.",
+    "Oh no! don't be angry. Relax!",
+    "Oh no! don't be sad! Cheer up!"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I am sad.” What does Mr Jay say?",
+   "choices": [
+    "Me too! I am very hungry.",
+    "Good! I am happy too.",
+    "Oh no! don't be angry. Relax!",
+    "Oh no! don't be sad! Cheer up!"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I am angry.” What does Mr Jay say?",
+   "choices": [
+    "Oh no! don't be sad! Cheer up!",
+    "Me too! I am very hungry.",
+    "Oh no! don't be angry. Relax!",
+    "Good! I am happy too."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I like noodles.” What does Mr Jay say?",
+   "choices": [
+    "I am a vegetarian. I do not eat meat",
+    "Me too! I love noodles.",
+    "Me too! I love playing Kart Rider",
+    "Me too! I like grapes"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I like meat.” What does Mr Jay say?",
+   "choices": [
+    "I am a vegetarian. I do not eat meat",
+    "Me too! I like grapes",
+    "Me too! I love noodles.",
+    "Me too! I love playing Kart Rider"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 2,
+   "q": "Student says: “I like fruit.” What does Mr Jay say?",
+   "choices": [
+    "Me too! I love noodles.",
+    "Me too! I like grapes",
+    "Me too! I love playing Kart Rider",
+    "I am a vegetarian. I do not eat meat"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 2,
+   "q": "Student says: “Again!” What does Mr Jay say?",
+   "choices": [
+    "Pardon? Do what again?",
+    "Sorry. I cannot see the trash can.",
+    "Good Idea. Let's all recycle",
+    "Sorry. I will not do that again."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 2,
+   "q": "Student says: “Recycle this!” What does Mr Jay say?",
+   "choices": [
+    "Pardon? Do what again?",
+    "Sorry. I will not do that again.",
+    "Good Idea. Let's all recycle",
+    "Sorry. I cannot see the trash can."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 2,
+   "q": "Student says: “Trash this!” What does Mr Jay say?",
+   "choices": [
+    "Pardon? Do what again?",
+    "Good Idea. Let's all recycle",
+    "Sorry. I will not do that again.",
+    "Sorry. I cannot see the trash can."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 2,
+   "q": "Cue: 행복해 → Click the English.",
+   "choices": [
+    "sad",
+    "hungry",
+    "happy",
+    "angry"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "q": "Student says: “I love my dog Zoey.” What does Mr Jay say?",
+   "choices": [
+    "I am allergic to cats",
+    "Your dog? Zoey is MY dog!",
+    "Rabbits are yummy in soup!",
+    "I don't like birds"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 3,
+   "q": "Student says: “I love my cat Leo” What does Mr Jay say?",
+   "choices": [
+    "Rabbits are yummy in soup!",
+    "Your dog? Zoey is MY dog!",
+    "I don't like birds",
+    "I am allergic to cats"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "q": "Student says: “I love my bird Sarah” What does Mr Jay say?",
+   "choices": [
+    "Your dog? Zoey is MY dog!",
+    "Rabbits are yummy in soup!",
+    "I am allergic to cats",
+    "I don't like birds"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "q": "Student says: “Look at my new hat” What does Mr Jay say?",
+   "choices": [
+    "New earphones are very expensive",
+    "I have a samsung note 10",
+    "My feet are very big",
+    "I never wear hats."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 3,
+   "q": "Student says: “Look at my new earphones.” What does Mr Jay say?",
+   "choices": [
+    "I never wear hats.",
+    "I have a samsung note 10",
+    "New earphones are very expensive",
+    "My feet are very big"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "q": "Student says: “Look at my new shoes.” What does Mr Jay say?",
+   "choices": [
+    "New earphones are very expensive",
+    "I never wear hats.",
+    "My feet are very big",
+    "I have a samsung note 10"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "q": "Student says: “What can we see near Seoul?” What does Mr Jay say?",
+   "choices": [
+    "You can see a volcano",
+    "Canada does not have many palaces",
+    "You can see a palace",
+    "You can see a fish market."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "q": "Student says: “You can see a palace” What does Mr Jay say?",
+   "choices": [
+    "You can see a palace",
+    "You can see a volcano",
+    "Canada does not have many palaces",
+    "You can see a fish market."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 3,
+   "q": "Student says: “What can we see near Busan?” What does Mr Jay say?",
+   "choices": [
+    "You can see a volcano",
+    "You can see a fish market.",
+    "You can see a palace",
+    "Canada does not have many palaces"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 3,
+   "q": "Student says: “DON'T TOUCH your arm” What does Mr Jay say?",
+   "choices": [
+    "Sorry but my leg is itchy!",
+    "Sorry but my back is itchy!",
+    "Sorry but my knee is itchy!",
+    "Sorry but my arm is itchy!"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "q": "Student says: “DON'T TOUCH your leg” What does Mr Jay say?",
+   "choices": [
+    "Sorry but my leg is itchy!",
+    "Sorry but my arm is itchy!",
+    "Sorry but my knee is itchy!",
+    "Sorry but my back is itchy!"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "q": "Student says: “DON'T TOUCH your knee” What does Mr Jay say?",
+   "choices": [
+    "Sorry but my back is itchy!",
+    "Sorry but my leg is itchy!",
+    "Sorry but my arm is itchy!",
+    "Sorry but my knee is itchy!"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "q": "Student says: “I want a new doll and…” What does Mr Jay say?",
+   "choices": [
+    "Earphone? they are very expensive",
+    "I have many pencil cases",
+    "I have many school bags",
+    "I don't like dolls"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "q": "Student says: “I want a new pencil case and…” What does Mr Jay say?",
+   "choices": [
+    "I have many pencil cases",
+    "I have many school bags",
+    "Earphone? they are very expensive",
+    "I don't like dolls"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "q": "Student says: “I want a new school bag and…” What does Mr Jay say?",
+   "choices": [
+    "I have many school bags",
+    "I have many pencil cases",
+    "Earphone? they are very expensive",
+    "I don't like dolls"
+   ],
+   "answer": 0
+  },
+  {
+   "band": 4,
+   "q": "Cue: 개 Zoey → Click the English.",
+   "choices": [
+    "rabbit Sam",
+    "dog Zoey",
+    "bird Sarah",
+    "cat Leo"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 4,
+   "q": "Cue: 고양이 Leo → Click the English.",
+   "choices": [
+    "bird Sarah",
+    "rabbit Sam",
+    "cat Leo",
+    "dog Zoey"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 4,
+   "q": "Cue: 모자 → Click the English.",
+   "choices": [
+    "phone",
+    "earphones",
+    "shoes",
+    "hat"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 4,
+   "q": "Cue: 이어폰 → Click the English.",
+   "choices": [
+    "hat",
+    "shoes",
+    "earphones",
+    "phone"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 4,
+   "q": "Cue: 월요일에 봐 → Click the English.",
+   "choices": [
+    "May I start?",
+    "Spell cat!",
+    "See you Monday",
+    "Report!"
+   ],
+   "answer": 2
+  },
+  {
+   "band": 5,
+   "q": "Cue: 우산 잊지 마! → Click the English.",
+   "choices": [
+    "Don't forget your umbrella.",
+    "Your umbrella don't forget.",
+    "Don't forget your textbook.",
+    "Forget your umbrella."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "q": "Cue: 점심 잊지 마! → Click the English.",
+   "choices": [
+    "Forget your lunch.",
+    "Don't forget your money.",
+    "Don't your lunch forget.",
+    "Don't forget your lunch."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 5,
+   "q": "Cue: 교과서 잊지 마! → Pick the English in the right order.",
+   "choices": [
+    "Your textbook forget don't.",
+    "Don't forget your textbook.",
+    "Forget don't your textbook.",
+    "Don't your forget textbook."
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "q": "Cue: 여동생 잊지 마! → Click the English.",
+   "choices": [
+    "Don't forget your little textbook.",
+    "Don't forget your little sister.",
+    "Don't forget your hat.",
+    "Forget your little sister."
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "q": "Cue: 알았어. 잊지 않을게! → Click the English.",
+   "choices": [
+    "Do not forget your phone!",
+    "Okay. I will not forget!",
+    "Okay. I will forget!",
+    "Oh my god, sorry!"
+   ],
+   "answer": 1
+  },
+  {
+   "band": 5,
+   "q": "Cue: 이것은 내 것입니다 → Click the English.",
+   "choices": [
+    "This is his.",
+    "This is ours.",
+    "This is yours.",
+    "This is mine."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 5,
+   "q": "Cue: 이것은 네 것입니다 → Click the English.",
+   "choices": [
+    "This is mine.",
+    "These are yours.",
+    "This is hers.",
+    "This is yours."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 5,
+   "q": "Cue: 그것은 네 것이 아닙니다. 그것은 내 것입니다 → Click the English.",
+   "choices": [
+    "It is not yours. It is mine.",
+    "It is not mine. It is yours.",
+    "It is yours. It is not mine.",
+    "It is not his. It is mine."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 5,
+   "q": "Cue: 이것은 네 것이 아니라 그녀의 것입니다 → Click the English.",
+   "choices": [
+    "This is not mine, it is hers.",
+    "This is not hers, it is yours.",
+    "This is not yours, it is hers.",
+    "This is not yours, it is his."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 5,
+   "q": "Cue: 이것들은 네 것이 아닙니다 → Click the English.",
+   "choices": [
+    "These are not yours.",
+    "These are yours.",
+    "These are not theirs.",
+    "These are not mine."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "q": "Cue: 그것은 내 것이 아닙니다. 그것은 우리 것입니다 → Click the English.",
+   "choices": [
+    "It is not mine. It is ours.",
+    "It is not ours. It is mine.",
+    "It is mine. It is not ours.",
+    "It is not mine. It is theirs."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "q": "Cue: 그것은 네 것이 아닙니다 → Pick the English in the right order.",
+   "choices": [
+    "It not is yours.",
+    "It is not yours.",
+    "Not it is yours.",
+    "It is yours not."
+   ],
+   "answer": 1
+  },
+  {
+   "band": 6,
+   "q": "Cue: 그것들은 그들의 것이 아닙니다 → Pick the English in the right order.",
+   "choices": [
+    "They not are theirs.",
+    "They are theirs not.",
+    "Theirs are not they.",
+    "They are not theirs."
+   ],
+   "answer": 3
+  },
+  {
+   "band": 6,
+   "q": "Cue: 여보세요 → Click the English.",
+   "choices": [
+    "Okay, thank you.",
+    "Who is this?",
+    "Hello.",
+    "Sorry, he is out."
+   ],
+   "answer": 2
+  },
+  {
+   "band": 6,
+   "q": "Cue: 누구십니까? → Click the English.",
+   "choices": [
+    "Who is this?",
+    "What is his phone number?",
+    "Is Beomjun there?",
+    "This is Mr. Jay."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "q": "Cue: 거기 범준 있습니까? → Pick the English in the right order.",
+   "choices": [
+    "Is Beomjun there?",
+    "Is there Beomjun?",
+    "There is Beomjun?",
+    "Beomjun is there."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "q": "Cue: 죄송하지만 그는 외출 중입니다 → Pick the English in the right order.",
+   "choices": [
+    "Sorry, he is out.",
+    "He sorry is out.",
+    "Sorry, is he out?",
+    "Sorry, out he is."
+   ],
+   "answer": 0
+  },
+  {
+   "band": 6,
+   "q": "Cue: 그의 전화번호는 무엇입니까? → Pick the English in the right order.",
+   "choices": [
+    "What his phone number is?",
+    "What is phone his number?",
+    "His phone number is 010 3457 7543.",
+    "What is his phone number?"
+   ],
+   "answer": 3
+  },
+  {
+   "band": 6,
+   "q": "Cue: 알겠습니다, 감사합니다 → Click the English.",
+   "choices": [
+    "Okay, thank you.",
+    "Who is this?",
+    "Hello.",
+    "Sorry, he is out."
+   ],
+   "answer": 0
+  }
+ ]
 }
