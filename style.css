@@ -10,9 +10,6 @@ body{margin:0;min-height:100vh;font-family:"Nunito","Baloo 2",system-ui,sans-ser
 header,main{position:relative;z-index:1}
 header{display:flex;justify-content:space-between;align-items:center;padding:14px 44px;gap:12px;flex-wrap:wrap}
 .header-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
-/* Shared sign-in widget puts its own Teacher pill in the top-right corner (fixed, 8px from the edge).
-   Keep the name chip clear of it on one-row headers. Jay 2026-11-07: the pill covered the name. */
-@media (min-width:601px){.header-actions{margin-right:64px}}
 #teacher-header{font-size:18px;padding:10px 20px;white-space:nowrap}
 #teacher-header.tch-on{box-shadow:0 6px 0 #4c1d95,0 10px 16px #0003,inset 0 0 0 2px #fde047}
 #signin{max-width:min(42vw,280px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
