@@ -55,3 +55,5 @@ main{max-width:1080px;margin:0 auto;padding:0 22px 70px}
  .chip{padding:7px 10px;font-size:13px}
  .back{padding-top:4px}
 }
+
+.modal[hidden]{display:none}
