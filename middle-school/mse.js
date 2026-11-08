@@ -38,7 +38,7 @@
             ? '<button class="chip purple" data-video="' + esc(t.video) + '" data-k="' + k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon">영상 준비 중 · Video soon</span>') +
           '<span class="chip soon">퀵 테스트 준비 중</span>' +
-          '<a class="chip pink" href="https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/" target="_blank" rel="noopener">Zap</a>' +
+          '<a class="chip pink" href="' + (t.zap || 'https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/') + '" target="_blank" rel="noopener" title="Match this grammar in the Zap book">Zap</a>' +
         '</div>';
       listEl.appendChild(el);
     });
