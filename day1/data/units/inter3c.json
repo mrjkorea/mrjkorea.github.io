@@ -1,0 +1,574 @@
+{
+ "book": "inter3c",
+ "title": "Inter 3C",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "Do You Like Sweet Food?",
+   "video_file": "048_inter3c__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "Do you like sweet food?",
+    "Yes, I will try it.",
+    "What is it?",
+    "It is a sticky rice dessert.",
+    "I do not know."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u1_q1",
+     "type": "missing_word",
+     "prompt": "Do you like sweet ___?",
+     "choices": [
+      "flu",
+      "food",
+      "foot"
+     ],
+     "answer": 1,
+     "cue": "Do you like sweet food?"
+    },
+    {
+     "id": "i3c_u1_q2",
+     "type": "choice",
+     "prompt": "You want to taste it. What do you say?",
+     "choices": [
+      "Yes, I will try it.",
+      "I do not understand.",
+      "No, I do not know."
+     ],
+     "answer": 0,
+     "cue": "Yes, I will try it."
+    },
+    {
+     "id": "i3c_u1_q3",
+     "type": "choice",
+     "prompt": "What is it? It is ddeok. How does it feel?",
+     "choices": [
+      "It is a salty soup.",
+      "It is a sour fruit.",
+      "It is a sticky rice dessert."
+     ],
+     "answer": 2,
+     "cue": "It is a sticky rice dessert."
+    },
+    {
+     "id": "i3c_u1_q4",
+     "type": "choice",
+     "prompt": "Which one is a taste?",
+     "choices": [
+      "rice",
+      "sour",
+      "dessert"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u1_q5",
+     "type": "choice",
+     "prompt": "Which one is salty and made from beans in Korea?",
+     "choices": [
+      "ddeok",
+      "dessert",
+      "doenjang"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "Do Not Yell",
+   "video_file": "047_inter3c__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "Do not run.",
+    "Do not yell.",
+    "Do not open it.",
+    "Do not pull it.",
+    "Do not throw that.",
+    "Do not draw here.",
+    "Do not fight."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u2_q1",
+     "type": "missing_word",
+     "prompt": "Do not ___.",
+     "choices": [
+      "yet",
+      "yellow",
+      "yell"
+     ],
+     "answer": 2,
+     "cue": "Do not yell."
+    },
+    {
+     "id": "i3c_u2_q2",
+     "type": "choice",
+     "prompt": "Your friend runs in the classroom. What do you say?",
+     "choices": [
+      "Do not yell.",
+      "Do not run.",
+      "Do not sleep."
+     ],
+     "answer": 1,
+     "cue": "Do not run."
+    },
+    {
+     "id": "i3c_u2_q3",
+     "type": "choice",
+     "prompt": "There is a present. You want to see it now. What do you NOT do?",
+     "choices": [
+      "Do not cry.",
+      "Do not open it.",
+      "Do not throw that."
+     ],
+     "answer": 1,
+     "cue": "Do not open it."
+    },
+    {
+     "id": "i3c_u2_q4",
+     "type": "choice",
+     "prompt": "Two boys hit each other. What do you say?",
+     "choices": [
+      "Do not fight.",
+      "Do not burp.",
+      "Do not pull it."
+     ],
+     "answer": 0,
+     "cue": "Do not fight."
+    },
+    {
+     "id": "i3c_u2_q5",
+     "type": "choice",
+     "prompt": "You write on the wall. What do you hear?",
+     "choices": [
+      "Do not draw here.",
+      "Do not run here.",
+      "Do not yell here."
+     ],
+     "answer": 0,
+     "cue": "Do not draw here."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Can I Play Outside?",
+   "video_file": "046_inter3c__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "Can I play outside?",
+    "Can I play outside?"
+   ],
+   "questions": [
+    {
+     "id": "i3c_u3_q1",
+     "type": "missing_word",
+     "prompt": "Can I play ___?",
+     "choices": [
+      "out",
+      "outside",
+      "inside"
+     ],
+     "answer": 1,
+     "cue": "Can I play outside?"
+    },
+    {
+     "id": "i3c_u3_q2",
+     "type": "choice",
+     "prompt": "You put them on your feet.",
+     "choices": [
+      "hat",
+      "shoes",
+      "gloves"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u3_q3",
+     "type": "choice",
+     "prompt": "You put them on your hands when it is cold.",
+     "choices": [
+      "socks",
+      "gloves",
+      "shoes"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u3_q4",
+     "type": "choice",
+     "prompt": "You put it on your head.",
+     "choices": [
+      "a skirt",
+      "a dress",
+      "a hat"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3c_u3_q5",
+     "type": "missing_word",
+     "prompt": "Can I ___ outside?",
+     "choices": [
+      "plays",
+      "playing",
+      "play"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "Let's Play an RPG",
+   "video_file": "045_inter3c__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "I am bored.",
+    "Me too. Let's play.",
+    "Let's sing karaoke.",
+    "No thanks. I cannot sing.",
+    "Let's play soccer.",
+    "No thanks. I do not like sports.",
+    "Let's climb up the jungle gym."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u4_q1",
+     "type": "choice",
+     "prompt": "I am bored. Me too. ___ play.",
+     "choices": [
+      "Lets",
+      "Let's",
+      "Let"
+     ],
+     "answer": 1,
+     "cue": "Me too. Let's play."
+    },
+    {
+     "id": "i3c_u4_q2",
+     "type": "choice",
+     "prompt": "Let's sing karaoke. You cannot sing. What do you say?",
+     "choices": [
+      "Yes, let's sing.",
+      "No thanks. I do not like sports.",
+      "No thanks. I cannot sing."
+     ],
+     "answer": 2,
+     "cue": "No thanks. I cannot sing."
+    },
+    {
+     "id": "i3c_u4_q3",
+     "type": "choice",
+     "prompt": "Let's play soccer. You do not like sports. What do you say?",
+     "choices": [
+      "No thanks. I cannot sing.",
+      "No thanks. I do not like sports.",
+      "Yes, let's play soccer."
+     ],
+     "answer": 1,
+     "cue": "No thanks. I do not like sports."
+    },
+    {
+     "id": "i3c_u4_q4",
+     "type": "choice",
+     "prompt": "You kick a ball with your feet.",
+     "choices": [
+      "cook",
+      "soccer",
+      "sing"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u4_q5",
+     "type": "choice",
+     "prompt": "You go up it at the playground.",
+     "choices": [
+      "the jungle gym",
+      "the TV",
+      "the bike"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "What Do You Have?",
+   "video_file": "044_inter3c__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "I have my phone."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u5_q1",
+     "type": "missing_word",
+     "prompt": "What do you ___?",
+     "choices": [
+      "had",
+      "has",
+      "have"
+     ],
+     "answer": 2,
+     "cue": "What do you have?"
+    },
+    {
+     "id": "i3c_u5_q2",
+     "type": "missing_word",
+     "prompt": "I ___ my phone.",
+     "choices": [
+      "has",
+      "have",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "I have my phone."
+    },
+    {
+     "id": "i3c_u5_q3",
+     "type": "choice",
+     "prompt": "You sleep on it.",
+     "choices": [
+      "a cup",
+      "a newspaper",
+      "a pillow"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3c_u5_q4",
+     "type": "choice",
+     "prompt": "You read the news on it.",
+     "choices": [
+      "a newspaper",
+      "a chessboard",
+      "a puzzle"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3c_u5_q5",
+     "type": "choice",
+     "prompt": "You put pieces together to make a picture.",
+     "choices": [
+      "a pencil case",
+      "a book",
+      "a puzzle"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "How Many Cities?",
+   "video_file": "043_inter3c__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "How many islands are there?"
+   ],
+   "questions": [
+    {
+     "id": "i3c_u6_q1",
+     "type": "missing_word",
+     "prompt": "How ___ cities are there?",
+     "choices": [
+      "much",
+      "more",
+      "many"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3c_u6_q2",
+     "type": "choice",
+     "prompt": "It is land with water all around it.",
+     "choices": [
+      "an island",
+      "a mountain",
+      "a desert"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3c_u6_q3",
+     "type": "choice",
+     "prompt": "It is very hot and dry, with sand.",
+     "choices": [
+      "a province",
+      "a desert",
+      "a national park"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u6_q4",
+     "type": "choice",
+     "prompt": "It is a very big hill.",
+     "choices": [
+      "a mountain",
+      "a city",
+      "an island"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3c_u6_q5",
+     "type": "choice",
+     "prompt": "Jeju has one famous one. It is hot inside.",
+     "choices": [
+      "a desert",
+      "a volcano",
+      "a national park"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Can You Fly?",
+   "video_file": "042_inter3c__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "Can you cook?",
+    "Can you fly?",
+    "No, I cannot fly."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u7_q1",
+     "type": "missing_word",
+     "prompt": "___ you fly?",
+     "choices": [
+      "Are",
+      "Can",
+      "Is"
+     ],
+     "answer": 1,
+     "cue": "Can you fly?"
+    },
+    {
+     "id": "i3c_u7_q2",
+     "type": "choice",
+     "prompt": "Can you fly?",
+     "choices": [
+      "Yes, I can fly.",
+      "No, I cannot fly.",
+      "No, I can fly."
+     ],
+     "answer": 1,
+     "cue": "No, I cannot fly."
+    },
+    {
+     "id": "i3c_u7_q3",
+     "type": "missing_word",
+     "prompt": "No, I ___ fly.",
+     "choices": [
+      "can",
+      "cannot",
+      "am not"
+     ],
+     "answer": 1,
+     "cue": "No, I cannot fly."
+    },
+    {
+     "id": "i3c_u7_q4",
+     "type": "choice",
+     "prompt": "You make food in the kitchen.",
+     "choices": [
+      "type",
+      "cook",
+      "walk"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3c_u7_q5",
+     "type": "choice",
+     "prompt": "You use your fingers on a keyboard.",
+     "choices": [
+      "jump",
+      "type",
+      "dance"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "What Time is it?",
+   "video_file": "041_inter3c__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "What time is it?",
+    "It is seven o'clock."
+   ],
+   "questions": [
+    {
+     "id": "i3c_u8_q1",
+     "type": "missing_word",
+     "prompt": "What ___ is it?",
+     "choices": [
+      "time",
+      "tim",
+      "tie"
+     ],
+     "answer": 0,
+     "cue": "What time is it?"
+    },
+    {
+     "id": "i3c_u8_q2",
+     "type": "missing_word",
+     "prompt": "It is seven ___.",
+     "choices": [
+      "hour",
+      "o'clock",
+      "clock"
+     ],
+     "answer": 1,
+     "cue": "It is seven o'clock."
+    },
+    {
+     "id": "i3c_u8_q3",
+     "type": "choice",
+     "prompt": "Which one is 12?",
+     "choices": [
+      "twelve",
+      "twenty",
+      "two"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3c_u8_q4",
+     "type": "choice",
+     "prompt": "Which one is 9?",
+     "choices": [
+      "nine",
+      "ninety",
+      "nineteen"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3c_u8_q5",
+     "type": "choice",
+     "prompt": "What time is it? It is eight.",
+     "choices": [
+      "It is eight clock.",
+      "It is eight o'clock.",
+      "It is o'clock eight."
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

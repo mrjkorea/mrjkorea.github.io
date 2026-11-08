@@ -1,0 +1,559 @@
+{
+ "book": "inter2a",
+ "title": "Inter 2A",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "How is the Weather?",
+   "video_file": "060_inter2a__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "How is the weather?",
+    "It is sunny."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u1_q1",
+     "type": "missing_word",
+     "prompt": "How is the ___?",
+     "choices": [
+      "weather",
+      "water",
+      "whether"
+     ],
+     "answer": 0,
+     "cue": "How is the weather?"
+    },
+    {
+     "id": "i2a_u1_q2",
+     "type": "choice",
+     "prompt": "The sun is out. How is the weather?",
+     "choices": [
+      "It is sunny.",
+      "It is rainy.",
+      "It is snowy."
+     ],
+     "answer": 0,
+     "cue": "It is sunny."
+    },
+    {
+     "id": "i2a_u1_q3",
+     "type": "choice",
+     "prompt": "Water falls from the sky. How is the weather?",
+     "choices": [
+      "It is foggy.",
+      "It is rainy.",
+      "It is windy."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2a_u1_q4",
+     "type": "choice",
+     "prompt": "White flakes fall from the sky. How is the weather?",
+     "choices": [
+      "It is snowing.",
+      "It is hot.",
+      "It is hailing."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2a_u1_q5",
+     "type": "choice",
+     "prompt": "You cannot see far. It is white and wet in the air.",
+     "choices": [
+      "It is foggy.",
+      "It is stormy.",
+      "It is sunny."
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "There are Snakes!",
+   "video_file": "063_inter2a__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "There are snakes!"
+   ],
+   "questions": [
+    {
+     "id": "i2a_u2_q1",
+     "type": "missing_word",
+     "prompt": "There ___ snakes!",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "There are snakes!"
+    },
+    {
+     "id": "i2a_u2_q2",
+     "type": "choice",
+     "prompt": "It is long, it has no legs, and it moves like this: sssss.",
+     "choices": [
+      "a snake",
+      "a bee",
+      "an ant"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2a_u2_q3",
+     "type": "choice",
+     "prompt": "It is small, it flies, and it can sting you.",
+     "choices": [
+      "a spider",
+      "a bee",
+      "a snake"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2a_u2_q4",
+     "type": "choice",
+     "prompt": "You go there in a hotel to wash your hands.",
+     "choices": [
+      "the food",
+      "the water",
+      "the washroom"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u2_q5",
+     "type": "choice",
+     "prompt": "Which one has eight legs?",
+     "choices": [
+      "an ant",
+      "a snake",
+      "a spider"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Can You Speak Chinese?",
+   "video_file": "059_inter2a__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "Can you speak Chinese?"
+   ],
+   "questions": [
+    {
+     "id": "i2a_u3_q1",
+     "type": "missing_word",
+     "prompt": "Can you ___ English?",
+     "choices": [
+      "speak",
+      "spend",
+      "spoke"
+     ],
+     "answer": 0,
+     "cue": "Can you speak English?"
+    },
+    {
+     "id": "i2a_u3_q2",
+     "type": "missing_word",
+     "prompt": "___ you speak Chinese?",
+     "choices": [
+      "Is",
+      "Can",
+      "Are"
+     ],
+     "answer": 1,
+     "cue": "Can you speak Chinese?"
+    },
+    {
+     "id": "i2a_u3_q3",
+     "type": "choice",
+     "prompt": "People speak it in Japan.",
+     "choices": [
+      "Japanese",
+      "French",
+      "Chinese"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2a_u3_q4",
+     "type": "choice",
+     "prompt": "People speak it in France.",
+     "choices": [
+      "Hindi",
+      "German",
+      "French"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u3_q5",
+     "type": "choice",
+     "prompt": "People speak it in Korea.",
+     "choices": [
+      "Russian",
+      "Spanish",
+      "Korean"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "What do you Want?",
+   "video_file": "058_inter2a__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "What do you want?",
+    "I want medicine.",
+    "I want a blanket.",
+    "I want tissue paper."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u4_q1",
+     "type": "missing_word",
+     "prompt": "What do you ___?",
+     "choices": [
+      "work",
+      "went",
+      "want"
+     ],
+     "answer": 2,
+     "cue": "What do you want?"
+    },
+    {
+     "id": "i2a_u4_q2",
+     "type": "choice",
+     "prompt": "You are sick. What do you want?",
+     "choices": [
+      "I want juice.",
+      "I want medicine.",
+      "I want a blanket."
+     ],
+     "answer": 1,
+     "cue": "I want medicine."
+    },
+    {
+     "id": "i2a_u4_q3",
+     "type": "choice",
+     "prompt": "You are cold in bed. What do you want?",
+     "choices": [
+      "I want a blanket.",
+      "I want soup.",
+      "I want a hug."
+     ],
+     "answer": 0,
+     "cue": "I want a blanket."
+    },
+    {
+     "id": "i2a_u4_q4",
+     "type": "choice",
+     "prompt": "Your nose is running. What do you want?",
+     "choices": [
+      "I want a book.",
+      "I want water.",
+      "I want tissue paper."
+     ],
+     "answer": 2,
+     "cue": "I want tissue paper."
+    },
+    {
+     "id": "i2a_u4_q5",
+     "type": "missing_word",
+     "prompt": "I want a ___.",
+     "choices": [
+      "blank",
+      "basket",
+      "blanket"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "Where is My Phone?",
+   "video_file": "052_inter2a__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "Where is my phone?",
+    "I don't know.",
+    "Maybe it is in the kitchen."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u5_q1",
+     "type": "missing_word",
+     "prompt": "Where is my ___?",
+     "choices": [
+      "phone",
+      "food",
+      "fun"
+     ],
+     "answer": 0,
+     "cue": "Where is my phone?"
+    },
+    {
+     "id": "i2a_u5_q2",
+     "type": "choice",
+     "prompt": "Where is my phone? You are not sure. What do you say?",
+     "choices": [
+      "Maybe it is in the kitchen.",
+      "I have my phone.",
+      "It is not my phone."
+     ],
+     "answer": 0,
+     "cue": "Maybe it is in the kitchen."
+    },
+    {
+     "id": "i2a_u5_q3",
+     "type": "choice",
+     "prompt": "You cook food there.",
+     "choices": [
+      "the bathroom",
+      "the garage",
+      "the kitchen"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u5_q4",
+     "type": "choice",
+     "prompt": "You sleep there.",
+     "choices": [
+      "the living room",
+      "the bedroom",
+      "the attic"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2a_u5_q5",
+     "type": "choice",
+     "prompt": "You wash there.",
+     "choices": [
+      "the dining room",
+      "the basement",
+      "the bathroom"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "Look at This Funny Video",
+   "video_file": "057_inter2a__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "Look at this funny video."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u6_q1",
+     "type": "missing_word",
+     "prompt": "Look at this ___ video.",
+     "choices": [
+      "fun",
+      "fanny",
+      "funny"
+     ],
+     "answer": 2,
+     "cue": "Look at this funny video."
+    },
+    {
+     "id": "i2a_u6_q2",
+     "type": "choice",
+     "prompt": "It makes you laugh. How is it?",
+     "choices": [
+      "boring",
+      "funny",
+      "sad"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2a_u6_q3",
+     "type": "choice",
+     "prompt": "It makes you afraid. How is it?",
+     "choices": [
+      "quiet",
+      "exciting",
+      "scary"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u6_q4",
+     "type": "choice",
+     "prompt": "It is not interesting at all. How is it?",
+     "choices": [
+      "gross",
+      "crazy",
+      "boring"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u6_q5",
+     "type": "choice",
+     "prompt": "It is very strange. How is it?",
+     "choices": [
+      "weird",
+      "sad",
+      "loud"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Where is the Teacher?",
+   "video_file": "056_inter2a__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "Where is the teacher?",
+    "He is in the classroom."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u7_q1",
+     "type": "missing_word",
+     "prompt": "Where is our ___?",
+     "choices": [
+      "teacher",
+      "teach a class",
+      "teach"
+     ],
+     "answer": 0,
+     "cue": "Where is our teacher?"
+    },
+    {
+     "id": "i2a_u7_q2",
+     "type": "choice",
+     "prompt": "Who cleans the school?",
+     "choices": [
+      "the janitor",
+      "the nurse",
+      "the principal"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2a_u7_q3",
+     "type": "choice",
+     "prompt": "Who is the head of the school?",
+     "choices": [
+      "the librarian",
+      "the student",
+      "the principal"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u7_q4",
+     "type": "choice",
+     "prompt": "Who helps you when you are sick at school?",
+     "choices": [
+      "the groundskeeper",
+      "the lunch lady",
+      "the nurse"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u7_q5",
+     "type": "choice",
+     "prompt": "Who works in the library?",
+     "choices": [
+      "the secretary",
+      "the librarian",
+      "the classmate"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "What Do You Do After School?",
+   "video_file": "055_inter2a__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "What do you do after school?",
+    "I play computer games.",
+    "I play soccer."
+   ],
+   "questions": [
+    {
+     "id": "i2a_u8_q1",
+     "type": "missing_word",
+     "prompt": "What do you do ___ school?",
+     "choices": [
+      "of",
+      "before",
+      "after"
+     ],
+     "answer": 2,
+     "cue": "What do you do after school?"
+    },
+    {
+     "id": "i2a_u8_q2",
+     "type": "choice",
+     "prompt": "What do you do after school? You play soccer.",
+     "choices": [
+      "I play soccer.",
+      "I play games.",
+      "I play the piano."
+     ],
+     "answer": 0,
+     "cue": "I play soccer."
+    },
+    {
+     "id": "i2a_u8_q3",
+     "type": "choice",
+     "prompt": "You do this with a ball and your feet.",
+     "choices": [
+      "relax",
+      "practice the piano",
+      "play soccer"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u8_q4",
+     "type": "choice",
+     "prompt": "You do this with a bicycle.",
+     "choices": [
+      "watch TV",
+      "sing",
+      "ride a bike"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2a_u8_q5",
+     "type": "choice",
+     "prompt": "Taekwondo and judo are ___.",
+     "choices": [
+      "martial arts",
+      "sports clubs",
+      "homework"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

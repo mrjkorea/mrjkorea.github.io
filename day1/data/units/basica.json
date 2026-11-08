@@ -1,0 +1,628 @@
+{
+ "book": "basic_a",
+ "title": "Basic A",
+ "note": "Day 1 quiz. Every question uses only this unit's words and the lines spoken in this unit's video. Source lines were read from the video audio (whisper-large-v3-turbo, English forced) and cross-checked with the unit word pack.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "Numbers 1 to 10",
+   "video_file": "008_basica__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "Ten, nine, eight, seven, six, five, four, three, two, one."
+   ],
+   "questions": [
+    {
+     "id": "ba_u1_q1",
+     "type": "missing_word",
+     "prompt": "Ten, nine, eight, ___, six.",
+     "choices": [
+      "seven",
+      "one",
+      "five"
+     ],
+     "answer": 0,
+     "cue": "Ten, nine, eight, seven, six, five, four, three, two, one."
+    },
+    {
+     "id": "ba_u1_q2",
+     "type": "count_on",
+     "prompt": "Four, five, six, ___.",
+     "choices": [
+      "seven",
+      "nine",
+      "two"
+     ],
+     "answer": 0,
+     "cue": "counting 1 to 10"
+    },
+    {
+     "id": "ba_u1_q3",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Ten, eight, nine.",
+      "Ten, nine, eight.",
+      "Ten, nine, seven."
+     ],
+     "answer": 1,
+     "cue": "Ten, nine, eight, seven, six, five, four, three, two, one."
+    },
+    {
+     "id": "ba_u1_q4",
+     "type": "count_down",
+     "prompt": "Count down: five, four, three, ___, one.",
+     "choices": [
+      "ten",
+      "two",
+      "six"
+     ],
+     "answer": 1,
+     "cue": "counting down to one"
+    },
+    {
+     "id": "ba_u1_q5",
+     "type": "missing_word",
+     "prompt": "Eight, nine, ___.",
+     "choices": [
+      "four",
+      "one",
+      "ten"
+     ],
+     "answer": 2,
+     "cue": "counting 1 to 10"
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "Hello",
+   "video_file": "007_basica__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "Hello, Mr. Cat.",
+    "Hello, Mr. Cow.",
+    "Hello, Mr. Horse.",
+    "Hello, Mr. Dog.",
+    "Hello, Miss Pig.",
+    "Hello, Miss Chicken.",
+    "Hello, Miss Goat.",
+    "Goodbye, Mom."
+   ],
+   "questions": [
+    {
+     "id": "ba_u2_q1",
+     "type": "choice",
+     "prompt": "You meet your teacher in the morning. What do you say?",
+     "choices": [
+      "Hello.",
+      "Quiet.",
+      "Goodbye."
+     ],
+     "answer": 0,
+     "cue": "Hello, Mr. Cat."
+    },
+    {
+     "id": "ba_u2_q2",
+     "type": "missing_word",
+     "prompt": "Hello, ___ Cat.",
+     "choices": [
+      "Miss",
+      "Mr.",
+      "Goodbye"
+     ],
+     "answer": 1,
+     "cue": "Hello, Mr. Cat."
+    },
+    {
+     "id": "ba_u2_q3",
+     "type": "missing_word",
+     "prompt": "Hello, ___ Pig.",
+     "choices": [
+      "Mr.",
+      "Mom",
+      "Miss"
+     ],
+     "answer": 2,
+     "cue": "Hello, Miss Pig."
+    },
+    {
+     "id": "ba_u2_q4",
+     "type": "choice",
+     "prompt": "You leave your house. What do you say to your mom?",
+     "choices": [
+      "Hello, Mom.",
+      "Goodbye, Mom.",
+      "Pardon?"
+     ],
+     "answer": 1,
+     "cue": "Goodbye, Mom."
+    },
+    {
+     "id": "ba_u2_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Hello, Mr. House.",
+      "Hello, Mr. Horn.",
+      "Hello, Mr. Horse."
+     ],
+     "answer": 2,
+     "cue": "Hello, Mr. Horse."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Computer Orders",
+   "video_file": "006_basica__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "Unplug your headset.",
+    "Scroll down.",
+    "Type your ID.",
+    "Make a new tab.",
+    "Left click.",
+    "Right click.",
+    "Double click.",
+    "Don't click on X.",
+    "Restart your computer."
+   ],
+   "questions": [
+    {
+     "id": "ba_u3_q1",
+     "type": "choice",
+     "prompt": "You want to see the bottom of the page. What do you do?",
+     "choices": [
+      "Scroll down.",
+      "Type your ID.",
+      "Make a new tab."
+     ],
+     "answer": 0,
+     "cue": "Scroll down."
+    },
+    {
+     "id": "ba_u3_q2",
+     "type": "choice",
+     "prompt": "The computer stops. What do you do?",
+     "choices": [
+      "Unplug your headset.",
+      "Restart your computer.",
+      "Left click."
+     ],
+     "answer": 1,
+     "cue": "Restart your computer."
+    },
+    {
+     "id": "ba_u3_q3",
+     "type": "missing_word",
+     "prompt": "Don't click on ___.",
+     "choices": [
+      "X",
+      "ID",
+      "tab"
+     ],
+     "answer": 0,
+     "cue": "Don't click on X."
+    },
+    {
+     "id": "ba_u3_q4",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Type your name.",
+      "Type your ID.",
+      "Type your tab."
+     ],
+     "answer": 1,
+     "cue": "Type your ID."
+    },
+    {
+     "id": "ba_u3_q5",
+     "type": "choice",
+     "prompt": "You want a second page open. What do you do?",
+     "choices": [
+      "Scroll down.",
+      "Double click.",
+      "Make a new tab."
+     ],
+     "answer": 2,
+     "cue": "Make a new tab."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "Classroom English One",
+   "video_file": "005_basica__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "Good afternoon.",
+    "See you tomorrow.",
+    "Sorry.",
+    "Pardon?",
+    "Help me, please.",
+    "Quiet!",
+    "Wait."
+   ],
+   "questions": [
+    {
+     "id": "ba_u4_q1",
+     "type": "choice",
+     "prompt": "It is two in the afternoon. You meet your teacher. What do you say?",
+     "choices": [
+      "Good morning.",
+      "Good afternoon.",
+      "Goodbye."
+     ],
+     "answer": 1,
+     "cue": "Good afternoon."
+    },
+    {
+     "id": "ba_u4_q2",
+     "type": "choice",
+     "prompt": "You did not hear the teacher. What do you say?",
+     "choices": [
+      "Quiet!",
+      "Sorry, Mom.",
+      "Pardon?"
+     ],
+     "answer": 2,
+     "cue": "Pardon?"
+    },
+    {
+     "id": "ba_u4_q3",
+     "type": "choice",
+     "prompt": "The class is very noisy. The teacher says ___",
+     "choices": [
+      "Afternoon!",
+      "Quiet!",
+      "Tomorrow!"
+     ],
+     "answer": 1,
+     "cue": "Quiet!"
+    },
+    {
+     "id": "ba_u4_q4",
+     "type": "choice",
+     "prompt": "You need help with your book. What do you say?",
+     "choices": [
+      "See you tomorrow.",
+      "Help me, please.",
+      "Pardon?"
+     ],
+     "answer": 1,
+     "cue": "Help me, please."
+    },
+    {
+     "id": "ba_u4_q5",
+     "type": "missing_word",
+     "prompt": "See you ___.",
+     "choices": [
+      "quiet",
+      "afternoon",
+      "tomorrow"
+     ],
+     "answer": 2,
+     "cue": "See you tomorrow."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "Family",
+   "video_file": "004_basica__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "This is my dad.",
+    "This is my mom.",
+    "This is my sister.",
+    "This is my uncle.",
+    "This is my brother.",
+    "This is my cousin.",
+    "This is my aunt.",
+    "This is my grandmother."
+   ],
+   "questions": [
+    {
+     "id": "ba_u5_q1",
+     "type": "choice",
+     "prompt": "Your mother's mother is your ___.",
+     "choices": [
+      "sister",
+      "aunt",
+      "grandmother"
+     ],
+     "answer": 2,
+     "cue": "This is my grandmother."
+    },
+    {
+     "id": "ba_u5_q2",
+     "type": "choice",
+     "prompt": "Your father's brother is your ___.",
+     "choices": [
+      "brother",
+      "cousin",
+      "uncle"
+     ],
+     "answer": 2,
+     "cue": "This is my uncle."
+    },
+    {
+     "id": "ba_u5_q3",
+     "type": "choice",
+     "prompt": "Your aunt's child is your ___.",
+     "choices": [
+      "sister",
+      "cousin",
+      "aunt"
+     ],
+     "answer": 1,
+     "cue": "This is my cousin."
+    },
+    {
+     "id": "ba_u5_q4",
+     "type": "missing_word",
+     "prompt": "This is ___ dad.",
+     "choices": [
+      "my",
+      "me",
+      "I"
+     ],
+     "answer": 0,
+     "cue": "This is my dad."
+    },
+    {
+     "id": "ba_u5_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "This is my aunt.",
+      "This is my brother.",
+      "This is my sister."
+     ],
+     "answer": 2,
+     "cue": "This is my sister."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "What is this?",
+   "video_file": "003_basica__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "What is this?",
+    "It is a desk.",
+    "It is a gym ball.",
+    "It is a mouse.",
+    "It is a keyboard.",
+    "It is a monitor.",
+    "It is a headset.",
+    "It is a cube.",
+    "It is a clipboard.",
+    "It is a pen.",
+    "It is a book."
+   ],
+   "questions": [
+    {
+     "id": "ba_u6_q1",
+     "type": "choice",
+     "prompt": "You point to one thing. What do you ask?",
+     "choices": [
+      "Where is this?",
+      "How are you?",
+      "What is this?"
+     ],
+     "answer": 2,
+     "cue": "What is this?"
+    },
+    {
+     "id": "ba_u6_q2",
+     "type": "choice",
+     "prompt": "You type on it. What is this?",
+     "choices": [
+      "It is a book.",
+      "It is a monitor.",
+      "It is a keyboard."
+     ],
+     "answer": 2,
+     "cue": "It is a keyboard."
+    },
+    {
+     "id": "ba_u6_q3",
+     "type": "choice",
+     "prompt": "You look at it. It is a screen. What is this?",
+     "choices": [
+      "It is a desk.",
+      "It is a monitor.",
+      "It is a pen."
+     ],
+     "answer": 1,
+     "cue": "It is a monitor."
+    },
+    {
+     "id": "ba_u6_q4",
+     "type": "choice",
+     "prompt": "It is round. You sit on it and move. What is this?",
+     "choices": [
+      "It is a gym ball.",
+      "It is a cube.",
+      "It is a headset."
+     ],
+     "answer": 0,
+     "cue": "It is a gym ball."
+    },
+    {
+     "id": "ba_u6_q5",
+     "type": "missing_word",
+     "prompt": "It is ___ pen.",
+     "choices": [
+      "an",
+      "a",
+      "is"
+     ],
+     "answer": 1,
+     "cue": "It is a pen."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "I can",
+   "video_file": "002_basica__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "I can dance.",
+    "I can run fast.",
+    "I can sing.",
+    "I can play the piano.",
+    "I can draw.",
+    "I can speak Chinese.",
+    "I can do magic.",
+    "I can do taekwondo."
+   ],
+   "questions": [
+    {
+     "id": "ba_u7_q1",
+     "type": "missing_word",
+     "prompt": "I ___ sing.",
+     "choices": [
+      "is",
+      "can",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "I can sing."
+    },
+    {
+     "id": "ba_u7_q2",
+     "type": "choice",
+     "prompt": "You use a pencil and paper for this.",
+     "choices": [
+      "I can run fast.",
+      "I can sing.",
+      "I can draw."
+     ],
+     "answer": 2,
+     "cue": "I can draw."
+    },
+    {
+     "id": "ba_u7_q3",
+     "type": "choice",
+     "prompt": "This is a sport from Korea. You kick and shout.",
+     "choices": [
+      "I can play the piano.",
+      "I can do magic.",
+      "I can do taekwondo."
+     ],
+     "answer": 2,
+     "cue": "I can do taekwondo."
+    },
+    {
+     "id": "ba_u7_q4",
+     "type": "missing_word",
+     "prompt": "I can run ___.",
+     "choices": [
+      "magic",
+      "piano",
+      "fast"
+     ],
+     "answer": 2,
+     "cue": "I can run fast."
+    },
+    {
+     "id": "ba_u7_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I can play the guitar.",
+      "I can play the piano.",
+      "I can play the drums."
+     ],
+     "answer": 1,
+     "cue": "I can play the piano."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "Numbers 11-100",
+   "video_file": "001_basica__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "Hurry, hurry!",
+    "55, 54, 53.",
+    "33, 32, 31.",
+    "22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11.",
+    "One hundred.",
+    "Ninety-nine.",
+    "Fifty-five.",
+    "Thirty-three.",
+    "Twenty-two."
+   ],
+   "questions": [
+    {
+     "id": "ba_u8_q1",
+     "type": "count_down",
+     "prompt": "55, 54, 53, ___.",
+     "choices": [
+      "fifty-two",
+      "forty-three",
+      "fifty-five"
+     ],
+     "answer": 0,
+     "cue": "55, 54, 53."
+    },
+    {
+     "id": "ba_u8_q2",
+     "type": "missing_word",
+     "prompt": "One ___, ninety-nine.",
+     "choices": [
+      "hundred",
+      "eleven",
+      "thousand"
+     ],
+     "answer": 0,
+     "cue": "One hundred. Ninety-nine."
+    },
+    {
+     "id": "ba_u8_q3",
+     "type": "choice",
+     "prompt": "Which one is thirty-three?",
+     "choices": [
+      "33",
+      "13",
+      "30"
+     ],
+     "answer": 0,
+     "cue": "33, 32, 31."
+    },
+    {
+     "id": "ba_u8_q4",
+     "type": "choice",
+     "prompt": "Which one is fifty-five?",
+     "choices": [
+      "15",
+      "50",
+      "55"
+     ],
+     "answer": 2,
+     "cue": "55, 54, 53."
+    },
+    {
+     "id": "ba_u8_q5",
+     "type": "count_down",
+     "prompt": "22, 21, 20, ___.",
+     "choices": [
+      "nineteen",
+      "twelve",
+      "twenty-two"
+     ],
+     "answer": 0,
+     "cue": "22, 21, 20, 19, 18 ..."
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

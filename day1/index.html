@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Day 1 · Video lesson · MRJ English</title>
+<style>
+  :root{--bg:#f7f3ea;--card:#fff;--ink:#222;--hot:#ff6b35;--ok:#1f9d55;--bad:#d64545;--line:#e6e0d4}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 48px}
+  header{display:flex;align-items:center;gap:10px;padding:6px 0 14px}
+  .back{text-decoration:none;color:var(--hot);font-weight:800;font-size:15px}
+  h1{font-size:20px;margin:0 0 2px}
+  .sub{color:#6b6357;font-size:14px;margin:0}
+  .card{background:var(--card);border-radius:16px;padding:14px;margin:12px 0;box-shadow:0 6px 18px #0001}
+  .step{font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#8a8175;margin:0 0 8px}
+  .frame{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}
+  .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .wait{display:flex;align-items:center;justify-content:center;height:100%;color:#cfc7ba;font-weight:700;text-align:center;padding:20px}
+  .q{font-size:19px;font-weight:800;margin:6px 0 12px}
+  .choices{display:grid;gap:10px}
+  .choice{display:block;width:100%;text-align:left;padding:14px 16px;border:2px solid var(--line);border-radius:12px;background:#fff;font:inherit;font-weight:700;cursor:pointer}
+  .choice:hover{border-color:var(--hot)}
+  .choice.right{border-color:var(--ok);background:#effaf2}
+  .choice.wrong{border-color:var(--bad);background:#fdf0f0}
+  .choice:disabled{opacity:.85;cursor:default}
+  .meta{display:flex;justify-content:space-between;align-items:center;gap:10px;color:#6b6357;font-size:14px}
+  .bar{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin:10px 0 4px}
+  .bar>i{display:block;height:100%;background:var(--hot);width:0}
+  .btn{display:inline-block;padding:13px 18px;border-radius:12px;border:0;background:var(--hot);color:#fff;font:inherit;font-weight:800;cursor:pointer;text-decoration:none}
+  .btn.ghost{background:#fff;color:var(--hot);border:2px solid var(--hot)}
+  .big{font-size:34px;font-weight:900;margin:6px 0}
+  .hidden{display:none}
+  .cue{color:#8a8175;font-size:13px;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" href="#" id="back">← Back</a>
+  </header>
+
+  <h1 id="unitTitle">Day 1</h1>
+  <p class="sub" id="unitSub">Video lesson</p>
+
+  <div class="card" id="mrjCard">
+    <p class="step">1 · Mr. Jay</p>
+    <div class="frame" id="mrjFrame"><div class="wait">Video is coming.</div></div>
+  </div>
+
+  <div class="card" id="animCard">
+    <p class="step" id="animStep">2 · Animation</p>
+    <div class="frame" id="animFrame"><div class="wait">Video is coming.</div></div>
+  </div>
+
+  <div class="card" id="quizCard">
+    <p class="step" id="quizStep">3 · Quiz</p>
+    <div class="meta"><span id="qCount">Question 1 of 5</span><span id="qScore">0 right</span></div>
+    <div class="bar"><i id="qBar"></i></div>
+    <p class="q" id="qText">Loading…</p>
+    <div class="choices" id="qChoices"></div>
+    <p class="cue" id="qCue"></p>
+  </div>
+
+  <div class="card hidden" id="doneCard">
+    <p class="step">Done</p>
+    <div class="big" id="doneScore">0 / 5</div>
+    <p id="doneMsg"></p>
+    <p>
+      <button class="btn" id="again">Try again</button>
+      <a class="btn ghost" id="home" href="#">Back to the map</a>
+    </p>
+  </div>
+</div>
+
+<script>
+(function(){
+  const EMBED = (id) => `https://www.youtube-nocookie.com/embed/${id}?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
+  const params = new URLSearchParams(location.search);
+  const book = (params.get('book') || '').replace(/_/g,'');   // basica, basicb, inter2a ...
+  const unitNo = String(params.get('unit') || '').replace(/^u/i,'');
+  const unitKey = book + unitNo;                    // basica1
+  const state = { q: [], i: 0, right: 0, tries: 0 };
+
+  const $ = (id) => document.getElementById(id);
+  document.getElementById('back').href = 'https://mrjkorea.github.io/';
+
+  function fillFrame(el, id){
+    if(!id){ return; }
+    el.innerHTML = '';
+    const f = document.createElement('iframe');
+    f.src = EMBED(id);
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    el.appendChild(f);
+  }
+
+  async function loadJSON(path){
+    const r = await fetch(path, {cache:'no-store'});
+    if(!r.ok) throw new Error(path + ' ' + r.status);
+    return r.json();
+  }
+
+  function renderQuestion(){
+    const q = state.q[state.i];
+    $('qCount').textContent = `Question ${state.i+1} of ${state.q.length}`;
+    $('qScore').textContent = state.right + ' right';
+    $('qBar').style.width = (100 * state.i / state.q.length) + '%';
+    $('qText').textContent = q.prompt;
+    $('qCue').textContent = '';
+    const box = $('qChoices');
+    box.innerHTML = '';
+    q.choices.forEach((text, idx) => {
+      const b = document.createElement('button');
+      b.className = 'choice';
+      b.textContent = text;
+      b.onclick = () => answer(idx, b);
+      box.appendChild(b);
+    });
+  }
+
+  function answer(idx, btn){
+    const q = state.q[state.i];
+    const buttons = [...document.querySelectorAll('.choice')];
+    buttons.forEach(b => b.disabled = true);
+    if(idx === q.answer){
+      btn.classList.add('right');
+      state.right++;
+    } else {
+      btn.classList.add('wrong');
+      buttons[q.answer].classList.add('right');
+    }
+    $('qScore').textContent = state.right + ' right';
+    setTimeout(() => {
+      state.i++;
+      if(state.i < state.q.length){ renderQuestion(); } else { finish(); }
+    }, 900);
+  }
+
+  function finish(){
+    const total = state.q.length;
+    const pass = state.right >= (state.pass || Math.ceil(total * 0.8));
+    $('quizCard').classList.add('hidden');
+    $('doneCard').classList.remove('hidden');
+    $('doneScore').textContent = `${state.right} / ${total}`;
+    $('doneMsg').textContent = pass
+      ? 'Good job. You passed this quiz.'
+      : 'Not yet. Watch the animation again, then try again.';
+    try {
+      const key = 'mrj_day1_' + unitKey;
+      const rec = JSON.parse(localStorage.getItem(key) || '[]');
+      rec.push({when:new Date().toISOString(), right:state.right, total, try:rec.length+1});
+      localStorage.setItem(key, JSON.stringify(rec));
+    } catch(e){}
+  }
+
+  $('again').onclick = () => {
+    state.i = 0; state.right = 0; state.tries++;
+    $('doneCard').classList.add('hidden');
+    $('quizCard').classList.remove('hidden');
+    renderQuestion();
+  };
+  $('home').href = 'https://mrjkorea.github.io/';
+
+  (async function start(){
+    if(!book || !unitNo){
+      $('unitTitle').textContent = 'Day 1';
+      $('qText').textContent = 'Open this page from the map.';
+      return;
+    }
+    // videos: read the shared map, so uploads go live one by one with no code change
+    try {
+      const yt = await loadJSON('data/youtube.json');
+      const row = (yt[book] || {})[unitNo] || {};
+      if (!('mrj' in row)) {
+        // this unit has no Mr. Jay video at all in LearnWorlds: one video only
+        document.getElementById('mrjCard').classList.add('hidden');
+        document.getElementById('animStep').textContent = '1 · Animation';
+        document.getElementById('quizStep').textContent = '2 · Quiz';
+      }
+      fillFrame($('mrjFrame'), row.mrj);
+      fillFrame($('animFrame'), row.animation);
+    } catch(e){ console.warn('no youtube map yet', e); }
+
+    try {
+      const data = await loadJSON('data/units/' + book + '.json');
+      const u = (data.units || []).find(x => String(x.unit) === String(unitNo));
+      if(!u){ throw new Error('unit not found'); }
+      $('unitTitle').textContent = `${data.title} · Unit ${u.unit}`;
+      $('unitSub').textContent = `Day 1 · ${u.title}`;
+      document.title = `Day 1 · ${data.title} Unit ${u.unit}`;
+      state.q = u.questions;
+      state.pass = u.pass_score;
+      renderQuestion();
+    } catch(e){
+      console.warn(e);
+      $('qText').textContent = 'This unit is not ready yet.';
+    }
+  })();
+})();
+</script>
+</body>
+</html>

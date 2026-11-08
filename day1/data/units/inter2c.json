@@ -1,0 +1,565 @@
+{
+ "book": "inter2c",
+ "title": "Inter 2C",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "I Love Summer",
+   "video_file": "088_inter2c__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "I love summer.",
+    "I love summer in Tongyeong City.",
+    "We can swim and visit many islands.",
+    "I love fall."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u1_q1",
+     "type": "choice",
+     "prompt": "It is hot. You go to the beach and swim. Which season?",
+     "choices": [
+      "winter",
+      "summer",
+      "spring"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u1_q2",
+     "type": "choice",
+     "prompt": "The leaves fall from the trees. Which season?",
+     "choices": [
+      "spring",
+      "summer",
+      "fall"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u1_q3",
+     "type": "choice",
+     "prompt": "It is cold and it snows. Which season?",
+     "choices": [
+      "winter",
+      "summer",
+      "fall"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2c_u1_q4",
+     "type": "choice",
+     "prompt": "Flowers open and it gets warm. Which season?",
+     "choices": [
+      "fall",
+      "winter",
+      "spring"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u1_q5",
+     "type": "missing_word",
+     "prompt": "I love all four ___.",
+     "choices": [
+      "reasons",
+      "seasons",
+      "season"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "What Are You Doing?",
+   "video_file": "095_inter2c__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "What are you doing?",
+    "I am fishing."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u2_q1",
+     "type": "missing_word",
+     "prompt": "What ___ you doing?",
+     "choices": [
+      "is",
+      "am",
+      "are"
+     ],
+     "answer": 2,
+     "cue": "What are you doing?"
+    },
+    {
+     "id": "i2c_u2_q2",
+     "type": "missing_word",
+     "prompt": "I am ___.",
+     "choices": [
+      "fish",
+      "fished",
+      "fishing"
+     ],
+     "answer": 2,
+     "cue": "I am fishing."
+    },
+    {
+     "id": "i2c_u2_q3",
+     "type": "choice",
+     "prompt": "You catch fish with a line and a hook.",
+     "choices": [
+      "brushing teeth",
+      "fishing",
+      "selling fruit"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u2_q4",
+     "type": "choice",
+     "prompt": "You clean them two times a day.",
+     "choices": [
+      "brushing my teeth",
+      "fishing",
+      "sleeping"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2c_u2_q5",
+     "type": "choice",
+     "prompt": "Which one is a vegetable?",
+     "choices": [
+      "a picture",
+      "a bow",
+      "a carrot"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Is This Yours?",
+   "video_file": "094_inter2c__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "Is Bumchun there?",
+    "Who's calling?",
+    "This is Mr. Jay."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u3_q1",
+     "type": "missing_word",
+     "prompt": "___ candy is this?",
+     "choices": [
+      "Whose",
+      "Who",
+      "Who's"
+     ],
+     "answer": 0,
+     "cue": "Whose candy is this?"
+    },
+    {
+     "id": "i2c_u3_q2",
+     "type": "choice",
+     "prompt": "Whose candy is this? You are not sure.",
+     "choices": [
+      "It is mine.",
+      "I don't know.",
+      "Thank you."
+     ],
+     "answer": 1,
+     "cue": "I don't know."
+    },
+    {
+     "id": "i2c_u3_q3",
+     "type": "choice",
+     "prompt": "This phone belongs to you. What do you say?",
+     "choices": [
+      "It is hers.",
+      "It is mine.",
+      "It is yours."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u3_q4",
+     "type": "choice",
+     "prompt": "You put rubbish in it. What is it?",
+     "choices": [
+      "candy",
+      "money",
+      "garbage"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u3_q5",
+     "type": "choice",
+     "prompt": "You sit on it and work at a desk.",
+     "choices": [
+      "a chair",
+      "a book",
+      "candy"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "What's Your Favorite?",
+   "video_file": "093_inter2c__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "What is your favorite animal?",
+    "What's your favorite subject?"
+   ],
+   "questions": [
+    {
+     "id": "i2c_u4_q1",
+     "type": "missing_word",
+     "prompt": "What is your ___ animal?",
+     "choices": [
+      "favorite",
+      "favour",
+      "favored"
+     ],
+     "answer": 0,
+     "cue": "What is your favorite animal?"
+    },
+    {
+     "id": "i2c_u4_q2",
+     "type": "choice",
+     "prompt": "What is your favorite animal? You like dogs best.",
+     "choices": [
+      "My favorite color is red.",
+      "My favorite food is pizza.",
+      "My favorite animal is the dog."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u4_q3",
+     "type": "choice",
+     "prompt": "Which one is a season?",
+     "choices": [
+      "winter",
+      "sport",
+      "snack"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2c_u4_q4",
+     "type": "choice",
+     "prompt": "Which one is a hobby?",
+     "choices": [
+      "animal",
+      "fishing",
+      "character"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u4_q5",
+     "type": "choice",
+     "prompt": "Which one is a snack?",
+     "choices": [
+      "sport",
+      "fruit",
+      "chips"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "How Are You Feeling?",
+   "video_file": "092_inter2c__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "How are you feeling?",
+    "I am feeling nervous."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u5_q1",
+     "type": "missing_word",
+     "prompt": "How are you ___?",
+     "choices": [
+      "fill",
+      "feel",
+      "feeling"
+     ],
+     "answer": 2,
+     "cue": "How are you feeling?"
+    },
+    {
+     "id": "i2c_u5_q2",
+     "type": "missing_word",
+     "prompt": "I am feeling ___.",
+     "choices": [
+      "nerves",
+      "nervously",
+      "nervous"
+     ],
+     "answer": 2,
+     "cue": "I am feeling nervous."
+    },
+    {
+     "id": "i2c_u5_q3",
+     "type": "choice",
+     "prompt": "You did very well and you are happy about it.",
+     "choices": [
+      "guilty",
+      "jealous",
+      "proud"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u5_q4",
+     "type": "choice",
+     "prompt": "Something is not clear and you do not understand it.",
+     "choices": [
+      "surprised",
+      "confused",
+      "fantastic"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u5_q5",
+     "type": "choice",
+     "prompt": "Your face turns red in front of many people.",
+     "choices": [
+      "proud",
+      "embarrassed",
+      "quiet"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "What's Wrong?",
+   "video_file": "091_inter2c__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "What's wrong?",
+    "I have a headache.",
+    "I have a cold.",
+    "My knee hurts.",
+    "My back hurts."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u6_q1",
+     "type": "missing_word",
+     "prompt": "What's ___?",
+     "choices": [
+      "long",
+      "ring",
+      "wrong"
+     ],
+     "answer": 2,
+     "cue": "What's wrong?"
+    },
+    {
+     "id": "i2c_u6_q2",
+     "type": "choice",
+     "prompt": "Your head hurts. What do you say?",
+     "choices": [
+      "I have a cold.",
+      "My knee hurts.",
+      "I have a headache."
+     ],
+     "answer": 2,
+     "cue": "I have a headache."
+    },
+    {
+     "id": "i2c_u6_q3",
+     "type": "choice",
+     "prompt": "You are sick. Your nose is running and you sneeze.",
+     "choices": [
+      "I have a cold.",
+      "I have a fever.",
+      "My back hurts."
+     ],
+     "answer": 0,
+     "cue": "I have a cold."
+    },
+    {
+     "id": "i2c_u6_q4",
+     "type": "choice",
+     "prompt": "It is very hot, 39 degrees. What do you have?",
+     "choices": [
+      "a cold",
+      "a toothache",
+      "a fever"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2c_u6_q5",
+     "type": "choice",
+     "prompt": "Your stomach hurts. What do you say?",
+     "choices": [
+      "I have a sore throat.",
+      "I have a stomachache.",
+      "I have a headache."
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Phone English 1",
+   "video_file": "090_inter2c__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "Hello. Who is this?",
+    "This is Mr. Jay.",
+    "Sorry, he's out.",
+    "Who's calling?"
+   ],
+   "questions": [
+    {
+     "id": "i2c_u7_q1",
+     "type": "missing_word",
+     "prompt": "Hello. Who is ___?",
+     "choices": [
+      "that",
+      "this",
+      "there"
+     ],
+     "answer": 1,
+     "cue": "Who is this?"
+    },
+    {
+     "id": "i2c_u7_q2",
+     "type": "choice",
+     "prompt": "On the phone, Mr. Jay says who he is. What does he say?",
+     "choices": [
+      "This is Mr. Jay.",
+      "Who is this?",
+      "I am Mr. Jay."
+     ],
+     "answer": 0,
+     "cue": "This is Mr. Jay."
+    },
+    {
+     "id": "i2c_u7_q3",
+     "type": "choice",
+     "prompt": "Your friend is not at home. What do you say?",
+     "choices": [
+      "Sorry, he's in.",
+      "Sorry, he's out.",
+      "He is here."
+     ],
+     "answer": 1,
+     "cue": "Sorry, he's out."
+    },
+    {
+     "id": "i2c_u7_q4",
+     "type": "choice",
+     "prompt": "You want to know the caller's name. What do you ask?",
+     "choices": [
+      "Who is sorry?",
+      "Who's calling?",
+      "Who is out?"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u7_q5",
+     "type": "choice",
+     "prompt": "You need to ring your friend. You ___ him.",
+     "choices": [
+      "miss",
+      "call",
+      "care"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "I'll Miss You",
+   "video_file": "089_inter2c__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "I'll miss you."
+   ],
+   "questions": [
+    {
+     "id": "i2c_u8_q1",
+     "type": "missing_word",
+     "prompt": "I'll ___ you.",
+     "choices": [
+      "miss",
+      "mess",
+      "kiss"
+     ],
+     "answer": 0,
+     "cue": "I'll miss you."
+    },
+    {
+     "id": "i2c_u8_q2",
+     "type": "choice",
+     "prompt": "Your friend moves to another city. What do you say?",
+     "choices": [
+      "I'll call you.",
+      "I'll meet you.",
+      "I'll miss you."
+     ],
+     "answer": 2,
+     "cue": "I'll miss you."
+    },
+    {
+     "id": "i2c_u8_q3",
+     "type": "choice",
+     "prompt": "You leave and you will not see them for a long time. What do you say?",
+     "choices": [
+      "Goodbye.",
+      "Thank you.",
+      "Hello."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2c_u8_q4",
+     "type": "choice",
+     "prompt": "You want good things for your friend in a test. You wish them good ___.",
+     "choices": [
+      "day",
+      "luck",
+      "care"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2c_u8_q5",
+     "type": "choice",
+     "prompt": "This was not difficult. It was ___.",
+     "choices": [
+      "nice",
+      "easy",
+      "long"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

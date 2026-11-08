@@ -1,0 +1,624 @@
+{
+ "book": "basic_b",
+ "title": "Basic B",
+ "note": "Day 1 quiz. Only this unit's words and the lines spoken in this unit's video.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "How are you?",
+   "video_file": "016_basicb__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "I am happy.",
+    "I am sad.",
+    "I am angry.",
+    "I am hungry.",
+    "I am bored.",
+    "I am scared.",
+    "I am sick.",
+    "I am worried."
+   ],
+   "questions": [
+    {
+     "id": "bb_u1_q1",
+     "type": "missing_word",
+     "prompt": "How are you? I ___ happy.",
+     "choices": [
+      "am",
+      "are",
+      "is"
+     ],
+     "answer": 0,
+     "cue": "I am happy."
+    },
+    {
+     "id": "bb_u1_q2",
+     "type": "choice",
+     "prompt": "You want food. How are you?",
+     "choices": [
+      "I am bored.",
+      "I am angry.",
+      "I am hungry."
+     ],
+     "answer": 2,
+     "cue": "I am hungry."
+    },
+    {
+     "id": "bb_u1_q3",
+     "type": "choice",
+     "prompt": "You have a big test and you feel bad in your body. How are you?",
+     "choices": [
+      "I am happy.",
+      "I am scared.",
+      "I am sick."
+     ],
+     "answer": 2,
+     "cue": "I am sick."
+    },
+    {
+     "id": "bb_u1_q4",
+     "type": "choice",
+     "prompt": "Nothing is fun. You want something to do. How are you?",
+     "choices": [
+      "I am bored.",
+      "I am sleepy.",
+      "I am happy."
+     ],
+     "answer": 0,
+     "cue": "I am bored."
+    },
+    {
+     "id": "bb_u1_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I am sad.",
+      "I am scared.",
+      "I am sick."
+     ],
+     "answer": 1,
+     "cue": "I am scared."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "I like Mr. Jay",
+   "video_file": "015_basicb__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "I like noodles.",
+    "I like meat.",
+    "I like fruit.",
+    "I like games.",
+    "I like school.",
+    "I like exercise.",
+    "I like movies.",
+    "I like music.",
+    "And I like you."
+   ],
+   "questions": [
+    {
+     "id": "bb_u2_q1",
+     "type": "missing_word",
+     "prompt": "I ___ noodles.",
+     "choices": [
+      "can",
+      "am",
+      "like"
+     ],
+     "answer": 2,
+     "cue": "I like noodles."
+    },
+    {
+     "id": "bb_u2_q2",
+     "type": "choice",
+     "prompt": "You eat it with a fork. It is long. What do you say?",
+     "choices": [
+      "I like music.",
+      "I like noodles.",
+      "I like movies."
+     ],
+     "answer": 1,
+     "cue": "I like noodles."
+    },
+    {
+     "id": "bb_u2_q3",
+     "type": "choice",
+     "prompt": "You watch it and eat popcorn. What do you say?",
+     "choices": [
+      "I like school.",
+      "I like movies.",
+      "I like meat."
+     ],
+     "answer": 1,
+     "cue": "I like movies."
+    },
+    {
+     "id": "bb_u2_q4",
+     "type": "choice",
+     "prompt": "You go there to learn English. What do you say?",
+     "choices": [
+      "I like school.",
+      "I like fruit.",
+      "I like games."
+     ],
+     "answer": 0,
+     "cue": "I like school."
+    },
+    {
+     "id": "bb_u2_q5",
+     "type": "missing_word",
+     "prompt": "And I like ___.",
+     "choices": [
+      "noodles",
+      "me",
+      "you"
+     ],
+     "answer": 2,
+     "cue": "And I like you."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Classroom English Two",
+   "video_file": "014_basicb__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "Recycle this.",
+    "Trash this.",
+    "Don't do that.",
+    "Thank you.",
+    "Excuse me.",
+    "I do not understand.",
+    "I do not know.",
+    "Again."
+   ],
+   "questions": [
+    {
+     "id": "bb_u3_q1",
+     "type": "choice",
+     "prompt": "The teacher says something fast. You do not understand. What do you say?",
+     "choices": [
+      "I do not understand.",
+      "Thank you.",
+      "Recycle this."
+     ],
+     "answer": 0,
+     "cue": "I do not understand."
+    },
+    {
+     "id": "bb_u3_q2",
+     "type": "choice",
+     "prompt": "It is a paper cup. Where does it go?",
+     "choices": [
+      "Trash this.",
+      "Don't do that.",
+      "Recycle this."
+     ],
+     "answer": 2,
+     "cue": "Recycle this."
+    },
+    {
+     "id": "bb_u3_q3",
+     "type": "choice",
+     "prompt": "Your friend gives you a pencil. What do you say?",
+     "choices": [
+      "I do not know.",
+      "Trash this.",
+      "Thank you."
+     ],
+     "answer": 2,
+     "cue": "Thank you."
+    },
+    {
+     "id": "bb_u3_q4",
+     "type": "choice",
+     "prompt": "A boy runs in the classroom. The teacher says ___",
+     "choices": [
+      "Excuse me.",
+      "Don't do that.",
+      "Again."
+     ],
+     "answer": 1,
+     "cue": "Don't do that."
+    },
+    {
+     "id": "bb_u3_q5",
+     "type": "missing_word",
+     "prompt": "I do not ___.",
+     "choices": [
+      "recycle",
+      "trash",
+      "know"
+     ],
+     "answer": 2,
+     "cue": "I do not know."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "Rock Paper Scissors",
+   "video_file": "013_basicb__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "Rock, paper, scissors.",
+    "I win.",
+    "Show it or you lose."
+   ],
+   "questions": [
+    {
+     "id": "bb_u4_q1",
+     "type": "choice",
+     "prompt": "Rock and scissors. Who wins?",
+     "choices": [
+      "Rock wins.",
+      "Scissors win.",
+      "Paper wins."
+     ],
+     "answer": 0,
+     "cue": "Rock, paper, scissors."
+    },
+    {
+     "id": "bb_u4_q2",
+     "type": "missing_word",
+     "prompt": "Rock, paper, ___.",
+     "choices": [
+      "scissors",
+      "socks",
+      "paper"
+     ],
+     "answer": 0,
+     "cue": "Rock, paper, scissors."
+    },
+    {
+     "id": "bb_u4_q3",
+     "type": "choice",
+     "prompt": "Scissors and paper. Who wins?",
+     "choices": [
+      "Rock wins.",
+      "Paper wins.",
+      "Scissors win."
+     ],
+     "answer": 2,
+     "cue": "Rock, paper, scissors."
+    },
+    {
+     "id": "bb_u4_q4",
+     "type": "choice",
+     "prompt": "Paper and rock. Who wins?",
+     "choices": [
+      "Paper wins.",
+      "Scissors win.",
+      "Rock wins."
+     ],
+     "answer": 0,
+     "cue": "Rock, paper, scissors."
+    },
+    {
+     "id": "bb_u4_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I win.",
+      "I went.",
+      "I am fine."
+     ],
+     "answer": 0,
+     "cue": "I win."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "What is it?",
+   "video_file": "012_basicb__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "What is it?",
+    "It is a book.",
+    "It is a phone charger.",
+    "It is a sock.",
+    "It is a toy.",
+    "It is underwear.",
+    "It is a toothbrush."
+   ],
+   "questions": [
+    {
+     "id": "bb_u5_q1",
+     "type": "choice",
+     "prompt": "You point to one thing. What do you ask?",
+     "choices": [
+      "What is it?",
+      "How is it?",
+      "Who is it?"
+     ],
+     "answer": 0,
+     "cue": "What is it?"
+    },
+    {
+     "id": "bb_u5_q2",
+     "type": "choice",
+     "prompt": "You clean your teeth with it. What is it?",
+     "choices": [
+      "It is a toy.",
+      "It is a sock.",
+      "It is a toothbrush."
+     ],
+     "answer": 2,
+     "cue": "It is a toothbrush."
+    },
+    {
+     "id": "bb_u5_q3",
+     "type": "choice",
+     "prompt": "You put it on your foot. What is it?",
+     "choices": [
+      "It is a sock.",
+      "It is underwear.",
+      "It is a book."
+     ],
+     "answer": 0,
+     "cue": "It is a sock."
+    },
+    {
+     "id": "bb_u5_q4",
+     "type": "choice",
+     "prompt": "You read it. What is it?",
+     "choices": [
+      "It is a toy.",
+      "It is a book.",
+      "It is a phone charger."
+     ],
+     "answer": 1,
+     "cue": "It is a book."
+    },
+    {
+     "id": "bb_u5_q5",
+     "type": "missing_word",
+     "prompt": "It ___ a toy.",
+     "choices": [
+      "are",
+      "am",
+      "is"
+     ],
+     "answer": 2,
+     "cue": "It is a toy."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "I like my body",
+   "video_file": "011_basicb__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "This is my head.",
+    "This is my nose.",
+    "This is my mouth.",
+    "This is my ear.",
+    "This is my eye.",
+    "This is my neck.",
+    "I like my body."
+   ],
+   "questions": [
+    {
+     "id": "bb_u6_q1",
+     "type": "choice",
+     "prompt": "You smell with it. What is this?",
+     "choices": [
+      "This is my ear.",
+      "This is my nose.",
+      "This is my eye."
+     ],
+     "answer": 1,
+     "cue": "This is my nose."
+    },
+    {
+     "id": "bb_u6_q2",
+     "type": "choice",
+     "prompt": "You hear with it. What is this?",
+     "choices": [
+      "This is my neck.",
+      "This is my ear.",
+      "This is my mouth."
+     ],
+     "answer": 1,
+     "cue": "This is my ear."
+    },
+    {
+     "id": "bb_u6_q3",
+     "type": "choice",
+     "prompt": "You eat and speak with it. What is this?",
+     "choices": [
+      "This is my nose.",
+      "This is my head.",
+      "This is my mouth."
+     ],
+     "answer": 2,
+     "cue": "This is my mouth."
+    },
+    {
+     "id": "bb_u6_q4",
+     "type": "missing_word",
+     "prompt": "This is my ___.",
+     "choices": [
+      "hair",
+      "head",
+      "hands"
+     ],
+     "answer": 1,
+     "cue": "This is my head."
+    },
+    {
+     "id": "bb_u6_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I like my bag.",
+      "I like my body.",
+      "I like my book."
+     ],
+     "answer": 1,
+     "cue": "I like my body."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "What Color is That?",
+   "video_file": "010_basicb__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "What color is that?",
+    "It is white.",
+    "It is black.",
+    "It is brown.",
+    "It is red.",
+    "It is orange.",
+    "It is yellow."
+   ],
+   "questions": [
+    {
+     "id": "bb_u7_q1",
+     "type": "choice",
+     "prompt": "You point to a color. What do you ask?",
+     "choices": [
+      "What color is that?",
+      "What is that?",
+      "Who is that?"
+     ],
+     "answer": 0,
+     "cue": "What color is that?"
+    },
+    {
+     "id": "bb_u7_q2",
+     "type": "choice",
+     "prompt": "A banana is ___.",
+     "choices": [
+      "It is white.",
+      "It is black.",
+      "It is yellow."
+     ],
+     "answer": 2,
+     "cue": "It is yellow."
+    },
+    {
+     "id": "bb_u7_q3",
+     "type": "choice",
+     "prompt": "The night sky is ___.",
+     "choices": [
+      "It is red.",
+      "It is black.",
+      "It is white."
+     ],
+     "answer": 1,
+     "cue": "It is black."
+    },
+    {
+     "id": "bb_u7_q4",
+     "type": "choice",
+     "prompt": "Milk is ___.",
+     "choices": [
+      "It is white.",
+      "It is orange.",
+      "It is brown."
+     ],
+     "answer": 0,
+     "cue": "It is white."
+    },
+    {
+     "id": "bb_u7_q5",
+     "type": "missing_word",
+     "prompt": "It is ___.",
+     "choices": [
+      "read",
+      "rain",
+      "red"
+     ],
+     "answer": 2,
+     "cue": "It is red."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "How old are you?",
+   "video_file": "009_basicb__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "I am 7.",
+    "I am 10.",
+    "I am 14.",
+    "I am 17.",
+    "I am 22.",
+    "I am 25.",
+    "I am 33.",
+    "I am 66."
+   ],
+   "questions": [
+    {
+     "id": "bb_u8_q1",
+     "type": "choice",
+     "prompt": "How old are you? You are 10. What do you say?",
+     "choices": [
+      "I am fine.",
+      "I am happy.",
+      "I am 10."
+     ],
+     "answer": 2,
+     "cue": "I am 10."
+    },
+    {
+     "id": "bb_u8_q2",
+     "type": "missing_word",
+     "prompt": "How old ___ you?",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "How old are you?"
+    },
+    {
+     "id": "bb_u8_q3",
+     "type": "choice",
+     "prompt": "Which number did you hear?",
+     "choices": [
+      "thirteen",
+      "thirty-three",
+      "three"
+     ],
+     "answer": 1,
+     "cue": "I am 33."
+    },
+    {
+     "id": "bb_u8_q4",
+     "type": "choice",
+     "prompt": "Which number did you hear?",
+     "choices": [
+      "six",
+      "sixty-six",
+      "sixteen"
+     ],
+     "answer": 1,
+     "cue": "I am 66."
+    },
+    {
+     "id": "bb_u8_q5",
+     "type": "missing_word",
+     "prompt": "I ___ 7.",
+     "choices": [
+      "are",
+      "am",
+      "is"
+     ],
+     "answer": 1,
+     "cue": "I am 7."
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

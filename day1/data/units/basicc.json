@@ -1,0 +1,628 @@
+{
+ "book": "basic_c",
+ "title": "Basic C",
+ "note": "Day 1 quiz. Only this unit's words and the lines spoken in this unit's video.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "I Love My Dog Zoey",
+   "video_file": "024_basicc__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "I love my dog Zoe.",
+    "I love my cat Leo.",
+    "I love my bird Sarah.",
+    "I love my rabbit Sam.",
+    "I love my hamster Fluffy.",
+    "I love my fish Nemo.",
+    "I love my beetle Bob.",
+    "I love my turtle Tom.",
+    "I love my snake Jessica."
+   ],
+   "questions": [
+    {
+     "id": "bc_u1_q1",
+     "type": "missing_word",
+     "prompt": "I ___ my dog Zoe.",
+     "choices": [
+      "like",
+      "love",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "I love my dog Zoe."
+    },
+    {
+     "id": "bc_u1_q2",
+     "type": "choice",
+     "prompt": "It says meow. What do you say?",
+     "choices": [
+      "I love my dog Zoe.",
+      "I love my bird Sarah.",
+      "I love my cat Leo."
+     ],
+     "answer": 2,
+     "cue": "I love my cat Leo."
+    },
+    {
+     "id": "bc_u1_q3",
+     "type": "choice",
+     "prompt": "It swims in water. It is a fish. What do you say?",
+     "choices": [
+      "I love my beetle Bob.",
+      "I love my fish Nemo.",
+      "I love my turtle Tom."
+     ],
+     "answer": 1,
+     "cue": "I love my fish Nemo."
+    },
+    {
+     "id": "bc_u1_q4",
+     "type": "choice",
+     "prompt": "It is green and slow and it has a hard shell. What do you say?",
+     "choices": [
+      "I love my turtle Tom.",
+      "I love my snake Jessica.",
+      "I love my hamster Fluffy."
+     ],
+     "answer": 0,
+     "cue": "I love my turtle Tom."
+    },
+    {
+     "id": "bc_u1_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I love my rabbit Sam.",
+      "I love my rabbit San.",
+      "I love my robot Sam."
+     ],
+     "answer": 0,
+     "cue": "I love my rabbit Sam."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "Look at My New Hat",
+   "video_file": "023_basicc__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "Look at my new hat.",
+    "Look at my new earphones.",
+    "Look at my new shoes.",
+    "Look at my new phone.",
+    "Look at my new coat.",
+    "Look at my new watch.",
+    "Look at my new bag."
+   ],
+   "questions": [
+    {
+     "id": "bc_u2_q1",
+     "type": "missing_word",
+     "prompt": "Look at my ___ hat.",
+     "choices": [
+      "new",
+      "old",
+      "big"
+     ],
+     "answer": 0,
+     "cue": "Look at my new hat."
+    },
+    {
+     "id": "bc_u2_q2",
+     "type": "choice",
+     "prompt": "You wear them on your feet. What do you say?",
+     "choices": [
+      "Look at my new shoes.",
+      "Look at my new hat.",
+      "Look at my new watch."
+     ],
+     "answer": 0,
+     "cue": "Look at my new shoes."
+    },
+    {
+     "id": "bc_u2_q3",
+     "type": "choice",
+     "prompt": "It tells you the time. What do you say?",
+     "choices": [
+      "Look at my new phone.",
+      "Look at my new watch.",
+      "Look at my new bag."
+     ],
+     "answer": 1,
+     "cue": "Look at my new watch."
+    },
+    {
+     "id": "bc_u2_q4",
+     "type": "choice",
+     "prompt": "You put your books in it. What do you say?",
+     "choices": [
+      "Look at my new hat.",
+      "Look at my new bag.",
+      "Look at my new coat."
+     ],
+     "answer": 1,
+     "cue": "Look at my new bag."
+    },
+    {
+     "id": "bc_u2_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Look at my new hat.",
+      "Look at my new coat.",
+      "Look at my new goat."
+     ],
+     "answer": 1,
+     "cue": "Look at my new coat."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Classroom English Three",
+   "video_file": "022_basicc__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "See you Monday.",
+    "May I start?",
+    "Report.",
+    "Spell cat.",
+    "What does cat mean?",
+    "You are welcome.",
+    "Please test me."
+   ],
+   "questions": [
+    {
+     "id": "bc_u3_q1",
+     "type": "choice",
+     "prompt": "You want to ask the teacher a question. What do you say first?",
+     "choices": [
+      "Please test me.",
+      "See you Monday.",
+      "May I start?"
+     ],
+     "answer": 2,
+     "cue": "May I start?"
+    },
+    {
+     "id": "bc_u3_q2",
+     "type": "choice",
+     "prompt": "It is Friday afternoon. You go home. What do you say?",
+     "choices": [
+      "May I start?",
+      "See you Monday.",
+      "You are welcome."
+     ],
+     "answer": 1,
+     "cue": "See you Monday."
+    },
+    {
+     "id": "bc_u3_q3",
+     "type": "choice",
+     "prompt": "Your friend says thank you. What do you say?",
+     "choices": [
+      "You are welcome.",
+      "Please test me.",
+      "Report."
+     ],
+     "answer": 0,
+     "cue": "You are welcome."
+    },
+    {
+     "id": "bc_u3_q4",
+     "type": "choice",
+     "prompt": "You do not know the word. What do you ask?",
+     "choices": [
+      "Where is the cat?",
+      "How do you spell it?",
+      "What does cat mean?"
+     ],
+     "answer": 2,
+     "cue": "What does cat mean?"
+    },
+    {
+     "id": "bc_u3_q5",
+     "type": "missing_word",
+     "prompt": "Please ___ me.",
+     "choices": [
+      "start",
+      "test",
+      "spell"
+     ],
+     "answer": 1,
+     "cue": "Please test me."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "What Can We See near Tongyeong?",
+   "video_file": "021_basicc__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "What can we see near Seoul?",
+    "You can see a palace.",
+    "What can we see near Busan?",
+    "You can see a fish market.",
+    "What can we see near Jeju?",
+    "You can see a volcano."
+   ],
+   "questions": [
+    {
+     "id": "bc_u4_q1",
+     "type": "choice",
+     "prompt": "What can we see near Seoul?",
+     "choices": [
+      "You can see a fish market.",
+      "You can see a volcano.",
+      "You can see a palace."
+     ],
+     "answer": 2,
+     "cue": "You can see a palace."
+    },
+    {
+     "id": "bc_u4_q2",
+     "type": "choice",
+     "prompt": "What can we see near Busan?",
+     "choices": [
+      "You can see a volcano.",
+      "You can see a palace.",
+      "You can see a fish market."
+     ],
+     "answer": 2,
+     "cue": "You can see a fish market."
+    },
+    {
+     "id": "bc_u4_q3",
+     "type": "choice",
+     "prompt": "What can we see near Jeju?",
+     "choices": [
+      "You can see a volcano.",
+      "You can see a palace.",
+      "You can see a fish market."
+     ],
+     "answer": 0,
+     "cue": "You can see a volcano."
+    },
+    {
+     "id": "bc_u4_q4",
+     "type": "missing_word",
+     "prompt": "What can we ___ near Seoul?",
+     "choices": [
+      "sea",
+      "see",
+      "say"
+     ],
+     "answer": 1,
+     "cue": "What can we see near Seoul?"
+    },
+    {
+     "id": "bc_u4_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "You can see a police.",
+      "You can see a palace.",
+      "You can see a place."
+     ],
+     "answer": 1,
+     "cue": "You can see a palace."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "Spelling Bee",
+   "video_file": "020_basicc__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "This is the MRJ spelling bee.",
+    "Spell pig.",
+    "P-I-G.",
+    "Spell dog.",
+    "Spell cat.",
+    "Spell Seoul.",
+    "S-E-O-U-L."
+   ],
+   "questions": [
+    {
+     "id": "bc_u5_q1",
+     "type": "choice",
+     "prompt": "Spell pig.",
+     "choices": [
+      "B-I-G",
+      "P-I-T",
+      "P-I-G"
+     ],
+     "answer": 2,
+     "cue": "Spell pig. P-I-G."
+    },
+    {
+     "id": "bc_u5_q2",
+     "type": "choice",
+     "prompt": "Spell cat.",
+     "choices": [
+      "K-A-T",
+      "C-A-P",
+      "C-A-T"
+     ],
+     "answer": 2,
+     "cue": "Spell cat."
+    },
+    {
+     "id": "bc_u5_q3",
+     "type": "choice",
+     "prompt": "Spell Seoul.",
+     "choices": [
+      "S-E-A-U-L",
+      "S-O-U-L",
+      "S-E-O-U-L"
+     ],
+     "answer": 2,
+     "cue": "Spell Seoul. S-E-O-U-L."
+    },
+    {
+     "id": "bc_u5_q4",
+     "type": "missing_word",
+     "prompt": "Spell ___.",
+     "choices": [
+      "dog",
+      "dag",
+      "dig"
+     ],
+     "answer": 0,
+     "cue": "Spell dog."
+    },
+    {
+     "id": "bc_u5_q5",
+     "type": "choice",
+     "prompt": "What is this game?",
+     "choices": [
+      "The color game.",
+      "The spelling bee.",
+      "The number game."
+     ],
+     "answer": 1,
+     "cue": "This is the MRJ spelling bee."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "Don't Touch Your Arm",
+   "video_file": "019_basicc__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "Don't touch your arm.",
+    "Don't touch your leg.",
+    "Don't touch your knee.",
+    "Don't touch your back.",
+    "Don't touch your face.",
+    "Don't touch your stomach."
+   ],
+   "questions": [
+    {
+     "id": "bc_u6_q1",
+     "type": "missing_word",
+     "prompt": "Don't touch your ___.",
+     "choices": [
+      "arm",
+      "aim",
+      "art"
+     ],
+     "answer": 0,
+     "cue": "Don't touch your arm."
+    },
+    {
+     "id": "bc_u6_q2",
+     "type": "choice",
+     "prompt": "You walk with it. It is the part under your knee.",
+     "choices": [
+      "Don't touch your leg.",
+      "Don't touch your arm.",
+      "Don't touch your face."
+     ],
+     "answer": 0,
+     "cue": "Don't touch your leg."
+    },
+    {
+     "id": "bc_u6_q3",
+     "type": "choice",
+     "prompt": "It is in the middle of your leg. What do you say?",
+     "choices": [
+      "Don't touch your knee.",
+      "Don't touch your ear.",
+      "Don't touch your back."
+     ],
+     "answer": 0,
+     "cue": "Don't touch your knee."
+    },
+    {
+     "id": "bc_u6_q4",
+     "type": "choice",
+     "prompt": "Your eyes and nose are on it.",
+     "choices": [
+      "Don't touch your stomach.",
+      "Don't touch your arm.",
+      "Don't touch your face."
+     ],
+     "answer": 2,
+     "cue": "Don't touch your face."
+    },
+    {
+     "id": "bc_u6_q5",
+     "type": "choice",
+     "prompt": "You eat food and it goes here. Which part?",
+     "choices": [
+      "Don't touch your knee.",
+      "Don't touch your back.",
+      "Don't touch your stomach."
+     ],
+     "answer": 2,
+     "cue": "Don't touch your stomach."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Come Play With Us",
+   "video_file": "018_basicc__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "Come play with us.",
+    "Okay.",
+    "Where is the slide?",
+    "It is here.",
+    "Where is the swing?",
+    "It is there.",
+    "Where is the jungle gym?",
+    "Where is the sandbox?",
+    "Where is the playhouse?",
+    "Where is the merry-go-round?",
+    "Where is the seesaw?"
+   ],
+   "questions": [
+    {
+     "id": "bc_u7_q1",
+     "type": "choice",
+     "prompt": "You want your friend to play with you. What do you say?",
+     "choices": [
+      "It is here.",
+      "Come play with us.",
+      "Where is the slide?"
+     ],
+     "answer": 1,
+     "cue": "Come play with us."
+    },
+    {
+     "id": "bc_u7_q2",
+     "type": "choice",
+     "prompt": "You go down it. It is tall and smooth.",
+     "choices": [
+      "Where is the sandbox?",
+      "Where is the slide?",
+      "Where is the swing?"
+     ],
+     "answer": 1,
+     "cue": "Where is the slide?"
+    },
+    {
+     "id": "bc_u7_q3",
+     "type": "choice",
+     "prompt": "You push it and it goes up and down.",
+     "choices": [
+      "Where is the swing?",
+      "Where is the seesaw?",
+      "Where is the playhouse?"
+     ],
+     "answer": 0,
+     "cue": "Where is the swing?"
+    },
+    {
+     "id": "bc_u7_q4",
+     "type": "choice",
+     "prompt": "You dig in it and make a castle.",
+     "choices": [
+      "Where is the jungle gym?",
+      "Where is the slide?",
+      "Where is the sandbox?"
+     ],
+     "answer": 2,
+     "cue": "Where is the sandbox?"
+    },
+    {
+     "id": "bc_u7_q5",
+     "type": "missing_word",
+     "prompt": "It is ___.",
+     "choices": [
+      "here",
+      "hear",
+      "hair"
+     ],
+     "answer": 0,
+     "cue": "It is here."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "I Want a New Computer",
+   "video_file": "017_basicc__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "I want a new doll.",
+    "I want a new pencil case.",
+    "I want a new school bag.",
+    "I want new earphones.",
+    "I want a new phone.",
+    "I want new clothes.",
+    "I want a new bike.",
+    "I want a new computer."
+   ],
+   "questions": [
+    {
+     "id": "bc_u8_q1",
+     "type": "missing_word",
+     "prompt": "I ___ a new computer.",
+     "choices": [
+      "wanted",
+      "went",
+      "want"
+     ],
+     "answer": 2,
+     "cue": "I want a new computer."
+    },
+    {
+     "id": "bc_u8_q2",
+     "type": "choice",
+     "prompt": "You ride it outside. It has two wheels.",
+     "choices": [
+      "I want a new doll.",
+      "I want a new phone.",
+      "I want a new bike."
+     ],
+     "answer": 2,
+     "cue": "I want a new bike."
+    },
+    {
+     "id": "bc_u8_q3",
+     "type": "choice",
+     "prompt": "You put your pencils and pens in it.",
+     "choices": [
+      "I want a new school bag.",
+      "I want new clothes.",
+      "I want a new pencil case."
+     ],
+     "answer": 2,
+     "cue": "I want a new pencil case."
+    },
+    {
+     "id": "bc_u8_q4",
+     "type": "choice",
+     "prompt": "You wear them in your ears to hear music.",
+     "choices": [
+      "I want new earphones.",
+      "I want new clothes.",
+      "I want a new doll."
+     ],
+     "answer": 0,
+     "cue": "I want new earphones."
+    },
+    {
+     "id": "bc_u8_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I want a new school book.",
+      "I want a new school bag.",
+      "I want a new school bus."
+     ],
+     "answer": 1,
+     "cue": "I want a new school bag."
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

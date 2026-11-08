@@ -1,0 +1,570 @@
+{
+ "book": "inter3b",
+ "title": "Inter 3B",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "What Grade Are You In?",
+   "video_file": "040_inter3b__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "What grade are you in?",
+    "I am in kindergarten.",
+    "I am in the first grade.",
+    "I am in the second grade."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u1_q1",
+     "type": "missing_word",
+     "prompt": "What ___ are you in?",
+     "choices": [
+      "great",
+      "gray",
+      "grade"
+     ],
+     "answer": 2,
+     "cue": "What grade are you in?"
+    },
+    {
+     "id": "i3b_u1_q2",
+     "type": "missing_word",
+     "prompt": "I am in the ___ grade.",
+     "choices": [
+      "fifteen",
+      "fifth",
+      "five"
+     ],
+     "answer": 1,
+     "cue": "I am in fifth grade."
+    },
+    {
+     "id": "i3b_u1_q3",
+     "type": "choice",
+     "prompt": "Before first grade, Korean students go to ___.",
+     "choices": [
+      "ninth grade",
+      "third grade",
+      "kindergarten"
+     ],
+     "answer": 2,
+     "cue": "I am in kindergarten."
+    },
+    {
+     "id": "i3b_u1_q4",
+     "type": "choice",
+     "prompt": "Which one is a grade?",
+     "choices": [
+      "seven",
+      "sister",
+      "second"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3b_u1_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "I am in the fast grade.",
+      "I am in the fourth grade.",
+      "I am in the first grade."
+     ],
+     "answer": 2,
+     "cue": "I am in the first grade."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "Is This a Gayageum?",
+   "video_file": "039_inter3b__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "Is this a gayageum?",
+    "It is a gayageum."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u2_q1",
+     "type": "missing_word",
+     "prompt": "___ this a gayageum?",
+     "choices": [
+      "Am",
+      "Is",
+      "Are"
+     ],
+     "answer": 1,
+     "cue": "Is this a gayageum?"
+    },
+    {
+     "id": "i3b_u2_q2",
+     "type": "missing_word",
+     "prompt": "It ___ a gayageum.",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 0,
+     "cue": "It is a gayageum."
+    },
+    {
+     "id": "i3b_u2_q3",
+     "type": "choice",
+     "prompt": "You hit it with sticks. It is loud.",
+     "choices": [
+      "a drum",
+      "a flute",
+      "a violin"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u2_q4",
+     "type": "choice",
+     "prompt": "You blow into it. It is long and metal.",
+     "choices": [
+      "a flute",
+      "a guitar",
+      "a piano"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u2_q5",
+     "type": "choice",
+     "prompt": "You heat food with it. It is not a musical instrument.",
+     "choices": [
+      "a cello",
+      "a microwave",
+      "a ukulele"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Bigger Please!",
+   "video_file": "038_inter3b__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "Slower please."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u3_q1",
+     "type": "choice",
+     "prompt": "The teacher speaks fast. What do you say?",
+     "choices": [
+      "Louder please.",
+      "Slower please.",
+      "Smaller please."
+     ],
+     "answer": 1,
+     "cue": "Slower please."
+    },
+    {
+     "id": "i3b_u3_q2",
+     "type": "choice",
+     "prompt": "You cannot hear the music. What do you say?",
+     "choices": [
+      "Louder please.",
+      "Warmer please.",
+      "Quieter please."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u3_q3",
+     "type": "choice",
+     "prompt": "The room is cold. What do you say?",
+     "choices": [
+      "Warmer please.",
+      "Cooler please.",
+      "Higher please."
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u3_q4",
+     "type": "choice",
+     "prompt": "Your shirt is too big. What do you say?",
+     "choices": [
+      "Louder please.",
+      "Bigger please.",
+      "Smaller please."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3b_u3_q5",
+     "type": "missing_word",
+     "prompt": "Slower ___.",
+     "choices": [
+      "please",
+      "pleased",
+      "place"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "Who is This?",
+   "video_file": "037_inter3b__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "Who is this?",
+    "Is she your mom?",
+    "No, she is my aunt.",
+    "She is my grandmother."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u4_q1",
+     "type": "missing_word",
+     "prompt": "Who ___ this?",
+     "choices": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 1,
+     "cue": "Who is this?"
+    },
+    {
+     "id": "i3b_u4_q2",
+     "type": "choice",
+     "prompt": "Is she your mom?",
+     "choices": [
+      "No, she is my aunt.",
+      "No, she is my mom.",
+      "Yes, she is my aunt."
+     ],
+     "answer": 0,
+     "cue": "No, she is my aunt."
+    },
+    {
+     "id": "i3b_u4_q3",
+     "type": "choice",
+     "prompt": "Your mother's mother is your ___.",
+     "choices": [
+      "grandmother",
+      "aunt",
+      "sister"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u4_q4",
+     "type": "choice",
+     "prompt": "Your father's brother is your ___.",
+     "choices": [
+      "uncle",
+      "brother",
+      "grandfather"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u4_q5",
+     "type": "choice",
+     "prompt": "Who teaches you at school?",
+     "choices": [
+      "my teacher",
+      "my aunt",
+      "my uncle"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "Eat Up",
+   "video_file": "036_inter3b__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "Hurry up.",
+    "Clean up.",
+    "Slow down.",
+    "Lay down.",
+    "Okay, Mom.",
+    "Yes, Ma'am."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u5_q1",
+     "type": "choice",
+     "prompt": "You are late. Mom says ___",
+     "choices": [
+      "Slow down.",
+      "Clean up.",
+      "Hurry up."
+     ],
+     "answer": 2,
+     "cue": "Hurry up."
+    },
+    {
+     "id": "i3b_u5_q2",
+     "type": "choice",
+     "prompt": "Your room is messy. Mom says ___",
+     "choices": [
+      "Cool down.",
+      "Clean up.",
+      "Eat up."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3b_u5_q3",
+     "type": "choice",
+     "prompt": "You run too fast. Dad says ___",
+     "choices": [
+      "Slow down.",
+      "Hurry up.",
+      "Put down."
+     ],
+     "answer": 0,
+     "cue": "Slow down."
+    },
+    {
+     "id": "i3b_u5_q4",
+     "type": "choice",
+     "prompt": "Finish your food. What do you hear?",
+     "choices": [
+      "Wash up.",
+      "Eat up.",
+      "Give up."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3b_u5_q5",
+     "type": "choice",
+     "prompt": "Mom gives an order. You answer ___",
+     "choices": [
+      "Okay, Mom.",
+      "Goodbye, Mom.",
+      "Thank you, Mom."
+     ],
+     "answer": 0,
+     "cue": "Okay, Mom."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "What Fruit Are These?",
+   "video_file": "035_inter3b__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "What fruit are these?",
+    "They are mangoes."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u6_q1",
+     "type": "missing_word",
+     "prompt": "What fruit ___ these?",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "What fruit are these?"
+    },
+    {
+     "id": "i3b_u6_q2",
+     "type": "missing_word",
+     "prompt": "They ___ mangoes.",
+     "choices": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 2,
+     "cue": "They are mangoes."
+    },
+    {
+     "id": "i3b_u6_q3",
+     "type": "choice",
+     "prompt": "It is yellow and long. Monkeys like it.",
+     "choices": [
+      "a banana",
+      "an avocado",
+      "a lychee"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u6_q4",
+     "type": "choice",
+     "prompt": "It is big, spiky and smelly.",
+     "choices": [
+      "a lemon",
+      "a grapefruit",
+      "a durian"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3b_u6_q5",
+     "type": "choice",
+     "prompt": "It is small, red and hairy outside, white inside.",
+     "choices": [
+      "a lychee",
+      "a pineapple",
+      "a mango"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Don't Forget Your Transit Card",
+   "video_file": "034_inter3b__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "Don't forget your umbrella."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u7_q1",
+     "type": "missing_word",
+     "prompt": "Don't ___ your transit card.",
+     "choices": [
+      "for",
+      "forget",
+      "forgot"
+     ],
+     "answer": 1,
+     "cue": "Don't forget your umbrella."
+    },
+    {
+     "id": "i3b_u7_q2",
+     "type": "choice",
+     "prompt": "It is raining. What do you need?",
+     "choices": [
+      "an umbrella",
+      "a lunch",
+      "a textbook"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3b_u7_q3",
+     "type": "choice",
+     "prompt": "You pay for the bus with it.",
+     "choices": [
+      "a phone",
+      "a transit card",
+      "a hat"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3b_u7_q4",
+     "type": "choice",
+     "prompt": "You carry your books in it.",
+     "choices": [
+      "money",
+      "a coat",
+      "a backpack"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3b_u7_q5",
+     "type": "heard",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Don't forget your morning.",
+      "Don't forget your umbrella.",
+      "Don't forget your coat."
+     ],
+     "answer": 1,
+     "cue": "Don't forget your umbrella."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "Do You Like Korea?",
+   "video_file": "033_inter3b__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "Where are you from?",
+    "I am from Canada.",
+    "How tall are you?",
+    "I am 187 cm tall."
+   ],
+   "questions": [
+    {
+     "id": "i3b_u8_q1",
+     "type": "missing_word",
+     "prompt": "Where are you ___?",
+     "choices": [
+      "for",
+      "of",
+      "from"
+     ],
+     "answer": 2,
+     "cue": "Where are you from?"
+    },
+    {
+     "id": "i3b_u8_q2",
+     "type": "choice",
+     "prompt": "Where are you from? You are from Canada.",
+     "choices": [
+      "I am Canada.",
+      "I am from Canada.",
+      "I am in Canada."
+     ],
+     "answer": 1,
+     "cue": "I am from Canada."
+    },
+    {
+     "id": "i3b_u8_q3",
+     "type": "missing_word",
+     "prompt": "How ___ are you?",
+     "choices": [
+      "talk",
+      "tall",
+      "tell"
+     ],
+     "answer": 1,
+     "cue": "How tall are you?"
+    },
+    {
+     "id": "i3b_u8_q4",
+     "type": "choice",
+     "prompt": "We measure height in ___.",
+     "choices": [
+      "liters",
+      "kilometers",
+      "centimeters"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3b_u8_q5",
+     "type": "choice",
+     "prompt": "Which one is Korean food?",
+     "choices": [
+      "gimbap",
+      "Canada",
+      "secret"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

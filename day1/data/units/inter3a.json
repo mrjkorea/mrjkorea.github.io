@@ -1,0 +1,571 @@
+{
+ "book": "inter3a",
+ "title": "Inter 3A",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "I Can Draw a Monster",
+   "video_file": "032_inter3a__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "What can you draw?",
+    "I can draw a monster."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u1_q1",
+     "type": "missing_word",
+     "prompt": "What ___ you draw?",
+     "choices": [
+      "are",
+      "is",
+      "can"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u1_q2",
+     "type": "missing_word",
+     "prompt": "I can ___ a monster.",
+     "choices": [
+      "drown",
+      "draw",
+      "drew"
+     ],
+     "answer": 1,
+     "cue": "I can draw a monster."
+    },
+    {
+     "id": "i3a_u1_q3",
+     "type": "choice",
+     "prompt": "It has five points. You can draw it in the sky at night.",
+     "choices": [
+      "a tree",
+      "a circle",
+      "a star"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u1_q4",
+     "type": "choice",
+     "prompt": "It is round. It has no corners.",
+     "choices": [
+      "a circle",
+      "a star",
+      "a flag"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u1_q5",
+     "type": "choice",
+     "prompt": "Which one is a country?",
+     "choices": [
+      "monster",
+      "Korea",
+      "apple"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "What Flavor Do You Like?",
+   "video_file": "031_inter3a__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "What flavor do you like?",
+    "I like vanilla.",
+    "I like chocolate.",
+    "Strawberry.",
+    "Melon."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u2_q1",
+     "type": "missing_word",
+     "prompt": "What ___ do you like?",
+     "choices": [
+      "color",
+      "flavor",
+      "flower"
+     ],
+     "answer": 1,
+     "cue": "What flavor do you like?"
+    },
+    {
+     "id": "i3a_u2_q2",
+     "type": "choice",
+     "prompt": "What flavor do you like? You like strawberry.",
+     "choices": [
+      "I like melon.",
+      "I like chocolate.",
+      "I like strawberry."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u2_q3",
+     "type": "choice",
+     "prompt": "It is brown and sweet. It is not fruit.",
+     "choices": [
+      "lemon",
+      "chocolate",
+      "milk"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3a_u2_q4",
+     "type": "choice",
+     "prompt": "It is yellow and very sour.",
+     "choices": [
+      "lemon",
+      "milk",
+      "banana"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u2_q5",
+     "type": "choice",
+     "prompt": "It is white and we drink it.",
+     "choices": [
+      "melon",
+      "milk",
+      "mint"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "Opposites",
+   "video_file": "030_inter3a__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "This is cold."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u3_q1",
+     "type": "choice",
+     "prompt": "It is not hot. It is ___.",
+     "choices": [
+      "loud",
+      "cold",
+      "big"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3a_u3_q2",
+     "type": "choice",
+     "prompt": "It is not small. It is ___.",
+     "choices": [
+      "good",
+      "big",
+      "soft"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3a_u3_q3",
+     "type": "choice",
+     "prompt": "It is not quiet. It is ___.",
+     "choices": [
+      "loud",
+      "cold",
+      "hard"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u3_q4",
+     "type": "choice",
+     "prompt": "It is not hard. It is ___.",
+     "choices": [
+      "soft",
+      "hot",
+      "bad"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u3_q5",
+     "type": "missing_word",
+     "prompt": "This ___ cold.",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 0,
+     "cue": "This is cold."
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "How Old is He?",
+   "video_file": "029_inter3a__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "How old is he?",
+    "He is 5 years old.",
+    "She is 10 years old.",
+    "He is 15 years old."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u4_q1",
+     "type": "missing_word",
+     "prompt": "How old ___ he?",
+     "choices": [
+      "is",
+      "am",
+      "are"
+     ],
+     "answer": 0,
+     "cue": "How old is he?"
+    },
+    {
+     "id": "i3a_u4_q2",
+     "type": "missing_word",
+     "prompt": "He is fifteen ___ old.",
+     "choices": [
+      "years",
+      "year",
+      "old"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u4_q3",
+     "type": "choice",
+     "prompt": "Which one is 55?",
+     "choices": [
+      "fifty-five",
+      "fifteen",
+      "five"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u4_q4",
+     "type": "choice",
+     "prompt": "Which one is 100?",
+     "choices": [
+      "one thousand",
+      "ten",
+      "one hundred"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u4_q5",
+     "type": "choice",
+     "prompt": "How old is he? He is 27.",
+     "choices": [
+      "He is thirty years old.",
+      "He is twenty-seven years old.",
+      "He is seventy-seven years old."
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "What is This Bug?",
+   "video_file": "028_inter3a__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "What is this bug?",
+    "It is a moth.",
+    "It is a centipede.",
+    "It is a mosquito.",
+    "It is a cockroach."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u5_q1",
+     "type": "missing_word",
+     "prompt": "What is this ___?",
+     "choices": [
+      "bag",
+      "big",
+      "bug"
+     ],
+     "answer": 2,
+     "cue": "What is this bug?"
+    },
+    {
+     "id": "i3a_u5_q2",
+     "type": "missing_word",
+     "prompt": "It ___ a butterfly.",
+     "choices": [
+      "are",
+      "is",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "It is a butterfly."
+    },
+    {
+     "id": "i3a_u5_q3",
+     "type": "choice",
+     "prompt": "It has many legs and a long body.",
+     "choices": [
+      "a centipede",
+      "a firefly",
+      "a moth"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u5_q4",
+     "type": "choice",
+     "prompt": "It flies at night and makes light.",
+     "choices": [
+      "a firefly",
+      "an ant",
+      "a cicada"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i3a_u5_q5",
+     "type": "choice",
+     "prompt": "It is small and black and lives in a group.",
+     "choices": [
+      "an ant",
+      "a silkworm",
+      "a butterfly"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "How Will I Yell Your Name?",
+   "video_file": "027_inter3a__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "What is your name?",
+    "My name is Rose.",
+    "I am Iris.",
+    "How about you?"
+   ],
+   "questions": [
+    {
+     "id": "i3a_u6_q1",
+     "type": "missing_word",
+     "prompt": "What is your ___?",
+     "choices": [
+      "name",
+      "nine",
+      "game"
+     ],
+     "answer": 0,
+     "cue": "What is your name?"
+    },
+    {
+     "id": "i3a_u6_q2",
+     "type": "missing_word",
+     "prompt": "My name ___ Rose.",
+     "choices": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 1,
+     "cue": "My name is Rose."
+    },
+    {
+     "id": "i3a_u6_q3",
+     "type": "missing_word",
+     "prompt": "I ___ Iris.",
+     "choices": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "cue": "I am Iris."
+    },
+    {
+     "id": "i3a_u6_q4",
+     "type": "choice",
+     "prompt": "You speak very loudly to call someone far away.",
+     "choices": [
+      "whisper",
+      "walk",
+      "yell"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u6_q5",
+     "type": "choice",
+     "prompt": "Which one is a name in this unit?",
+     "choices": [
+      "Hunter",
+      "teacher",
+      "student"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Gym Class",
+   "video_file": "026_inter3a__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "Run around.",
+    "Jump rope.",
+    "Climb up.",
+    "Clap three times.",
+    "Do jumping jacks.",
+    "Yes sir."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u7_q1",
+     "type": "missing_word",
+     "prompt": "___ three times!",
+     "choices": [
+      "Clap",
+      "Climb",
+      "Clean"
+     ],
+     "answer": 0,
+     "cue": "Clap three times."
+    },
+    {
+     "id": "i3a_u7_q2",
+     "type": "choice",
+     "prompt": "You go up a rope.",
+     "choices": [
+      "Run around.",
+      "Climb up.",
+      "Sit down."
+     ],
+     "answer": 1,
+     "cue": "Climb up."
+    },
+    {
+     "id": "i3a_u7_q3",
+     "type": "choice",
+     "prompt": "You do it with a rope, again and again.",
+     "choices": [
+      "Clap three times.",
+      "Jump rope.",
+      "Turn around."
+     ],
+     "answer": 1,
+     "cue": "Jump rope."
+    },
+    {
+     "id": "i3a_u7_q4",
+     "type": "choice",
+     "prompt": "The teacher gives an order. You say ___",
+     "choices": [
+      "Yes sir.",
+      "No thank you.",
+      "Goodbye."
+     ],
+     "answer": 0,
+     "cue": "Yes sir."
+    },
+    {
+     "id": "i3a_u7_q5",
+     "type": "choice",
+     "prompt": "You move your body to music.",
+     "choices": [
+      "sit",
+      "dance",
+      "stand"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "Introduction",
+   "video_file": "025_inter3a__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "Where are you from?",
+    "I am from Seoul."
+   ],
+   "questions": [
+    {
+     "id": "i3a_u8_q1",
+     "type": "missing_word",
+     "prompt": "Where ___ you from?",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer": 1,
+     "cue": "Where are you from?"
+    },
+    {
+     "id": "i3a_u8_q2",
+     "type": "missing_word",
+     "prompt": "I am ___ Seoul.",
+     "choices": [
+      "from",
+      "for",
+      "of"
+     ],
+     "answer": 0,
+     "cue": "I am from Seoul."
+    },
+    {
+     "id": "i3a_u8_q3",
+     "type": "choice",
+     "prompt": "Which number is 18?",
+     "choices": [
+      "eighty",
+      "eleven",
+      "eighteen"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i3a_u8_q4",
+     "type": "choice",
+     "prompt": "You do it with a song.",
+     "choices": [
+      "draw a dog",
+      "sing",
+      "draw"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i3a_u8_q5",
+     "type": "choice",
+     "prompt": "Which one is a number in this unit?",
+     "choices": [
+      "school",
+      "music",
+      "eleven"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}

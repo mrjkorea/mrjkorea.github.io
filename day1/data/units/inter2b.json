@@ -1,0 +1,563 @@
+{
+ "book": "inter2b",
+ "title": "Inter 2B",
+ "note": "Day 1 quiz. Only this unit's words and expressions.",
+ "units": [
+  {
+   "unit": 1,
+   "title": "Hello, This is Pizza Land",
+   "video_file": "079_inter2b__Day 1 Animation 8.mp4",
+   "source_lines": [
+    "What day is it today?",
+    "It is Monday."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u1_q1",
+     "type": "missing_word",
+     "prompt": "What ___ is it today?",
+     "choices": [
+      "way",
+      "day",
+      "date"
+     ],
+     "answer": 1,
+     "cue": "What day is it today?"
+    },
+    {
+     "id": "i2b_u1_q2",
+     "type": "choice",
+     "prompt": "What day is it today? It is Monday.",
+     "choices": [
+      "It is a holiday.",
+      "It is Sunday.",
+      "It is Monday."
+     ],
+     "answer": 2,
+     "cue": "It is Monday."
+    },
+    {
+     "id": "i2b_u1_q3",
+     "type": "choice",
+     "prompt": "The day after Tuesday is ___.",
+     "choices": [
+      "Thursday",
+      "Monday",
+      "Wednesday"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u1_q4",
+     "type": "choice",
+     "prompt": "The day before Saturday is ___.",
+     "choices": [
+      "Sunday",
+      "Thursday",
+      "Friday"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u1_q5",
+     "type": "choice",
+     "prompt": "No school today. It is a ___.",
+     "choices": [
+      "work day",
+      "school day",
+      "holiday"
+     ],
+     "answer": 2
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 2,
+   "title": "What Time is it Now?",
+   "video_file": "078_inter2b__Day 1 Animation 7.mp4",
+   "source_lines": [
+    "What time is it now?",
+    "It is 7.30.",
+    "It is time for breakfast.",
+    "It is 8 o'clock.",
+    "It is school time."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u2_q1",
+     "type": "missing_word",
+     "prompt": "What time is it ___?",
+     "choices": [
+      "know",
+      "now",
+      "no"
+     ],
+     "answer": 1,
+     "cue": "What time is it now?"
+    },
+    {
+     "id": "i2b_u2_q2",
+     "type": "choice",
+     "prompt": "It is 7.30 in the morning. What time is it?",
+     "choices": [
+      "It is breakfast time.",
+      "It is recess.",
+      "It is school time."
+     ],
+     "answer": 0,
+     "cue": "It is time for breakfast."
+    },
+    {
+     "id": "i2b_u2_q3",
+     "type": "choice",
+     "prompt": "It is 8 o'clock in the morning. What time is it?",
+     "choices": [
+      "It is snack time.",
+      "It is school time.",
+      "It is bedtime."
+     ],
+     "answer": 1,
+     "cue": "It is school time."
+    },
+    {
+     "id": "i2b_u2_q4",
+     "type": "choice",
+     "prompt": "Children play outside at school. What time is it?",
+     "choices": [
+      "It is breakfast.",
+      "It is an online class.",
+      "It is recess."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u2_q5",
+     "type": "missing_word",
+     "prompt": "It is seven ___.",
+     "choices": [
+      "clock",
+      "o'clock",
+      "hour"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 3,
+   "title": "What Do You Want to be in the Future?",
+   "video_file": "077_inter2b__Day 1 Animation 6.mp4",
+   "source_lines": [
+    "What do you want to be in the future?",
+    "I want to be a doctor."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u3_q1",
+     "type": "missing_word",
+     "prompt": "What do you want to be in the ___?",
+     "choices": [
+      "picture",
+      "furniture",
+      "future"
+     ],
+     "answer": 2,
+     "cue": "What do you want to be in the future?"
+    },
+    {
+     "id": "i2b_u3_q2",
+     "type": "missing_word",
+     "prompt": "I want to be a ___.",
+     "choices": [
+      "a doctor",
+      "doctors",
+      "doctor"
+     ],
+     "answer": 2,
+     "cue": "I want to be a doctor."
+    },
+    {
+     "id": "i2b_u3_q3",
+     "type": "choice",
+     "prompt": "This person helps sick people in a hospital.",
+     "choices": [
+      "a judge",
+      "an actor",
+      "a doctor"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u3_q4",
+     "type": "choice",
+     "prompt": "This person plays games for money.",
+     "choices": [
+      "a pro-gamer",
+      "a scientist",
+      "a president"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2b_u3_q5",
+     "type": "choice",
+     "prompt": "This person writes about restaurants and food.",
+     "choices": [
+      "an English teacher",
+      "a food critic",
+      "a police officer"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 4,
+   "title": "Welcome to Seven-Eleven",
+   "video_file": "076_inter2b__Day 1 Animation 5.mp4",
+   "source_lines": [
+    "How much is this?",
+    "It is about five hundred won."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u4_q1",
+     "type": "missing_word",
+     "prompt": "How ___ is this?",
+     "choices": [
+      "many",
+      "more",
+      "much"
+     ],
+     "answer": 2,
+     "cue": "How much is this?"
+    },
+    {
+     "id": "i2b_u4_q2",
+     "type": "missing_word",
+     "prompt": "It is ___ five hundred won.",
+     "choices": [
+      "about",
+      "abroad",
+      "above"
+     ],
+     "answer": 0,
+     "cue": "It is about five hundred won."
+    },
+    {
+     "id": "i2b_u4_q3",
+     "type": "choice",
+     "prompt": "How much is this? It is 500 won.",
+     "choices": [
+      "It is five thousand won.",
+      "It is five hundred won.",
+      "It is fifty won."
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u4_q4",
+     "type": "choice",
+     "prompt": "It costs very little money. It is ___.",
+     "choices": [
+      "everything",
+      "cheap",
+      "more"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u4_q5",
+     "type": "choice",
+     "prompt": "You give money and you get the thing. You ___ it.",
+     "choices": [
+      "eat",
+      "buy",
+      "sell"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 5,
+   "title": "Somebody Stole My Bike!",
+   "video_file": "075_inter2b__Day 1 Animation 4.mp4",
+   "source_lines": [
+    "Somebody stole my bike.",
+    "What did he look like?",
+    "Is he tall?",
+    "Yes he is, he is very tall."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u5_q1",
+     "type": "missing_word",
+     "prompt": "Somebody ___ my bike!",
+     "choices": [
+      "steal",
+      "still",
+      "stole"
+     ],
+     "answer": 2,
+     "cue": "Somebody stole my bike."
+    },
+    {
+     "id": "i2b_u5_q2",
+     "type": "choice",
+     "prompt": "You ask about his body. What do you ask?",
+     "choices": [
+      "Is he rich?",
+      "Is he tall?",
+      "Is he old?"
+     ],
+     "answer": 1,
+     "cue": "Is he tall?"
+    },
+    {
+     "id": "i2b_u5_q3",
+     "type": "choice",
+     "prompt": "Not tall. He is ___.",
+     "choices": [
+      "young",
+      "short",
+      "thin"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u5_q4",
+     "type": "choice",
+     "prompt": "Not fat. He is ___.",
+     "choices": [
+      "thin",
+      "ugly",
+      "tall"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2b_u5_q5",
+     "type": "choice",
+     "prompt": "The opposite of young is ___.",
+     "choices": [
+      "rich",
+      "old",
+      "smart"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 6,
+   "title": "Welcome to Parent's Night",
+   "video_file": "074_inter2b__Day 1 Animation 3.mp4",
+   "source_lines": [
+    "Welcome to Parents Night.",
+    "This is my English teacher, Mr. Jay.",
+    "This is my math teacher."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u6_q1",
+     "type": "missing_word",
+     "prompt": "This is my ___ teacher.",
+     "choices": [
+      "moth",
+      "mouth",
+      "math"
+     ],
+     "answer": 2,
+     "cue": "This is my math teacher."
+    },
+    {
+     "id": "i2b_u6_q2",
+     "type": "choice",
+     "prompt": "You study numbers in this class.",
+     "choices": [
+      "music",
+      "math",
+      "art"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u6_q3",
+     "type": "choice",
+     "prompt": "You study plants, animals and the body in this class.",
+     "choices": [
+      "science",
+      "gym",
+      "history"
+     ],
+     "answer": 0
+    },
+    {
+     "id": "i2b_u6_q4",
+     "type": "choice",
+     "prompt": "You sing and play music in this class.",
+     "choices": [
+      "math",
+      "music",
+      "Korean"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u6_q5",
+     "type": "choice",
+     "prompt": "You draw and paint in this class.",
+     "choices": [
+      "art",
+      "social studies",
+      "history"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 7,
+   "title": "Have You Seen My Transit Card?",
+   "video_file": "073_inter2b__Day 1 Animation 2.mp4",
+   "source_lines": [
+    "Have you seen my transit card?",
+    "Is it under the desk?"
+   ],
+   "questions": [
+    {
+     "id": "i2b_u7_q1",
+     "type": "missing_word",
+     "prompt": "Have you ___ my transit card?",
+     "choices": [
+      "seen",
+      "saw",
+      "see"
+     ],
+     "answer": 0,
+     "cue": "Have you seen my transit card?"
+    },
+    {
+     "id": "i2b_u7_q2",
+     "type": "choice",
+     "prompt": "The card is below the desk. What do you say?",
+     "choices": [
+      "Is it under the desk?",
+      "Is it on the desk?",
+      "Is it behind the desk?"
+     ],
+     "answer": 0,
+     "cue": "Is it under the desk?"
+    },
+    {
+     "id": "i2b_u7_q3",
+     "type": "choice",
+     "prompt": "It is at the back of the box. It is ___ the box.",
+     "choices": [
+      "next to",
+      "behind",
+      "between"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u7_q4",
+     "type": "choice",
+     "prompt": "Two things are on each side of it. It is ___ them.",
+     "choices": [
+      "in front of",
+      "under",
+      "between"
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u7_q5",
+     "type": "choice",
+     "prompt": "You keep your money in it in your pants.",
+     "choices": [
+      "a pocket",
+      "stairs",
+      "a bus stop"
+     ],
+     "answer": 0
+    }
+   ],
+   "pass_score": 4
+  },
+  {
+   "unit": 8,
+   "title": "This is Mine!",
+   "video_file": "072_inter2b__Day 1 Animation 1.mp4",
+   "source_lines": [
+    "It is not yours. It is mine."
+   ],
+   "questions": [
+    {
+     "id": "i2b_u8_q1",
+     "type": "missing_word",
+     "prompt": "It is not ___. It is mine.",
+     "choices": [
+      "yours",
+      "your",
+      "you"
+     ],
+     "answer": 0,
+     "cue": "It is not yours. It is mine."
+    },
+    {
+     "id": "i2b_u8_q2",
+     "type": "choice",
+     "prompt": "This book belongs to me. What do you say?",
+     "choices": [
+      "It is his.",
+      "It is yours.",
+      "It is mine."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u8_q3",
+     "type": "choice",
+     "prompt": "This book belongs to you. What do you say?",
+     "choices": [
+      "It is mine.",
+      "It is ours.",
+      "It is yours."
+     ],
+     "answer": 2
+    },
+    {
+     "id": "i2b_u8_q4",
+     "type": "choice",
+     "prompt": "The bag belongs to her. It is ___.",
+     "choices": [
+      "theirs",
+      "hers",
+      "his"
+     ],
+     "answer": 1
+    },
+    {
+     "id": "i2b_u8_q5",
+     "type": "choice",
+     "prompt": "The house belongs to us. It is ___.",
+     "choices": [
+      "yours",
+      "ours",
+      "mine"
+     ],
+     "answer": 1
+    }
+   ],
+   "pass_score": 4
+  }
+ ]
+}
