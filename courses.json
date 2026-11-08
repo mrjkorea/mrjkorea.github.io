@@ -164,6 +164,11 @@
  ],
  "links": [
   {
+   "name": "중학 영문법",
+   "img": "grammar",
+   "url": "https://mrjkorea.github.io/middle-school/"
+  },
+  {
    "name": "Reading",
    "img": "reading",
    "url": "https://www.kidsa-z.com/ng/login/class-chart"
