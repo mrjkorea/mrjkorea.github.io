@@ -64,7 +64,8 @@
    "day": "Day 1",
    "label": "Video",
    "img": "video",
-   "url": null
+   "url": "https://mrjkorea.github.io/day1/",
+   "unitUrl": "https://mrjkorea.github.io/day1/?book={book}&unit={n}"
   },
   {
    "day": "Day 2",

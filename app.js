@@ -1,6 +1,6 @@
 let C, NEWS = [];
 /** Bump when courses.json or news.json changes (GitHub Pages CDN max-age=600). */
-const CONFIG_V = '2';
+const CONFIG_V = '3';
 const A = document.getElementById('app'), M = document.getElementById('modal'), P = () => window.StudyProgress;
 const im = n => `img/${n}.webp`;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
