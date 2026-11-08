@@ -78,7 +78,9 @@
 (function(){
   const EMBED = (id) => `https://www.youtube-nocookie.com/embed/${id}?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
   const params = new URLSearchParams(location.search);
-  const book = (params.get('book') || '').replace(/_/g,'');   // basica, basicb, inter2a ...
+  const ALIAS = {int2a: 'inter2a', int2b: 'inter2b', int2c: 'inter2c'};
+  const rawBook = (params.get('book') || '').replace(/_/g, '');   // basic_a, basica, int2a ...
+  const book = ALIAS[rawBook] || rawBook;                        // int2a -> inter2a
   const unitNo = String(params.get('unit') || '').replace(/^u/i,'');
   const unitKey = book + unitNo;                    // basica1
   const state = { q: [], i: 0, right: 0, tries: 0 };
