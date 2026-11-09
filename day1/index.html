@@ -43,9 +43,10 @@
 
   <h1 id="unitTitle">Day 1</h1>
   <p class="sub" id="unitSub">Video lesson</p>
+  <p class="cue hidden" id="noIntro">The explanation video for this unit is coming. Start with the animation.</p>
 
   <div class="card" id="mrjCard">
-    <p class="step">1 · Mr. Jay</p>
+    <p class="step">1 · Explanation · Mr. Jay</p>
     <div class="frame" id="mrjFrame"><div class="wait">Video is coming.</div></div>
   </div>
 
@@ -179,11 +180,16 @@
       if (!('mrj' in row)) {
         // this unit has no Mr. Jay video at all in LearnWorlds: one video only
         document.getElementById('mrjCard').classList.add('hidden');
+        document.getElementById('noIntro').classList.remove('hidden');
         document.getElementById('animStep').textContent = '1 · Animation';
         document.getElementById('quizStep').textContent = '2 · Quiz';
       }
       fillFrame($('mrjFrame'), row.mrj);
       fillFrame($('animFrame'), row.animation);
+      if(!row.animation){
+        document.getElementById('animFrame').innerHTML =
+          '<div class="wait">The animation video is still uploading.</div>';
+      }
     } catch(e){ console.warn('no youtube map yet', e); }
 
     try {
