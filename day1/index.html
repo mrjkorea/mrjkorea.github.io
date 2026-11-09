@@ -92,6 +92,14 @@
   function fillFrame(el, id){
     if(!id){ return; }
     el.innerHTML = '';
+    if(/^https?:/i.test(id)){
+      const v = document.createElement('video');
+      v.src = id; v.controls = true; v.playsInline = true; v.preload = 'metadata';
+      v.style.width = '100%'; v.style.height = '100%'; v.style.background = '#000';
+      v.setAttribute('playsinline', ''); v.autoplay = false;
+      el.appendChild(v);
+      return;
+    }
     const f = document.createElement('iframe');
     f.src = EMBED(id);
     f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
@@ -184,9 +192,12 @@
         document.getElementById('animStep').textContent = '1 · Animation';
         document.getElementById('quizStep').textContent = '2 · Quiz';
       }
-      fillFrame($('mrjFrame'), row.mrj);
-      fillFrame($('animFrame'), row.animation);
-      if(!row.animation){
+      let media = {};
+      try { media = (await loadJSON('data/media.json'))[book] || {}; } catch (e) {}
+      const mrow = media[unitNo] || {};
+      fillFrame($('mrjFrame'), mrow.mrj || row.mrj);
+      fillFrame($('animFrame'), mrow.animation || row.animation);
+      if(!(mrow.animation || row.animation)){
         document.getElementById('animFrame').innerHTML =
           '<div class="wait">The animation video is still uploading.</div>';
       }
