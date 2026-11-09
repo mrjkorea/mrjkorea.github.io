@@ -72,7 +72,10 @@
       btn.addEventListener('click', function () { mark(btn.dataset.practice ? keyByTopic(btn.dataset.practice) : '', 'practice'); openPractice(btn.dataset.practice); });
     });
     listEl.querySelectorAll('a[data-p="note"]').forEach(function (a) {
-      a.addEventListener('click', function () { mark(a.dataset.k, 'note'); });
+      var fire = function () { mark(a.dataset.k, 'note'); };
+      a.addEventListener('pointerdown', fire);
+      a.addEventListener('click', fire);
+      a.addEventListener('auxclick', fire);
     });
     updateBar();
   }
