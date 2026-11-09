@@ -6,76 +6,76 @@
   {
    "unit": 1,
    "title": "What Grade Are You In?",
-   "video_file": "040_inter3b__Day 1 Animation 8.mp4",
+   "video": "inter3b_u1",
    "source_lines": [
     "What grade are you in?",
+    "I am in the fifth grade!",
     "I am in kindergarten.",
     "I am in the first grade.",
     "I am in the second grade."
    ],
    "questions": [
     {
-     "id": "in1_new1",
+     "id": "inter3b_u1_v1",
      "type": "choice",
-     "prompt": "What grade are you in?",
+     "prompt": "The older boys ask ___.",
+     "choices": [
+      "How old are you?",
+      "What can you draw?",
+      "What grade are you in?"
+     ],
+     "answer": 2,
+     "cue": "What grade are you in?"
+    },
+    {
+     "id": "inter3b_u1_v2",
+     "type": "choice",
+     "prompt": "The small boy answers ___.",
      "choices": [
       "I am in the fifth grade.",
-      "I am in the five grade.",
-      "I am five."
+      "I am in the seventh grade.",
+      "I am in the tenth grade."
      ],
      "answer": 0,
      "cue": "I am in the fifth grade."
     },
     {
-     "id": "in1_new2",
+     "id": "inter3b_u1_v3",
      "type": "choice",
-     "prompt": "Korean 1학년 is ___ in English.",
+     "prompt": "English changes the number shape: ___",
      "choices": [
-      "grade one",
-      "one grade",
-      "first grade"
-     ],
-     "answer": 2,
-     "cue": "first grade"
-    },
-    {
-     "id": "in1_new3",
-     "type": "choice",
-     "prompt": "중1 is ___ in English.",
-     "choices": [
-      "seventh grade",
-      "middle school one",
-      "first grade"
-     ],
-     "answer": 0,
-     "cue": "seventh grade"
-    },
-    {
-     "id": "in1_new4",
-     "type": "choice",
-     "prompt": "고1 is ___ in English.",
-     "choices": [
-      "tenth grade",
-      "high school one",
-      "first grade"
-     ],
-     "answer": 0,
-     "cue": "tenth grade"
-    },
-    {
-     "id": "in1_new5",
-     "type": "choice",
-     "prompt": "Elementary school is ___.",
-     "choices": [
-      "grades 10 to 12",
-      "grades 1 to 6",
-      "grades 7 to 9"
+      "one, two, three",
+      "first, second, third",
+      "first, two, third"
      ],
      "answer": 1,
-     "cue": "grades 1 to 6"
+     "cue": "first, second, third"
+    },
+    {
+     "id": "inter3b_u1_v4",
+     "type": "choice",
+     "prompt": "Elementary school is grades ___.",
+     "choices": [
+      "1 to 3",
+      "7 to 12",
+      "1 to 6"
+     ],
+     "answer": 2,
+     "cue": "Elementary school = grades 1 to 6"
+    },
+    {
+     "id": "inter3b_u1_v5",
+     "type": "choice",
+     "prompt": "중1 in English is ___.",
+     "choices": [
+      "seventh grade",
+      "sixth grade",
+      "tenth grade"
+     ],
+     "answer": 0,
+     "cue": "Seventh grade!"
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -567,5 +567,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

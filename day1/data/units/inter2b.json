@@ -6,74 +6,75 @@
   {
    "unit": 1,
    "title": "Hello, This is Pizza Land",
-   "video_file": "079_inter2b__Day 1 Animation 8.mp4",
+   "video": "inter2b_u1",
    "source_lines": [
+    "Mom! What day is it today?",
+    "It is Saturday.",
     "What day is it today?",
     "It is Monday."
    ],
    "questions": [
     {
-     "id": "in1_new1",
+     "id": "inter2b_u1_v1",
      "type": "choice",
-     "prompt": "What day is it today? It is ___.",
+     "prompt": "The boy at home asks ___.",
      "choices": [
-      "Sunday",
-      "Wednesday",
-      "Monday"
+      "How are you?",
+      "What grade are you in?",
+      "What day is it today?"
      ],
      "answer": 2,
-     "cue": "It is Monday."
+     "cue": "What day is it today?"
     },
     {
-     "id": "in1_new2",
+     "id": "inter2b_u1_v2",
      "type": "choice",
-     "prompt": "Which two days sound alike?",
+     "prompt": "His mother answers ___.",
      "choices": [
-      "Friday and Saturday",
-      "Monday and Sunday",
-      "Wednesday and Thursday"
+      "It is Saturday.",
+      "It is Monday.",
+      "We close every Monday."
+     ],
+     "answer": 0,
+     "cue": "It is Saturday."
+    },
+    {
+     "id": "inter2b_u1_v3",
+     "type": "choice",
+     "prompt": "On the phone they say ___.",
+     "choices": [
+      "Hello, Mr. Monkey.",
+      "Hello, this is Pizza Land.",
+      "Good morning, Ms. Lee."
+     ],
+     "answer": 1,
+     "cue": "Hello, this is Pizza Land."
+    },
+    {
+     "id": "inter2b_u1_v4",
+     "type": "choice",
+     "prompt": "Monday comes from ___.",
+     "choices": [
+      "the sun",
+      "the stars",
+      "the moon"
      ],
      "answer": 2,
-     "cue": "Wednesday. Thursday."
+     "cue": "Monday = moon. Sunday = sun."
     },
     {
-     "id": "in1_new3",
-     "type": "choice",
+     "id": "inter2b_u1_v5",
+     "type": "missing_word",
      "prompt": "We close every ___.",
      "choices": [
       "Monday",
-      "Friday",
-      "Sunday"
+      "Sunday",
+      "Saturday"
      ],
      "answer": 0,
      "cue": "We close every Monday."
-    },
-    {
-     "id": "in1_new4",
-     "type": "choice",
-     "prompt": "The English day names come from ___.",
-     "choices": [
-      "the food",
-      "the shop",
-      "the sky"
-     ],
-     "answer": 2,
-     "cue": "Monday is the moon's day."
-    },
-    {
-     "id": "in1_new5",
-     "type": "choice",
-     "prompt": "Sunday is the ___ day.",
-     "choices": [
-      "sun's",
-      "shop's",
-      "moon's"
-     ],
-     "answer": 0,
-     "cue": "Sunday is the sun's day."
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -562,5 +563,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

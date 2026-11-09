@@ -77,8 +77,11 @@
   {
    "unit": 2,
    "title": "Hello",
-   "video_file": "007_basica__Day 1 Animation 7.mp4",
+   "video": "basica_u2",
    "source_lines": [
+    "Hello, Mr. Monkey!",
+    "Hello, Mrs. Hippo!",
+    "Hello, Ms. Tiger!",
     "Hello, Mr. Cat.",
     "Hello, Mr. Cow.",
     "Hello, Mr. Horse.",
@@ -90,67 +93,66 @@
    ],
    "questions": [
     {
-     "id": "ba2_new1",
+     "id": "basica_u2_v1",
      "type": "choice",
-     "prompt": "What do you call your teacher in English?",
+     "prompt": "You meet a man teacher in the morning. What do you say?",
      "choices": [
-      "Teacher Kim?",
+      "Hello, Mr. Kim.",
       "Teacher!",
-      "Mr. Kim."
+      "Goodbye, Mr. Kim."
      ],
-     "answer": 2,
-     "cue": "Hello, Mr. Kim."
+     "answer": 0,
+     "cue": "Hello, Mr. Kim!"
     },
     {
-     "id": "ba2_new2",
-     "type": "choice",
-     "prompt": "Mr. is for ___.",
-     "choices": [
-      "a shop",
-      "a man",
-      "a woman"
-     ],
-     "answer": 1,
-     "cue": "Mr. is for a man."
-    },
-    {
-     "id": "ba2_new3",
+     "id": "basica_u2_v2",
      "type": "choice",
      "prompt": "Mrs. is for ___.",
      "choices": [
       "a man",
       "a married woman",
-      "a boy"
+      "a woman you are not sure about"
      ],
      "answer": 1,
-     "cue": "Mrs. is for a married woman."
+     "cue": "Mrs. = a married woman"
     },
     {
-     "id": "ba2_new4",
+     "id": "basica_u2_v3",
      "type": "choice",
      "prompt": "Ms. is for ___.",
      "choices": [
       "a man",
-      "a woman, when you are not sure",
-      "a school"
+      "a married woman",
+      "a woman, when you are not sure"
      ],
-     "answer": 1,
-     "cue": "Ms. is for a woman."
+     "answer": 2,
+     "cue": "Ms. = a woman, when you are not sure"
     },
     {
-     "id": "ba2_new5",
-     "type": "choice",
-     "prompt": "Which one is right?",
+     "id": "basica_u2_v4",
+     "type": "missing_word",
+     "prompt": "Hello, ___ Hippo.",
      "choices": [
-      "Hello, Mr. Kim.",
-      "Hello, Mr. Kim teacher.",
-      "Hello, teacher."
+      "Mrs.",
+      "Mr.",
+      "Ms."
      ],
      "answer": 0,
-     "cue": "Hello, Mr. Kim."
+     "cue": "Hello, Mrs. Hippo!"
+    },
+    {
+     "id": "basica_u2_v5",
+     "type": "choice",
+     "prompt": "Which line did you hear?",
+     "choices": [
+      "Goodbye, Mom.",
+      "Hello, Ms. Tiger.",
+      "Teacher!"
+     ],
+     "answer": 1,
+     "cue": "Hello, Ms. Tiger!"
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 3,
@@ -624,5 +626,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

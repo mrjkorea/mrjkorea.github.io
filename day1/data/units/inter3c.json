@@ -6,9 +6,10 @@
   {
    "unit": 1,
    "title": "Do You Like Sweet Food?",
-   "video_file": "048_inter3c__Day 1 Animation 8.mp4",
+   "video": "inter3c_u1",
    "source_lines": [
     "Do you like sweet food?",
+    "Yes, I do.",
     "Yes, I will try it.",
     "What is it?",
     "It is a sticky rice dessert.",
@@ -16,55 +17,55 @@
    ],
    "questions": [
     {
-     "id": "in1_new1",
+     "id": "inter3c_u1_v1",
      "type": "choice",
-     "prompt": "Do you like sweet food?",
+     "prompt": "The grandmother asks ___.",
      "choices": [
-      "Yes, I can.",
-      "Yes, I am.",
-      "Yes, I do."
+      "What is it?",
+      "Do you have a pet?",
+      "Do you like sweet food?"
      ],
      "answer": 2,
+     "cue": "Do you like sweet food?"
+    },
+    {
+     "id": "inter3c_u1_v2",
+     "type": "choice",
+     "prompt": "The girl answers ___.",
+     "choices": [
+      "Yes, I do.",
+      "It is Saturday.",
+      "No, I do not."
+     ],
+     "answer": 0,
      "cue": "Yes, I do."
     },
     {
-     "id": "in1_new2",
+     "id": "inter3c_u1_v3",
      "type": "choice",
-     "prompt": "Which one is a taste?",
+     "prompt": "ddeok is ___.",
      "choices": [
-      "rice",
-      "bitter",
-      "dessert"
+      "a soy paste stew",
+      "a sticky rice dessert",
+      "a sauteed root"
      ],
      "answer": 1,
-     "cue": "bitter"
+     "cue": "ddeok — a sticky rice dessert"
     },
     {
-     "id": "in1_new3",
+     "id": "inter3c_u1_v4",
      "type": "choice",
-     "prompt": "ddeok in English is ___.",
+     "prompt": "Doenjang guk tastes ___.",
      "choices": [
-      "a sticky rice dessert",
-      "a soy paste stew",
-      "a bellflower root"
-     ],
-     "answer": 0,
-     "cue": "It is a sticky rice dessert."
-    },
-    {
-     "id": "in1_new4",
-     "type": "choice",
-     "prompt": "doenjang guk in English is ___.",
-     "choices": [
-      "a sour fruit",
-      "a sticky rice dessert",
-      "a soy paste stew"
+      "sweet",
+      "sour",
+      "salty"
      ],
      "answer": 2,
-     "cue": "It is a soy paste stew."
+     "cue": "doenjang guk — a soy paste stew"
     },
     {
-     "id": "in1_new5",
+     "id": "inter3c_u1_v5",
      "type": "choice",
      "prompt": "Kimchi is ___.",
      "choices": [
@@ -75,8 +76,7 @@
      "answer": 0,
      "cue": "Kimchi is sour."
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -572,5 +572,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

@@ -6,74 +6,73 @@
   {
    "unit": 1,
    "title": "I Can Draw a Monster",
-   "video_file": "032_inter3a__Day 1 Animation 8.mp4",
+   "video": "inter3a_u1",
    "source_lines": [
     "What can you draw?",
     "I can draw a monster."
    ],
    "questions": [
     {
-     "id": "in1_new1",
+     "id": "inter3a_u1_v1",
      "type": "choice",
-     "prompt": "What can you draw?",
+     "prompt": "The monster behind him asks ___.",
      "choices": [
-      "I can draw a phone.",
-      "I can draw a shop.",
-      "I can draw a monster."
+      "What is it?",
+      "Do you like sweet food?",
+      "What can you draw?"
      ],
      "answer": 2,
+     "cue": "What can you draw?"
+    },
+    {
+     "id": "inter3a_u1_v2",
+     "type": "choice",
+     "prompt": "The young man answers ___.",
+     "choices": [
+      "I can draw a monster.",
+      "I can draw a star.",
+      "I can draw a tree."
+     ],
+     "answer": 0,
      "cue": "I can draw a monster."
     },
     {
-     "id": "in1_new2",
+     "id": "inter3a_u1_v3",
      "type": "choice",
-     "prompt": "It is round. It has no corners.",
+     "prompt": "The woman says ___.",
      "choices": [
-      "a circle",
-      "a star",
-      "a tree"
+      "I can draw a circle.",
+      "I can draw a star.",
+      "I can draw a flag."
      ],
-     "answer": 0,
-     "cue": "I can draw a circle."
-    },
-    {
-     "id": "in1_new3",
-     "type": "choice",
-     "prompt": "It has five points.",
-     "choices": [
-      "a star",
-      "a circle",
-      "a flag"
-     ],
-     "answer": 0,
+     "answer": 1,
      "cue": "I can draw a star."
     },
     {
-     "id": "in1_new4",
-     "type": "choice",
-     "prompt": "I can ___ a tree.",
+     "id": "inter3a_u1_v4",
+     "type": "missing_word",
+     "prompt": "One body, ___ eyes, one smile.",
      "choices": [
-      "draws",
-      "drew",
-      "draw"
+      "three",
+      "one",
+      "two"
      ],
      "answer": 2,
-     "cue": "I can draw a tree."
+     "cue": "One body, two eyes, one smile."
     },
     {
-     "id": "in1_new5",
+     "id": "inter3a_u1_v5",
      "type": "choice",
-     "prompt": "Can you draw a monster?",
+     "prompt": "Which line did you hear?",
      "choices": [
-      "Yes, I do.",
-      "Yes, I can.",
-      "Yes, I am."
+      "I can draw a hat.",
+      "I can draw a tree.",
+      "I can draw a monster."
      ],
-     "answer": 1,
-     "cue": "Yes, I can."
+     "answer": 0,
+     "cue": "I can draw a hat."
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -571,5 +570,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

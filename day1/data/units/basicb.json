@@ -6,8 +6,10 @@
   {
    "unit": 1,
    "title": "How are you?",
-   "video_file": "016_basicb__Day 1 Animation 8.mp4",
+   "video": "basicb_u1",
    "source_lines": [
+    "How are you?",
+    "I am happy!",
     "I am happy.",
     "I am sad.",
     "I am angry.",
@@ -19,67 +21,66 @@
    ],
    "questions": [
     {
-     "id": "ba1_new1",
+     "id": "basicb_u1_v1",
      "type": "choice",
-     "prompt": "How are you? You feel good.",
+     "prompt": "How are you? asks about ___.",
+     "choices": [
+      "your age",
+      "your grade",
+      "your feelings"
+     ],
+     "answer": 2,
+     "cue": "This question asks about feelings."
+    },
+    {
+     "id": "basicb_u1_v2",
+     "type": "choice",
+     "prompt": "The boy on the rollercoaster says ___.",
      "choices": [
       "I am happy.",
-      "I am hungry.",
-      "I am nine."
+      "I am angry.",
+      "I am tired."
      ],
      "answer": 0,
-     "cue": "I am happy."
+     "cue": "I am happy!"
     },
     {
-     "id": "ba1_new2",
+     "id": "basicb_u1_v3",
      "type": "choice",
-     "prompt": "You want food. How are you?",
+     "prompt": "The woman is not happy. She says ___.",
      "choices": [
+      "I am hungry.",
       "I am sad.",
-      "I am hungry.",
-      "I am angry."
+      "I am happy."
      ],
      "answer": 1,
-     "cue": "I am hungry."
+     "cue": "I am sad."
     },
     {
-     "id": "ba1_new3",
+     "id": "basicb_u1_v4",
      "type": "choice",
-     "prompt": "How are you asks about ___.",
+     "prompt": "How are you? is not the same as ___.",
      "choices": [
-      "numbers",
-      "feelings",
-      "age"
+      "What day is it today?",
+      "What is your name?",
+      "How old are you?"
      ],
-     "answer": 1,
-     "cue": "How are you asks about feelings."
+     "answer": 2,
+     "cue": "How are you? is not How old are you?"
     },
     {
-     "id": "ba1_new4",
-     "type": "choice",
-     "prompt": "Which question asks about age?",
+     "id": "basicb_u1_v5",
+     "type": "missing_word",
+     "prompt": "I am ___.",
      "choices": [
-      "How are you?",
-      "How old are you?",
-      "How is your mom?"
-     ],
-     "answer": 1,
-     "cue": "How old are you?"
-    },
-    {
-     "id": "ba1_new5",
-     "type": "choice",
-     "prompt": "You cannot keep your eyes open. How are you?",
-     "choices": [
-      "I am sleepy.",
-      "I am bored.",
-      "I am scared."
+      "hungry",
+      "angry",
+      "sad"
      ],
      "answer": 0,
-     "cue": "I am sleepy."
+     "cue": "I am hungry."
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -620,5 +621,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }

@@ -46,7 +46,7 @@
   <p class="cue hidden" id="noIntro">The explanation video for this unit is coming. Start with the animation.</p>
 
   <div class="card" id="mrjCard">
-    <p class="step">1 · Explanation · Mr. Jay</p>
+    <p class="step" id="mrjStep">1 · Explanation · Mr. Jay</p>
     <div class="frame" id="mrjFrame"><div class="wait">Video is coming.</div></div>
   </div>
 
@@ -176,6 +176,13 @@
       $('qText').textContent = 'Open this page from the map.';
       return;
     }
+    // the seven cinematic openers: one joined video per unit, played with a video element
+    let fullRow = null;
+    try {
+      const full = await loadJSON('data/full.json');
+      fullRow = (full.units || {})[book + '_u' + unitNo] || null;
+    } catch (e) { fullRow = null; }
+
     // videos: read the shared map, so uploads go live one by one with no code change
     try {
       const row = {};
@@ -192,6 +199,14 @@
       // R2 only: no YouTube ids are used anywhere on this page
       fillFrame($('mrjFrame'), mrow.mrj);
       fillFrame($('animFrame'), mrow.animation);
+      if(fullRow && fullRow.url){
+        fillFrame($('mrjFrame'), fullRow.url);
+        document.getElementById('mrjStep').textContent = '1 · Video · Mr. Jay';
+        document.getElementById('animCard').classList.add('hidden');
+        document.getElementById('noIntro').classList.add('hidden');
+        document.getElementById('quizStep').textContent = '2 · Quiz';
+        throw { done: true };
+      }
       if(!mrow.mrj){
         document.getElementById('mrjCard').classList.add('hidden');
         document.getElementById('noIntro').classList.remove('hidden');
@@ -202,7 +217,7 @@
         document.getElementById('animFrame').innerHTML =
           '<div class="wait">The animation video is still uploading.</div>';
       }
-    } catch(e){ console.warn('video map failed', e); }
+    } catch(e){ if(!e || !e.done) console.warn('video map failed', e); }
 
     try {
       const data = await loadJSON('data/units/' + book + '.json');

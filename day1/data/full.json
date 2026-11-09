@@ -1,0 +1,48 @@
+{
+ "generated": "2026-11-10",
+ "note": "Full Day 1 explainer for the seven units that had no Mr. Jay video: Imagine opener in front of the body. Play with a <video> tag, 16:9, controls, preload=none.",
+ "units": {
+  "basica_u2": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basica_u2.mp4",
+   "book": "basica",
+   "unit": 2,
+   "sizeBytes": 8059905
+  },
+  "basicb_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicb_u1.mp4",
+   "book": "basicb",
+   "unit": 1,
+   "sizeBytes": 10933134
+  },
+  "basicc_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicc_u1.mp4",
+   "book": "basicc",
+   "unit": 1,
+   "sizeBytes": 10342406
+  },
+  "int2b_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int2b_u1.mp4",
+   "book": "int2b",
+   "unit": 1,
+   "sizeBytes": 3819791
+  },
+  "int3a_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3a_u1.mp4",
+   "book": "int3a",
+   "unit": 1,
+   "sizeBytes": 3311578
+  },
+  "int3b_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3b_u1.mp4",
+   "book": "int3b",
+   "unit": 1,
+   "sizeBytes": 7948397
+  },
+  "int3c_u1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3c_u1.mp4",
+   "book": "int3c",
+   "unit": 1,
+   "sizeBytes": 4714587
+  }
+ }
+}

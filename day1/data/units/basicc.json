@@ -6,8 +6,10 @@
   {
    "unit": 1,
    "title": "I Love My Dog Zoey",
-   "video_file": "024_basicc__Day 1 Animation 8.mp4",
+   "video": "basicc_u1",
    "source_lines": [
+    "I love my dog Zoey.",
+    "Good girl.",
     "I love my dog Zoe.",
     "I love my cat Leo.",
     "I love my bird Sarah.",
@@ -20,67 +22,66 @@
    ],
    "questions": [
     {
-     "id": "ba1_new1",
+     "id": "basicc_u1_v1",
      "type": "choice",
-     "prompt": "I love my dog ___.",
+     "prompt": "The girl in the park says ___.",
      "choices": [
-      "Leo",
-      "Zoe",
-      "Nemo"
-     ],
-     "answer": 1,
-     "cue": "I love my dog Zoe."
-    },
-    {
-     "id": "ba1_new2",
-     "type": "choice",
-     "prompt": "Her name is Zoe. What does this tell you?",
-     "choices": [
-      "the dog's colour",
-      "the dog's name",
-      "the dog's food"
-     ],
-     "answer": 1,
-     "cue": "Her name is Zoe."
-    },
-    {
-     "id": "ba1_new3",
-     "type": "choice",
-     "prompt": "Which one is a pet?",
-     "choices": [
-      "a hamster",
-      "a desk",
-      "a keyboard"
-     ],
-     "answer": 0,
-     "cue": "I love my hamster Fluffy."
-    },
-    {
-     "id": "ba1_new4",
-     "type": "choice",
-     "prompt": "You meet a friend's pet. What do you ask?",
-     "choices": [
-      "How old is it?",
-      "Where is my phone?",
-      "What is its name?"
+      "This is my cat Leo.",
+      "I love my bird Sarah.",
+      "I love my dog Zoey."
      ],
      "answer": 2,
-     "cue": "What is its name?"
+     "cue": "I love my dog Zoey."
     },
     {
-     "id": "ba1_new5",
+     "id": "basicc_u1_v2",
      "type": "choice",
-     "prompt": "This is my dog Zoe. What does it show?",
+     "prompt": "I love + ___.",
      "choices": [
-      "you are hungry",
-      "you are late",
-      "you are proud of your pet"
+      "my dog + Zoey",
+      "Zoey + my dog",
+      "love + my"
+     ],
+     "answer": 0,
+     "cue": "I love + my dog + Zoe"
+    },
+    {
+     "id": "basicc_u1_v3",
+     "type": "missing_word",
+     "prompt": "I love my ___ Leo.",
+     "choices": [
+      "dog",
+      "cat",
+      "bird"
+     ],
+     "answer": 1,
+     "cue": "I love my cat Leo."
+    },
+    {
+     "id": "basicc_u1_v4",
+     "type": "choice",
+     "prompt": "Another way to say it is ___.",
+     "choices": [
+      "My dog is Zoey?",
+      "I like my dog Zoey.",
+      "This is my dog Zoey."
      ],
      "answer": 2,
      "cue": "This is my dog Zoe."
+    },
+    {
+     "id": "basicc_u1_v5",
+     "type": "choice",
+     "prompt": "The teacher asks: ___",
+     "choices": [
+      "Do you have a pet?",
+      "What day is it today?",
+      "What can you draw?"
+     ],
+     "answer": 0,
+     "cue": "Do you have a pet?"
     }
-   ],
-   "pass_score": 4
+   ]
   },
   {
    "unit": 2,
@@ -624,5 +625,6 @@
    ],
    "pass_score": 4
   }
- ]
+ ],
+ "updated": "2026-11-10"
 }
