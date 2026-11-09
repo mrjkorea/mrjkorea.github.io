@@ -15,63 +15,64 @@
    ],
    "questions": [
     {
-     "id": "i3b_u1_q1",
-     "type": "missing_word",
-     "prompt": "What ___ are you in?",
+     "id": "in1_new1",
+     "type": "choice",
+     "prompt": "What grade are you in?",
      "choices": [
-      "great",
-      "gray",
-      "grade"
+      "I am in the fifth grade.",
+      "I am in the five grade.",
+      "I am five."
      ],
-     "answer": 2,
-     "cue": "What grade are you in?"
+     "answer": 0,
+     "cue": "I am in the fifth grade."
     },
     {
-     "id": "i3b_u1_q2",
-     "type": "missing_word",
-     "prompt": "I am in the ___ grade.",
+     "id": "in1_new2",
+     "type": "choice",
+     "prompt": "Korean 1학년 is ___ in English.",
      "choices": [
-      "fifteen",
-      "fifth",
-      "five"
+      "grade one",
+      "one grade",
+      "first grade"
+     ],
+     "answer": 2,
+     "cue": "first grade"
+    },
+    {
+     "id": "in1_new3",
+     "type": "choice",
+     "prompt": "중1 is ___ in English.",
+     "choices": [
+      "seventh grade",
+      "middle school one",
+      "first grade"
+     ],
+     "answer": 0,
+     "cue": "seventh grade"
+    },
+    {
+     "id": "in1_new4",
+     "type": "choice",
+     "prompt": "고1 is ___ in English.",
+     "choices": [
+      "tenth grade",
+      "high school one",
+      "first grade"
+     ],
+     "answer": 0,
+     "cue": "tenth grade"
+    },
+    {
+     "id": "in1_new5",
+     "type": "choice",
+     "prompt": "Elementary school is ___.",
+     "choices": [
+      "grades 10 to 12",
+      "grades 1 to 6",
+      "grades 7 to 9"
      ],
      "answer": 1,
-     "cue": "I am in fifth grade."
-    },
-    {
-     "id": "i3b_u1_q3",
-     "type": "choice",
-     "prompt": "Before first grade, Korean students go to ___.",
-     "choices": [
-      "ninth grade",
-      "third grade",
-      "kindergarten"
-     ],
-     "answer": 2,
-     "cue": "I am in kindergarten."
-    },
-    {
-     "id": "i3b_u1_q4",
-     "type": "choice",
-     "prompt": "Which one is a grade?",
-     "choices": [
-      "seven",
-      "sister",
-      "second"
-     ],
-     "answer": 2
-    },
-    {
-     "id": "i3b_u1_q5",
-     "type": "heard",
-     "prompt": "Which line did you hear?",
-     "choices": [
-      "I am in the fast grade.",
-      "I am in the fourth grade.",
-      "I am in the first grade."
-     ],
-     "answer": 2,
-     "cue": "I am in the first grade."
+     "cue": "grades 1 to 6"
     }
    ],
    "pass_score": 4

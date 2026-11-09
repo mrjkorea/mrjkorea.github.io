@@ -16,62 +16,64 @@
    ],
    "questions": [
     {
-     "id": "i3c_u1_q1",
-     "type": "missing_word",
-     "prompt": "Do you like sweet ___?",
-     "choices": [
-      "flu",
-      "food",
-      "foot"
-     ],
-     "answer": 1,
-     "cue": "Do you like sweet food?"
-    },
-    {
-     "id": "i3c_u1_q2",
+     "id": "in1_new1",
      "type": "choice",
-     "prompt": "You want to taste it. What do you say?",
+     "prompt": "Do you like sweet food?",
      "choices": [
-      "Yes, I will try it.",
-      "I do not understand.",
-      "No, I do not know."
-     ],
-     "answer": 0,
-     "cue": "Yes, I will try it."
-    },
-    {
-     "id": "i3c_u1_q3",
-     "type": "choice",
-     "prompt": "What is it? It is ddeok. How does it feel?",
-     "choices": [
-      "It is a salty soup.",
-      "It is a sour fruit.",
-      "It is a sticky rice dessert."
+      "Yes, I can.",
+      "Yes, I am.",
+      "Yes, I do."
      ],
      "answer": 2,
-     "cue": "It is a sticky rice dessert."
+     "cue": "Yes, I do."
     },
     {
-     "id": "i3c_u1_q4",
+     "id": "in1_new2",
      "type": "choice",
      "prompt": "Which one is a taste?",
      "choices": [
       "rice",
-      "sour",
+      "bitter",
       "dessert"
      ],
-     "answer": 1
+     "answer": 1,
+     "cue": "bitter"
     },
     {
-     "id": "i3c_u1_q5",
+     "id": "in1_new3",
      "type": "choice",
-     "prompt": "Which one is salty and made from beans in Korea?",
+     "prompt": "ddeok in English is ___.",
      "choices": [
-      "ddeok",
-      "dessert",
-      "doenjang"
+      "a sticky rice dessert",
+      "a soy paste stew",
+      "a bellflower root"
      ],
-     "answer": 2
+     "answer": 0,
+     "cue": "It is a sticky rice dessert."
+    },
+    {
+     "id": "in1_new4",
+     "type": "choice",
+     "prompt": "doenjang guk in English is ___.",
+     "choices": [
+      "a sour fruit",
+      "a sticky rice dessert",
+      "a soy paste stew"
+     ],
+     "answer": 2,
+     "cue": "It is a soy paste stew."
+    },
+    {
+     "id": "in1_new5",
+     "type": "choice",
+     "prompt": "Kimchi is ___.",
+     "choices": [
+      "sour",
+      "sweet",
+      "bitter"
+     ],
+     "answer": 0,
+     "cue": "Kimchi is sour."
     }
    ],
    "pass_score": 4

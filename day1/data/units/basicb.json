@@ -19,64 +19,64 @@
    ],
    "questions": [
     {
-     "id": "bb_u1_q1",
-     "type": "missing_word",
-     "prompt": "How are you? I ___ happy.",
+     "id": "ba1_new1",
+     "type": "choice",
+     "prompt": "How are you? You feel good.",
      "choices": [
-      "am",
-      "are",
-      "is"
+      "I am happy.",
+      "I am hungry.",
+      "I am nine."
      ],
      "answer": 0,
      "cue": "I am happy."
     },
     {
-     "id": "bb_u1_q2",
+     "id": "ba1_new2",
      "type": "choice",
      "prompt": "You want food. How are you?",
      "choices": [
-      "I am bored.",
-      "I am angry.",
-      "I am hungry."
+      "I am sad.",
+      "I am hungry.",
+      "I am angry."
      ],
-     "answer": 2,
+     "answer": 1,
      "cue": "I am hungry."
     },
     {
-     "id": "bb_u1_q3",
+     "id": "ba1_new3",
      "type": "choice",
-     "prompt": "You have a big test and you feel bad in your body. How are you?",
+     "prompt": "How are you asks about ___.",
      "choices": [
-      "I am happy.",
-      "I am scared.",
-      "I am sick."
-     ],
-     "answer": 2,
-     "cue": "I am sick."
-    },
-    {
-     "id": "bb_u1_q4",
-     "type": "choice",
-     "prompt": "Nothing is fun. You want something to do. How are you?",
-     "choices": [
-      "I am bored.",
-      "I am sleepy.",
-      "I am happy."
-     ],
-     "answer": 0,
-     "cue": "I am bored."
-    },
-    {
-     "id": "bb_u1_q5",
-     "type": "heard",
-     "prompt": "Which line did you hear?",
-     "choices": [
-      "I am sad.",
-      "I am scared.",
-      "I am sick."
+      "numbers",
+      "feelings",
+      "age"
      ],
      "answer": 1,
-     "cue": "I am scared."
+     "cue": "How are you asks about feelings."
+    },
+    {
+     "id": "ba1_new4",
+     "type": "choice",
+     "prompt": "Which question asks about age?",
+     "choices": [
+      "How are you?",
+      "How old are you?",
+      "How is your mom?"
+     ],
+     "answer": 1,
+     "cue": "How old are you?"
+    },
+    {
+     "id": "ba1_new5",
+     "type": "choice",
+     "prompt": "You cannot keep your eyes open. How are you?",
+     "choices": [
+      "I am sleepy.",
+      "I am bored.",
+      "I am scared."
+     ],
+     "answer": 0,
+     "cue": "I am sleepy."
     }
    ],
    "pass_score": 4

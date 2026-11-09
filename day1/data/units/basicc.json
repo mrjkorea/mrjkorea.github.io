@@ -20,64 +20,64 @@
    ],
    "questions": [
     {
-     "id": "bc_u1_q1",
-     "type": "missing_word",
-     "prompt": "I ___ my dog Zoe.",
+     "id": "ba1_new1",
+     "type": "choice",
+     "prompt": "I love my dog ___.",
      "choices": [
-      "like",
-      "love",
-      "am"
+      "Leo",
+      "Zoe",
+      "Nemo"
      ],
      "answer": 1,
      "cue": "I love my dog Zoe."
     },
     {
-     "id": "bc_u1_q2",
+     "id": "ba1_new2",
      "type": "choice",
-     "prompt": "It says meow. What do you say?",
+     "prompt": "Her name is Zoe. What does this tell you?",
      "choices": [
-      "I love my dog Zoe.",
-      "I love my bird Sarah.",
-      "I love my cat Leo."
-     ],
-     "answer": 2,
-     "cue": "I love my cat Leo."
-    },
-    {
-     "id": "bc_u1_q3",
-     "type": "choice",
-     "prompt": "It swims in water. It is a fish. What do you say?",
-     "choices": [
-      "I love my beetle Bob.",
-      "I love my fish Nemo.",
-      "I love my turtle Tom."
+      "the dog's colour",
+      "the dog's name",
+      "the dog's food"
      ],
      "answer": 1,
-     "cue": "I love my fish Nemo."
+     "cue": "Her name is Zoe."
     },
     {
-     "id": "bc_u1_q4",
+     "id": "ba1_new3",
      "type": "choice",
-     "prompt": "It is green and slow and it has a hard shell. What do you say?",
+     "prompt": "Which one is a pet?",
      "choices": [
-      "I love my turtle Tom.",
-      "I love my snake Jessica.",
-      "I love my hamster Fluffy."
+      "a hamster",
+      "a desk",
+      "a keyboard"
      ],
      "answer": 0,
-     "cue": "I love my turtle Tom."
+     "cue": "I love my hamster Fluffy."
     },
     {
-     "id": "bc_u1_q5",
-     "type": "heard",
-     "prompt": "Which line did you hear?",
+     "id": "ba1_new4",
+     "type": "choice",
+     "prompt": "You meet a friend's pet. What do you ask?",
      "choices": [
-      "I love my rabbit Sam.",
-      "I love my rabbit San.",
-      "I love my robot Sam."
+      "How old is it?",
+      "Where is my phone?",
+      "What is its name?"
      ],
-     "answer": 0,
-     "cue": "I love my rabbit Sam."
+     "answer": 2,
+     "cue": "What is its name?"
+    },
+    {
+     "id": "ba1_new5",
+     "type": "choice",
+     "prompt": "This is my dog Zoe. What does it show?",
+     "choices": [
+      "you are hungry",
+      "you are late",
+      "you are proud of your pet"
+     ],
+     "answer": 2,
+     "cue": "This is my dog Zoe."
     }
    ],
    "pass_score": 4

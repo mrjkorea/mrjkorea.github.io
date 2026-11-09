@@ -90,64 +90,64 @@
    ],
    "questions": [
     {
-     "id": "ba_u2_q1",
+     "id": "ba2_new1",
      "type": "choice",
-     "prompt": "You meet your teacher in the morning. What do you say?",
+     "prompt": "What do you call your teacher in English?",
      "choices": [
-      "Hello.",
-      "Quiet.",
-      "Goodbye."
+      "Teacher Kim?",
+      "Teacher!",
+      "Mr. Kim."
+     ],
+     "answer": 2,
+     "cue": "Hello, Mr. Kim."
+    },
+    {
+     "id": "ba2_new2",
+     "type": "choice",
+     "prompt": "Mr. is for ___.",
+     "choices": [
+      "a shop",
+      "a man",
+      "a woman"
+     ],
+     "answer": 1,
+     "cue": "Mr. is for a man."
+    },
+    {
+     "id": "ba2_new3",
+     "type": "choice",
+     "prompt": "Mrs. is for ___.",
+     "choices": [
+      "a man",
+      "a married woman",
+      "a boy"
+     ],
+     "answer": 1,
+     "cue": "Mrs. is for a married woman."
+    },
+    {
+     "id": "ba2_new4",
+     "type": "choice",
+     "prompt": "Ms. is for ___.",
+     "choices": [
+      "a man",
+      "a woman, when you are not sure",
+      "a school"
+     ],
+     "answer": 1,
+     "cue": "Ms. is for a woman."
+    },
+    {
+     "id": "ba2_new5",
+     "type": "choice",
+     "prompt": "Which one is right?",
+     "choices": [
+      "Hello, Mr. Kim.",
+      "Hello, Mr. Kim teacher.",
+      "Hello, teacher."
      ],
      "answer": 0,
-     "cue": "Hello, Mr. Cat."
-    },
-    {
-     "id": "ba_u2_q2",
-     "type": "missing_word",
-     "prompt": "Hello, ___ Cat.",
-     "choices": [
-      "Miss",
-      "Mr.",
-      "Goodbye"
-     ],
-     "answer": 1,
-     "cue": "Hello, Mr. Cat."
-    },
-    {
-     "id": "ba_u2_q3",
-     "type": "missing_word",
-     "prompt": "Hello, ___ Pig.",
-     "choices": [
-      "Mr.",
-      "Mom",
-      "Miss"
-     ],
-     "answer": 2,
-     "cue": "Hello, Miss Pig."
-    },
-    {
-     "id": "ba_u2_q4",
-     "type": "choice",
-     "prompt": "You leave your house. What do you say to your mom?",
-     "choices": [
-      "Hello, Mom.",
-      "Goodbye, Mom.",
-      "Pardon?"
-     ],
-     "answer": 1,
-     "cue": "Goodbye, Mom."
-    },
-    {
-     "id": "ba_u2_q5",
-     "type": "heard",
-     "prompt": "Which line did you hear?",
-     "choices": [
-      "Hello, Mr. House.",
-      "Hello, Mr. Horn.",
-      "Hello, Mr. Horse."
-     ],
-     "answer": 2,
-     "cue": "Hello, Mr. Horse."
+     "cue": "Hello, Mr. Kim."
     }
    ],
    "pass_score": 4

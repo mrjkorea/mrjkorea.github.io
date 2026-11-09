@@ -13,61 +13,64 @@
    ],
    "questions": [
     {
-     "id": "i2b_u1_q1",
-     "type": "missing_word",
-     "prompt": "What ___ is it today?",
-     "choices": [
-      "way",
-      "day",
-      "date"
-     ],
-     "answer": 1,
-     "cue": "What day is it today?"
-    },
-    {
-     "id": "i2b_u1_q2",
+     "id": "in1_new1",
      "type": "choice",
-     "prompt": "What day is it today? It is Monday.",
+     "prompt": "What day is it today? It is ___.",
      "choices": [
-      "It is a holiday.",
-      "It is Sunday.",
-      "It is Monday."
+      "Sunday",
+      "Wednesday",
+      "Monday"
      ],
      "answer": 2,
      "cue": "It is Monday."
     },
     {
-     "id": "i2b_u1_q3",
+     "id": "in1_new2",
      "type": "choice",
-     "prompt": "The day after Tuesday is ___.",
+     "prompt": "Which two days sound alike?",
      "choices": [
-      "Thursday",
+      "Friday and Saturday",
+      "Monday and Sunday",
+      "Wednesday and Thursday"
+     ],
+     "answer": 2,
+     "cue": "Wednesday. Thursday."
+    },
+    {
+     "id": "in1_new3",
+     "type": "choice",
+     "prompt": "We close every ___.",
+     "choices": [
       "Monday",
-      "Wednesday"
+      "Friday",
+      "Sunday"
      ],
-     "answer": 2
+     "answer": 0,
+     "cue": "We close every Monday."
     },
     {
-     "id": "i2b_u1_q4",
+     "id": "in1_new4",
      "type": "choice",
-     "prompt": "The day before Saturday is ___.",
+     "prompt": "The English day names come from ___.",
      "choices": [
-      "Sunday",
-      "Thursday",
-      "Friday"
+      "the food",
+      "the shop",
+      "the sky"
      ],
-     "answer": 2
+     "answer": 2,
+     "cue": "Monday is the moon's day."
     },
     {
-     "id": "i2b_u1_q5",
+     "id": "in1_new5",
      "type": "choice",
-     "prompt": "No school today. It is a ___.",
+     "prompt": "Sunday is the ___ day.",
      "choices": [
-      "work day",
-      "school day",
-      "holiday"
+      "sun's",
+      "shop's",
+      "moon's"
      ],
-     "answer": 2
+     "answer": 0,
+     "cue": "Sunday is the sun's day."
     }
    ],
    "pass_score": 4

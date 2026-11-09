@@ -13,60 +13,64 @@
    ],
    "questions": [
     {
-     "id": "i3a_u1_q1",
-     "type": "missing_word",
-     "prompt": "What ___ you draw?",
+     "id": "in1_new1",
+     "type": "choice",
+     "prompt": "What can you draw?",
      "choices": [
-      "are",
-      "is",
-      "can"
+      "I can draw a phone.",
+      "I can draw a shop.",
+      "I can draw a monster."
      ],
-     "answer": 2
-    },
-    {
-     "id": "i3a_u1_q2",
-     "type": "missing_word",
-     "prompt": "I can ___ a monster.",
-     "choices": [
-      "drown",
-      "draw",
-      "drew"
-     ],
-     "answer": 1,
+     "answer": 2,
      "cue": "I can draw a monster."
     },
     {
-     "id": "i3a_u1_q3",
-     "type": "choice",
-     "prompt": "It has five points. You can draw it in the sky at night.",
-     "choices": [
-      "a tree",
-      "a circle",
-      "a star"
-     ],
-     "answer": 2
-    },
-    {
-     "id": "i3a_u1_q4",
+     "id": "in1_new2",
      "type": "choice",
      "prompt": "It is round. It has no corners.",
      "choices": [
       "a circle",
       "a star",
-      "a flag"
+      "a tree"
      ],
-     "answer": 0
+     "answer": 0,
+     "cue": "I can draw a circle."
     },
     {
-     "id": "i3a_u1_q5",
+     "id": "in1_new3",
      "type": "choice",
-     "prompt": "Which one is a country?",
+     "prompt": "It has five points.",
      "choices": [
-      "monster",
-      "Korea",
-      "apple"
+      "a star",
+      "a circle",
+      "a flag"
      ],
-     "answer": 1
+     "answer": 0,
+     "cue": "I can draw a star."
+    },
+    {
+     "id": "in1_new4",
+     "type": "choice",
+     "prompt": "I can ___ a tree.",
+     "choices": [
+      "draws",
+      "drew",
+      "draw"
+     ],
+     "answer": 2,
+     "cue": "I can draw a tree."
+    },
+    {
+     "id": "in1_new5",
+     "type": "choice",
+     "prompt": "Can you draw a monster?",
+     "choices": [
+      "Yes, I do.",
+      "Yes, I can.",
+      "Yes, I am."
+     ],
+     "answer": 1,
+     "cue": "Yes, I can."
     }
    ],
    "pass_score": 4
