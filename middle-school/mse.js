@@ -53,7 +53,7 @@
         '<div class="num">' + (s.all ? '✓' : (s.n > 0 ? s.n + '/' + s.total : (i + 1))) + '</div>' +
         '<div class="tt">' + esc(t.topic) + '</div>' +
         '<div class="chips">' +
-          '<a class="chip ' + (s.st.note ? 'ok' : 'gold') + '" href="notes/' + encodeURIComponent(t.note) + '" target="_blank" rel="noopener" data-k="' + s.k + '" data-p="note">' + (s.st.note ? '✓ ' : '') + '노트 Notes</a>' +
+          '<button class="chip ' + (s.st.note ? 'ok' : 'gold') + '" data-note="' + esc(t.note) + '" data-k="' + s.k + '" data-title="' + esc(t.topic) + '">' + (s.st.note ? '✓ ' : '') + '노트 Notes</button>' +
           (t.video
             ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
@@ -71,11 +71,8 @@
     listEl.querySelectorAll('[data-practice]').forEach(function (btn) {
       btn.addEventListener('click', function () { mark(btn.dataset.practice ? keyByTopic(btn.dataset.practice) : '', 'practice'); openPractice(btn.dataset.practice); });
     });
-    listEl.querySelectorAll('a[data-p="note"]').forEach(function (a) {
-      var fire = function () { mark(a.dataset.k, 'note'); };
-      a.addEventListener('pointerdown', fire);
-      a.addEventListener('click', fire);
-      a.addEventListener('auxclick', fire);
+    listEl.querySelectorAll('[data-note]').forEach(function (b) {
+      b.addEventListener('click', function () { openNote(b.dataset.note, b.dataset.k, b.dataset.title); });
     });
     updateBar();
   }
@@ -98,6 +95,31 @@
     rows.forEach(function (t) { var s = topicState(t); got += s.n; total += s.total; });
     ptext.textContent = got + ' / ' + total + ' done';
     barEl.style.width = total ? Math.round(got / total * 100) + '%' : '0%';
+  }
+
+  var NOTE_SECONDS = 60;
+
+  function openNote(file, k, title) {
+    var left = NOTE_SECONDS;
+    mtitle.textContent = title + ' · Note';
+    mbody.innerHTML =
+      '<div class="note-wrap">' +
+        '<div class="note-bar"><span id="nc">읽는 중 … ' + left + '초</span><span class="note-hint">60초 이상 봐야 완료로 바뀝니다.</span></div>' +
+        '<iframe class="pdf" src="notes/' + encodeURIComponent(file) + '#view=FitH" title="' + esc(title) + ' note"></iframe>' +
+      '</div>';
+    modal.hidden = false;
+    var label = document.getElementById('nc');
+    var tick = setInterval(function () {
+      left -= 1;
+      if (!label) { clearInterval(tick); return; }
+      if (left > 0) { label.textContent = '읽는 중 … ' + left + '초'; return; }
+      clearInterval(tick);
+      label.textContent = '✓ 완료';
+      mark(k, 'note');
+    }, 1000);
+    var stop = function () { clearInterval(tick); };
+    modal.addEventListener('click', stop, { once: true });
+    document.getElementById('close').addEventListener('click', stop, { once: true });
   }
 
   function openVideo(id, title) {
