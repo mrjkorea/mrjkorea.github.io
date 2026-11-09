@@ -200,17 +200,15 @@
       const mrow = media[unitNo] || {};
 
       if(fullRow && fullRow.url){
-        // joined cinematic opener: one video, no animation card, no separate explanation
+        // Mr. Jay's video is the joined opener plus body; the animation stays as its own video
         fillFrame($('mrjFrame'), fullRow.url);
         document.getElementById('mrjStep').textContent = '1 · Video · Mr. Jay';
-        document.getElementById('animCard').classList.add('hidden');
         document.getElementById('noIntro').classList.add('hidden');
-        document.getElementById('quizStep').textContent = '2 · Quiz';
+        fillFrame($('animFrame'), mrow.animation);
       } else if (JOINED[book + '_' + unitNo]) {
-        // these seven units must show the joined opener or nothing, never an old clip
+        // never fall back to an old clip on these seven
         $('mrjFrame').innerHTML = '<div class="wait">Video is coming.</div>';
-        document.getElementById('animCard').classList.add('hidden');
-        document.getElementById('quizStep').textContent = '2 · Quiz';
+        fillFrame($('animFrame'), mrow.animation);
       } else {
         // R2 only: no YouTube ids are used anywhere on this page
         fillFrame($('mrjFrame'), mrow.mrj);
