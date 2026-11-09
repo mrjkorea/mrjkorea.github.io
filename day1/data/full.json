@@ -1,46 +1,88 @@
 {
  "generated": "2026-11-10",
- "note": "Full Day 1 explainer for the seven units that had no Mr. Jay video: Imagine opener in front of the body. Play with a <video> tag, 16:9, controls, preload=none.",
+ "note": "Full Day 1 explainer for the seven units that had no Mr. Jay video: Imagine opener in front of the body. Keys are site book names (basica, basicb, basicc, inter2b, inter3a, inter3b, inter3c) with the unit number, in both <book>_<unit> and <book>u<unit> form. Play with a <video> tag, 16:9, controls, preload=none.",
  "units": {
-  "basica_u2": {
+  "basica_2": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basica_u2.mp4",
    "book": "basica",
    "unit": 2,
    "sizeBytes": 8059905
   },
-  "basicb_u1": {
+  "basicau2": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basica_u2.mp4",
+   "book": "basica",
+   "unit": 2,
+   "sizeBytes": 8059905
+  },
+  "basicb_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicb_u1.mp4",
    "book": "basicb",
    "unit": 1,
    "sizeBytes": 10933134
   },
-  "basicc_u1": {
+  "basicbu1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicb_u1.mp4",
+   "book": "basicb",
+   "unit": 1,
+   "sizeBytes": 10933134
+  },
+  "basicc_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicc_u1.mp4",
    "book": "basicc",
    "unit": 1,
    "sizeBytes": 10342406
   },
-  "int2b_u1": {
+  "basiccu1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__basicc_u1.mp4",
+   "book": "basicc",
+   "unit": 1,
+   "sizeBytes": 10342406
+  },
+  "inter2b_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int2b_u1.mp4",
-   "book": "int2b",
+   "book": "inter2b",
    "unit": 1,
    "sizeBytes": 3819791
   },
-  "int3a_u1": {
+  "inter2bu1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int2b_u1.mp4",
+   "book": "inter2b",
+   "unit": 1,
+   "sizeBytes": 3819791
+  },
+  "inter3a_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3a_u1.mp4",
-   "book": "int3a",
+   "book": "inter3a",
    "unit": 1,
    "sizeBytes": 3311578
   },
-  "int3b_u1": {
+  "inter3au1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3a_u1.mp4",
+   "book": "inter3a",
+   "unit": 1,
+   "sizeBytes": 3311578
+  },
+  "inter3b_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3b_u1.mp4",
-   "book": "int3b",
+   "book": "inter3b",
    "unit": 1,
    "sizeBytes": 7948397
   },
-  "int3c_u1": {
+  "inter3bu1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3b_u1.mp4",
+   "book": "inter3b",
+   "unit": 1,
+   "sizeBytes": 7948397
+  },
+  "inter3c_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3c_u1.mp4",
-   "book": "int3c",
+   "book": "inter3c",
+   "unit": 1,
+   "sizeBytes": 4714587
+  },
+  "inter3cu1": {
+   "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full__int3c_u1.mp4",
+   "book": "inter3c",
    "unit": 1,
    "sizeBytes": 4714587
   }

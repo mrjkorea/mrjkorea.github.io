@@ -85,6 +85,7 @@
   const unitKey = book + unitNo;                    // basica1
   const state = { q: [], i: 0, right: 0, tries: 0 };
 
+  const JOINED = { basica_2: 1, basicb_1: 1, basicc_1: 1, inter2b_1: 1, inter3a_1: 1, inter3b_1: 1, inter3c_1: 1 };
   const $ = (id) => document.getElementById(id);
   document.getElementById('back').href = 'https://mrjkorea.github.io/';
 
@@ -180,7 +181,8 @@
     let fullRow = null;
     try {
       const full = await loadJSON('data/full.json');
-      fullRow = (full.units || {})[book + '_u' + unitNo] || null;
+      const U = full.units || {};
+      fullRow = U[book + '_u' + unitNo] || U[book + '_' + unitNo] || U[book + 'u' + unitNo] || null;
     } catch (e) { fullRow = null; }
 
     // videos: read the shared map, so uploads go live one by one with no code change
@@ -203,6 +205,11 @@
         document.getElementById('mrjStep').textContent = '1 · Video · Mr. Jay';
         document.getElementById('animCard').classList.add('hidden');
         document.getElementById('noIntro').classList.add('hidden');
+        document.getElementById('quizStep').textContent = '2 · Quiz';
+      } else if (JOINED[book + '_' + unitNo]) {
+        // these seven units must show the joined opener or nothing, never an old clip
+        $('mrjFrame').innerHTML = '<div class="wait">Video is coming.</div>';
+        document.getElementById('animCard').classList.add('hidden');
         document.getElementById('quizStep').textContent = '2 · Quiz';
       } else {
         // R2 only: no YouTube ids are used anywhere on this page
