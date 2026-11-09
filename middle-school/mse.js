@@ -67,7 +67,9 @@
           (t.video
             ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
-          '<span class="chip soon" title="문항을 새로 만드는 중입니다">퀵 테스트 준비 중</span>' +
+          (t.qtUrl
+            ? '<a class="chip green" href="' + esc(t.qtUrl) + '" target="_blank" rel="noopener" title="' + esc(t.topic) + ' · ' + esc(t.qtMatch || '') + '">' + (t.qtMatch === 'near' ? '⚡ 퀵 테스트 · 연습' : '⚡ 퀵 테스트') + '</a>'
+            : '<span class="chip soon" title="문항을 새로 만드는 중입니다">⚡ 퀵 테스트 준비 중</span>') +
           (s.hasPractice
             ? '<button class="chip ' + (s.st.practice ? 'ok' : 'pink') + '" data-practice="' + esc(t.topic) + '">' + (s.st.practice ? '✓ ' : '') + '연습 More practice · ' + (PRACTICE[t.topic] || []).length + '</button>'
             : '<span class="chip soon" title="' + esc(t.zapNote || '') + '">연습 없음</span>') +
