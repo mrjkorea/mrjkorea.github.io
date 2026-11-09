@@ -27,6 +27,18 @@
     return title || b;
   }
 
+  function topicState(t) {
+    var k = key(t), st = done[k] || {};
+    var hasPractice = (PRACTICE[t.topic] || []).length > 0;
+    var total = 2 + (hasPractice ? 1 : 0);
+    var n = (st.note ? 1 : 0) + (st.video ? 1 : 0) + (st.practice ? 1 : 0);
+    return { k: k, st: st, hasPractice: hasPractice, total: total, n: n, all: n >= total && total > 0 };
+  }
+
+  function chip(cls, on, label, attrs) {
+    return '<button class="chip ' + (on ? 'ok' : cls) + '"' + (attrs || '') + '>' + (on ? '✓ ' : '') + label + '</button>';
+  }
+
   function render() {
     var q = (qEl.value || '').toLowerCase().trim();
     var rows = DATA.filter(function (t) { return t.band === band && (!q || t.topic.toLowerCase().indexOf(q) >= 0); });
@@ -34,32 +46,30 @@
     emptyEl.hidden = rows.length > 0;
 
     rows.forEach(function (t, i) {
-      var k = key(t), st = done[k] || {};
-      var hasPractice = (PRACTICE[t.topic] || []).length > 0;
-      var allDone = st.note && st.video;
+      var s = topicState(t);
       var el = document.createElement('div');
-      el.className = 'topic' + (allDone ? ' done' : '');
+      el.className = 'topic' + (s.all ? ' done' : '') + (s.n > 0 && !s.all ? ' partial' : '');
       el.innerHTML =
-        '<div class="num">' + (allDone ? '✓' : (i + 1)) + '</div>' +
+        '<div class="num">' + (s.all ? '✓' : (s.n > 0 ? s.n + '/' + s.total : (i + 1))) + '</div>' +
         '<div class="tt">' + esc(t.topic) + '</div>' +
         '<div class="chips">' +
-          '<a class="chip gold" href="notes/' + encodeURIComponent(t.note) + '" target="_blank" rel="noopener" data-k="' + k + '" data-p="note">' + (st.note ? '✓ ' : '') + '노트 Notes</a>' +
+          '<a class="chip ' + (s.st.note ? 'ok' : 'gold') + '" href="notes/' + encodeURIComponent(t.note) + '" target="_blank" rel="noopener" data-k="' + s.k + '" data-p="note">' + (s.st.note ? '✓ ' : '') + '노트 Notes</a>' +
           (t.video
-            ? '<button class="chip purple" data-video="' + esc(t.video) + '" data-k="' + k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (st.video ? '✓ ' : '') + '영상 Video</button>'
-            : '<span class="chip soon">영상 준비 중</span>') +
-          '<span class="chip soon">퀵 테스트 준비 중</span>' +
-          (hasPractice
-            ? '<button class="chip pink" data-practice="' + esc(t.topic) + '">연습 More practice · ' + (PRACTICE[t.topic] || []).length + '</button>'
+            ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
+            : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
+          '<span class="chip soon" title="문항을 새로 만드는 중입니다">퀵 테스트 준비 중</span>' +
+          (s.hasPractice
+            ? '<button class="chip ' + (s.st.practice ? 'ok' : 'pink') + '" data-practice="' + esc(t.topic) + '">' + (s.st.practice ? '✓ ' : '') + '연습 More practice · ' + (PRACTICE[t.topic] || []).length + '</button>'
             : '<span class="chip soon" title="' + esc(t.zapNote || '') + '">연습 없음</span>') +
         '</div>';
       listEl.appendChild(el);
     });
 
     listEl.querySelectorAll('[data-video]').forEach(function (btn) {
-      btn.addEventListener('click', function () { openVideo(btn.dataset.video, btn.dataset.title); mark(btn.dataset.k, 'video'); });
+      btn.addEventListener('click', function () { mark(btn.dataset.k, 'video'); openVideo(btn.dataset.video, btn.dataset.title); });
     });
     listEl.querySelectorAll('[data-practice]').forEach(function (btn) {
-      btn.addEventListener('click', function () { openPractice(btn.dataset.practice); });
+      btn.addEventListener('click', function () { mark(btn.dataset.practice ? keyByTopic(btn.dataset.practice) : '', 'practice'); openPractice(btn.dataset.practice); });
     });
     listEl.querySelectorAll('a[data-p="note"]').forEach(function (a) {
       a.addEventListener('click', function () { mark(a.dataset.k, 'note'); });
@@ -67,17 +77,24 @@
     updateBar();
   }
 
+  function keyByTopic(topic) {
+    var t = DATA.filter(function (x) { return x.topic === topic; })[0];
+    return t ? key(t) : '';
+  }
+
   function mark(k, p) {
+    if (!k) return;
     if (!done[k]) done[k] = {};
     if (!done[k][p]) { done[k][p] = true; save(); }
-    updateBar();
+    render();
   }
 
   function updateBar() {
     var rows = DATA.filter(function (t) { return t.band === band; });
-    var n = rows.filter(function (t) { var s = done[key(t)] || {}; return s.note && s.video; }).length;
-    ptext.textContent = n + ' / ' + rows.length + ' done';
-    barEl.style.width = rows.length ? Math.round(n / rows.length * 100) + '%' : '0%';
+    var got = 0, total = 0;
+    rows.forEach(function (t) { var s = topicState(t); got += s.n; total += s.total; });
+    ptext.textContent = got + ' / ' + total + ' done';
+    barEl.style.width = total ? Math.round(got / total * 100) + '%' : '0%';
   }
 
   function openVideo(id, title) {

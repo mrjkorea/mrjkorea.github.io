@@ -79,3 +79,7 @@ main{max-width:1080px;margin:0 auto;padding:0 22px 70px}
 .tin.bad{border-color:#ef4444;background:#fef2f2}
 .ans{margin-top:6px;font-size:13px;font-weight:900;color:#15803d}
 .qi.ex{opacity:.75}
+
+.topic.partial{background:linear-gradient(180deg,#fff,#f5f3ff);box-shadow:0 7px 0 #a78bfa,0 14px 22px #4c1d9522}
+.topic.partial .num{background:#a78bfa;color:#fff;font-size:15px}
+.chip.ok{color:#fff}
