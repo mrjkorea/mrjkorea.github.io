@@ -139,7 +139,11 @@
   function openVideo(src, title) {
     mtitle.textContent = title;
     var body;
-    if (/^https?:/i.test(src)) {
+    if (/drive\.google\.com\/file\/d\/[^/]+\/preview/i.test(src)) {
+      body = '<div class="player"><iframe src="' + esc(src) + '" title="' + esc(title) +
+             '" allow="autoplay;fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>' +
+             '<p class="pnote">화면이 작으면 <a href="' + esc(src.replace('/preview','/view')) + '" target="_blank" rel="noopener">새 창에서 열기</a></p>';
+    } else if (/^https?:/i.test(src)) {
       body = '<video class="vid" controls playsinline preload="metadata" poster="">' +
              '<source src="' + esc(src) + '" type="video/mp4"></video>' +
              '<p class="pnote">문제가 있으면 <a href="' + esc(src) + '" target="_blank" rel="noopener">새 창에서 열기</a></p>';
