@@ -196,24 +196,26 @@
       let media = {};
       try { media = (await loadJSON('data/media.json'))[book] || {}; } catch (e) {}
       const mrow = media[unitNo] || {};
-      // R2 only: no YouTube ids are used anywhere on this page
-      fillFrame($('mrjFrame'), mrow.mrj);
-      fillFrame($('animFrame'), mrow.animation);
+
       if(fullRow && fullRow.url){
+        // joined cinematic opener: one video, no animation card, no separate explanation
         fillFrame($('mrjFrame'), fullRow.url);
         document.getElementById('mrjStep').textContent = '1 · Video · Mr. Jay';
         document.getElementById('animCard').classList.add('hidden');
         document.getElementById('noIntro').classList.add('hidden');
         document.getElementById('quizStep').textContent = '2 · Quiz';
-        throw { done: true };
+      } else {
+        // R2 only: no YouTube ids are used anywhere on this page
+        fillFrame($('mrjFrame'), mrow.mrj);
+        fillFrame($('animFrame'), mrow.animation);
+        if(!mrow.mrj){
+          document.getElementById('mrjCard').classList.add('hidden');
+          document.getElementById('noIntro').classList.remove('hidden');
+          document.getElementById('animStep').textContent = '1 · Animation';
+          document.getElementById('quizStep').textContent = '2 · Quiz';
+        }
       }
-      if(!mrow.mrj){
-        document.getElementById('mrjCard').classList.add('hidden');
-        document.getElementById('noIntro').classList.remove('hidden');
-        document.getElementById('animStep').textContent = '1 · Animation';
-        document.getElementById('quizStep').textContent = '2 · Quiz';
-      }
-      if(!mrow.animation){
+      if(!(fullRow && fullRow.url) && !mrow.animation){
         document.getElementById('animFrame').innerHTML =
           '<div class="wait">The animation video is still uploading.</div>';
       }
