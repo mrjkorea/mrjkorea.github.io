@@ -185,7 +185,7 @@
     try {
       const yt = await loadJSON('data/youtube.json');
       const row = (yt[book] || {})[unitNo] || {};
-      if (!('mrj' in row)) {
+      if (false) {
         // this unit has no Mr. Jay video at all in LearnWorlds: one video only
         document.getElementById('mrjCard').classList.add('hidden');
         document.getElementById('noIntro').classList.remove('hidden');
@@ -195,9 +195,16 @@
       let media = {};
       try { media = (await loadJSON('data/media.json'))[book] || {}; } catch (e) {}
       const mrow = media[unitNo] || {};
-      fillFrame($('mrjFrame'), mrow.mrj || row.mrj);
-      fillFrame($('animFrame'), mrow.animation || row.animation);
-      if(!(mrow.animation || row.animation)){
+      // R2 only: no YouTube ids are used anywhere on this page
+      fillFrame($('mrjFrame'), mrow.mrj);
+      fillFrame($('animFrame'), mrow.animation);
+      if(!mrow.mrj){
+        document.getElementById('mrjCard').classList.add('hidden');
+        document.getElementById('noIntro').classList.remove('hidden');
+        document.getElementById('animStep').textContent = '1 · Animation';
+        document.getElementById('quizStep').textContent = '2 · Quiz';
+      }
+      if(!mrow.animation){
         document.getElementById('animFrame').innerHTML =
           '<div class="wait">The animation video is still uploading.</div>';
       }
