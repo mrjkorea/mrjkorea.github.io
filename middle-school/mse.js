@@ -136,11 +136,19 @@
     document.getElementById('close').addEventListener('click', stop, { once: true });
   }
 
-  function openVideo(id, title) {
+  function openVideo(src, title) {
     mtitle.textContent = title;
-    mbody.innerHTML = '<div class="player"><iframe src="https://www.youtube-nocookie.com/embed/' + id +
-      '?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1" title="' + esc(title) +
-      '" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe></div>';
+    var body;
+    if (/^https?:/i.test(src)) {
+      body = '<video class="vid" controls playsinline preload="metadata" poster="">' +
+             '<source src="' + esc(src) + '" type="video/mp4"></video>' +
+             '<p class="pnote">문제가 있으면 <a href="' + esc(src) + '" target="_blank" rel="noopener">새 창에서 열기</a></p>';
+    } else {
+      body = '<div class="player"><iframe src="https://www.youtube-nocookie.com/embed/' + src +
+             '?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1" title="' + esc(title) +
+             '" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe></div>';
+    }
+    mbody.innerHTML = body;
     modal.hidden = false;
   }
 
