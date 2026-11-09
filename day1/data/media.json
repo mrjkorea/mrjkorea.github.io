@@ -1,29 +1,36 @@
 {
  "basica": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__008_basica__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__008_basica__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__007_basica__Day_1_Animation_7.mp4",
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__006_basica__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__006_basica__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__005_basica__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__005_basica__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__004_basica__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__004_basica__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__003_basica__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__003_basica__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__002_basica__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__002_basica__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__001_basica__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__001_basica__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u8.mp4"
   }
  },
  "basicb": {
@@ -32,25 +39,32 @@
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u1.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__015_basicb__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__015_basicb__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__014_basicb__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__014_basicb__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__013_basicb__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__013_basicb__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__012_basicb__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__012_basicb__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__011_basicb__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__011_basicb__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__010_basicb__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__010_basicb__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__009_basicb__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__009_basicb__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u8.mp4"
   }
  },
  "basicc": {
@@ -59,30 +73,38 @@
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u1.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__023_basicc__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__023_basicc__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__022_basicc__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__022_basicc__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__021_basicc__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__021_basicc__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__020_basicc__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__020_basicc__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__019_basicc__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__019_basicc__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__018_basicc__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__018_basicc__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__017_basicc__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__017_basicc__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u8.mp4"
   }
  },
  "inter2a": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__060_inter2a__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__060_inter2a__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter2a_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__063_inter2a__Day_1_Animation_8.mp4",
@@ -187,25 +209,32 @@
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3a_u1.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__031_inter3a__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__031_inter3a__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__030_inter3a__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__030_inter3a__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__029_inter3a__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__029_inter3a__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__028_inter3a__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__028_inter3a__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__027_inter3a__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__027_inter3a__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__026_inter3a__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__026_inter3a__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__025_inter3a__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__025_inter3a__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3a_u8.mp4"
   }
  },
  "inter3b": {
@@ -214,25 +243,32 @@
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3b_u1.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__039_inter3b__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__039_inter3b__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__038_inter3b__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__038_inter3b__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__037_inter3b__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__037_inter3b__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__036_inter3b__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__036_inter3b__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__035_inter3b__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__035_inter3b__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__034_inter3b__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__034_inter3b__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__033_inter3b__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__033_inter3b__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3b_u8.mp4"
   }
  },
  "inter3c": {
@@ -241,25 +277,32 @@
    "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3c_u1.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__047_inter3c__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__047_inter3c__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u2.mp4"
   },
   "3": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__046_inter3c__Day_1_Animation_6.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__046_inter3c__Day_1_Animation_6.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u3.mp4"
   },
   "4": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__045_inter3c__Day_1_Animation_5.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__045_inter3c__Day_1_Animation_5.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u4.mp4"
   },
   "5": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__044_inter3c__Day_1_Animation_4.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__044_inter3c__Day_1_Animation_4.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u5.mp4"
   },
   "6": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__043_inter3c__Day_1_Animation_3.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__043_inter3c__Day_1_Animation_3.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u6.mp4"
   },
   "7": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__042_inter3c__Day_1_Animation_2.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__042_inter3c__Day_1_Animation_2.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u7.mp4"
   },
   "8": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__041_inter3c__Day_1_Animation_1.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__041_inter3c__Day_1_Animation_1.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__inter3c_u8.mp4"
   }
  }
 }
