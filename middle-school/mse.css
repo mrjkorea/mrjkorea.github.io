@@ -91,3 +91,6 @@ main{max-width:1080px;margin:0 auto;padding:0 22px 70px}
 .vid{width:100%;max-height:70vh;border-radius:14px;background:#000;display:block}
 
 .chip.green{background:linear-gradient(#4ade80,#16a34a);box-shadow:0 4px 0 #15803d}
+
+.chip.qt{background:linear-gradient(#fca5a5,#ef4444);box-shadow:0 4px 0 #b91c1c;font-size:13px;padding:7px 10px}
+.chip.qt.ok{background:linear-gradient(#4ade80,#16a34a);box-shadow:0 4px 0 #15803d}

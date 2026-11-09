@@ -49,6 +49,16 @@
     return '<button class="chip ' + (on ? 'ok' : cls) + '"' + (attrs || '') + '>' + (on ? '✓ ' : '') + label + '</button>';
   }
 
+  var QT_NAME = { T3: 'T3 · 15분', F3: 'F3 · 15분', TF: 'TF · 5분' };
+
+  function qtChip(t, q) {
+    var k = key(t) + '|qt|' + q.shape;
+    var d = done[k] ? ' ok' : '';
+    return '<a class="chip qt' + d + '" href="' + esc(q.url) + '" target="_blank" rel="noopener" ' +
+      'data-qtk="' + esc(k) + '" data-qtt="' + esc(t.topic) + '" data-qts="' + esc(q.shape) + '" ' +
+      'title="' + esc(t.topic + ' · ' + q.shape) + '">' + (done[k] ? '✓ ' : '⚡ ') + esc(QT_NAME[q.shape] || q.shape) + '</a>';
+  }
+
   function render() {
     var q = (qEl.value || '').toLowerCase().trim();
     var rows = DATA.filter(function (t) { return t.band === band && (!q || t.topic.toLowerCase().indexOf(q) >= 0); });
@@ -67,8 +77,8 @@
           (t.video
             ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
-          (t.qtUrl
-            ? '<a class="chip green" href="' + esc(t.qtUrl) + '" target="_blank" rel="noopener" title="' + esc(t.topic) + ' · ' + esc(t.qtMatch || '') + '">' + (t.qtMatch === 'near' ? '⚡ 퀵 테스트 · 연습' : '⚡ 퀵 테스트') + '</a>'
+          (t.qtTests && t.qtTests.length
+            ? t.qtTests.map(function (q) { return qtChip(t, q); }).join('')
             : '<span class="chip soon" title="문항을 새로 만드는 중입니다">⚡ 퀵 테스트 준비 중</span>') +
           (s.hasPractice
             ? '<button class="chip ' + (s.st.practice ? 'ok' : 'pink') + '" data-practice="' + esc(t.topic) + '">' + (s.st.practice ? '✓ ' : '') + '연습 More practice · ' + (PRACTICE[t.topic] || []).length + '</button>'
@@ -82,6 +92,14 @@
     });
     listEl.querySelectorAll('[data-practice]').forEach(function (btn) {
       btn.addEventListener('click', function () { mark(btn.dataset.practice, 'practice'); openPractice(btn.dataset.practice); });
+    });
+    listEl.querySelectorAll('[data-qtk]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var kk = a.dataset.qtk, tt = a.dataset.qtt, ss = a.dataset.qts;
+        done[kk] = true; save();
+        var sp = window.StudyProgress;
+        if (sp && sp.markDone) { try { sp.markDone('mse|qt|' + tt + '|' + ss); } catch (e) {} }
+      });
     });
     listEl.querySelectorAll('[data-note]').forEach(function (b) {
       b.addEventListener('click', function () { openNote(b.dataset.note, b.dataset.k, b.dataset.title); });

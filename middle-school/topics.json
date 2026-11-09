@@ -9,7 +9,21 @@
   "zapConf": "unit",
   "qt": "t02",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t02",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -21,7 +35,21 @@
   "zapConf": "unread",
   "qt": "t03",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t03",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -33,7 +61,21 @@
   "zapConf": "printed",
   "qt": "t06",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t06",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -45,7 +87,21 @@
   "zapConf": "unit",
   "qt": "t05",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t05",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -57,7 +113,21 @@
   "zapConf": "unit",
   "qt": "t11",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t11",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -69,7 +139,21 @@
   "zapConf": "printed",
   "qt": "t12",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t12",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -81,7 +165,21 @@
   "zapConf": "printed",
   "qt": "t13",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t13",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -92,7 +190,21 @@
   "zapConf": "unit",
   "qt": "t24",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t24",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -104,7 +216,21 @@
   "zapConf": "printed",
   "qt": "t25",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t25",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -116,7 +242,21 @@
   "zapConf": "unit",
   "qt": "t27",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t27",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -128,7 +268,21 @@
   "zapConf": "unit",
   "qt": "t30",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t30",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -140,7 +294,21 @@
   "zapConf": "printed",
   "qt": "t31",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t31",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -152,7 +320,21 @@
   "zapConf": "printed",
   "qt": "t36",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t36",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -163,7 +345,21 @@
   "zapConf": "unread",
   "qt": "t37",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t37",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -175,7 +371,21 @@
   "zapConf": "unit",
   "qt": "t37",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t37",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -187,7 +397,21 @@
   "zapConf": "printed",
   "qt": "t38",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t38",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -199,7 +423,21 @@
   "zapConf": "unit",
   "qt": "t42",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t42",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -211,7 +449,21 @@
   "zapConf": "printed",
   "qt": "t44",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t44",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -223,7 +475,21 @@
   "zapConf": "unit",
   "qt": "t45",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t45",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -235,7 +501,21 @@
   "zapConf": "printed",
   "qt": "t46",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t46",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -247,7 +527,21 @@
   "zapConf": "printed",
   "qt": "t47",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t47",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -259,7 +553,21 @@
   "zapConf": "printed",
   "qt": "t49",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t49",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -271,7 +579,21 @@
   "zapConf": "printed",
   "qt": "t51",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t51",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/TF"
+   }
+  ]
  },
  {
   "band": "1",
@@ -283,7 +605,21 @@
   "zapConf": "printed",
   "qt": "t52",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t52",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -322,7 +658,21 @@
   "zapConf": "printed",
   "qt": "t01",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t01",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -343,7 +693,21 @@
   "zapConf": "unread",
   "qt": "t21",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t21",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -354,7 +718,21 @@
   "zapConf": "none",
   "qt": "t22",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t22",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -375,7 +753,21 @@
   "zapConf": "unread",
   "qt": "t27",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t27",
-  "qtMatch": "near"
+  "qtMatch": "near",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -404,7 +796,21 @@
   "zapConf": "unit",
   "qt": "t30",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t30",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -416,7 +822,21 @@
   "zapConf": "printed",
   "qt": "t39",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t39",
-  "qtMatch": "near"
+  "qtMatch": "near",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -427,7 +847,21 @@
   "zapConf": "none",
   "qt": "t35",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t35",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -439,7 +873,21 @@
   "zapConf": "printed",
   "qt": "t36",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t36",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -451,7 +899,21 @@
   "zapConf": "printed",
   "qt": "t39",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t39",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -481,7 +943,21 @@
   "zapConf": "unit",
   "qt": "t42",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t42",
-  "qtMatch": "near"
+  "qtMatch": "near",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -492,7 +968,17 @@
   "zapConf": "unit",
   "qt": "t18",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t18",
-  "qtMatch": "near"
+  "qtMatch": "near",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t18/T3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t18/TF"
+   }
+  ]
  },
  {
   "band": "2",
@@ -513,7 +999,17 @@
   "zapConf": "unread",
   "qt": "t50",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t50",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/F3"
+   }
+  ]
  },
  {
   "band": "2",
@@ -551,7 +1047,21 @@
   "zapConf": "none",
   "qt": "t07",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t07",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -563,7 +1073,21 @@
   "zapConf": "printed",
   "qt": "t08",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t08",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -574,7 +1098,21 @@
   "zapConf": "none",
   "qt": "t09",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t09",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -586,7 +1124,21 @@
   "zapConf": "unit",
   "qt": "t20",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t20",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -597,7 +1149,21 @@
   "zapConf": "none",
   "qt": "t22",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t22",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -609,7 +1175,21 @@
   "zapConf": "unread",
   "qt": "t23",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t23",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -621,7 +1201,21 @@
   "zapConf": "unread",
   "qt": "t26",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t26",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -633,7 +1227,21 @@
   "zapConf": "unread",
   "qt": "t29",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t29",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -644,7 +1252,21 @@
   "zapConf": "none",
   "qt": "t17",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t17",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -655,7 +1277,21 @@
   "zapConf": "none",
   "qt": "t32",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t32",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -667,7 +1303,21 @@
   "zapConf": "unit",
   "qt": "t33",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t33",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -678,7 +1328,21 @@
   "zapConf": "none",
   "qt": "t34",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t34",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -690,7 +1354,21 @@
   "zapConf": "printed",
   "qt": "t39",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t39",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -701,7 +1379,21 @@
   "zapConf": "none",
   "qt": "t40",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t40",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -712,7 +1404,21 @@
   "zapConf": "none",
   "qt": "t41",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t41",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -722,7 +1428,21 @@
   "zapConf": "none",
   "qt": "t48",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t48",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/F3"
+   },
+   {
+    "shape": "TF",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/TF"
+   }
+  ]
  },
  {
   "band": "3",
@@ -734,7 +1454,17 @@
   "zapConf": "unit",
   "qt": "t50",
   "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t50",
-  "qtMatch": "exact"
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/T3"
+   },
+   {
+    "shape": "F3",
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/F3"
+   }
+  ]
  },
  {
   "band": "3",
