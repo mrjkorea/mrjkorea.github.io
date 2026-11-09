@@ -1,40 +1,42 @@
 {
  "basica": {
   "1": {
-   "animation": "kTPnggGd8Z8",
+   "animation": "",
    "mrj": "ei0F5aEQETc"
   },
   "2": {
-   "animation": "yByCty9HCKs"
+   "animation": "",
+   "mrj": "5xRYXbxWc-4"
   },
   "3": {
-   "animation": "De4j3u7QwuM",
+   "animation": "",
    "mrj": "GR5M1QUBBck"
   },
   "4": {
-   "animation": "NoYqpiasnnM",
+   "animation": "",
    "mrj": "AHHEC1Um7kw"
   },
   "5": {
-   "animation": "HcRKEWIRvQ0",
+   "animation": "",
    "mrj": "97VM17rYBtk"
   },
   "6": {
-   "animation": "fVgYV9NTDCE",
+   "animation": "",
    "mrj": "VVptqUGv3Hs"
   },
   "7": {
-   "animation": "-xxD04DXS1I",
+   "animation": "",
    "mrj": "rfGSkvy1Tx8"
   },
   "8": {
-   "animation": "HrzR0p3cWDA",
+   "animation": "",
    "mrj": "xJjyw2U_A7Q"
   }
  },
  "basicb": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "gaUFj6w6xP8"
   },
   "2": {
    "animation": "",
@@ -61,13 +63,14 @@
    "mrj": "cJiy0OQiM5M"
   },
   "8": {
-   "animation": "GsOZ8Z2F4gs",
+   "animation": "",
    "mrj": "1A-ib-RI-c8"
   }
  },
  "basicc": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "wsrefd_yMLU"
   },
   "2": {
    "animation": "",
@@ -134,7 +137,8 @@
  },
  "inter2b": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "42YCaRZMW6c"
   },
   "2": {
    "animation": "",
@@ -201,7 +205,8 @@
  },
  "inter3a": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "3g3juuXGZ3k"
   },
   "2": {
    "animation": "",
@@ -234,7 +239,8 @@
  },
  "inter3b": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "X9FQh8mzUQ8"
   },
   "2": {
    "animation": "",
@@ -267,7 +273,8 @@
  },
  "inter3c": {
   "1": {
-   "animation": ""
+   "animation": "",
+   "mrj": "N4MvCVLzAcc"
   },
   "2": {
    "animation": "",
