@@ -5,6 +5,15 @@
   var done = {};
   try { done = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { done = {}; }
 
+  var SP = null;
+  function sp() { return (window.StudyProgress || null); }
+  function sid(t, p) { return 'mse|' + t.band + '|' + String(t.note || '').replace(/\.pdf$/i, '') + '|' + p; }
+  function isDone(t, p) {
+    var s = sp();
+    if (s && s.isDone) { try { return !!s.isDone(sid(t, p)); } catch (e) {} }
+    return !!(done[key(t)] || {})[p];
+  }
+
   var listEl = document.getElementById('list');
   var emptyEl = document.getElementById('empty');
   var ptext = document.getElementById('ptext');
@@ -31,8 +40,9 @@
     var k = key(t), st = done[k] || {};
     var hasPractice = (PRACTICE[t.topic] || []).length > 0;
     var total = 2 + (hasPractice ? 1 : 0);
-    var n = (st.note ? 1 : 0) + (st.video ? 1 : 0) + (st.practice ? 1 : 0);
-    return { k: k, st: st, hasPractice: hasPractice, total: total, n: n, all: n >= total && total > 0 };
+    var st2 = { note: isDone(t, 'note'), video: isDone(t, 'video'), practice: isDone(t, 'practice') };
+    var n = (st2.note ? 1 : 0) + (st2.video ? 1 : 0) + (st2.practice ? 1 : 0);
+    return { k: k, st: st2, hasPractice: hasPractice, total: total, n: n, all: n >= total && total > 0 };
   }
 
   function chip(cls, on, label, attrs) {
@@ -55,7 +65,7 @@
         '<div class="chips">' +
           '<button class="chip ' + (s.st.note ? 'ok' : 'gold') + '" data-note="' + esc(t.note) + '" data-k="' + s.k + '" data-title="' + esc(t.topic) + '">' + (s.st.note ? '✓ ' : '') + '노트 Notes</button>' +
           (t.video
-            ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
+            ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
           '<span class="chip soon" title="문항을 새로 만드는 중입니다">퀵 테스트 준비 중</span>' +
           (s.hasPractice
@@ -66,10 +76,10 @@
     });
 
     listEl.querySelectorAll('[data-video]').forEach(function (btn) {
-      btn.addEventListener('click', function () { mark(btn.dataset.k, 'video'); openVideo(btn.dataset.video, btn.dataset.title); });
+      btn.addEventListener('click', function () { mark(btn.dataset.topic, 'video'); openVideo(btn.dataset.video, btn.dataset.title); });
     });
     listEl.querySelectorAll('[data-practice]').forEach(function (btn) {
-      btn.addEventListener('click', function () { mark(btn.dataset.practice ? keyByTopic(btn.dataset.practice) : '', 'practice'); openPractice(btn.dataset.practice); });
+      btn.addEventListener('click', function () { mark(btn.dataset.practice, 'practice'); openPractice(btn.dataset.practice); });
     });
     listEl.querySelectorAll('[data-note]').forEach(function (b) {
       b.addEventListener('click', function () { openNote(b.dataset.note, b.dataset.k, b.dataset.title); });
@@ -82,10 +92,14 @@
     return t ? key(t) : '';
   }
 
-  function mark(k, p) {
-    if (!k) return;
+  function mark(topicName, p) {
+    var t = DATA.filter(function (x) { return x.topic === topicName; })[0];
+    if (!t) return;
+    var k = key(t);
     if (!done[k]) done[k] = {};
-    if (!done[k][p]) { done[k][p] = true; save(); }
+    done[k][p] = true; save();
+    var s = sp();
+    if (s && s.markDone) { try { s.markDone(sid(t, p)); } catch (e) {} }
     render();
   }
 
@@ -115,7 +129,7 @@
       if (left > 0) { label.textContent = '읽는 중 … ' + left + '초'; return; }
       clearInterval(tick);
       label.textContent = '✓ 완료';
-      mark(k, 'note');
+      mark(title, 'note');
     }, 1000);
     var stop = function () { clearInterval(tick); };
     modal.addEventListener('click', stop, { once: true });
@@ -240,6 +254,7 @@
   ]).then(function (res) {
     DATA = Array.isArray(res[0]) ? res[0] : [];
     PRACTICE = res[1] || {};
-    render();
+    SP = sp();
+    if (SP && SP.load) { SP.load().then(render, render); } else { render(); }
   });
 })();
