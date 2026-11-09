@@ -77,7 +77,6 @@
 
 <script>
 (function(){
-  const EMBED = (id) => `https://www.youtube-nocookie.com/embed/${id}?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
   const params = new URLSearchParams(location.search);
   const ALIAS = {int2a: 'inter2a', int2b: 'inter2b', int2c: 'inter2c', int3a: 'inter3a', int3b: 'inter3b', int3c: 'inter3c'};
   const rawBook = (params.get('book') || '').replace(/_/g, '');   // basic_a, basica, int2a ...
@@ -100,12 +99,8 @@
       el.appendChild(v);
       return;
     }
-    const f = document.createElement('iframe');
-    f.src = EMBED(id);
-    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-    f.allowFullscreen = true;
-    f.referrerPolicy = 'strict-origin-when-cross-origin';
-    el.appendChild(f);
+    // R2 only: an id that is not a url is not playable here
+    el.innerHTML = '<div class="wait">Video is coming.</div>';
   }
 
   async function loadJSON(path){
@@ -183,8 +178,7 @@
     }
     // videos: read the shared map, so uploads go live one by one with no code change
     try {
-      const yt = await loadJSON('data/youtube.json');
-      const row = (yt[book] || {})[unitNo] || {};
+      const row = {};
       if (false) {
         // this unit has no Mr. Jay video at all in LearnWorlds: one video only
         document.getElementById('mrjCard').classList.add('hidden');
@@ -208,7 +202,7 @@
         document.getElementById('animFrame').innerHTML =
           '<div class="wait">The animation video is still uploading.</div>';
       }
-    } catch(e){ console.warn('no youtube map yet', e); }
+    } catch(e){ console.warn('video map failed', e); }
 
     try {
       const data = await loadJSON('data/units/' + book + '.json');

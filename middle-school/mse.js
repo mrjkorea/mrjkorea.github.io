@@ -148,9 +148,7 @@
              '<source src="' + esc(src) + '" type="video/mp4"></video>' +
              '<p class="pnote">문제가 있으면 <a href="' + esc(src) + '" target="_blank" rel="noopener">새 창에서 열기</a></p>';
     } else {
-      body = '<div class="player"><iframe src="https://www.youtube-nocookie.com/embed/' + src +
-             '?cc_load_policy=1&cc_lang_pref=en&rel=0&modestbranding=1&playsinline=1" title="' + esc(title) +
-             '" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe></div>';
+      body = '<p class="pnote">영상이 아직 준비되지 않았습니다.</p>';
     }
     mbody.innerHTML = body;
     modal.hidden = false;
