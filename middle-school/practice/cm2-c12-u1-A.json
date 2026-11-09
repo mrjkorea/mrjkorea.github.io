@@ -1,0 +1,107 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u1-A",
+  "title": "Unit 1 Unit Exercise — Section A",
+  "subtitle": "who(m) / which / that · POINT 1·2 (p. 155)",
+  "pages": "155",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Those people are the volunteers. They clean up the park.\n→ Those people are the volunteers ________________.",
+      "blanks": 1,
+      "accept": [
+        "who clean up the park",
+        "who clean up the park.",
+        "Those people are the volunteers who clean up the park.",
+        "Those people are the volunteers who clean up the park"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The apples are for you. They are in the basket.\n→ The apples ________________ are for you.",
+      "blanks": 1,
+      "accept": [
+        "which are in the basket",
+        "which are in the basket.",
+        "The apples which are in the basket are for you.",
+        "The apples which are in the basket are for you"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The Earth is a planet. It goes around the Sun.\n→ The Earth is a planet ________________.",
+      "blanks": 1,
+      "accept": [
+        "which goes around the Sun",
+        "which goes around the Sun.",
+        "The Earth is a planet which goes around the Sun.",
+        "The Earth is a planet which goes around the Sun"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 두 문장을 관계대명사를 사용하여 한 문장으로 바꿔 쓸 때, 빈칸에 알맞은 말을 쓰세요 (단, that은 제외). POINT 1·2. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The man is very polite. He is serving guests.\n→ The man ________________ is very polite.",
+      "blanks": 1,
+      "accept": [
+        "who is serving guests",
+        "who is serving guests.",
+        "The man who is serving guests is very polite.",
+        "The man who is serving guests is very polite"
+      ]
+    }
+  ]
+}

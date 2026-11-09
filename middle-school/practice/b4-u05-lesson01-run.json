@@ -1,0 +1,659 @@
+{
+  "practiceId": "b4:u05:lesson01-run",
+  "title": "Lesson 01 Run — 최상급 (1)",
+  "subtitle": "Grammar Run (pp. 119–120)",
+  "pages": "119–120",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 비교 — 최상급",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항, Section B 15문항. 괄호·보기에서 골라 누르세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Amy is ( tallest / the tallest ) girl of the three.",
+      "choices": [
+        "tallest",
+        "the tallest"
+      ],
+      "accept": [
+        "2",
+        "the tallest"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The car is ( the oldiest / the oldest ) in the city.",
+      "choices": [
+        "the oldiest",
+        "the oldest"
+      ],
+      "accept": [
+        "2",
+        "the oldest"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The dog is ( the smallest / smallst ) in the store.",
+      "choices": [
+        "the smallest",
+        "smallst"
+      ],
+      "accept": [
+        "1",
+        "the smallest"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "It is ( the highiest / the highest ) mountain in the country.",
+      "choices": [
+        "the highiest",
+        "the highest"
+      ],
+      "accept": [
+        "2",
+        "the highest"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "His feet are ( the biggest / the bigest ) in my family.",
+      "choices": [
+        "the biggest",
+        "the bigest"
+      ],
+      "accept": [
+        "1",
+        "the biggest"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "It is ( the sweettest / the sweetest ) bread in the bakery.",
+      "choices": [
+        "the sweettest",
+        "the sweetest"
+      ],
+      "accept": [
+        "2",
+        "the sweetest"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "He is ( the wisest / the wiseest ) man in the village.",
+      "choices": [
+        "the wisest",
+        "the wiseest"
+      ],
+      "accept": [
+        "1",
+        "the wisest"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Joe came home ( the earliest / earlyest ) in his family.",
+      "choices": [
+        "the earliest",
+        "earlyest"
+      ],
+      "accept": [
+        "1",
+        "the earliest"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "It is ( the sadest / the saddest ) movie of them all.",
+      "choices": [
+        "the sadest",
+        "the saddest"
+      ],
+      "accept": [
+        "2",
+        "the saddest"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Junsu is ( the lazyest / the laziest ) boy of my friends.",
+      "choices": [
+        "the lazyest",
+        "the laziest"
+      ],
+      "accept": [
+        "2",
+        "the laziest"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "Mr. Bean is ( the funniest / funnyest ) man in England.",
+      "choices": [
+        "the funniest",
+        "funnyest"
+      ],
+      "accept": [
+        "1",
+        "the funniest"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "Lucy is ( the youngest / youngst ) in the team.",
+      "choices": [
+        "the youngest",
+        "youngst"
+      ],
+      "accept": [
+        "1",
+        "the youngest"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "The skirt is ( the shorttest / the shortest ) of all my skirts.",
+      "choices": [
+        "the shorttest",
+        "the shortest"
+      ],
+      "accept": [
+        "2",
+        "the shortest"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "It is ( the easiest / the easyest ) of all the questions.",
+      "choices": [
+        "the easiest",
+        "the easyest"
+      ],
+      "accept": [
+        "1",
+        "the easiest"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Pluto ran ( the fastest / fastist ) of all the dogs.",
+      "choices": [
+        "the fastest",
+        "fastist"
+      ],
+      "accept": [
+        "1",
+        "the fastest"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "This room is the ______ in the house.",
+      "choices": [
+        "largeest",
+        "largest"
+      ],
+      "accept": [
+        "2",
+        "largest"
+      ],
+      "promptKo": "이 방이 그 집에서 가장 크다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Today is the ______ day of the week.",
+      "choices": [
+        "coldest",
+        "colddest"
+      ],
+      "accept": [
+        "1",
+        "coldest"
+      ],
+      "promptKo": "오늘이 일주일 중 가장 추운 날이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Carol's bag is the ______ of them all.",
+      "choices": [
+        "heaviest",
+        "heavyest"
+      ],
+      "accept": [
+        "1",
+        "heaviest"
+      ],
+      "promptKo": "캐롤의 가방이 그것들 중에서 가장 무겁다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "This coat is the ______ in the store.",
+      "choices": [
+        "big",
+        "biggest"
+      ],
+      "accept": [
+        "2",
+        "biggest"
+      ],
+      "promptKo": "이 외투가 그 가게에서 가장 크다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Mark finished the ______ of us all.",
+      "choices": [
+        "fasttest",
+        "fastest"
+      ],
+      "accept": [
+        "2",
+        "fastest"
+      ],
+      "promptKo": "마크가 우리 중에서 그것을 가장 빨리 끝냈다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "The bear is the ______ of the three.",
+      "choices": [
+        "thinest",
+        "thinnest"
+      ],
+      "accept": [
+        "2",
+        "thinnest"
+      ],
+      "promptKo": "그 곰이 셋 중에서 가장 말랐다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "This hairpin is the ______ of them all.",
+      "choices": [
+        "prettest",
+        "prettiest"
+      ],
+      "accept": [
+        "2",
+        "prettiest"
+      ],
+      "promptKo": "이 머리핀이 그것들 중에서 가장 예쁘다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Mr. Gold is ______ man in the village.",
+      "choices": [
+        "the richest",
+        "richest"
+      ],
+      "accept": [
+        "1",
+        "the richest"
+      ],
+      "promptKo": "골드 씨가 그 마을에서 제일 부자이다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Daegu is the ______ city in Korea.",
+      "choices": [
+        "hottest",
+        "hotest"
+      ],
+      "accept": [
+        "1",
+        "hottest"
+      ],
+      "promptKo": "대구는 한국에서 가장 더운 도시이다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Mom is the ______ in my family.",
+      "choices": [
+        "busyest",
+        "busiest"
+      ],
+      "accept": [
+        "2",
+        "busiest"
+      ],
+      "promptKo": "엄마가 우리 가족 중에서 가장 바쁘시다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Superman is the ______ in the world.",
+      "choices": [
+        "strongest",
+        "stronggest"
+      ],
+      "accept": [
+        "1",
+        "strongest"
+      ],
+      "promptKo": "슈퍼맨이 세상에서 힘이 제일 세다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "This cat is the ______ of their pets.",
+      "choices": [
+        "fatest",
+        "fattest"
+      ],
+      "accept": [
+        "2",
+        "fattest"
+      ],
+      "promptKo": "이 고양이가 그들의 애완동물 중에서 제일 뚱뚱하다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Alice's hair is the ______.",
+      "choices": [
+        "longest",
+        "longgest"
+      ],
+      "accept": [
+        "1",
+        "longest"
+      ],
+      "promptKo": "앨리스의 머리가 가장 길다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "I bought ______ shoes there.",
+      "choices": [
+        "the cheapest",
+        "cheapest"
+      ],
+      "accept": [
+        "1",
+        "the cheapest"
+      ],
+      "promptKo": "나는 거기에서 가장 싼 신발을 샀다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "She studied science the ______.",
+      "choices": [
+        "hardest",
+        "harddest"
+      ],
+      "accept": [
+        "1",
+        "hardest"
+      ],
+      "promptKo": "그녀는 과학을 제일 열심히 공부했다."
+    }
+  ]
+}

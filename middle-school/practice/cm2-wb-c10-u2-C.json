@@ -1,0 +1,187 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "unitId": "wb-chapter-10",
+  "unitTitle": "Ch 10 WB — 비교표현",
+  "practiceId": "cm2:wb-c10:u2-C",
+  "title": "Workbook Unit 2 — Section C",
+  "subtitle": "원급·비교급·최상급을 이용한 표현 · POINT 6·7·8 (WB p. 77)",
+  "pages": "77",
+  "timerMinutes": 22,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "Summer is getting ________ and ________. (hot)",
+      "blanks": 2,
+      "accept": [
+        "hotter|hotter"
+      ],
+      "promptKo": "여름은 점점 더 더워지고 있다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "The ________ we go down into the sea, the ________ it gets. (deep, dark)",
+      "blanks": 2,
+      "accept": [
+        "deeper|darker"
+      ],
+      "promptKo": "우리가 바닷속으로 더 깊이 내려갈수록 더 어두워진다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "That is one of ________ in this city. (building, tall)",
+      "blanks": 1,
+      "accept": [
+        "the tallest buildings"
+      ],
+      "promptKo": "저것은 이 도시에서 가장 높은 건물 중 하나이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "I wanted to rest ________. (long, possible)",
+      "blanks": 1,
+      "accept": [
+        "as long as possible"
+      ],
+      "promptKo": "나는 가능한 한 오래 쉬기를 원했다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "The ________ I sleep, the ________ tired I get. (little, much)",
+      "blanks": 2,
+      "accept": [
+        "less|more"
+      ],
+      "promptKo": "덜 잘수록 나는 더 피곤해진다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "It is one of ________. (movie, sad)",
+      "blanks": 1,
+      "accept": [
+        "the saddest movies"
+      ],
+      "promptKo": "그것은 가장 슬픈 영화 중 하나이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c07",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C7",
+      "type": "fill",
+      "promptEn": "The more soda you drink, ________ your bones will be. (weak)",
+      "blanks": 1,
+      "accept": [
+        "the weaker"
+      ],
+      "promptKo": "네가 탄산음료를 더 많이 마실수록 너의 뼈는 더 약해질 것이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c08",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C8",
+      "type": "fill",
+      "promptEn": "I got ________ and ________ during exercise. (thirsty)",
+      "blanks": 2,
+      "accept": [
+        "thirstier|thirstier"
+      ],
+      "promptKo": "운동하는 동안 나는 점점 더 목이 말랐다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    }
+  ]
+}

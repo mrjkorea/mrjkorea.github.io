@@ -1,0 +1,203 @@
+{
+  "practiceId": "b2:u06:lesson02-walk2",
+  "title": "Lesson 02 Walk 2 — 빈도부사",
+  "subtitle": "빈도부사 위치 (p. 154)",
+  "pages": "154",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 9문항. A1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 빈도부사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Jiho always goes to school early.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "지호는 항상 일찍 학교에 간다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "always"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I usually wash my face twice a day.",
+      "accept": [
+        "usually",
+        "Usually"
+      ],
+      "promptKo": "나는 보통 하루에 두 번 세수한다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Ally often combs her hair.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "앨리는 자주 머리를 빗는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We sometimes walk to school.",
+      "accept": [
+        "sometimes",
+        "Sometimes"
+      ],
+      "promptKo": "우리는 가끔 학교까지 걸어간다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Tom is never late for class.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "톰은 수업에 절대 지각하지 않는다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "He often plays soccer after school.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "그는 방과 후에 자주 축구를 한다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They can never watch TV at night.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "그들은 밤에 TV를 절대 볼 수 없다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Sally never plays computer games.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "샐리는 결코 컴퓨터 게임을 하지 않는다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "I always take a shower at night.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "나는 항상 밤에 샤워한다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "We are usually at home on Sunday.",
+      "accept": [
+        "usually",
+        "Usually"
+      ],
+      "promptKo": "우리는 일요일에 보통 집에 있다."
+    }
+  ]
+}

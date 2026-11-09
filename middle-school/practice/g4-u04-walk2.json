@@ -1,0 +1,273 @@
+{
+  "practiceId": "g4:u04:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "지각동사 see, watch, hear, feel (p. 77)",
+  "pages": "77",
+  "timerMinutes": 10,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 1예시 + 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요.",
+      "ruleKo": "지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "I saw her go to the library.",
+      "blanks": 2,
+      "accept": [
+        "saw|go"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "saw / go"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "I saw them dance on TV.",
+      "blanks": 2,
+      "accept": [
+        "saw|dance"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "I watched my father fix the chair.",
+      "blanks": 2,
+      "accept": [
+        "watched|fix"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "Mr. Black watched Tim swim.",
+      "blanks": 2,
+      "accept": [
+        "watched|swim"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "We saw the cat chase a mouse.",
+      "blanks": 2,
+      "accept": [
+        "saw|chase"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "She heard someone come in.",
+      "blanks": 2,
+      "accept": [
+        "heard|come"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "I often hear the girl play the violin.",
+      "blanks": 2,
+      "accept": [
+        "hear|play"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "Kevin heard them talk about you.",
+      "blanks": 2,
+      "accept": [
+        "heard|talk"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "You won't hear her sing again.",
+      "blanks": 2,
+      "accept": [
+        "hear|sing"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "They heard someone cry.",
+      "blanks": 2,
+      "accept": [
+        "heard|cry"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "I felt someone stand behind me.",
+      "blanks": 2,
+      "accept": [
+        "felt|stand"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "She felt the train move.",
+      "blanks": 2,
+      "accept": [
+        "felt|move"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptEn": "He felt the wind blow.",
+      "blanks": 2,
+      "accept": [
+        "felt|blow"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptEn": "We felt the window shake.",
+      "blanks": 2,
+      "accept": [
+        "felt|shake"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 지각동사를 찾아 동그라미 하고, 목적격 보어인 동사원형을 찾아 밑줄을 치세요. 지각동사와 목적격 보어(동사원형)를 각각 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "I feel the water flow.",
+      "blanks": 2,
+      "accept": [
+        "feel|flow"
+      ]
+    }
+  ],
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 여러 가지 동사 (4)"
+}

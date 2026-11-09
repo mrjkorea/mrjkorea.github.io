@@ -1,0 +1,139 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c05:u1-A",
+  "title": "Unit 1 Unit Exercise — Section A",
+  "subtitle": "명사적 용법 · POINT 1·2·3 (p. 65)",
+  "pages": "65",
+  "timerMinutes": 20,
+  "unitId": "chapter-05",
+  "unitTitle": "Chapter 05 — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어  ⓑ 목적어  ⓒ 주격보어.",
+      "ruleKo": "보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Amy hopes [to join the school orchestra as a violinist].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Jacob's goal is [to become a photographer].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "It is important [to get enough sleep and rest for health].",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My next plan is [to build schools and playgrounds in Africa].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "It is always fun [to spend some time with my dog].",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "밑줄 친 to부정사의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "I need [to buy shampoo and soap at the supermarket].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u3-B",
+  "title": "Unit 3 Unit Exercise — Section B",
+  "subtitle": "whose / what · POINT 7 (p. 162)",
+  "pages": "162",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "나는 지붕이 초록색인 그 집에 산다.\n(that house, roof, green)\n→ I live in ________________.",
+      "blanks": 1,
+      "accept": [
+        "that house whose roof is green",
+        "That house whose roof is green",
+        "I live in that house whose roof is green.",
+        "I live in that house whose roof is green"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "아들이 유명한 배우인 이웃이 우리 옆집에 산다.\n(a neighbor, son, a famous actor)\n→ ________________ lives next door to us.",
+      "blanks": 1,
+      "accept": [
+        "A neighbor whose son is a famous actor"
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "근처에 털이 검은 강아지를 본 적이 있니?\n(a puppy, fur, black)\n→ Have you seen ________________ nearby?",
+      "blanks": 1,
+      "accept": [
+        "a puppy whose fur is black"
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 소유격 관계대명사를 사용하여 문장을 완성하세요. POINT 7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "나는 취미가 사진 찍기인 친구가 있다.\n(a friend, hobby, taking pictures)\n→ I have ________________.",
+      "blanks": 1,
+      "accept": [
+        "a friend whose hobby is taking pictures",
+        "I have a friend whose hobby is taking pictures"
+      ],
+      "hintKo": "빈칸에 들어갈 말만 쓰세요. 이미 나와 있는 앞뒤 문장은 다시 쓰지 마세요."
+    }
+  ]
+}

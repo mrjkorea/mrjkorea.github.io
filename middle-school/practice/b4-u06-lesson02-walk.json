@@ -1,0 +1,218 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 접속사",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u06:lesson02-walk",
+  "title": "Lesson 02 Walk — 접속사",
+  "subtitle": "or · because (p. 143)",
+  "pages": "143",
+  "timerMinutes": 10,
+  "introKo": "Section A·B 각 4문항(예시 1개씩). 접속사 또는 보기 알파벳(a/b)만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요.",
+      "ruleKo": "보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lw2-a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "His birthday is today or tomorrow.",
+      "promptKo": "그의 생일은 오늘이거나 내일이다.",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "or"
+    },
+    {
+      "id": "lw2-a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I like spring because it is warm.",
+      "promptKo": "봄이 따뜻해서 나는 봄을 좋아한다.",
+      "blanks": 1,
+      "accept": [
+        "because"
+      ]
+    },
+    {
+      "id": "lw2-a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Oscar or Anna ate your cheese.",
+      "promptKo": "오스카 또는 안나가 네 치즈를 먹었다.",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "lw2-a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We can buy gloves or a bat.",
+      "promptKo": "우리는 장갑이나 배트를 살 수 있다.",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "lw2-a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 동그라미 친 접속사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "I didn't have lunch because I wasn't hungry.",
+      "promptKo": "배가 고프지 않아서 나는 점심을 먹지 않았다.",
+      "blanks": 1,
+      "accept": [
+        "because"
+      ]
+    },
+    {
+      "id": "lw2-b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "She wants a puppy _____ a kitten.",
+      "promptKo": "그녀는 강아지 또는 고양이를 원한다.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "a"
+    },
+    {
+      "id": "lw2-b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "They stayed home _____ it snowed.",
+      "promptKo": "눈이 와서 그들은 집에 있었다.",
+      "blanks": 1,
+      "accept": [
+        "b"
+      ]
+    },
+    {
+      "id": "lw2-b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Joe will be a pianist _____ a violinist.",
+      "promptKo": "조는 피아니스트 또는 바이올리니스트가 될 것이다.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "lw2-b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "I eat bread _____ rice for breakfast.",
+      "promptKo": "나는 아침으로 빵이나 밥을 먹는다.",
+      "blanks": 1,
+      "accept": [
+        "a"
+      ]
+    },
+    {
+      "id": "lw2-b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 접속사를 찾아 선으로 연결하세요. 보기 a·b의 알파벳만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "He was tired _____ he walked all day.",
+      "promptKo": "그는 하루 종일 걸어서 피곤했다.",
+      "blanks": 1,
+      "accept": [
+        "b"
+      ]
+    }
+  ]
+}

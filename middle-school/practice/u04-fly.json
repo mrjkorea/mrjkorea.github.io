@@ -1,0 +1,419 @@
+{
+  "practiceId": "u04:fly",
+  "title": "Grammar Fly",
+  "subtitle": "Rewrite & unscramble (pp. 82–83)",
+  "pages": "82–83",
+  "timerMinutes": 26,
+  "unitTitle": "Unit 04 — 진행 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(문장 전체 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "He is lying on the carpet.",
+      "type": "sentence",
+      "promptEn": "He lies on the carpet.",
+      "accept": [
+        "He is lying on the carpet.",
+        "He's lying on the carpet."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A2",
+      "type": "sentence",
+      "promptEn": "Sophie plays with her dog.",
+      "accept": [
+        "Sophie is playing with her dog."
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A3",
+      "type": "sentence",
+      "promptEn": "I go to the supermarket.",
+      "accept": [
+        "I am going to the supermarket.",
+        "I'm going to the supermarket."
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A4",
+      "type": "sentence",
+      "promptEn": "We stayed at our aunt's house.",
+      "accept": [
+        "We were staying at our aunt's house."
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A5",
+      "type": "sentence",
+      "promptEn": "Nari chatted with Suho.",
+      "accept": [
+        "Nari was chatting with Suho."
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A6",
+      "type": "sentence",
+      "promptEn": "They played baseball today.",
+      "accept": [
+        "They were playing baseball today."
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A7",
+      "type": "sentence",
+      "promptEn": "She doesn't run in the park.",
+      "accept": [
+        "She isn't running in the park.",
+        "She is not running in the park.",
+        "She's not running in the park."
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A8",
+      "type": "sentence",
+      "promptEn": "Your father doesn't drink coffee.",
+      "accept": [
+        "Your father isn't drinking coffee.",
+        "Your father is not drinking coffee."
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A9",
+      "type": "sentence",
+      "promptEn": "You don't study Japanese.",
+      "accept": [
+        "You aren't studying Japanese.",
+        "You are not studying Japanese.",
+        "You're not studying Japanese."
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A10",
+      "type": "sentence",
+      "promptEn": "It didn't snow much.",
+      "accept": [
+        "It wasn't snowing much.",
+        "It was not snowing much."
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A11",
+      "type": "sentence",
+      "promptEn": "We didn't wait for a train.",
+      "accept": [
+        "We weren't waiting for a train.",
+        "We were not waiting for a train."
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 현재 시제는 현재 진행 시제로, 과거 시제는 과거 진행 시제로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "A12",
+      "type": "sentence",
+      "promptEn": "My brother didn't dry his hair.",
+      "accept": [
+        "My brother wasn't drying his hair.",
+        "My brother was not drying his hair."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "We are looking at the stars.",
+      "type": "sentence",
+      "promptEn": "( we / looking at the stars / are / . )",
+      "accept": [
+        "We are looking at the stars.",
+        "We're looking at the stars."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "( Susan / her grandmother / calling / is / . )",
+      "accept": [
+        "Susan is calling her grandmother."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "( I / a ball / buying / am / . )",
+      "accept": [
+        "I am buying a ball.",
+        "I'm buying a ball."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "( my mother / reading / the newspaper / was / . )",
+      "accept": [
+        "My mother was reading the newspaper."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "( we / taking pictures / were / . )",
+      "accept": [
+        "We were taking pictures."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "( a cat / crying / was / last night / . )",
+      "accept": [
+        "A cat was crying last night."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "( the girl / a comic book / isn't / reading / . )",
+      "accept": [
+        "The girl isn't reading a comic book.",
+        "The girl is not reading a comic book."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "( the students / aren't / questions / asking / . )",
+      "accept": [
+        "The students aren't asking questions.",
+        "The students are not asking questions."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "( I / then / wearing gloves / wasn't / . )",
+      "accept": [
+        "I wasn't wearing gloves then.",
+        "I was not wearing gloves then."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "( are / drawing / flowers / you / ? )",
+      "accept": [
+        "Are you drawing flowers?"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "( were / feeding / rabbits / they / ? )",
+      "accept": [
+        "Were they feeding rabbits?"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 진행 시제의 문장을 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "( was / teaching / your uncle / English / ? )",
+      "accept": [
+        "Was your uncle teaching English?"
+      ]
+    }
+  ]
+}

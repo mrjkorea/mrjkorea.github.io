@@ -1,0 +1,178 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c05:u4-A",
+  "title": "Unit 4 Unit Exercise — Section A",
+  "subtitle": "주요 구문 · POINT 10·11·12 (p. 74)",
+  "pages": "74",
+  "timerMinutes": 20,
+  "unitId": "chapter-05",
+  "unitTitle": "Chapter 05 — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 7문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "These black jeans seem [being / to be] too tight for me.",
+      "choices": [
+        "being",
+        "to be"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "She seems [enjoy / to enjoy] her new job.",
+      "choices": [
+        "enjoy",
+        "to enjoy"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The restaurant was [great enough / enough great] to visit again.",
+      "choices": [
+        "great enough",
+        "enough great"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The test was [enough / too] difficult to complete in time.",
+      "choices": [
+        "enough",
+        "too"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Ben is funny [enough / too] to make everyone laugh.",
+      "choices": [
+        "enough",
+        "too"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "These shoes are [too comfortable / comfortable enough] to wear all day.",
+      "choices": [
+        "too comfortable",
+        "comfortable enough"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "It is [too cold / cold enough] to swim in the pool today.",
+      "choices": [
+        "too cold",
+        "cold enough"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    }
+  ]
+}

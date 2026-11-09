@@ -1,0 +1,256 @@
+{
+  "practiceId": "b3:u06:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — be동사 과거형",
+  "subtitle": "의문사 없는 의문문 (p. 151)",
+  "pages": "151",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 과거 시제 - be동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 be동사 과거형과 주어(순서 무관). Section B는 대답 a~e 고르기.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요.",
+      "ruleKo": "be동사 과거형과 주어를 각각 한 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Was she your English teacher last year?",
+      "accept": [
+        "she|Was",
+        "Was|she"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Was / she"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Were you at home this morning?",
+      "accept": [
+        "you|Were",
+        "Were|you"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Was the cat on the roof?",
+      "accept": [
+        "the cat|Was",
+        "Was|the cat"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Were they your classmates?",
+      "accept": [
+        "they|Were",
+        "Were|they"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 be동사의 과거형을 찾아 동그라미 하고 주어를 찾아 밑줄을 치세요. be동사 과거형과 주어를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Were the snakes long?",
+      "accept": [
+        "the snakes|Were",
+        "Were|the snakes"
+      ],
+      "blanks": 2,
+      "unordered": true
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Were you a firefighter?",
+      "choices": [
+        "a. No, it wasn't.",
+        "b. Yes, she was.",
+        "c. No, I wasn't.",
+        "d. No, they weren't.",
+        "e. Yes, he was."
+      ],
+      "accept": [
+        "3",
+        "③",
+        "c. No, I wasn't."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Was Nick kind to you?",
+      "choices": [
+        "a. No, it wasn't.",
+        "b. Yes, she was.",
+        "c. No, I wasn't.",
+        "d. No, they weren't.",
+        "e. Yes, he was."
+      ],
+      "accept": [
+        "5",
+        "⑤",
+        "e. Yes, he was."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Were they in the gym?",
+      "choices": [
+        "a. No, it wasn't.",
+        "b. Yes, she was.",
+        "c. No, I wasn't.",
+        "d. No, they weren't.",
+        "e. Yes, he was."
+      ],
+      "accept": [
+        "4",
+        "④",
+        "d. No, they weren't."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Was the train slow?",
+      "choices": [
+        "a. No, it wasn't.",
+        "b. Yes, she was.",
+        "c. No, I wasn't.",
+        "d. No, they weren't.",
+        "e. Yes, he was."
+      ],
+      "accept": [
+        "1",
+        "①",
+        "a. No, it wasn't."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Was the girl at the bus stop?",
+      "choices": [
+        "a. No, it wasn't.",
+        "b. Yes, she was.",
+        "c. No, I wasn't.",
+        "d. No, they weren't.",
+        "e. Yes, he was."
+      ],
+      "accept": [
+        "2",
+        "②",
+        "b. Yes, she was."
+      ]
+    }
+  ]
+}

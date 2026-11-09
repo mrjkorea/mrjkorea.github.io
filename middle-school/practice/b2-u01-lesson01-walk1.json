@@ -1,0 +1,326 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사의 현재 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u01:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 일반동사의 현재 시제 (1)",
+  "subtitle": "일반동사 찾기 (p. 11)",
+  "pages": "11",
+  "timerMinutes": 10,
+  "wordBank": [
+    "come",
+    "is",
+    "play",
+    "sing",
+    "like",
+    "run",
+    "are",
+    "wash",
+    "can",
+    "eat",
+    "study",
+    "teach",
+    "live",
+    "walk",
+    "am",
+    "dance"
+  ],
+  "introKo": "Section A는 보기에서 일반동사만 빈칸 순서대로, Section B는 문장에서 일반동사를 골라 타이핑합니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01w1_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "일반동사 ①",
+      "accept": [
+        "come"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "come"
+    },
+    {
+      "id": "l01w1_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "일반동사 (2) — 보기 순서",
+      "accept": [
+        "play"
+      ]
+    },
+    {
+      "id": "l01w1_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "일반동사 (3) — 보기 순서",
+      "accept": [
+        "sing"
+      ]
+    },
+    {
+      "id": "l01w1_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "일반동사 (4) — 보기 순서",
+      "accept": [
+        "like"
+      ]
+    },
+    {
+      "id": "l01w1_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "일반동사 (5) — 보기 순서",
+      "accept": [
+        "run"
+      ]
+    },
+    {
+      "id": "l01w1_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "일반동사 (6) — 보기 순서",
+      "accept": [
+        "wash"
+      ]
+    },
+    {
+      "id": "l01w1_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "일반동사 (7) — 보기 순서",
+      "accept": [
+        "eat"
+      ]
+    },
+    {
+      "id": "l01w1_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "일반동사 (8) — 보기 순서",
+      "accept": [
+        "study"
+      ]
+    },
+    {
+      "id": "l01w1_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "일반동사 (9) — 보기 순서",
+      "accept": [
+        "teach"
+      ]
+    },
+    {
+      "id": "l01w1_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "일반동사 (10) — 보기 순서",
+      "accept": [
+        "live"
+      ]
+    },
+    {
+      "id": "l01w1_a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "일반동사 (11) — 보기 순서",
+      "accept": [
+        "walk"
+      ]
+    },
+    {
+      "id": "l01w1_a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 일반동사를 찾아 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "일반동사 (12) — 보기 순서",
+      "accept": [
+        "dance"
+      ]
+    },
+    {
+      "id": "l01w1_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "We <u>read</u> books after dinner.",
+      "accept": [
+        "read"
+      ],
+      "promptKo": "우리는 저녁 식사 후에 책을 읽는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "read"
+    },
+    {
+      "id": "l01w1_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "I <u>know</u> his name.",
+      "accept": [
+        "know"
+      ],
+      "promptKo": "나는 그의 이름을 안다."
+    },
+    {
+      "id": "l01w1_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "They <u>drink</u> milk every morning.",
+      "accept": [
+        "drink"
+      ],
+      "promptKo": "그들은 매일 아침 우유를 마신다."
+    },
+    {
+      "id": "l01w1_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Horses <u>like</u> carrots.",
+      "accept": [
+        "like"
+      ],
+      "promptKo": "말은 당근을 좋아한다."
+    },
+    {
+      "id": "l01w1_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사를 찾아 동그라미 하세요. 동그라미 친 일반동사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The children <u>study</u> math.",
+      "accept": [
+        "study"
+      ],
+      "promptKo": "그 아이들은 수학을 공부한다."
+    }
+  ]
+}

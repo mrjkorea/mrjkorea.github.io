@@ -1,0 +1,106 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:c10:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "to부정사 · POINT 1·2·3 (p. 125)",
+  "pages": "125",
+  "timerMinutes": 22,
+  "unitId": "chapter-10",
+  "unitTitle": "Chapter 10 — to부정사와 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C1",
+      "type": "sentence",
+      "promptEn": "(study / is / for the exam / to / plan / my)\n→ ________________________________________ tonight.",
+      "accept": [
+        "My plan is to study for the exam tonight."
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C2",
+      "type": "sentence",
+      "promptEn": "(become / a movie star / is / to)\n→ ________________________________________ difficult.",
+      "accept": [
+        "To become a movie star is difficult."
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "(hopes / a pet / to / have / the little boy)\n→ ________________________________________ soon.",
+      "accept": [
+        "The little boy hopes to have a pet soon."
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "(bake / not / cookies / to / is / difficult)\n→ ________________________________________ at all.",
+      "accept": [
+        "To bake cookies is not difficult at all."
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2·3. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "(early / to / we / leave / need)\n→ ________________________________________ tomorrow.",
+      "accept": [
+        "We need to leave early tomorrow."
+      ]
+    }
+  ]
+}

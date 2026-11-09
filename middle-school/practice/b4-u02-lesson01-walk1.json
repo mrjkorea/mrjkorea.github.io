@@ -1,0 +1,218 @@
+{
+  "practiceId": "b4:u02:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 미래 시제 will",
+  "subtitle": "will + 동사원형 · 축약형 (pp. 37–38)",
+  "pages": "37–38",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-02",
+  "unitTitle": "Unit 02 — 미래 시제 will",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항(will과 동사원형), Section B 4문항(I'll/She'll 등 축약). 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요.",
+      "ruleKo": "1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I will take a walk in the park.",
+      "accept": [
+        "will|take"
+      ],
+      "promptKo": "나는 공원에서 산책할 것이다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "will / take"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Tony will read the magazine.",
+      "accept": [
+        "will|read"
+      ],
+      "promptKo": "토니는 그 잡지를 읽을 것이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We will have lunch together.",
+      "accept": [
+        "will|have"
+      ],
+      "promptKo": "우리는 함께 점심 식사를 할 것이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "They will clean their classroom this afternoon.",
+      "accept": [
+        "will|clean"
+      ],
+      "promptKo": "그들은 오늘 오후에 자기 교실을 청소할 것이다.",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 will을 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 1번 빈칸에 will, 2번 빈칸에 동사원형을 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "My sister will go shopping tomorrow.",
+      "accept": [
+        "will|go"
+      ],
+      "promptKo": "우리 누나는 내일 쇼핑하러 갈 것이다.",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I will make a snowman.\n→ I'll make a snowman.",
+      "accept": [
+        "I'll",
+        "I will"
+      ],
+      "promptKo": "나는 눈사람을 만들 것이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I'll"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "She will meet Mark at six p.m.\n→ _____ will meet Mark at six p.m.",
+      "accept": [
+        "She'll",
+        "She will"
+      ],
+      "promptKo": "그녀는 오후 6시에 마크를 만날 것이다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "It will be cloudy this weekend.\n→ _____ will be cloudy this weekend.",
+      "accept": [
+        "It'll",
+        "It will"
+      ],
+      "promptKo": "이번 주말에는 날씨가 흐릴 것이다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "We will be busy today.\n→ _____ will be busy today.",
+      "accept": [
+        "We'll",
+        "We will"
+      ],
+      "promptKo": "우리는 오늘 바쁠 것이다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "They will be late for school.\n→ _____ will be late for school.",
+      "accept": [
+        "They'll",
+        "They will"
+      ],
+      "promptKo": "그들은 학교에 늦을 것이다."
+    }
+  ]
+}

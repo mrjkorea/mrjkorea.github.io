@@ -1,0 +1,451 @@
+{
+  "practiceId": "g3:u08:fly",
+  "title": "Grammar Fly",
+  "subtitle": "pp. 170–172",
+  "pages": "170–172",
+  "timerMinutes": 26,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "A: Do you like cats?\nB: Yes. I'm going to get _____ soon.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "one",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "A: I bought a few game CDs.\nB: Can I borrow _____?",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "A: I finished all the pancakes.\nB: Do you want _____?",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "A: This pizza was really good.\nB: Let's order _____.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "A: Did you enjoy these two books?\nB: One was interesting, but _____ _____ wasn't.",
+      "blanks": 2,
+      "accept": [
+        "the|other",
+        "The|other",
+        "the|Other",
+        "The|Other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "A: The twins are very different.\nB: Yes. One is tall, and _____ _____ is short.",
+      "blanks": 2,
+      "accept": [
+        "the|other",
+        "The|other",
+        "the|Other",
+        "The|Other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "A: You made three sandwiches.\nB: One is yours, _____ is mine, and the other is Dad's.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "A: Who are those three boys?\nB: _____ is Ted, another is Bob, and the other is Peter.",
+      "blanks": 1,
+      "accept": [
+        "One"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "A: Did you hear that noise?\nB: Yes. _____ shouted outside.",
+      "blanks": 1,
+      "accept": [
+        "Someone",
+        "someone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "A: I made _____ for you.\nB: Oh, what is this?",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "A: Did you meet anyone there?\nB: No, I didn't meet _____.",
+      "blanks": 1,
+      "accept": [
+        "anyone",
+        "Anyone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "A: Are you hungry?\nB: Yes, I didn't eat _____ today.",
+      "blanks": 1,
+      "accept": [
+        "anything",
+        "Anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 대화의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "My computer is too old. I want _____. ( new / one / a )",
+      "accept": [
+        "I want a new one."
+      ],
+      "promptKo": "내 컴퓨터는 너무 낡았다. 나는 새것을 원한다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I want a new one."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "This book is too hard for me. I want _____. ( easier / one / an )",
+      "accept": [
+        "I want an easier one.",
+        "i want an easier one."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "This sandwich is good. Can I _____? ( have / another )",
+      "accept": [
+        "Can I have another?",
+        "can i have another?"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "This ice cream is very delicious. Let's _____. ( order / another )",
+      "accept": [
+        "Let's order another.",
+        "Let’s order another.",
+        "let us order another."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "I have two backpacks. One is new, and _____. ( the other / old / is )",
+      "accept": [
+        "the other is old.",
+        "The other is old.",
+        "I have two backpacks. One is new, and the other is old."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "I went to two museums today. _____ and the other was boring. ( one / interesting / was )",
+      "accept": [
+        "One was interesting,",
+        "One was interesting",
+        "I went to two museums today. One was interesting, and the other was boring."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "I have three caps. One is purple, _____, and the other is blue. ( is / another / yellow )",
+      "accept": [
+        "another is yellow.",
+        "Another is yellow.",
+        "another is yellow"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "I have three dogs. One is smart, another is friendly, and _____. ( brave / is / the other )",
+      "accept": [
+        "the other is brave.",
+        "The other is brave."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "I have _____ today. ( someone / to meet )",
+      "accept": [
+        "I have someone to meet today.",
+        "I have someone to meet.",
+        "someone to meet today.",
+        "someone to meet."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "I'll bring you _____. ( something / cold )",
+      "accept": [
+        "I'll bring you something cold.",
+        "I will bring you something cold.",
+        "something cold."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "He doesn't know _____. ( anyone / rich )",
+      "accept": [
+        "He doesn't know anyone rich.",
+        "He does not know anyone rich.",
+        "anyone rich."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "She didn't say _____. ( interesting / anything )",
+      "accept": [
+        "She didn't say anything interesting.",
+        "anything interesting."
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 바르게 배열하여 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    }
+  ],
+  "introKo": "Section A 12문항, Section B 12문항(문장). Section B 1번은 책에 답이 나온 예시예요."
+}

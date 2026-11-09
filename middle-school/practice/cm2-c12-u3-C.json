@@ -1,0 +1,95 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u3-C",
+  "title": "Unit 3 Unit Exercise — Section C",
+  "subtitle": "whose / what · POINT 8 (p. 162)",
+  "pages": "162",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 4문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C1",
+      "type": "sentence",
+      "promptEn": "<보기> I can't believe the thing. + He said the thing.\n→ I can't believe what he said.\n\nMom always knows the thing. + I want the thing.\n→ ________________",
+      "accept": [
+        "Mom always knows what I want.",
+        "Mom always knows what I want"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C2",
+      "type": "sentence",
+      "promptEn": "Sometimes he asks me the thing. + I don't know the thing.\n→ ________________",
+      "accept": [
+        "Sometimes he asks me what I don't know.",
+        "Sometimes he asks me what I don't know"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "The thing was a sandwich. + I had the thing for lunch.\n→ ________________",
+      "accept": [
+        "What I had for lunch was a sandwich.",
+        "What I had for lunch was a sandwich"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 관계대명사 what을 사용하여 한 문장으로 바꿔 쓰세요. POINT 8. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "He showed me the thing. + He found the thing in the yard.\n→ ________________",
+      "accept": [
+        "He showed me what he found in the yard.",
+        "He showed me what he found in the yard"
+      ]
+    }
+  ]
+}

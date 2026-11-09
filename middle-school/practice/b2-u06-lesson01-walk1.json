@@ -1,0 +1,237 @@
+{
+  "practiceId": "b2:u06:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 부사",
+  "subtitle": "부사 찾기 (p. 142)",
+  "pages": "142",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 11문항(동그라미 친 부사). A1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 부사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 부사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "That woman is very kind.",
+      "accept": [
+        "very",
+        "Very"
+      ],
+      "promptKo": "그 여자는 매우 친절하다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "very"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I am so hungry.",
+      "accept": [
+        "so",
+        "So"
+      ],
+      "promptKo": "나는 무척 배가 고프다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Cheetahs run fast.",
+      "accept": [
+        "fast",
+        "Fast"
+      ],
+      "promptKo": "치타는 빨리 달린다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "This bag is pretty big.",
+      "accept": [
+        "pretty",
+        "Pretty"
+      ],
+      "promptKo": "이 가방은 꽤 크다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Tony goes to school early.",
+      "accept": [
+        "early",
+        "Early"
+      ],
+      "promptKo": "토니는 일찍 학교에 간다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "They come late.",
+      "accept": [
+        "late",
+        "Late"
+      ],
+      "promptKo": "그들은 늦게 온다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "The man speaks Korean well.",
+      "accept": [
+        "well",
+        "Well"
+      ],
+      "promptKo": "그 남자는 한국어를 잘 말한다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "This movie is really interesting.",
+      "accept": [
+        "really",
+        "Really"
+      ],
+      "promptKo": "이 영화는 정말 재미있다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The room is too dirty.",
+      "accept": [
+        "too",
+        "Too"
+      ],
+      "promptKo": "그 방은 너무 더럽다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The students study hard.",
+      "accept": [
+        "hard",
+        "Hard"
+      ],
+      "promptKo": "학생들은 열심히 공부한다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "The trees are tall enough.",
+      "accept": [
+        "enough",
+        "Enough"
+      ],
+      "promptKo": "나무들은 충분히 키가 크다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "She swims fast.",
+      "accept": [
+        "fast",
+        "Fast"
+      ],
+      "promptKo": "그녀는 빨리 수영한다."
+    }
+  ]
+}

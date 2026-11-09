@@ -1,0 +1,241 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c05:u4-A",
+  "title": "Workbook Unit 4 — Section A",
+  "subtitle": "주요 구문 · POINT 10·11·12 (p. 40)",
+  "pages": "40",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-05",
+  "unitTitle": "Ch 05 WB — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 10문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "Alice seems [being / to be] in a good mood today.",
+      "choices": [
+        "being",
+        "to be"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The movie was [enough / too] scary to watch alone.",
+      "choices": [
+        "enough",
+        "too"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The girl seems [have / to have] a fever.",
+      "choices": [
+        "have",
+        "to have"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Jason is [too sick / sick too] to go outside.",
+      "choices": [
+        "too sick",
+        "sick too"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "He is [enough rich / rich enough] to buy that watch for his brother.",
+      "choices": [
+        "enough rich",
+        "rich enough"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Cheetahs run [too / enough] fast to catch.",
+      "choices": [
+        "too",
+        "enough"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "The kid is not [too old / old enough] to stay home alone.",
+      "choices": [
+        "too old",
+        "old enough"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "I was [too tired / tired enough] to finish my work.",
+      "choices": [
+        "too tired",
+        "tired enough"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "The horse is [too fast / fast enough] to win the race.",
+      "choices": [
+        "too fast",
+        "fast enough"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 10·11·12. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "This book is [too thick / thick enough] to finish in a day.",
+      "choices": [
+        "too thick",
+        "thick enough"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    }
+  ]
+}

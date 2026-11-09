@@ -1,0 +1,557 @@
+{
+  "practiceId": "b2:u06:lesson02-jump",
+  "title": "Lesson 02 Jump — 빈도부사",
+  "subtitle": "Grammar Jump (pp. 157–158)",
+  "pages": "157–158",
+  "timerMinutes": 24,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 15문항(우리말), Section B 14문항. B1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 우리말 뜻을 완성하세요.",
+      "ruleKo": "빈칸에 빈도부사(우리말)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I always get up at seven.\n나는 ____ 7시에 일어난다.",
+      "accept": [
+        "항상"
+      ],
+      "promptKo": "나는 항상 7시에 일어난다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "My sister never drinks milk.",
+      "accept": [
+        "절대",
+        "결코",
+        "전혀"
+      ],
+      "promptKo": "내 여동생은 우유를 ____ 마시지 않는다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "John sometimes wears blue jeans.",
+      "accept": [
+        "가끔",
+        "때때로"
+      ],
+      "promptKo": "존은 ____ 청바지를 입는다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "His room is usually clean.",
+      "accept": [
+        "보통",
+        "대개"
+      ],
+      "promptKo": "그의 방은 ____ 깨끗하다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Sally sometimes calls her grandma.",
+      "accept": [
+        "가끔",
+        "때때로"
+      ],
+      "promptKo": "샐리는 할머니께 ____ 전화를 드린다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "He often has dinner at a restaurant.",
+      "accept": [
+        "자주",
+        "흔히"
+      ],
+      "promptKo": "그는 ____ 식당에서 저녁 식사를 한다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They often go to the amusement park.",
+      "accept": [
+        "자주",
+        "흔히"
+      ],
+      "promptKo": "그들은 ____ 놀이공원에 간다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Her cake is always delicious.",
+      "accept": [
+        "항상",
+        "늘"
+      ],
+      "promptKo": "그녀의 케이크는 ____ 맛있다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "She sometimes sends e-mail to Jim.",
+      "accept": [
+        "가끔",
+        "때때로"
+      ],
+      "promptKo": "그녀는 ____ 짐에게 이메일을 보낸다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "I usually go shopping with my mom.",
+      "accept": [
+        "보통",
+        "대개"
+      ],
+      "promptKo": "나는 ____ 우리 엄마와 쇼핑하러 간다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I can always play the piano.",
+      "accept": [
+        "항상",
+        "늘"
+      ],
+      "promptKo": "나는 ____ 피아노를 칠 수 있다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "We sometimes play badminton.",
+      "accept": [
+        "가끔",
+        "때때로"
+      ],
+      "promptKo": "우리는 ____ 배드민턴을 친다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Nick usually keeps a diary.",
+      "accept": [
+        "보통",
+        "대개"
+      ],
+      "promptKo": "닉은 ____ 일기를 쓴다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "You can never win.",
+      "accept": [
+        "절대",
+        "결코",
+        "전혀"
+      ],
+      "promptKo": "너는 ____ 이길 수 없다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 우리말 뜻을 완성하세요. 빈칸에 들어갈 빈도부사(우리말)만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "His stories are usually boring.",
+      "accept": [
+        "보통",
+        "대개"
+      ],
+      "promptKo": "그의 이야기는 ____ 지루하다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My father and I ____ go hiking.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "우리 아버지와 나는 자주 하이킹을 간다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "often"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "John ____ brushes his teeth at night.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "존은 항상 밤에 양치질을 한다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "I can ____ visit him.",
+      "accept": [
+        "sometimes",
+        "Sometimes"
+      ],
+      "promptKo": "나는 가끔 그를 찾아갈 수 있다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "The kids are ____ happy.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "그 아이들은 항상 행복하다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "We ____ have lunch together.",
+      "accept": [
+        "usually",
+        "Usually"
+      ],
+      "promptKo": "우리는 보통 함께 점심 식사를 한다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "He ____ buys toys.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "그는 절대 장난감을 사지 않는다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "Her backpack is ____ heavy.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "그녀의 배낭은 항상 무겁다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "We are ____ busy.",
+      "accept": [
+        "sometimes",
+        "Sometimes"
+      ],
+      "promptKo": "우리는 가끔 바쁘다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "We ____ go to the zoo.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "우리는 자주 동물원에 간다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "I can ____ forget her.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "나는 절대 그녀를 잊을 수 없다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "The man is ____ sick.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "그 남자는 자주 아프다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Anne ____ helps her mom.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "앤은 자주 자신의 엄마를 돕는다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "I ____ read books after dinner.",
+      "accept": [
+        "usually",
+        "Usually"
+      ],
+      "promptKo": "나는 보통 저녁 식사 후에 책을 읽는다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "You can ____ ask questions.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "너희는 항상 질문을 할 수 있다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "Minsu ____ tells a lie.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "민수는 절대 거짓말을 하지 않는다."
+    }
+  ]
+}

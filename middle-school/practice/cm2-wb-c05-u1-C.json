@@ -1,0 +1,133 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c05:u1-C",
+  "title": "Workbook Unit 1 — Section C",
+  "subtitle": "명사적 용법 · POINT 4 (p. 35)",
+  "pages": "35",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-05",
+  "unitTitle": "Ch 05 WB — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "Could you tell me ________ to get to City Hall?",
+      "promptKo": "시청에 어떻게 가는지 알려 주시겠어요?",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "I don't know ________ to say in this situation.",
+      "promptKo": "나는 이런 상황에서 뭐라고 말해야 할지 모르겠다.",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "The gentleman asked the waiter ________ to find the bathroom.",
+      "promptKo": "그 신사는 웨이터에게 어디에서 화장실을 찾을 수 있는지 물었다.",
+      "blanks": 1,
+      "accept": [
+        "where"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "This alarm tells you ________ to change the battery.",
+      "promptKo": "이 알람은 언제 배터리를 교환해야 할지 알려 준다.",
+      "blanks": 1,
+      "accept": [
+        "when"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "I will think about ________ to make for Christmas dinner.",
+      "promptKo": "나는 크리스마스 저녁 식사를 위해 무엇을 만들지 생각해 볼 것이다.",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 빈칸에 들어갈 알맞은 단어를 <보기>에서 골라 쓰세요. POINT 4. <보기> how / when / where / what. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "She taught her nephew ________ to spell the word.",
+      "promptKo": "그녀는 자신의 조카에게 어떻게 그 단어의 철자를 쓰는지 가르쳐 주었다.",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    }
+  ]
+}

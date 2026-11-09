@@ -1,0 +1,303 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 접속사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u07:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "when & while (p. 143)",
+  "pages": "143",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "When I'm tired, I go to bed early.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "When",
+        "when"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "When"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "When I was shopping at the mall, I met my friend.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "When my mother cooks dinner, I help her.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "When the plane arrived, David called me.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "When my dog is happy, he barks.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "When the phone rang, I was sleeping.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "When my family was in China, we stayed in a hotel.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "When the rain stopped, I closed my umbrella.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "when",
+        "When"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "While I was reading the book, my brother came in.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "While he was studying, his legs shook.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "While I was walking to school, it began to snow.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "While Jack was watching TV, Amy made a model airplane.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "While she was reading, a dog barked.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "While the teacher was talking, Mary raised her hand.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 접속사(when / while)만 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "While we were having dinner, he knocked on the door.\n접속사: _____",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "while",
+        "While"
+      ]
+    }
+  ]
+}

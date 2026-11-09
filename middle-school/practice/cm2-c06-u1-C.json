@@ -1,0 +1,127 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c06:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "명사로 쓰이는 동명사 · POINT 1·2–5 (p. 83)",
+  "pages": "83",
+  "timerMinutes": 20,
+  "unitId": "chapter-06",
+  "unitTitle": "Chapter 06 — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "새 친구들을 사귀는 것은 나에게 어렵다. (make, new friends)\n________ is difficult for me.",
+      "blanks": 1,
+      "accept": [
+        "Making new friends"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "그녀는 딸기 아이스크림이 먹고 싶었다. (feel, eat)\nShe ________ strawberry ice cream.",
+      "blanks": 1,
+      "accept": [
+        "felt like eating"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "Eric은 일요일마다 낮잠 자는 것을 즐긴다. (take a nap, enjoy)\nEric ________ on Sundays.",
+      "blanks": 1,
+      "accept": [
+        "enjoys taking a nap"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "그들은 행사를 준비하느라 바쁘다. (busy, prepare)\nThey ________ for the event.",
+      "blanks": 1,
+      "accept": [
+        "are busy preparing"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "그들은 종이에 만화를 그리는 데 몇 시간을 보냈다. (spend, hours, draw)\nThey ________ cartoons on the paper.",
+      "blanks": 1,
+      "accept": [
+        "spent hours drawing"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸을 완성하세요. POINT 1·2–5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "Tony는 잃어버린 열쇠를 찾는 것을 포기했다. (give up, search for)\nTony ________ the lost keys.",
+      "blanks": 1,
+      "accept": [
+        "gave up searching for"
+      ]
+    }
+  ]
+}

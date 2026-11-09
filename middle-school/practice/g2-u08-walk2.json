@@ -1,0 +1,300 @@
+{
+  "practiceId": "g2:u08:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "go ~ing · be busy ~ing · 의문사+to부정사 (p. 165)",
+  "pages": "165",
+  "timerMinutes": 10,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 동명사와 to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(고르기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "id": "a01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "d. 캠핑하러 가다",
+      "type": "mc",
+      "promptEn": "go camping",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "d. 캠핑하러 가다",
+        "d",
+        "캠핑하러 가다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "id": "a02",
+      "type": "mc",
+      "promptEn": "feel like swimming",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "a. 수영하고 싶다",
+        "a",
+        "수영하고 싶다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "id": "a03",
+      "type": "mc",
+      "promptEn": "be busy doing homework",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "c. 숙제하느라 바쁘다",
+        "c",
+        "숙제하느라 바쁘다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "id": "a04",
+      "type": "mc",
+      "promptEn": "go skiing",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "b. 스키 타러 가다",
+        "b",
+        "스키 타러 가다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "id": "a05",
+      "type": "mc",
+      "promptEn": "feel like drinking some juice",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "f. 주스를 좀 마시고 싶다",
+        "f",
+        "주스를 좀 마시고 싶다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 말의 우리말 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~f)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "id": "a06",
+      "type": "mc",
+      "promptEn": "go shopping",
+      "choices": [
+        "a. 수영하고 싶다",
+        "b. 스키 타러 가다",
+        "c. 숙제하느라 바쁘다",
+        "d. 캠핑하러 가다",
+        "e. 쇼핑하러 가다",
+        "f. 주스를 좀 마시고 싶다"
+      ],
+      "accept": [
+        "e. 쇼핑하러 가다",
+        "e",
+        "쇼핑하러 가다"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "id": "b01",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "how",
+      "type": "fill",
+      "promptKo": "스케이트 타는 법 → _____ to skate",
+      "promptEn": "_____ to skate",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "id": "b02",
+      "type": "fill",
+      "promptKo": "어디서 잘지",
+      "promptEn": "_____ to sleep",
+      "blanks": 1,
+      "accept": [
+        "where"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "id": "b03",
+      "type": "fill",
+      "promptKo": "무엇을 읽을지",
+      "promptEn": "_____ to read",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "id": "b04",
+      "type": "fill",
+      "promptKo": "언제 도착할지",
+      "promptEn": "_____ to arrive",
+      "blanks": 1,
+      "accept": [
+        "when"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "id": "b05",
+      "type": "fill",
+      "promptKo": "어디로 갈지",
+      "promptEn": "_____ to go",
+      "blanks": 1,
+      "accept": [
+        "where"
+      ]
+    },
+    {
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 우리말 뜻과 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "id": "b06",
+      "type": "fill",
+      "promptKo": "이 기계를 사용하는 법",
+      "promptEn": "_____ to use this machine",
+      "blanks": 1,
+      "accept": [
+        "how"
+      ]
+    }
+  ]
+}

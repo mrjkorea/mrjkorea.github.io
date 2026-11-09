@@ -1,0 +1,139 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c07:u2-C",
+  "title": "Workbook Unit 2 — Section C",
+  "subtitle": "주의해야 할 분사 · POINT 5 (p. 53)",
+  "pages": "53",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-07",
+  "unitTitle": "Ch 07 WB — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park.",
+      "ruleKo": "보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "The man [delivering] pizza is my brother.",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "I enjoy [reading] mystery novels in my free time.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "Their last hope was [winning] the lottery.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "The [surprising] news was not true.",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "The school festival is [exciting] every year.",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "밑줄 친 부분의 쓰임과 같은 것을 <보기>에서 골라 그 기호를 쓰세요. POINT 5. <보기> ⓐ My hobby is watching American dramas. ⓑ Some children are flying kites in the park. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "Our duty is [helping] children in poor countries.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    }
+  ]
+}

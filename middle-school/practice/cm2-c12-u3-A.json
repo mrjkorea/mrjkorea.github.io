@@ -1,0 +1,136 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u3-A",
+  "title": "Unit 3 Unit Exercise — Section A",
+  "subtitle": "whose / what · POINT 7·8 (p. 162)",
+  "pages": "162",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "She is a teacher [which / whose] students are 15-year-olds.",
+      "choices": [
+        "which",
+        "whose"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Mom gave me [which / what] I wanted for my birthday.",
+      "choices": [
+        "which",
+        "what"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "This is the necklace [what / that] my grandma left to me.",
+      "choices": [
+        "what",
+        "that"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Look at the child [who / whose] eyes are very big.",
+      "choices": [
+        "who",
+        "whose"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Could you tell me [what / that] I have to do next?",
+      "choices": [
+        "what",
+        "that"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    }
+  ]
+}

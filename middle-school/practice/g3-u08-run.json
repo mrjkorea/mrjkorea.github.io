@@ -1,0 +1,263 @@
+{
+  "practiceId": "g3:u08:run",
+  "title": "Grammar Run",
+  "subtitle": "one / another / the other meanings (p. 166)",
+  "pages": "166",
+  "timerMinutes": 18,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I need a pen. Can I borrow _____?",
+      "choices": [
+        "① 바로 그 펜",
+        "② 펜 하나"
+      ],
+      "accept": [
+        "② 펜 하나"
+      ],
+      "promptKo": "나는 펜이 필요하다. 하나 빌려도 되니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "② 펜 하나",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "He likes movies. He is watching _____ now.",
+      "choices": [
+        "① 바로 그 영화",
+        "② 영화 한 편"
+      ],
+      "accept": [
+        "② 영화 한 편"
+      ],
+      "promptKo": "그는 영화를 좋아한다. 지금 한 편 보고 있다.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "These are Mom's scarves. This red _____ is her favorite.",
+      "choices": [
+        "① 엄마",
+        "② 스카프"
+      ],
+      "accept": [
+        "② 스카프"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "He ate two doughnuts, and he ordered _____.",
+      "choices": [
+        "① 도넛 하나 더",
+        "② 다른 음식"
+      ],
+      "accept": [
+        "① 도넛 하나 더"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "She bought a camera, but she wants _____.",
+      "choices": [
+        "① 사진기 하나 더",
+        "② 전에 산 그 사진기"
+      ],
+      "accept": [
+        "① 사진기 하나 더"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "I don't like this cap. Will you show me _____?",
+      "choices": [
+        "① 다른 모자",
+        "② 이 모자"
+      ],
+      "accept": [
+        "① 다른 모자"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "There are two bikes. One is mine, and _____ is Mike's.",
+      "choices": [
+        "① 그 두 자전거",
+        "② 나머지 한 자전거"
+      ],
+      "accept": [
+        "② 나머지 한 자전거"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Mom knitted two sweaters. One is for me, and _____ is for Dad.",
+      "choices": [
+        "① 그 두 스웨터",
+        "② 나머지 한 스웨터"
+      ],
+      "accept": [
+        "② 나머지 한 스웨터"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "I have two aunts. One lives in Busan, and _____ lives in Seoul.",
+      "choices": [
+        "① 두 이모",
+        "② 나머지 한 이모"
+      ],
+      "accept": [
+        "② 나머지 한 이모"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "Tim has three cats. _____ is cute, another is lazy, and the other is noisy.",
+      "choices": [
+        "① 팀의 고양이 한 마리",
+        "② 팀의 고양이 세 마리"
+      ],
+      "accept": [
+        "① 팀의 고양이 한 마리"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "He has three hobbies. One is skiing, _____ is dancing, and the other is cooking.",
+      "choices": [
+        "① 그의 취미 세 가지",
+        "② 그의 또 다른 취미"
+      ],
+      "accept": [
+        "② 그의 또 다른 취미"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "I made three pancakes. Jim ate one, Ben ate another, and I ate _____.",
+      "choices": [
+        "① 팬케이크 세 개",
+        "② 나머지 팬케이크 하나"
+      ],
+      "accept": [
+        "② 나머지 팬케이크 하나"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 알맞은 의미를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ],
+  "introKo": "Section A 12문항(고르기)."
+}

@@ -1,0 +1,103 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c05:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "명사적 용법 · POINT 1·4 (p. 65)",
+  "pages": "65",
+  "timerMinutes": 20,
+  "unitId": "chapter-05",
+  "unitTitle": "Chapter 05 — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "________ the fireworks.",
+      "promptKo": "불꽃놀이를 보는 것은 놀랍다. (amazing, watch)",
+      "blanks": 1,
+      "accept": [
+        "It is amazing to watch",
+        "It's amazing to watch"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "________ the movie on the big screen.",
+      "promptKo": "대형 스크린으로 그 영화를 보는 것이 더 낫다. (better, watch)",
+      "blanks": 1,
+      "accept": [
+        "It is better to watch",
+        "It's better to watch"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "________ the past.",
+      "promptKo": "과거를 바꾸는 것은 불가능하다. (possible, change, not)",
+      "blanks": 1,
+      "accept": [
+        "It is not possible to change",
+        "It's not possible to change",
+        "It isn't possible to change"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 1·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "Please let me know ________ these bags.",
+      "promptKo": "이 가방들을 어디에 두어야 할지 알려 주세요. (where, put)",
+      "blanks": 1,
+      "accept": [
+        "where to put"
+      ]
+    }
+  ]
+}

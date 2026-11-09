@@ -1,0 +1,127 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c06:u1-C",
+  "title": "Workbook Unit 1 — Section C",
+  "subtitle": "명사로 쓰이는 동명사 · POINT 1·2·5 (WB p. 45)",
+  "pages": "45",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-06",
+  "unitTitle": "Ch 06 WB — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "그들의 나라를 지키는 것은 군인들의 의무이다. (protect, their country)\n________ is the soldiers' duty.",
+      "blanks": 1,
+      "accept": [
+        "Protecting their country"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "그녀는 밤에 별을 보는 것을 즐긴다. (enjoy, the stars, watch)\nShe ________ at night.",
+      "blanks": 1,
+      "accept": [
+        "enjoys watching the stars"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "나는 나 자신을 다른 사람들과 비교하는 것을 중단했다. (myself, quit, compare)\nI ________ to others.",
+      "blanks": 1,
+      "accept": [
+        "quit comparing myself"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "실수로부터 배우지 않는 것은 큰 문제이다. (learn, not, from mistakes)\n________ is a big problem.",
+      "blanks": 1,
+      "accept": [
+        "Not learning from mistakes"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "나는 크리스마스 카드를 만드는 데 두 시간을 보냈다. (spend, make, two hours)\nI ________ Christmas cards.",
+      "blanks": 1,
+      "accept": [
+        "spent two hours making"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 1·2·5. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "우리는 Tom에게서 곧 소식을 듣기를 기대하고 있다. (look, forward, to, hear)\nWe are ________ from Tom soon.",
+      "blanks": 1,
+      "accept": [
+        "looking forward to hearing"
+      ]
+    }
+  ]
+}

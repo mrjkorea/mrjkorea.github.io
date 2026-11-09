@@ -1,0 +1,528 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 접속사",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u06:lesson02-fly",
+  "title": "Lesson 02 Fly — 접속사",
+  "subtitle": "pp. 148–149",
+  "pages": "148–149",
+  "timerMinutes": 26,
+  "introKo": "Section A는 밑줄 친 말을 고쳐 쓰기, Section B는 문장 전체를 배열하여 쓰기입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "instructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lf2-a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "She is a singer, <u>or</u> he is a dancer.",
+      "promptKo": "그녀는 가수이고, 그는 무용수이다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "and"
+    },
+    {
+      "id": "lf2-a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "This food is delicious <u>and</u> is bad for your health.",
+      "promptKo": "이 음식은 맛있지만 네 건강에 나쁘다.",
+      "blanks": 1,
+      "accept": [
+        "but",
+        "But"
+      ]
+    },
+    {
+      "id": "lf2-a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Annie <u>but</u> Eddy will come to the party.",
+      "promptKo": "애니 또는 에디가 그 파티에 올 것이다.",
+      "blanks": 1,
+      "accept": [
+        "or",
+        "Or"
+      ]
+    },
+    {
+      "id": "lf2-a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I went to bed early <u>and</u> I was sick.",
+      "promptKo": "나는 아팠기 때문에 일찍 잠자리에 들었다.",
+      "blanks": 1,
+      "accept": [
+        "because",
+        "Because"
+      ]
+    },
+    {
+      "id": "lf2-a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "She will bring an umbrella <u>because</u> boots.",
+      "promptKo": "그녀는 우산과 부츠를 가지고 올 것이다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ]
+    },
+    {
+      "id": "lf2-a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "It is sunny today, <u>or</u> it will rain tomorrow.",
+      "promptKo": "오늘은 화창하지만, 내일은 비가 올 것이다.",
+      "blanks": 1,
+      "accept": [
+        "but",
+        "But"
+      ]
+    },
+    {
+      "id": "lf2-a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Tony <u>but</u> Bill went to the park together.",
+      "promptKo": "토니와 빌은 함께 공원에 갔다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ]
+    },
+    {
+      "id": "lf2-a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "I will go swimming <u>and</u> it's hot.",
+      "promptKo": "덥기 때문에 나는 수영하러 갈 것이다.",
+      "blanks": 1,
+      "accept": [
+        "because",
+        "Because"
+      ]
+    },
+    {
+      "id": "lf2-a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The movie is sad <u>because</u> beautiful.",
+      "promptKo": "그 영화는 슬프지만 아름답다.",
+      "blanks": 1,
+      "accept": [
+        "but",
+        "But"
+      ]
+    },
+    {
+      "id": "lf2-a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "She wore a black skirt <u>or</u> a white blouse.",
+      "promptKo": "그녀는 검은 치마와 흰 블라우스를 입었다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ]
+    },
+    {
+      "id": "lf2-a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "We play badminton <u>and</u> table tennis after school.",
+      "promptKo": "우리는 방과 후에 배드민턴이나 탁구를 친다.",
+      "blanks": 1,
+      "accept": [
+        "or",
+        "Or"
+      ]
+    },
+    {
+      "id": "lf2-a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Annie ate an egg <u>or</u> a glass of milk.",
+      "promptKo": "애니는 달걀 한 개와 우유 한 잔을 먹었다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ]
+    },
+    {
+      "id": "lf2-a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "He is young, <u>because</u> he is clever.",
+      "promptKo": "그는 어리지만 똑똑하다.",
+      "blanks": 1,
+      "accept": [
+        "but",
+        "But"
+      ]
+    },
+    {
+      "id": "lf2-a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The green dress is beautiful <u>but</u> lovely.",
+      "promptKo": "그 초록색 드레스는 아름답고 사랑스럽다.",
+      "blanks": 1,
+      "accept": [
+        "and",
+        "And"
+      ]
+    },
+    {
+      "id": "lf2-a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "You can choose this bed <u>and</u> that bed.",
+      "promptKo": "너는 이 침대 또는 저 침대를 선택할 수 있다.",
+      "blanks": 1,
+      "accept": [
+        "or",
+        "Or"
+      ]
+    },
+    {
+      "id": "lf2-b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "그는 날씬하지만 힘이 세다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "He is slim but strong."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "He is slim but strong."
+    },
+    {
+      "id": "lf2-b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "모나와 샌디는 친구다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "Mona and Sandy are friends."
+      ]
+    },
+    {
+      "id": "lf2-b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "그들은 토미나 지미를 만날 것이다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "They will meet Tommy or Jimmy.",
+        "They will meet Jimmy or Tommy."
+      ]
+    },
+    {
+      "id": "lf2-b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "눈이 와서 나는 집에 있었다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "I was at home because it snowed."
+      ]
+    },
+    {
+      "id": "lf2-b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "비가 왔지만, 나는 낚시하러 갔다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "It rained, but I went fishing.",
+        "It rained but I went fishing."
+      ]
+    },
+    {
+      "id": "lf2-b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "존은 소고기나 돼지고기를 먹을 것이다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "John will eat beef or pork.",
+        "John will eat pork or beef."
+      ]
+    },
+    {
+      "id": "lf2-b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "그 영화가 웃기기 때문에 나는 좋아한다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "I like the movie because it's funny.",
+        "I like the movie because it is funny."
+      ]
+    },
+    {
+      "id": "lf2-b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "나는 검은 머리와 파란 눈을 가지고 있다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "I have black hair and blue eyes."
+      ]
+    },
+    {
+      "id": "lf2-b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "그 곰 인형은 크지만 무겁지 않다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "The teddy bear is big but isn't heavy.",
+        "The teddy bear is big but is not heavy."
+      ]
+    },
+    {
+      "id": "lf2-b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "그 강은 넓고 깊다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "The river is wide and deep."
+      ]
+    },
+    {
+      "id": "lf2-b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "앤이나 내가 그들을 돌볼 것이다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "Ann or I will take care of them.",
+        "I or Ann will take care of them."
+      ]
+    },
+    {
+      "id": "lf2-b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말 뜻과 같도록 주어진 말을 바르게 배열하여 문장을 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "우리는 늦게 자지만 일찍 일어난다.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "We go to bed late but get up early."
+      ]
+    }
+  ]
+}

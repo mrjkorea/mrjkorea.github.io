@@ -1,0 +1,442 @@
+{
+  "practiceId": "u02:jump",
+  "title": "Grammar Jump",
+  "subtitle": "Negatives, affirmatives & dialogues (pp. 36–37)",
+  "pages": "36–37",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 02 과거 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 11문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "wasn't",
+      "type": "fill",
+      "promptEn": "He was a good student. ( 부정문 )\n→ He ______ a good student.",
+      "blanks": 1,
+      "accept": [
+        "wasn't",
+        "was not"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The cookies were very delicious. ( 부정문 )\n→ The cookies ______ very delicious.",
+      "blanks": 1,
+      "accept": [
+        "weren't",
+        "were not"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "She was thirsty then. ( 부정문 )\n→ She ______ thirsty then.",
+      "blanks": 1,
+      "accept": [
+        "wasn't",
+        "was not"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My sister and I made paper airplanes. ( 부정문 )\n→ My sister and I ______ ______ paper airplanes.",
+      "blanks": 2,
+      "accept": [
+        "didn't|make",
+        "did not|make"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They played with a beach ball. ( 부정문 )\n→ They ______ ______ with a beach ball.",
+      "blanks": 2,
+      "accept": [
+        "didn't|play",
+        "did not|play"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Dana sent a text message to her friend. ( 부정문 )\n→ Dana ______ ______ a text message to her friend.",
+      "blanks": 2,
+      "accept": [
+        "didn't|send",
+        "did not|send"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "The family wasn't at the beach last weekend. ( 긍정문 )\n→ The family ______ at the beach last weekend.",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "They weren't late for school. ( 긍정문 )\n→ They ______ late for school.",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "We didn't go to the aquarium by bus. ( 긍정문 )\n→ We ______ to the aquarium by bus.",
+      "blanks": 1,
+      "accept": [
+        "went"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My mother didn't shop at the market. ( 긍정문 )\n→ My mother ______ at the market.",
+      "blanks": 1,
+      "accept": [
+        "shopped"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I didn't swim in the sea. ( 긍정문 )\n→ I ______ in the sea.",
+      "blanks": 1,
+      "accept": [
+        "swam"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Max didn't watch a baseball game. ( 긍정문 )\n→ Max ______ a baseball game.",
+      "blanks": 1,
+      "accept": [
+        "watched"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Were / was",
+      "type": "fill",
+      "promptEn": "A: ______ you late for school yesterday?\nB: Yes, I ______.",
+      "blanks": 2,
+      "accept": [
+        "Were|was"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: ______ she angry then?\nB: No, she ______.",
+      "blanks": 2,
+      "accept": [
+        "Was|wasn't",
+        "Was|was not"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: Were there many trees in the park?\nB: Yes, there ______.",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: Was he at the swimming pool then?\nB: No, ______ ______. He was at the theater then.",
+      "blanks": 2,
+      "accept": [
+        "he|wasn't",
+        "he|was not"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: ______ the airplane arrive in the afternoon?\nB: Yes, it did.",
+      "blanks": 1,
+      "accept": [
+        "Did"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: ______ Namho play the piano after school?\nB: No, he ______. He played the guitar after school.",
+      "blanks": 2,
+      "accept": [
+        "Did|didn't",
+        "Did|did not"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: ______ you fly model airplanes two days ago?\nB: Yes, we ______.",
+      "blanks": 2,
+      "accept": [
+        "Did|did"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: ______ he go to the movies with Kate last Sunday?\nB: No, ______ ______.",
+      "blanks": 3,
+      "accept": [
+        "Did|he|didn't",
+        "Did|he|did not"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: ______ Lisa get up early this morning?\nB: ______, she ______. She got up late this morning.",
+      "blanks": 3,
+      "accept": [
+        "Did|No|didn't",
+        "Did|No|did not"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: ______ they see a beautiful lake yesterday?\nB: Yes, ______ ______.",
+      "blanks": 3,
+      "accept": [
+        "Did|they|did"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: ______ you clean the living room last night?\nB: No, ______ ______.",
+      "blanks": 3,
+      "accept": [
+        "Did|I|didn't",
+        "Did|we|didn't",
+        "Did|I|did not",
+        "Did|we|did not"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 대화의 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: ______ the girl want a blue jacket then?\nB: Yes, ______ ______.",
+      "blanks": 3,
+      "accept": [
+        "Did|she|did"
+      ]
+    }
+  ]
+}

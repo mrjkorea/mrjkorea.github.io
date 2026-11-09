@@ -1,0 +1,348 @@
+{
+  "practiceId": "g2:u04:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "as + 원급 + as (p. 75)",
+  "pages": "75",
+  "timerMinutes": 10,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 (2)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 문장에서 「as+원급+as」(또는 not as … as) 구를 골라 동그라미 하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "as healthy as",
+      "type": "mc",
+      "promptEn": "My grandma is as healthy as him.",
+      "choices": [
+        "as healthy as",
+        "as healthier as",
+        "healthy as",
+        "as health as"
+      ],
+      "accept": [
+        "as healthy as"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "He ate as slowly as his friend.",
+      "choices": [
+        "as slowly as",
+        "as slow as",
+        "slowly as",
+        "as more slowly as"
+      ],
+      "accept": [
+        "as slowly as"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Her hair is as white as snow.",
+      "choices": [
+        "as white as",
+        "as whiter as",
+        "white as",
+        "as white than"
+      ],
+      "accept": [
+        "as white as"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "His story is as sad as Ms. Bronte's.",
+      "choices": [
+        "as sad as",
+        "as sadder as",
+        "sad as",
+        "as sadly as"
+      ],
+      "accept": [
+        "as sad as"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Kelly plays computer games as well as me.",
+      "choices": [
+        "as well as",
+        "as good as",
+        "well as",
+        "as better as"
+      ],
+      "accept": [
+        "as well as"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "This classroom is not as large as that one.",
+      "choices": [
+        "not as large as",
+        "as large as",
+        "not as larger as",
+        "as larger as"
+      ],
+      "accept": [
+        "not as large as"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "My sister is not as free as you.",
+      "choices": [
+        "not as free as",
+        "as free as",
+        "not as freer as",
+        "as freer as"
+      ],
+      "accept": [
+        "not as free as"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Miranda didn't kick the ball as far as the player.",
+      "choices": [
+        "as far as",
+        "as farther as",
+        "far as",
+        "as more far as"
+      ],
+      "accept": [
+        "as far as"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Paper is not as heavy as stone.",
+      "choices": [
+        "not as heavy as",
+        "as heavy as",
+        "not as heavier as",
+        "as heavier as"
+      ],
+      "accept": [
+        "not as heavy as"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "You are not as polite as your brother.",
+      "choices": [
+        "not as polite as",
+        "as polite as",
+        "not as politer as",
+        "as politer as"
+      ],
+      "accept": [
+        "not as polite as"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "They got out of the building as soon as they could.",
+      "choices": [
+        "as soon as",
+        "as sooner as",
+        "soon as",
+        "as soon than"
+      ],
+      "accept": [
+        "as soon as"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "We should run as fast as we can.",
+      "choices": [
+        "as fast as",
+        "as faster as",
+        "fast as",
+        "as fast than"
+      ],
+      "accept": [
+        "as fast as"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "Please speak as loudly as you can.",
+      "choices": [
+        "as loudly as",
+        "as loud as",
+        "loudly as",
+        "as more loudly as"
+      ],
+      "accept": [
+        "as loudly as"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "My brother met Jina as often as he could.",
+      "choices": [
+        "as often as",
+        "as oftener as",
+        "often as",
+        "as more often as"
+      ],
+      "accept": [
+        "as often as"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「as+원급+as」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "Emily has to finish her homework as quickly as she can.",
+      "choices": [
+        "as quickly as",
+        "as quick as",
+        "quickly as",
+        "as more quickly as"
+      ],
+      "accept": [
+        "as quickly as"
+      ]
+    }
+  ]
+}

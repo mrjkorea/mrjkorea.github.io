@@ -1,0 +1,111 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c01:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "SVOO ↔ SVO · POINT 2 (p. 12)",
+  "pages": "12",
+  "timerMinutes": 20,
+  "unitId": "chapter-01",
+  "unitTitle": "Chapter 01 — 문장의 주요 형식",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C1",
+      "type": "sentence",
+      "promptEn": "She passed her sister some tissue.\n→ ________________",
+      "accept": [
+        "She passed some tissue to her sister."
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C2",
+      "type": "sentence",
+      "promptEn": "Why don't you show your talent to your classmates?\n→ ________________",
+      "accept": [
+        "Why don't you show your classmates your talent?"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "My grandma cooked me healthy meals.\n→ ________________",
+      "accept": [
+        "My grandma cooked healthy meals for me."
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "Cindy made a pretty eco bag for me last month.\n→ ________________",
+      "accept": [
+        "Cindy made me a pretty eco bag last month."
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "SVOO 문형은 SVO 문형으로, SVO 문형은 SVOO 문형으로 바꿔 쓰세요. POINT 2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "Please give me your email address by tomorrow.\n→ ________________",
+      "accept": [
+        "Please give your email address to me by tomorrow."
+      ],
+      "blanks": 1
+    }
+  ]
+}

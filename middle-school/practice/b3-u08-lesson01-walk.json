@@ -1,0 +1,222 @@
+{
+  "practiceId": "b3:u08:lesson01-walk",
+  "title": "Lesson 01 Walk — 명령문",
+  "subtitle": "명령문 (p. 197)",
+  "pages": "197",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 명령문과 감탄문",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 5문항(예시 1개씩). 빈칸에 들어갈 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "You open your book. → ______ your book.",
+      "accept": [
+        "Open"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Open",
+      "promptKo": "예시: Open"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You look at the board. → ______ the board.",
+      "accept": [
+        "Look at",
+        "look at"
+      ],
+      "promptKo": "칠판을 보라."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "You do your homework. → ______ your homework.",
+      "accept": [
+        "Do",
+        "do"
+      ],
+      "promptKo": "숙제를 해라."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "You help your brother. → ______ your brother.",
+      "accept": [
+        "Help",
+        "help"
+      ],
+      "promptKo": "남동생을 도와라."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "You are careful. → ______ careful.",
+      "accept": [
+        "Be",
+        "be"
+      ],
+      "promptKo": "조심해라."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Clap your hands. → ______ clap your hands.",
+      "accept": [
+        "Don't",
+        "Dont",
+        "Do not"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Don't",
+      "promptKo": "예시: Don't"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Close the door. → ______ close the door.",
+      "accept": [
+        "Don't",
+        "Dont",
+        "Do not"
+      ],
+      "promptKo": "문을 닫지 마라."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Sit here. → ______ sit here.",
+      "accept": [
+        "Don't",
+        "Dont",
+        "Do not"
+      ],
+      "promptKo": "여기에 앉지 마라."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Turn on the TV. → ______ turn on the TV.",
+      "accept": [
+        "Don't",
+        "Dont",
+        "Do not"
+      ],
+      "promptKo": "TV를 켜지 마라."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정 명령문으로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Draw a picture. → ______ draw a picture.",
+      "accept": [
+        "Don't",
+        "Dont",
+        "Do not"
+      ],
+      "promptKo": "그림을 그리지 마라."
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "practiceId": "g3:u08:jump",
+  "title": "Grammar Jump",
+  "subtitle": "pp. 168–169",
+  "pages": "168–169",
+  "timerMinutes": 24,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "This skirt is too small for me. Can I try on a bigger _____? ( one / other )",
+      "choices": [
+        "one",
+        "other"
+      ],
+      "accept": [
+        "one"
+      ],
+      "promptKo": "이 치마는 내게 너무 작다. 더 큰 것을 입어 봐도 되니?",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "one",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "He needs a computer. Let's buy _____ for him. ( one / another )",
+      "choices": [
+        "one",
+        "another"
+      ],
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "I ate an apple, and Mom gave me _____. ( one / another )",
+      "choices": [
+        "one",
+        "another"
+      ],
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Tim lost an umbrella last week, and he lost _____ today. ( another / other )",
+      "choices": [
+        "another",
+        "other"
+      ],
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "She has two uncles. One is tall, and _____ is short. ( another / other )",
+      "choices": [
+        "another",
+        "other"
+      ],
+      "accept": [
+        "other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Tina has two sisters. One likes math, but _____ hates it. ( other / others )",
+      "choices": [
+        "other",
+        "others"
+      ],
+      "accept": [
+        "other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "I have three dogs. One is thin, _____ is slim, and the other is fat. ( other / another )",
+      "choices": [
+        "other",
+        "another"
+      ],
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Look at the three caps. One is red, another is pink, and _____ is blue. ( other / another )",
+      "choices": [
+        "other",
+        "another"
+      ],
+      "accept": [
+        "other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "She is talking to _____. ( anyone / someone )",
+      "choices": [
+        "anyone",
+        "someone"
+      ],
+      "accept": [
+        "someone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "The police found _____ in the forest. ( anything / something )",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "John doesn't remember _____ about his grandpa. ( anything / something )",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "Did _____ read the book? ( anybody / somebody )",
+      "choices": [
+        "anybody",
+        "somebody"
+      ],
+      "accept": [
+        "anybody"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 문장을 완성하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My hobby is watching birds. I'm watching _____ now.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "one",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Edna wanted a doll, and her mom made _____ for her.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "She finished a book, and she started _____.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A dog barked, and _____ answered.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Look at the cat's eyes. _____ is blue, and _____ is green.",
+      "blanks": 2,
+      "accept": [
+        "One|the other",
+        "One|The other"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Ben bought two books. He kept _____, and he gave _____ to me.",
+      "blanks": 2,
+      "accept": [
+        "one|the other",
+        "one|The other"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "He has three daughters. _____ is a teacher, _____ is a designer, and _____ is a farmer.",
+      "blanks": 3,
+      "accept": [
+        "One|another|the other",
+        "One|Another|the other"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Look at those three brothers. _____ is tall, _____ is strong, and _____ is handsome.",
+      "blanks": 3,
+      "accept": [
+        "One|another|the other",
+        "One|Another|the other"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "_____ left a message for you.",
+      "blanks": 1,
+      "accept": [
+        "Someone",
+        "someone"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "You should buy him _____ for his birthday.",
+      "blanks": 1,
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "I don't have _____ to wear.",
+      "blanks": 1,
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Did _____ feed the wild geese?",
+      "blanks": 1,
+      "accept": [
+        "anyone",
+        "Anyone"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. 중복해서 사용할 수 있어요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (단어 상자: one / another / the other / someone / anyone / something / anything)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ],
+  "introKo": "Section A 12문항(고르기), Section B 12문항(빈칸 말만)."
+}

@@ -1,0 +1,455 @@
+{
+  "practiceId": "u04:jump",
+  "title": "Grammar Jump",
+  "subtitle": "Transform & dialogues (pp. 80–81)",
+  "pages": "80–81",
+  "timerMinutes": 24,
+  "unitTitle": "Unit 04 — 진행 시제",
+  "wordBank": [
+    "were",
+    "isn't",
+    "are",
+    "wasn't",
+    "wash",
+    "close",
+    "ride",
+    "drive",
+    "listen",
+    "watch",
+    "feed",
+    "fly",
+    "take",
+    "cross",
+    "paint",
+    "wear",
+    "was"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(빈칸 말만 쓰기), Section B 11문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't / running",
+      "type": "fill",
+      "promptEn": "The dog is running in the park. ( − )\n→ The dog ______ ______ in the park.",
+      "blanks": 2,
+      "accept": [
+        "isn't|running",
+        "is not|running"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "I'm not surfing the Internet now. ( + )\n→ I ______ ______ the Internet now.",
+      "blanks": 2,
+      "accept": [
+        "am|surfing"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We are picking apples in the yard. ( − )\n→ We ______ ______ apples in the yard.",
+      "blanks": 2,
+      "accept": [
+        "aren't|picking",
+        "are not|picking"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "She isn't waiting for a bus. ( + )\n→ She ______ ______ for a bus.",
+      "blanks": 2,
+      "accept": [
+        "is|waiting"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They are looking at the moon. ( − )\n→ They ______ ______ at the moon.",
+      "blanks": 2,
+      "accept": [
+        "aren't|looking",
+        "are not|looking"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "The man isn't tying his shoelaces. ( + )\n→ The man ______ ______ his shoelaces.",
+      "blanks": 2,
+      "accept": [
+        "is|tying"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "We were having a birthday party yesterday. ( − )\n→ We ______ ______ a birthday party yesterday.",
+      "blanks": 2,
+      "accept": [
+        "weren't|having",
+        "were not|having"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "My father wasn't playing the guitar. ( + )\n→ My father ______ ______ the guitar.",
+      "blanks": 2,
+      "accept": [
+        "was|playing"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "I was singing with my mother. ( − )\n→ I ______ ______ with my mother.",
+      "blanks": 2,
+      "accept": [
+        "wasn't|singing",
+        "was not|singing"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Dana was making a poster. ( − )\n→ Dana ______ ______ a poster.",
+      "blanks": 2,
+      "accept": [
+        "wasn't|making",
+        "was not|making"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "My brother and sister weren't dancing together. ( + )\n→ My brother and sister ______ ______ together.",
+      "blanks": 2,
+      "accept": [
+        "were|dancing"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿀 때 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "They weren't carrying the heavy boxes. ( + )\n→ They ______ ______ the heavy boxes.",
+      "blanks": 2,
+      "accept": [
+        "were|carrying"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't",
+      "type": "fill",
+      "promptEn": "A: Is Amy closing the window?\nB: No, she ______.",
+      "blanks": 1,
+      "accept": [
+        "isn't",
+        "is not"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "A: ______ your parents listening to music?\nB: Yes, they are.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "A: ______ you washing your face?\nB: No, I'm not.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "A: ______ she taking a walk?\nB: Yes, she is.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "A: ______ your uncle driving a car?\nB: Yes, he is.",
+      "blanks": 1,
+      "accept": [
+        "Is"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "A: ______ they painting the table?\nB: No, they aren't.",
+      "blanks": 1,
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "A: Was he feeding his dog?\nB: No, he ______.",
+      "blanks": 1,
+      "accept": [
+        "wasn't",
+        "was not"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "A: ______ you crossing the street?\nB: Yes, I was.",
+      "blanks": 1,
+      "accept": [
+        "Were"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "A: ______ the eagle flying in the sky?\nB: Yes, it was.",
+      "blanks": 1,
+      "accept": [
+        "Was"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "A: ______ you and Mary watching a musical?\nB: Yes, we were.",
+      "blanks": 1,
+      "accept": [
+        "Were"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "A: ______ she wearing a hat?\nB: No, she wasn't.",
+      "blanks": 1,
+      "accept": [
+        "Was"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 대화를 완성하세요. (were / isn't / are / wasn't / wash / close / ride / drive / listen / watch / feed / fly / take / cross / paint / wear / was) 중복해서 사용할 수 있고, 필요하면 형태를 바꾸세요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "A: ______ they riding a roller coaster?\nB: No, they weren't.",
+      "blanks": 1,
+      "accept": [
+        "Were"
+      ]
+    }
+  ]
+}

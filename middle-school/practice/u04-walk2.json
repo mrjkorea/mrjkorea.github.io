@@ -1,0 +1,342 @@
+{
+  "practiceId": "u04:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "Progressive negatives & short answers (p. 77)",
+  "pages": "77",
+  "timerMinutes": 10,
+  "unitTitle": "Unit 04 — 진행 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 9문항(고르기), Section B 3문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요.",
+      "ruleKo": "알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "am not",
+      "type": "mc",
+      "promptEn": "I ( not am / am not ) cleaning my room.",
+      "choices": [
+        "not am",
+        "am not"
+      ],
+      "accept": [
+        "am not"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "We ( isn't / aren't ) doing our homework.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "aren't"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "My uncle ( isn't / aren't ) wearing a coat.",
+      "choices": [
+        "isn't",
+        "aren't"
+      ],
+      "accept": [
+        "isn't"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "We ( not were / were not ) surfing the Internet.",
+      "choices": [
+        "not were",
+        "were not"
+      ],
+      "accept": [
+        "were not"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "He ( wasn't / weren't ) sitting on a bench.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "wasn't"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Dana and I ( wasn't / weren't ) playing chess.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "weren't"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "( Are / Is ) you writing a letter?",
+      "choices": [
+        "Are",
+        "Is"
+      ],
+      "accept": [
+        "Are"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "( Is Mom looking / Is looking Mom ) for a key?",
+      "choices": [
+        "Is Mom looking",
+        "Is looking Mom"
+      ],
+      "accept": [
+        "Is Mom looking"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "( Was / Were ) he studying science?",
+      "choices": [
+        "Was",
+        "Were"
+      ],
+      "accept": [
+        "Was"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "( Were playing they / Were they playing ) computer games?",
+      "choices": [
+        "Were playing they",
+        "Were they playing"
+      ],
+      "accept": [
+        "Were they playing"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. Yes, I was.",
+      "type": "mc",
+      "promptEn": "Were you waiting for me?",
+      "choices": [
+        "a. Yes, I did.",
+        "b. Yes, I was.",
+        "c. No, he isn't.",
+        "d. No, he is.",
+        "e. Yes, she was.",
+        "f. Yes, she did.",
+        "g. No, they weren't.",
+        "h. No, they aren't."
+      ],
+      "accept": [
+        "b. Yes, I was.",
+        "b",
+        "Yes, I was."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Is he climbing the ladder?",
+      "choices": [
+        "a. Yes, I did.",
+        "b. Yes, I was.",
+        "c. No, he isn't.",
+        "d. No, he is.",
+        "e. Yes, she was.",
+        "f. Yes, she did.",
+        "g. No, they weren't.",
+        "h. No, they aren't."
+      ],
+      "accept": [
+        "c. No, he isn't.",
+        "c",
+        "No, he isn't."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Was Minju drawing a picture?",
+      "choices": [
+        "a. Yes, I did.",
+        "b. Yes, I was.",
+        "c. No, he isn't.",
+        "d. No, he is.",
+        "e. Yes, she was.",
+        "f. Yes, she did.",
+        "g. No, they weren't.",
+        "h. No, they aren't."
+      ],
+      "accept": [
+        "e. Yes, she was.",
+        "e",
+        "Yes, she was."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 골라 동그라미 하세요. 알맞은 대답(a~b)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Are they riding horses?",
+      "choices": [
+        "a. Yes, I did.",
+        "b. Yes, I was.",
+        "c. No, he isn't.",
+        "d. No, he is.",
+        "e. Yes, she was.",
+        "f. Yes, she did.",
+        "g. No, they weren't.",
+        "h. No, they aren't."
+      ],
+      "accept": [
+        "g. No, they weren't.",
+        "g",
+        "No, they weren't."
+      ]
+    }
+  ]
+}

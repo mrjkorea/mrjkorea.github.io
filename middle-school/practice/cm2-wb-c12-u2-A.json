@@ -1,0 +1,261 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c12:u2-A",
+  "title": "Workbook Unit 2 — Section A",
+  "subtitle": "whom / which / that (목적격) · POINT 4 (WB p. 90)",
+  "pages": "90",
+  "timerMinutes": 22,
+  "unitId": "wb-chapter-12",
+  "unitTitle": "Ch 12 WB — 관계대명사",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section A 10문항(O/X 고르고 고치기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4.",
+      "ruleKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A1",
+      "type": "ox",
+      "promptEn": "I'd like to show you the bag <u>who</u> I made.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "which",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A2",
+      "type": "ox",
+      "promptEn": "I got a thank-you card from a man <u>which</u> I helped last week.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "who",
+        "whom",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A3",
+      "type": "ox",
+      "promptEn": "The guide explained the buildings <u>that</u> we visited.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A4",
+      "type": "ox",
+      "promptEn": "Carol is a cheerful girl <u>which</u> all of her friends like.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "who",
+        "whom",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A5",
+      "type": "ox",
+      "promptEn": "Look at those flowers <u>who</u> I'm growing in the garden!",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "which",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A6",
+      "type": "ox",
+      "promptEn": "All the students <u>who</u> Mr. Lawrence teaches are from China.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A7",
+      "type": "ox",
+      "promptEn": "The mountain <u>who</u> I'm going to climb is not that high.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "which",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A8",
+      "type": "ox",
+      "promptEn": "The wallet <u>who</u> Jack found should be returned to its owner.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "which",
+        "that"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A9",
+      "type": "ox",
+      "promptEn": "My friend <u>whom</u> I call Jay will move to another city.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 4. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "A10",
+      "type": "ox",
+      "promptEn": "I can't find the books <u>which I borrowed them</u> from Sue.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "which I borrowed",
+        "I borrowed"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    }
+  ]
+}

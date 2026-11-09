@@ -1,0 +1,113 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c04:u2-A",
+  "title": "Unit 2 Unit Exercise — Section A",
+  "subtitle": "수동태 배열 · POINT 4·5·6 (p. 57)",
+  "pages": "57",
+  "timerMinutes": 16,
+  "unitId": "chapter-04",
+  "unitTitle": "Chapter 04 — 수동태",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "당신의 우편은 비행기로 보내질 수 있습니다. (sent / can / be)\nYour mail ________ by plane.",
+      "accept": [
+        "can be sent"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "이 문법 오류들은 고쳐지지 않는다. (not / corrected / are)\nThese grammar errors ________.",
+      "accept": [
+        "are not corrected",
+        "aren't corrected"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "이 재킷은 뜨거운 물에 빨면 안 된다. (be / should / washed / not)\nThis jacket ________ in hot water.",
+      "accept": [
+        "should not be washed",
+        "shouldn't be washed"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "그 규칙들은 모든 학생들에 의해 지켜져야 한다. (followed / by / be / must)\nThe rules ________ all the students.",
+      "accept": [
+        "must be followed by"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5·6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "그 선물은 내 친구를 위해 사 준 것이다. (bought / my friend / for / was)\nThe gift ________ for her birthday.",
+      "accept": [
+        "was bought for my friend"
+      ],
+      "blanks": 1
+    }
+  ]
+}

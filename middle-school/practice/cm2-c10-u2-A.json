@@ -1,0 +1,199 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "unitId": "chapter-10",
+  "unitTitle": "Chapter 10 — 비교표현",
+  "practiceId": "cm2:c10:u2-A",
+  "title": "Unit 2 Unit Exercise — Section A",
+  "subtitle": "원급·비교급·최상급을 이용한 표현 · POINT 5·6·7·8 (p. 132)",
+  "pages": "132",
+  "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 8문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "The harder you study, [the smarter / the smartest] you become.",
+      "choices": [
+        "the smarter",
+        "the smartest"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Mozart was one of [greater / the greatest] musicians in the world.",
+      "choices": [
+        "greater",
+        "the greatest"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "She walked as [fast / faster] as possible.",
+      "choices": [
+        "fast",
+        "faster"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The [much / more] you exercise, the healthier you become.",
+      "choices": [
+        "much",
+        "more"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "The storm grew stronger and [stronger / the stronger].",
+      "choices": [
+        "stronger",
+        "the stronger"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "You should provide as [much / more] information as possible.",
+      "choices": [
+        "much",
+        "more"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Brian is one of the funniest [boy / boys] in his class.",
+      "choices": [
+        "boy",
+        "boys"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 어법상 알맞은 것을 고르세요. POINT 5·6·7·8. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "This cupcake is [as twice sweet as / twice as sweet as] the muffins.",
+      "choices": [
+        "as twice sweet as",
+        "twice as sweet as"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c07:u1-B",
+  "title": "Unit 1 Unit Exercise — Section B",
+  "subtitle": "명사를 수식하는 분사 · POINT 1·2·3 (p. 94)",
+  "pages": "94",
+  "timerMinutes": 20,
+  "unitId": "chapter-07",
+  "unitTitle": "Chapter 07 — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Can you turn off the ________ alarm? (ring)",
+      "blanks": 1,
+      "accept": [
+        "ringing"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The girls ________ Hanbok are my sisters. (wear)",
+      "blanks": 1,
+      "accept": [
+        "wearing"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "He showed me a photo ________ with his cell phone. (take)",
+      "blanks": 1,
+      "accept": [
+        "taken"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Did you see the ________ ducks? (swim)",
+      "blanks": 1,
+      "accept": [
+        "swimming"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "The house ________ blue is Mr. Webster's. (paint)",
+      "blanks": 1,
+      "accept": [
+        "painted"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 1·2·3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "I try to eat ________ meals every day. (balance)",
+      "blanks": 1,
+      "accept": [
+        "balanced"
+      ]
+    }
+  ]
+}

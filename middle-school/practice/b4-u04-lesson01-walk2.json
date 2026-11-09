@@ -1,0 +1,352 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-04",
+  "unitTitle": "Unit 04 — 비교 — 비교급",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u04:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 비교급 (1)",
+  "subtitle": "비교급 만들기 (p. 91)",
+  "pages": "91",
+  "timerMinutes": 10,
+  "introKo": "Section A 19문항 + 예시 1(비교급 만들기)입니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 19,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "id": "a01",
+      "type": "fill",
+      "promptEn": "large → ______",
+      "accept": [
+        "larger"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "larger"
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "id": "a02",
+      "type": "fill",
+      "promptEn": "nice → ______",
+      "accept": [
+        "nicer"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "id": "a03",
+      "type": "fill",
+      "promptEn": "wise → ______",
+      "accept": [
+        "wiser"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "id": "a04",
+      "type": "fill",
+      "promptEn": "wide → ______",
+      "accept": [
+        "wider"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "id": "a05",
+      "type": "fill",
+      "promptEn": "cute → ______",
+      "accept": [
+        "cuter"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "id": "a06",
+      "type": "fill",
+      "promptEn": "late → ______",
+      "accept": [
+        "later"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "id": "a07",
+      "type": "fill",
+      "promptEn": "heavy → ______",
+      "accept": [
+        "heavier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "id": "a08",
+      "type": "fill",
+      "promptEn": "dirty → ______",
+      "accept": [
+        "dirtier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "id": "a09",
+      "type": "fill",
+      "promptEn": "busy → ______",
+      "accept": [
+        "busier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "id": "a10",
+      "type": "fill",
+      "promptEn": "pretty → ______",
+      "accept": [
+        "prettier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "id": "a11",
+      "type": "fill",
+      "promptEn": "happy → ______",
+      "accept": [
+        "happier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "id": "a12",
+      "type": "fill",
+      "promptEn": "funny → ______",
+      "accept": [
+        "funnier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "id": "a13",
+      "type": "fill",
+      "promptEn": "easy → ______",
+      "accept": [
+        "easier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "id": "a14",
+      "type": "fill",
+      "promptEn": "early → ______",
+      "accept": [
+        "earlier"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "thin → ______",
+      "accept": [
+        "thinner"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A16",
+      "id": "a16",
+      "type": "fill",
+      "promptEn": "wet → ______",
+      "accept": [
+        "wetter"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A17",
+      "id": "a17",
+      "type": "fill",
+      "promptEn": "sad → ______",
+      "accept": [
+        "sadder"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A18",
+      "id": "a18",
+      "type": "fill",
+      "promptEn": "hot → ______",
+      "accept": [
+        "hotter"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A19",
+      "id": "a19",
+      "type": "fill",
+      "promptEn": "big → ______",
+      "accept": [
+        "bigger"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 형용사와 부사의 비교급을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A20",
+      "id": "a20",
+      "type": "fill",
+      "promptEn": "fat → ______",
+      "accept": [
+        "fatter"
+      ],
+      "promptKo": "비교급을 쓰세요."
+    }
+  ]
+}

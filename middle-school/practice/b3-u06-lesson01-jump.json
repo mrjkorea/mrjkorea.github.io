@@ -1,0 +1,555 @@
+{
+  "practiceId": "b3:u06:lesson01-jump",
+  "title": "Lesson 01 Jump — be동사 과거형",
+  "subtitle": "pp. 146–147",
+  "pages": "146–147",
+  "timerMinutes": 22,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 과거 시제 - be동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 빈칸 말만, Section B는 바꾼 문장 전체를 쓰세요. wasn't/weren't와 was not/were not 모두 인정합니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "directionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Mr. Taylor ______ a singer last year. He is a teacher now.",
+      "accept": [
+        "was",
+        "Was"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "was"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It ______ Friday yesterday. It is Saturday today.",
+      "accept": [
+        "was",
+        "Was"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Yujin ______ eleven years old last year. She is twelve years old now.",
+      "accept": [
+        "was",
+        "Was"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "You ______ sick in the morning. Are you OK now?",
+      "accept": [
+        "were",
+        "Were"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "It ______ rainy yesterday. It is sunny today.",
+      "accept": [
+        "was",
+        "Was"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "He and Sandy ______ in the United States last week. They are in Korea now.",
+      "accept": [
+        "were",
+        "Were"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Dave and I ______ weak then. We are strong now.",
+      "accept": [
+        "were",
+        "Were"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "This tree ______ | ______ tall last month. It is tall now.",
+      "accept": [
+        "was|not",
+        "wasn't",
+        "was not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "They ______ on the playground. They weren't in the classroom then.",
+      "accept": [
+        "were",
+        "Were"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "I ______ | ______ busy in the morning. I'm busy now.",
+      "accept": [
+        "was|not",
+        "wasn't",
+        "was not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "My dog ______ | ______ heavy last year. He is heavy now.",
+      "accept": [
+        "was|not",
+        "wasn't",
+        "was not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "This room ______ | ______ clean this morning. It is clean now.",
+      "accept": [
+        "was|not",
+        "wasn't",
+        "was not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Sue and I ______ classmates last year. We are classmates this year.",
+      "accept": [
+        "were",
+        "Were"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "It ______ | ______ cold last night. It is cold today.",
+      "accept": [
+        "was|not",
+        "wasn't",
+        "was not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "They ______ | ______ in the library yesterday. They were in the park.",
+      "accept": [
+        "were|not",
+        "weren't",
+        "were not"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "Annie was my friend.",
+      "accept": [
+        "Annie was not my friend.",
+        "Annie wasn't my friend.",
+        "Annie was not my friend."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Annie was not my friend."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "You were not diligent.",
+      "accept": [
+        "You were diligent.",
+        "You were diligent.",
+        "You were diligent."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "I was a third grader last year.",
+      "accept": [
+        "I was not a third grader last year.",
+        "I wasn't a third grader last year.",
+        "I was not a third grader last year."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "Her hairpin was not pink.",
+      "accept": [
+        "Her hairpin was pink.",
+        "Her hairpin was pink.",
+        "Her hairpin was pink."
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "We were in the park.",
+      "accept": [
+        "We were not in the park.",
+        "We weren't in the park.",
+        "We were not in the park."
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "They were not kind.",
+      "accept": [
+        "They were kind.",
+        "They were kind.",
+        "They were kind."
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "The stadium was near the park.",
+      "accept": [
+        "The stadium was not near the park.",
+        "The stadium wasn't near the park.",
+        "The stadium was not near the park."
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "The children were not sleepy.",
+      "accept": [
+        "The children were sleepy.",
+        "The children were sleepy.",
+        "The children were sleepy."
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "Peter was a good swimmer.",
+      "accept": [
+        "Peter was not a good swimmer.",
+        "Peter wasn't a good swimmer.",
+        "Peter was not a good swimmer."
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "I was not happy then.",
+      "accept": [
+        "I was happy then.",
+        "I was happy then.",
+        "I was happy then."
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "She was lovely.",
+      "accept": [
+        "She was not lovely.",
+        "She wasn't lovely.",
+        "She was not lovely."
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "We were not hungry.",
+      "accept": [
+        "We were hungry.",
+        "We were hungry.",
+        "We were hungry."
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "The computer was old.",
+      "accept": [
+        "The computer was not old.",
+        "The computer wasn't old.",
+        "The computer was not old."
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "The comic books were not funny.",
+      "accept": [
+        "The comic books were funny.",
+        "The comic books were funny.",
+        "The comic books were funny."
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 긍정문은 부정문으로, 부정문은 긍정문으로 바꿔 쓰세요. 문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "Paul and Judy were in the park.",
+      "accept": [
+        "Paul and Judy were not in the park.",
+        "Paul and Judy weren't in the park.",
+        "Paul and Judy were not in the park."
+      ]
+    }
+  ]
+}

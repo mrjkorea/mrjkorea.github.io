@@ -1,0 +1,333 @@
+{
+  "practiceId": "g4:u08:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "접속사 because, if (p. 163)",
+  "pages": "163",
+  "timerMinutes": 10,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 접속사 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요.",
+      "ruleKo": "알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "walk1-a01",
+      "section": "A",
+      "label": "A1",
+      "type": "mc",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Because",
+      "promptEn": "Because I am sick, I will go to the doctor.",
+      "promptKo": "나는 아파서, 병원에 갈 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "Because we are busy now, we can't help them.",
+      "promptKo": "우리는 지금 바빠서, 그들을 도울 수 없다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "Because Susan exercises every day, she looks healthy.",
+      "promptKo": "수잔은 매일 운동해서, 건강해 보인다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Because she loves the song, she always listens to it.",
+      "promptKo": "그녀는 그 노래를 좋아해서, 항상 그것을 듣는다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Because Nick told a lie, his mom was sad.",
+      "promptKo": "닉이 거짓말해서, 그의 엄마는 슬펐다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "Because it was raining, he stayed at home.",
+      "promptKo": "비가 와서, 그는 집에 있었다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Because the room was hot, we opened the window.",
+      "promptKo": "방이 더워서, 우리는 창문을 열었다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Because he hurt his arm, he didn't play the piano.",
+      "promptKo": "그는 팔을 다쳐서, 피아노를 치지 않았다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "Because"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a09",
+      "section": "A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "If you are tired, you should go to bed early.",
+      "promptKo": "너는 피곤하면, 일찍 잠자리에 드는 것이 좋겠다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a10",
+      "section": "A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "If the weather is nice, she often goes to the beach.",
+      "promptKo": "날씨가 좋으면, 그녀는 해변에 자주 간다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a11",
+      "section": "A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "If you practice hard, you will win the race.",
+      "promptKo": "열심히 연습하면, 너는 경주에서 이길 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a12",
+      "section": "A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "If it snows tomorrow, he will go skiing.",
+      "promptKo": "내일 눈이 오면, 그는 스키를 탈 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a13",
+      "section": "A",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "If Jack is late again, she will get angry.",
+      "promptKo": "잭이 또 늦으면, 그녀는 화를 낼 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a14",
+      "section": "A",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "If we don't hurry, we will miss the train.",
+      "promptKo": "우리가 서두르지 않으면, 기차를 놓칠 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk1-a15",
+      "section": "A",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "If I finish my painting, I will give it to Sue.",
+      "promptKo": "내가 그림을 끝내면, 수에게 줄 것이다.",
+      "choices": [
+        "Because",
+        "If"
+      ],
+      "accept": [
+        "If"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ],
+  "introKo": "이 연습은 Section A 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요."
+}

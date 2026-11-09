@@ -1,0 +1,678 @@
+{
+  "practiceId": "b2:u06:lesson01-run",
+  "title": "Lesson 01 Run — 부사",
+  "subtitle": "Grammar Run (pp. 145–146)",
+  "pages": "145–146",
+  "timerMinutes": 20,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A·B 각 14문항(고르기). A1·B1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "The cat runs ( fast / early ).",
+      "choices": [
+        "fast",
+        "early"
+      ],
+      "accept": [
+        "1",
+        "fast"
+      ],
+      "promptKo": "그 고양이는 빨리 달린다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "fast"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The room is ( high / very ) large.",
+      "choices": [
+        "high",
+        "very"
+      ],
+      "accept": [
+        "2",
+        "very"
+      ],
+      "promptKo": "그 방은 매우 크다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "The clerk answers ( well / kindly ).",
+      "choices": [
+        "well",
+        "kindly"
+      ],
+      "accept": [
+        "2",
+        "kindly"
+      ],
+      "promptKo": "그 점원은 친절하게 대답한다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "Mandy studies Korean ( really / too ) hard.",
+      "choices": [
+        "really",
+        "too"
+      ],
+      "accept": [
+        "1",
+        "really"
+      ],
+      "promptKo": "맨디는 한국어를 정말 열심히 공부한다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "They sing ( beautifully / happily ).",
+      "choices": [
+        "beautifully",
+        "happily"
+      ],
+      "accept": [
+        "1",
+        "beautifully"
+      ],
+      "promptKo": "그들은 아름답게 노래한다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "A balloon falls ( slowly / quickly ).",
+      "choices": [
+        "slowly",
+        "quickly"
+      ],
+      "accept": [
+        "1",
+        "slowly"
+      ],
+      "promptKo": "풍선은 천천히 떨어진다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "My father comes home ( early / high ).",
+      "choices": [
+        "early",
+        "high"
+      ],
+      "accept": [
+        "1",
+        "early"
+      ],
+      "promptKo": "우리 아버지는 집에 일찍 오신다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "She solves math problems ( luckily / easily ).",
+      "choices": [
+        "luckily",
+        "easily"
+      ],
+      "accept": [
+        "2",
+        "easily"
+      ],
+      "promptKo": "그녀는 수학 문제들을 쉽게 푼다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Minho dances ( pretty / hard ) well.",
+      "choices": [
+        "pretty",
+        "hard"
+      ],
+      "accept": [
+        "1",
+        "pretty"
+      ],
+      "promptKo": "민호는 춤을 꽤 잘 춘다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "I take a shower ( quickly / busily ).",
+      "choices": [
+        "quickly",
+        "busily"
+      ],
+      "accept": [
+        "1",
+        "quickly"
+      ],
+      "promptKo": "나는 샤워를 빨리 한다."
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "Dad drives a car ( careful / carefully ).",
+      "choices": [
+        "careful",
+        "carefully"
+      ],
+      "accept": [
+        "2",
+        "carefully"
+      ],
+      "promptKo": "아빠는 차를 조심스럽게 운전하신다."
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "This coat is ( too / enough ) expensive.",
+      "choices": [
+        "too",
+        "enough"
+      ],
+      "accept": [
+        "1",
+        "too"
+      ],
+      "promptKo": "이 외투는 너무 비싸다."
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "The cooks work ( busily / fast ).",
+      "choices": [
+        "busily",
+        "fast"
+      ],
+      "accept": [
+        "1",
+        "busily"
+      ],
+      "promptKo": "그 요리사들은 바쁘게 일한다."
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "This question is ( really / carefully ) difficult.",
+      "choices": [
+        "really",
+        "carefully"
+      ],
+      "accept": [
+        "1",
+        "really"
+      ],
+      "promptKo": "이 문제는 정말 어렵다."
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "The basketball player jumps ( early / high ).",
+      "choices": [
+        "early",
+        "high"
+      ],
+      "accept": [
+        "2",
+        "high"
+      ],
+      "promptKo": "그 농구 선수는 높이 점프한다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Danny swims ____.",
+      "choices": [
+        "① fast",
+        "② fastly"
+      ],
+      "accept": [
+        "1",
+        "① fast"
+      ],
+      "promptKo": "대니는 빨리 수영한다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "fast"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "The men speak ____.",
+      "choices": [
+        "① loud",
+        "② loudly"
+      ],
+      "accept": [
+        "2",
+        "② loudly"
+      ],
+      "promptKo": "그 남자들은 큰 소리로 말한다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Mina studies English ____.",
+      "choices": [
+        "① hard",
+        "② hardly"
+      ],
+      "accept": [
+        "1",
+        "① hard"
+      ],
+      "promptKo": "미나는 영어를 열심히 공부한다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "The old woman walks ____.",
+      "choices": [
+        "① slow",
+        "② slowly"
+      ],
+      "accept": [
+        "2",
+        "② slowly"
+      ],
+      "promptKo": "그 할머니는 천천히 걸으신다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "My mother fixes the window ____.",
+      "choices": [
+        "① easy",
+        "② easily"
+      ],
+      "accept": [
+        "2",
+        "② easily"
+      ],
+      "promptKo": "우리 어머니는 창문을 쉽게 고치신다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "They live ____ in their hometown.",
+      "choices": [
+        "① happy",
+        "② happily"
+      ],
+      "accept": [
+        "2",
+        "② happily"
+      ],
+      "promptKo": "그들은 고향에서 행복하게 산다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "An eagle flies ____.",
+      "choices": [
+        "① high",
+        "② highly"
+      ],
+      "accept": [
+        "1",
+        "① high"
+      ],
+      "promptKo": "독수리는 높이 난다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "She talks ____ in the library.",
+      "choices": [
+        "① quiet",
+        "② quietly"
+      ],
+      "accept": [
+        "2",
+        "② quietly"
+      ],
+      "promptKo": "그녀는 도서관에서 조용히 말한다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "His sister cooks ____.",
+      "choices": [
+        "① good",
+        "② well"
+      ],
+      "accept": [
+        "2",
+        "② well"
+      ],
+      "promptKo": "그의 여동생은 요리를 잘한다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Harry Potter is ____ interesting.",
+      "choices": [
+        "① very",
+        "② verily"
+      ],
+      "accept": [
+        "1",
+        "① very"
+      ],
+      "promptKo": "해리 포터는 매우 재미있다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "He plays the piano ____.",
+      "choices": [
+        "① bad",
+        "② badly"
+      ],
+      "accept": [
+        "2",
+        "② badly"
+      ],
+      "promptKo": "그는 피아노를 서투르게 친다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "They listen to their teacher ____.",
+      "choices": [
+        "① careful",
+        "② carefully"
+      ],
+      "accept": [
+        "2",
+        "② carefully"
+      ],
+      "promptKo": "그들은 선생님 말씀을 주의 깊게 듣는다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "The boy runs ____ fast.",
+      "choices": [
+        "① real",
+        "② really"
+      ],
+      "accept": [
+        "2",
+        "② really"
+      ],
+      "promptKo": "그 남자아이는 정말 빨리 달린다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "The singer sings ____.",
+      "choices": [
+        "① softly",
+        "② soft"
+      ],
+      "accept": [
+        "1",
+        "① softly"
+      ],
+      "promptKo": "그 가수는 부드럽게 노래한다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "The baby cries ____.",
+      "choices": [
+        "① sad",
+        "② sadly"
+      ],
+      "accept": [
+        "2",
+        "② sadly"
+      ],
+      "promptKo": "아기는 슬프게 운다."
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "practiceId": "g3:u08:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "some-, any- (pp. 165–168)",
+  "pages": "165–168",
+  "timerMinutes": 10,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "directionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요.",
+      "ruleKo": "문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "There is _____ behind the curtains.",
+      "blanks": 1,
+      "accept": [
+        "someone",
+        "Someone"
+      ],
+      "promptKo": "커튼 뒤에 누군가 있다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "someone",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Will _____ help me, please?",
+      "blanks": 1,
+      "accept": [
+        "someone",
+        "Someone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "_____ broke the vase.",
+      "blanks": 1,
+      "accept": [
+        "Somebody",
+        "Someone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I want _____ cold.",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Would you like _____ to eat?",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "There is _____ strange in the soup.",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Do you have _____ to say?",
+      "blanks": 1,
+      "accept": [
+        "something",
+        "Something"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Does _____ want cookies?",
+      "blanks": 1,
+      "accept": [
+        "anybody",
+        "anyone",
+        "Anybody",
+        "Anyone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "There isn't _____ on the street.",
+      "blanks": 1,
+      "accept": [
+        "anybody",
+        "anyone",
+        "Anybody",
+        "Anyone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Can _____ play the cello?",
+      "blanks": 1,
+      "accept": [
+        "anyone",
+        "anybody",
+        "Anyone",
+        "Anybody"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Will _____ join the club?",
+      "blanks": 1,
+      "accept": [
+        "anyone",
+        "anybody",
+        "Anyone",
+        "Anybody"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Please don't touch _____.",
+      "blanks": 1,
+      "accept": [
+        "anything",
+        "Anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "He didn't say _____ interesting.",
+      "blanks": 1,
+      "accept": [
+        "anything",
+        "Anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Did you eat _____ today?",
+      "blanks": 1,
+      "accept": [
+        "anything",
+        "Anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Is there _____ to read?",
+      "blanks": 1,
+      "accept": [
+        "anything",
+        "Anything"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "_____ is here to see you.",
+      "choices": [
+        "Someone",
+        "Anyone"
+      ],
+      "accept": [
+        "Someone"
+      ],
+      "promptKo": "누군가 너를 만나려고 여기에 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "I have _____ to visit today.",
+      "choices": [
+        "anybody",
+        "somebody"
+      ],
+      "accept": [
+        "somebody"
+      ],
+      "promptKo": "나는 오늘 찾아갈 누군가가 있다.",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "_____ was crying in the dark.",
+      "choices": [
+        "Someone",
+        "Anyone"
+      ],
+      "accept": [
+        "Someone"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "_____ sent me flowers.",
+      "choices": [
+        "Somebody",
+        "Anybody"
+      ],
+      "accept": [
+        "Somebody"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "I'm hungry. I'll eat _____.",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "I have _____ for you.",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "Can you bring me _____ cold?",
+      "choices": [
+        "something",
+        "anything"
+      ],
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Would you like _____ sweet?",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "something"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Don't tell _____ the secret.",
+      "choices": [
+        "anybody",
+        "somebody"
+      ],
+      "accept": [
+        "anybody"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "Does _____ like spiders?",
+      "choices": [
+        "somebody",
+        "anybody"
+      ],
+      "accept": [
+        "anybody"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "Can _____ tell me her name?",
+      "choices": [
+        "anything",
+        "anyone"
+      ],
+      "accept": [
+        "anyone"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "I didn't find _____ in the room.",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Do you have _____ to ask?",
+      "choices": [
+        "anyone",
+        "anything"
+      ],
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "I have a toothache. I can't eat _____.",
+      "choices": [
+        "anything",
+        "something"
+      ],
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "She doesn't know _____ about Korea.",
+      "choices": [
+        "anybody",
+        "anything"
+      ],
+      "accept": [
+        "anything"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ],
+  "introKo": "Section A 15문항(빈칸 말만), Section B 15문항(고르기). Section A는 책의 ‘동그라미’ 활동을 부정대명사 순서대로 빈칸에 쓰는 방식으로 바꿨어요."
+}

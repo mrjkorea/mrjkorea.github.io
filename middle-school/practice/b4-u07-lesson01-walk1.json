@@ -1,0 +1,251 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 부가 의문문",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u07:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — 부가 의문문의 의미와 형태",
+  "subtitle": "be동사 · Grammar Walk (p. 167)",
+  "pages": "167",
+  "timerMinutes": 10,
+  "introKo": "Section A 4문항 + 예시 1(부가 의문문 찾기), Section B 5문항(연결·고르기)입니다. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 부가 의문문만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 보기를 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "This cake is very sweet, isn't it?",
+      "accept": [
+        "isn't it?",
+        "isn't it"
+      ],
+      "blanks": 1,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't it?"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You were a musician, weren't you?",
+      "accept": [
+        "weren't you?",
+        "weren't you",
+        "weren't you?"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Carol and I are tall, aren't we?",
+      "accept": [
+        "aren't we?",
+        "aren't we"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The man wasn't old, was he?",
+      "accept": [
+        "was he?",
+        "was he"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부가 의문문을 찾아 동그라미 하세요. 동그라미 친 부가 의문문만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "You were not classmates, were you?",
+      "accept": [
+        "were you?",
+        "were you"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "You are hungry,",
+      "choices": [
+        "a. are they?",
+        "b. aren't you?",
+        "c. were you?",
+        "d. wasn't she?",
+        "e. isn't it?"
+      ],
+      "accept": [
+        "2",
+        "b. aren't you?"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. aren't you?"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Amy was sick yesterday,",
+      "choices": [
+        "a. are they?",
+        "b. aren't you?",
+        "c. were you?",
+        "d. wasn't she?",
+        "e. isn't it?"
+      ],
+      "accept": [
+        "4",
+        "d. wasn't she?"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "The puppy is one year old,",
+      "choices": [
+        "a. are they?",
+        "b. aren't you?",
+        "c. were you?",
+        "d. wasn't she?",
+        "e. isn't it?"
+      ],
+      "accept": [
+        "5",
+        "e. isn't it?"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They aren't pianists,",
+      "choices": [
+        "a. are they?",
+        "b. aren't you?",
+        "c. were you?",
+        "d. wasn't she?",
+        "e. isn't it?"
+      ],
+      "accept": [
+        "1",
+        "a. are they?"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에 알맞은 부가 의문문을 찾아 선으로 연결하세요. 알맞은 보기(a~e)를 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "You weren't angry,",
+      "choices": [
+        "a. are they?",
+        "b. aren't you?",
+        "c. were you?",
+        "d. wasn't she?",
+        "e. isn't it?"
+      ],
+      "accept": [
+        "3",
+        "c. were you?"
+      ]
+    }
+  ]
+}

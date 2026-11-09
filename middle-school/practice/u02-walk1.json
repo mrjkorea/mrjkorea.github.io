@@ -1,0 +1,509 @@
+{
+  "practiceId": "u02:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "Past forms of verbs (p. 31)",
+  "pages": "31",
+  "timerMinutes": 21,
+  "unitTitle": "Unit 02 과거 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 29문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "directionKo": "다음 동사의 과거형을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 29,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "A21",
+        "A22",
+        "A23",
+        "A24",
+        "A25",
+        "A26",
+        "A27",
+        "A28",
+        "A29",
+        "A30"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "was",
+      "type": "fill",
+      "promptEn": "am, is → ________",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "are → ________",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "look → ________",
+      "blanks": 1,
+      "accept": [
+        "looked"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "like → ________",
+      "blanks": 1,
+      "accept": [
+        "liked"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "have → ________",
+      "blanks": 1,
+      "accept": [
+        "had"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "play → ________",
+      "blanks": 1,
+      "accept": [
+        "played"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "make → ________",
+      "blanks": 1,
+      "accept": [
+        "made"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "study → ________",
+      "blanks": 1,
+      "accept": [
+        "studied"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "cook → ________",
+      "blanks": 1,
+      "accept": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "shop → ________",
+      "blanks": 1,
+      "accept": [
+        "shopped"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "go → ________",
+      "blanks": 1,
+      "accept": [
+        "went"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "clean → ________",
+      "blanks": 1,
+      "accept": [
+        "cleaned"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "help → ________",
+      "blanks": 1,
+      "accept": [
+        "helped"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "move → ________",
+      "blanks": 1,
+      "accept": [
+        "moved"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "live → ________",
+      "blanks": 1,
+      "accept": [
+        "lived"
+      ]
+    },
+    {
+      "id": "a16",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A16",
+      "type": "fill",
+      "promptEn": "arrive → ________",
+      "blanks": 1,
+      "accept": [
+        "arrived"
+      ]
+    },
+    {
+      "id": "a17",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A17",
+      "type": "fill",
+      "promptEn": "fly → ________",
+      "blanks": 1,
+      "accept": [
+        "flew"
+      ]
+    },
+    {
+      "id": "a18",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A18",
+      "type": "fill",
+      "promptEn": "open → ________",
+      "blanks": 1,
+      "accept": [
+        "opened"
+      ]
+    },
+    {
+      "id": "a19",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A19",
+      "type": "fill",
+      "promptEn": "wear → ________",
+      "blanks": 1,
+      "accept": [
+        "wore"
+      ]
+    },
+    {
+      "id": "a20",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A20",
+      "type": "fill",
+      "promptEn": "cut → ________",
+      "blanks": 1,
+      "accept": [
+        "cut"
+      ]
+    },
+    {
+      "id": "a21",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A21",
+      "type": "fill",
+      "promptEn": "see → ________",
+      "blanks": 1,
+      "accept": [
+        "saw"
+      ]
+    },
+    {
+      "id": "a22",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A22",
+      "type": "fill",
+      "promptEn": "work → ________",
+      "blanks": 1,
+      "accept": [
+        "worked"
+      ]
+    },
+    {
+      "id": "a23",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A23",
+      "type": "fill",
+      "promptEn": "feed → ________",
+      "blanks": 1,
+      "accept": [
+        "fed"
+      ]
+    },
+    {
+      "id": "a24",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A24",
+      "type": "fill",
+      "promptEn": "dry → ________",
+      "blanks": 1,
+      "accept": [
+        "dried"
+      ]
+    },
+    {
+      "id": "a25",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A25",
+      "type": "fill",
+      "promptEn": "drink → ________",
+      "blanks": 1,
+      "accept": [
+        "drank"
+      ]
+    },
+    {
+      "id": "a26",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A26",
+      "type": "fill",
+      "promptEn": "call → ________",
+      "blanks": 1,
+      "accept": [
+        "called"
+      ]
+    },
+    {
+      "id": "a27",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A27",
+      "type": "fill",
+      "promptEn": "clap → ________",
+      "blanks": 1,
+      "accept": [
+        "clapped"
+      ]
+    },
+    {
+      "id": "a28",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A28",
+      "type": "fill",
+      "promptEn": "catch → ________",
+      "blanks": 1,
+      "accept": [
+        "caught"
+      ]
+    },
+    {
+      "id": "a29",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A29",
+      "type": "fill",
+      "promptEn": "send → ________",
+      "blanks": 1,
+      "accept": [
+        "sent"
+      ]
+    },
+    {
+      "id": "a30",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사의 과거형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (동사의 과거형 한 단어만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A30",
+      "type": "fill",
+      "promptEn": "read → ________",
+      "blanks": 1,
+      "accept": [
+        "read"
+      ]
+    }
+  ]
+}

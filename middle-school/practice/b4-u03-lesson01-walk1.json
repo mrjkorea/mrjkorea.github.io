@@ -1,0 +1,222 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 미래 시제 be going to",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u03:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — be going to 긍정문",
+  "subtitle": "Grammar Walk · p. 63",
+  "pages": "63",
+  "timerMinutes": 10,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요.",
+      "ruleKo": "동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I am going to go swimming tomorrow morning.",
+      "accept": [
+        "am going to|go"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "a02",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She is going to buy a new shirt.",
+      "accept": [
+        "is going to|buy"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "a03",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The train is going to leave at nine o'clock.",
+      "accept": [
+        "is going to|leave"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "a04",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We are going to build a sandcastle.",
+      "accept": [
+        "are going to|build"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "a05",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The children are going to make pinwheels.",
+      "accept": [
+        "are going to|make"
+      ],
+      "blanks": 2,
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "Section A 다음 문장에서 be going to를 찾아 동그라미 하고 동사원형을 찾아 밑줄을 치세요. 동그라미 친 be going to와 밑줄 친 동사원형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b01",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I am going to write a Christmas card to my mom. → ___ ___ ___ ___ a Christmas card to my mom.",
+      "accept": [
+        "I'm|going|to|write",
+        "I am|going|to|write"
+      ],
+      "blanks": 4,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I'm / going / to / write",
+      "promptKo": "크리스마스 카드를 엄마에게 쓸 것이다.",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "He is going to take a shower tonight.",
+      "accept": [
+        "He's|going|to|take",
+        "He is|going|to|take"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b03",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "It is going to be sunny tomorrow.",
+      "accept": [
+        "It's|going|to|be",
+        "It is|going|to|be"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b04",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "We are going to clean the floor.",
+      "accept": [
+        "We're|going|to|clean",
+        "We are|going|to|clean"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    },
+    {
+      "id": "b05",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "They are going to win the game.",
+      "accept": [
+        "They're|going|to|win",
+        "They are|going|to|win"
+      ],
+      "blanks": 4,
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Section B 다음 두 문장의 뜻이 같도록 빈칸에 알맞은 말을 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "promptKo": "빈칸을 채우세요."
+    }
+  ],
+  "introKo": "Lesson 01 Grammar Walk (p. 63): be going to 긍정문 — 동그라미·밑줄 찾기와 축약형 쓰기."
+}

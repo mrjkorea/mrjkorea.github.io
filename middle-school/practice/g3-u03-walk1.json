@@ -1,0 +1,453 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "have/has + past participle (p. 55)",
+  "pages": "55",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 7문항(고르기), Section B 11문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "have washed",
+      "type": "mc",
+      "promptKo": "나는 그 차를 세차했다.",
+      "promptEn": "I have washed the car.",
+      "choices": [
+        "have washed",
+        "washed have",
+        "has washed",
+        "have wash"
+      ],
+      "accept": [
+        "have washed"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "눈이 많이 내렸다.",
+      "promptEn": "It has snowed a lot.",
+      "choices": [
+        "has snowed",
+        "have snowed",
+        "snowed has",
+        "has snow"
+      ],
+      "accept": [
+        "has snowed"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "우리는 박쥐를 본 적이 있다.",
+      "promptEn": "We have seen bats.",
+      "choices": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "seen have"
+      ],
+      "accept": [
+        "have seen"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "케이트는 한국 음식을 먹어 본 적이 있다.",
+      "promptEn": "Kate has eaten Korean food.",
+      "choices": [
+        "has eaten",
+        "have eaten",
+        "has ate",
+        "eaten has"
+      ],
+      "accept": [
+        "has eaten"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "너는 4년 동안 영어를 배워 왔다.",
+      "promptEn": "You have learned English for four years.",
+      "choices": [
+        "have learned",
+        "has learned",
+        "have learnt",
+        "learned have"
+      ],
+      "accept": [
+        "have learned",
+        "have learnt"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "넬슨 선생님은 석 달 동안 우리를 가르쳐 오셨다.",
+      "promptEn": "Mr. Nelson has taught us for three months.",
+      "choices": [
+        "has taught",
+        "have taught",
+        "has teached",
+        "taught has"
+      ],
+      "accept": [
+        "has taught"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "그녀는 저녁 식사를 요리했다.",
+      "promptEn": "She has cooked dinner.",
+      "choices": [
+        "has cooked",
+        "have cooked",
+        "has cook",
+        "cooked has"
+      ],
+      "accept": [
+        "has cooked"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "그는 창문을 열었다.",
+      "promptEn": "He has opened the window.",
+      "choices": [
+        "has opened",
+        "have opened",
+        "has open",
+        "opened has"
+      ],
+      "accept": [
+        "has opened"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "stopped",
+      "type": "mc",
+      "promptEn": "stop ( stoped / stopped )",
+      "choices": [
+        "stoped",
+        "stopped"
+      ],
+      "accept": [
+        "stopped"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "study ( studyed / studied )",
+      "choices": [
+        "studyed",
+        "studied"
+      ],
+      "accept": [
+        "studied"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "talk ( talk / talked )",
+      "choices": [
+        "talk",
+        "talked"
+      ],
+      "accept": [
+        "talked"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "arrive ( arrived / arrivd )",
+      "choices": [
+        "arrived",
+        "arrivd"
+      ],
+      "accept": [
+        "arrived"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "carry ( carried / carryed )",
+      "choices": [
+        "carried",
+        "carryed"
+      ],
+      "accept": [
+        "carried"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "stay ( stayed / staied )",
+      "choices": [
+        "stayed",
+        "staied"
+      ],
+      "accept": [
+        "stayed"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "leave ( leaved / left )",
+      "choices": [
+        "leaved",
+        "left"
+      ],
+      "accept": [
+        "left"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "am ( been / was )",
+      "choices": [
+        "been",
+        "was"
+      ],
+      "accept": [
+        "been"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "feed ( fed / feeded )",
+      "choices": [
+        "fed",
+        "feeded"
+      ],
+      "accept": [
+        "fed"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "write ( wrote / written )",
+      "choices": [
+        "wrote",
+        "written"
+      ],
+      "accept": [
+        "written"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "make ( maked / made )",
+      "choices": [
+        "maked",
+        "made"
+      ],
+      "accept": [
+        "made"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "know ( known / knew )",
+      "choices": [
+        "known",
+        "knew"
+      ],
+      "accept": [
+        "known"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사의 알맞은 과거분사형을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u2-C",
+  "title": "Unit 2 Unit Exercise — Section C",
+  "subtitle": "whom / which / that (목적격) · POINT 4·5 (p. 159)",
+  "pages": "159",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C1",
+      "type": "sentence",
+      "promptEn": "Mr. Holland is a writer. Many readers like him. (who).\n→ Mr. Holland is ________________.",
+      "accept": [
+        "Mr. Holland is a writer who many readers like.",
+        "Mr. Holland is a writer who many readers like",
+        "Mr. Holland is a writer whom many readers like.",
+        "Mr. Holland is a writer whom many readers like",
+        "Mr. Holland is a writer that many readers like.",
+        "Mr. Holland is a writer that many readers like",
+        "a writer who many readers like",
+        "a writer whom many readers like",
+        "a writer that many readers like"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C2",
+      "type": "sentence",
+      "promptEn": "The song was really beautiful. I heard it on the radio. (which).\n→ ________________ was really beautiful.",
+      "accept": [
+        "The song which I heard on the radio was really beautiful.",
+        "The song which I heard on the radio was really beautiful",
+        "The song that I heard on the radio was really beautiful.",
+        "The song that I heard on the radio was really beautiful",
+        "The song which I heard on the radio",
+        "The song that I heard on the radio"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "That lady is an artist. I respect her very much.\n→ That lady is ________________.",
+      "accept": [
+        "That lady is an artist I respect very much.",
+        "That lady is an artist I respect very much",
+        "That lady is an artist whom I respect very much.",
+        "That lady is an artist whom I respect very much",
+        "That lady is an artist who I respect very much.",
+        "That lady is an artist who I respect very much",
+        "That lady is an artist that I respect very much.",
+        "That lady is an artist that I respect very much",
+        "an artist I respect very much",
+        "an artist whom I respect very much",
+        "an artist who I respect very much",
+        "an artist that I respect very much"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "I dropped my cell phone. I bought it yesterday.\n→ I dropped ________________.",
+      "accept": [
+        "I dropped my cell phone I bought yesterday.",
+        "I dropped my cell phone I bought yesterday",
+        "I dropped my cell phone which I bought yesterday.",
+        "I dropped my cell phone which I bought yesterday",
+        "I dropped my cell phone that I bought yesterday.",
+        "I dropped my cell phone that I bought yesterday",
+        "my cell phone I bought yesterday",
+        "my cell phone which I bought yesterday",
+        "my cell phone that I bought yesterday"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 주어진 두 문장을 주어진 관계대명사를 사용하여 한 문장으로 쓰세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "The boy was friendly. I met him at the playground. (who).\n→ ________________ was friendly.",
+      "accept": [
+        "The boy who I met at the playground was friendly.",
+        "The boy who I met at the playground was friendly",
+        "The boy whom I met at the playground was friendly.",
+        "The boy whom I met at the playground was friendly",
+        "The boy that I met at the playground was friendly.",
+        "The boy that I met at the playground was friendly",
+        "The boy who I met at the playground",
+        "The boy whom I met at the playground",
+        "The boy that I met at the playground"
+      ]
+    }
+  ]
+}

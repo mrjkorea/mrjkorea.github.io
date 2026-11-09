@@ -1,0 +1,295 @@
+{
+  "practiceId": "b4:u05:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 최상급 (1)",
+  "subtitle": "최상급 찾기·만들기 (p. 118)",
+  "pages": "118",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 비교 — 최상급",
+  "sectionsVersion": 2,
+  "introKo": "Section A 5문항, Section B 10문항. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "최상급을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "directionKo": "규칙과 최상급을 쓰세요.",
+      "ruleKo": "두 칸에 나누어 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 2,
+      "labels": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Ms. Kim is the kindest teacher in my school.",
+      "accept": [
+        "kindest"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "kindest"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "It is the prettiest village.",
+      "accept": [
+        "prettiest"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "This castle is the biggest.",
+      "accept": [
+        "biggest"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "His room is the dirtiest in the house.",
+      "accept": [
+        "dirtiest"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 형용사나 부사의 최상급을 찾아 동그라미 하세요. 동그라미 친 최상급만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "That cat is the fattest in the pet shop.",
+      "accept": [
+        "fattest"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "happy + ______ → ______",
+      "accept": [
+        "iest|the happiest",
+        "+iest|the happiest"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "iest / the happiest"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "wise + ______ → ______",
+      "accept": [
+        "st|the wisest",
+        "+st|the wisest"
+      ],
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "st / the wisest"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "safe + ______ → ______",
+      "accept": [
+        "st|the safest",
+        "+st|the safest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "busy + ______ → ______",
+      "accept": [
+        "iest|the busiest",
+        "+iest|the busiest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "lucky + ______ → ______",
+      "accept": [
+        "iest|the luckiest",
+        "+iest|the luckiest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "wet + ______ → ______",
+      "accept": [
+        "est|the wettest",
+        "+est|the wettest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "fat + ______ → ______",
+      "accept": [
+        "est|the fattest",
+        "+est|the fattest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "heavy + ______ → ______",
+      "accept": [
+        "iest|the heaviest",
+        "+iest|the heaviest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "thin + ______ → ______",
+      "accept": [
+        "est|the thinnest",
+        "+est|the thinnest"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 규칙을 써넣고 주어진 형용사나 부사의 최상급을 쓰세요. 앞 칸에는 붙이는 말, 뒤 칸에는 the가 붙은 최상급 전체를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "early + ______ → ______",
+      "accept": [
+        "est|the earliest",
+        "+est|the earliest"
+      ],
+      "blanks": 2
+    }
+  ]
+}

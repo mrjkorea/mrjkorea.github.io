@@ -1,0 +1,348 @@
+{
+  "bookId": "zap-blue-4",
+  "bookTitle": "ZAP Blue 4",
+  "appName": "BlueZap 4",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 접속사",
+  "sectionsVersion": 2,
+  "practiceId": "b4:u06:lesson02-run",
+  "title": "Lesson 02 Run — 접속사",
+  "subtitle": "or / because (p. 145)",
+  "pages": "145",
+  "timerMinutes": 18,
+  "introKo": "Section B 14문항(고르기). B1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "directionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "lr2-b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I will be a doctor _____ a fire fighter.",
+      "promptKo": "나는 의사 또는 소방관이 될 것이다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "or"
+    },
+    {
+      "id": "lr2-b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Please be quiet _____ the baby is sleeping.",
+      "promptKo": "아기가 자고 있으니 조용히 해 주세요.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "I'm full _____ I ate lots of pizza.",
+      "promptKo": "피자를 많이 먹어서 배가 부르다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "You can choose cookies _____ pie.",
+      "promptKo": "쿠키나 파이를 골라도 된다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "He's going to meet Jack _____ Jane.",
+      "promptKo": "그는 잭 또는 제인을 만날 것이다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "Julia wore a cap _____ it was sunny.",
+      "promptKo": "날씨가 화창해서 줄리아는 모자를 썼다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "We can play baseball _____ basketball.",
+      "promptKo": "우리는 야구나 농구를 할 수 있다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "Tom missed the bus _____ he got up late.",
+      "promptKo": "톰은 늦게 일어나서 버스를 놓쳤다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "Kevin _____ Jimmy will call you.",
+      "promptKo": "케빈 또는 지미가 너에게 전화할 것이다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "They went to bed _____ they were sleepy.",
+      "promptKo": "졸려서 그들은 잠자리에 들었다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "It will be cloudy _____ rainy tomorrow.",
+      "promptKo": "내일은 흐리거나 비가 올 것이다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "I went to the hospital _____ I was sick.",
+      "promptKo": "아파서 나는 병원에 갔다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    },
+    {
+      "id": "lr2-b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "Your sister will come here _____ call you.",
+      "promptKo": "네 여동생이 여기 오거나 너에게 전화할 것이다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "He always cooks steak _____ curry.",
+      "promptKo": "그는 항상 스테이크나 카레를 요리한다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "1",
+        "or"
+      ]
+    },
+    {
+      "id": "lr2-b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "We turned on the lamp _____ it was dark.",
+      "promptKo": "어두워서 우리는 램프를 켰다.",
+      "choices": [
+        "or",
+        "because"
+      ],
+      "accept": [
+        "2",
+        "because"
+      ]
+    }
+  ]
+}

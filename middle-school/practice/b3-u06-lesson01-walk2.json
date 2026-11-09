@@ -1,0 +1,251 @@
+{
+  "practiceId": "b3:u06:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — be동사 과거형",
+  "subtitle": "부정문 (p. 143)",
+  "pages": "143",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 과거 시제 - be동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 주어와 wasn't/weren't를 각각 쓰세요. Section B는 not이 들어갈 위치 번호(①~④)를 고르세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요.",
+      "ruleKo": "주어와 wasn't/weren't를 각각 한 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요.",
+      "ruleKo": "보기 중 하나를 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I wasn't angry then.",
+      "accept": [
+        "I|wasn't",
+        "wasn't|I"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I / wasn't",
+      "promptKo": "나는 그때 화나지 않았다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He wasn't a firefighter last year.",
+      "accept": [
+        "He|wasn't",
+        "wasn't|He"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "그는 작년에 소방관이 아니었다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We weren't in the gym yesterday.",
+      "accept": [
+        "We|weren't",
+        "weren't|We"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "우리는 어제 체육관에 있지 않았다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The bicycle wasn't fast.",
+      "accept": [
+        "The bicycle|wasn't",
+        "wasn't|The bicycle"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "그 자전거는 빠르지 않았다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, wasn't 또는 weren't를 찾아 동그라미 하세요. 주어와 wasn't/weren't를 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Her hamburgers weren't so delicious.",
+      "accept": [
+        "Her hamburgers|weren't",
+        "weren't|Her hamburgers"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "그녀의 햄버거는 그렇게 맛있지 않았다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I ① was ② sick ③ yesterday ④.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "The baby ① was ② so ③ small ④.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "They ① were ② in ③ the museum ④.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "The ① girls ② were ③ in ④ the garden.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "3",
+        "③"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 부정문으로 바꿀 때 not이 들어갈 알맞은 위치를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "My mother ① was ② a ③ famous ④ cook.",
+      "choices": [
+        "①",
+        "②",
+        "③",
+        "④"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ]
+    }
+  ]
+}

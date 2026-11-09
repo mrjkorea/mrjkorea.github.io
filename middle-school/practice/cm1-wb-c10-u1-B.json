@@ -1,0 +1,152 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:wb-c10:u1-B",
+  "title": "Workbook Unit 1 — Section B",
+  "subtitle": "to부정사 · POINT 3 (WB p. 76)",
+  "pages": "76",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-10",
+  "unitTitle": "Ch 10 WB — to부정사와 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ],
+      "wordBank": [
+        "watch",
+        "live",
+        "buy",
+        "change",
+        "meet",
+        "make",
+        "work"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I want ________ in a big house.",
+      "blanks": 1,
+      "accept": [
+        "to live"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "We decided ________ our minds.",
+      "blanks": 1,
+      "accept": [
+        "to change"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "I expect ________ new friends.",
+      "blanks": 1,
+      "accept": [
+        "to meet"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Tom wished ________ a new camera.",
+      "blanks": 1,
+      "accept": [
+        "to buy"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "He planned ________ his grandmother next Sunday.",
+      "blanks": 1,
+      "accept": [
+        "to meet"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "She started ________ for the company in 2015.",
+      "blanks": 1,
+      "accept": [
+        "to work"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "빈칸에 알맞은 말을 <보기>에서 골라 적절한 형태로 바꿔 문장을 쓰세요. (단, 한 번씩만 쓸 것) POINT 3. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "My brother loves ________ sports games at home.",
+      "blanks": 1,
+      "accept": [
+        "to watch"
+      ]
+    }
+  ]
+}

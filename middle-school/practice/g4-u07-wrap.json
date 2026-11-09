@@ -1,0 +1,155 @@
+{
+  "practiceId": "g4:u07:wrap",
+  "title": "Wrap Up",
+  "subtitle": "Unit 07 summary fill-ins (p. 159)",
+  "pages": "159",
+  "timerMinutes": 8,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 접속사 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 1. 접속사 2문항(빈칸 말만 쓰기), 2. 시간의 의미를 더해 주는 접속사 4문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, 번호가 붙은 빈칸에 들어갈 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "1",
+      "title": "1. 접속사",
+      "instructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "directionKo": "Unit 07에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "1-1",
+        "1-2"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2. 시간의 의미를 더해 주는 접속사",
+      "instructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "directionKo": "Unit 07에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "2-1",
+        "2-2",
+        "2-3",
+        "2-4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "w1_1",
+      "section": "1",
+      "sectionTitle": "1. 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-1",
+      "type": "fill",
+      "promptKo": "① [1]는 단어와 단어, 구와 구, 절과 절, 문장과 문장을 연결해 준다. → [1]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "접속사"
+      ]
+    },
+    {
+      "id": "w1_2",
+      "section": "1",
+      "sectionTitle": "1. 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-2",
+      "type": "fill",
+      "promptKo": "② 절은 주어와 동사(서술어)가 있는 단어들의 모임이다. 이 절은 [2]에 의해 문장에 연결된다. → [2]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "접속사"
+      ]
+    },
+    {
+      "id": "w2_1",
+      "section": "2",
+      "sectionTitle": "2. 시간의 의미를 더해 주는 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-1",
+      "type": "fill",
+      "promptKo": "① 「접속사+주어+[1] ~」의 형태로 '시간'의 의미를 더해 주는 접속사가 있다. → [1]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "동사",
+        "동사(서술어)",
+        "서술어"
+      ]
+    },
+    {
+      "id": "w2_2",
+      "section": "2",
+      "sectionTitle": "2. 시간의 의미를 더해 주는 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-2",
+      "type": "fill",
+      "promptKo": "표: when+주어+동사 ~ → [2]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "~할 때",
+        "~하면",
+        "~일 때",
+        "~할 때에"
+      ]
+    },
+    {
+      "id": "w2_3",
+      "section": "2",
+      "sectionTitle": "2. 시간의 의미를 더해 주는 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-3",
+      "type": "fill",
+      "promptKo": "표: after+주어+동사 ~ → [3]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        "~한 후에",
+        "~한 다음에",
+        "~하고 난 후에"
+      ]
+    },
+    {
+      "id": "w2_4",
+      "section": "2",
+      "sectionTitle": "2. 시간의 의미를 더해 주는 접속사",
+      "sectionInstructionKo": "Unit 07에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어 문법 용어는 영어로, 우리말 뜻은 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-4",
+      "type": "fill",
+      "promptKo": "② 「접속사+주어+동사 ~」는 문장의 앞이나 뒤에 올 수 있다. 앞에 올 때는 뒤에 [4]를 써서 구별해 준다. → [4]",
+      "promptEn": "",
+      "blanks": 1,
+      "accept": [
+        ",",
+        "쉼표",
+        "comma"
+      ]
+    }
+  ]
+}

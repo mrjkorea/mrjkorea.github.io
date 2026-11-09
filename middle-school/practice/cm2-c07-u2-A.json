@@ -1,0 +1,111 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c07:u2-A",
+  "title": "Unit 2 Unit Exercise — Section A",
+  "subtitle": "주의해야 할 분사 · POINT 4 (p. 97)",
+  "pages": "97",
+  "timerMinutes": 20,
+  "unitId": "chapter-07",
+  "unitTitle": "Chapter 07 — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "(tire)\nWorking in the garden was very ________ for me.\nI was very ________ after I worked in the garden.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "tiring|tired"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "(touch)\nMany people were ________ by the movie.\nThe movie was ________ to many people.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "touched|touching"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "(disappoint)\nThe game's result was so ________ to me.\nI was so ________ with the game's result.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "disappointing|disappointed"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "(shock)\nThe ending of the drama was very ________ to people.\nPeople were ________ by the ending of the drama.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "shocking|shocked"
+      ]
+    }
+  ]
+}

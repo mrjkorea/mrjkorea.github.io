@@ -1,0 +1,150 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c12:u2-C",
+  "title": "Workbook Unit 2 — Section C",
+  "subtitle": "whom / which / that (목적격) · POINT 4·5 (WB p. 91)",
+  "pages": "91",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-12",
+  "unitTitle": "Ch 12 WB — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 7문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C1",
+      "type": "sentence",
+      "promptEn": "(gave / the advice / me / you)\n→ ________________ was very helpful.",
+      "accept": [
+        "The advice you gave me was very helpful.",
+        "The advice you gave me was very helpful",
+        "The advice you gave me"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C2",
+      "type": "sentence",
+      "promptEn": "(the man / I / respect / whom)\n→ ________________ is my grandfather.",
+      "accept": [
+        "The man whom I respect is my grandfather.",
+        "The man whom I respect is my grandfather",
+        "The man whom I respect"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C3",
+      "type": "sentence",
+      "promptEn": "(I / that / can / the only food / cook)\n→ ________________ is fried eggs.",
+      "accept": [
+        "The only food that I can cook is fried eggs.",
+        "The only food that I can cook is fried eggs",
+        "The only food that I can cook"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C4",
+      "type": "sentence",
+      "promptEn": "(discussed / we / the topic / which)\n→ ________________ was global warming.",
+      "accept": [
+        "The topic which we discussed was global warming.",
+        "The topic which we discussed was global warming",
+        "The topic which we discussed"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C5",
+      "type": "sentence",
+      "promptEn": "(the book / borrowed / from the library / I)\n→ I have to return ________________.",
+      "accept": [
+        "I have to return the book I borrowed from the library.",
+        "I have to return the book I borrowed from the library",
+        "the book I borrowed from the library"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C6",
+      "type": "sentence",
+      "promptEn": "(we / trust / an / girl / can / honest)\n→ Jane is ________________.",
+      "accept": [
+        "Jane is an honest girl we can trust.",
+        "Jane is an honest girl we can trust",
+        "an honest girl we can trust"
+      ]
+    },
+    {
+      "id": "c07",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 4·5. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "C7",
+      "type": "sentence",
+      "promptEn": "(for me / bought / my father / the bike)\n→ This is ________________ yesterday.",
+      "accept": [
+        "This is the bike my father bought for me yesterday.",
+        "This is the bike my father bought for me yesterday",
+        "the bike my father bought for me"
+      ]
+    }
+  ]
+}

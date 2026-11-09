@@ -1,0 +1,408 @@
+{
+  "practiceId": "g4:u05:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "능동태와 수동태 (p. 99)",
+  "pages": "99",
+  "timerMinutes": 10,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-05",
+  "unitTitle": "Unit 05 — 수동태 (1)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 8문항(고르기), Section B 12문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 12,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "walk1_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I clean the room every day. (능동태 / 수동태)",
+      "promptKo": "나는 매일 그 방을 청소한다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "능동태"
+      ]
+    },
+    {
+      "id": "walk1_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "The room is cleaned every day. (능동태 / 수동태)",
+      "promptKo": "그 방은 매일 청소된다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "수동태"
+      ]
+    },
+    {
+      "id": "walk1_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "He invented the machine. (능동태 / 수동태)",
+      "promptKo": "그는 그 기계를 발명했다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "능동태"
+      ]
+    },
+    {
+      "id": "walk1_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The machine was invented in 1850. (능동태 / 수동태)",
+      "promptKo": "그 기계는 1850년에 발명되었다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "수동태"
+      ]
+    },
+    {
+      "id": "walk1_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "She took these pictures. (능동태 / 수동태)",
+      "promptKo": "그녀가 이 사진들을 찍었다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "능동태"
+      ]
+    },
+    {
+      "id": "walk1_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "These pictures were taken last year. (능동태 / 수동태)",
+      "promptKo": "이 사진들은 작년에 찍혔다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "수동태"
+      ]
+    },
+    {
+      "id": "walk1_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Tom broke the window. (능동태 / 수동태)",
+      "promptKo": "톰이 그 유리창을 깨뜨렸다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "능동태"
+      ]
+    },
+    {
+      "id": "walk1_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장이 능동태인지 수동태인지 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "The window was broken. (능동태 / 수동태)",
+      "promptKo": "그 유리창은 깨졌다.",
+      "choices": [
+        "능동태",
+        "수동태"
+      ],
+      "accept": [
+        "수동태"
+      ]
+    },
+    {
+      "id": "walk1_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "make → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "made"
+      ]
+    },
+    {
+      "id": "walk1_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "steal → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "stolen"
+      ]
+    },
+    {
+      "id": "walk1_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "build → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "built"
+      ]
+    },
+    {
+      "id": "walk1_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "write → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "written"
+      ]
+    },
+    {
+      "id": "walk1_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "send → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "sent"
+      ]
+    },
+    {
+      "id": "walk1_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "see → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "seen"
+      ]
+    },
+    {
+      "id": "walk1_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "speak → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "spoken"
+      ]
+    },
+    {
+      "id": "walk1_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "know → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "known"
+      ]
+    },
+    {
+      "id": "walk1_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "cut → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "cut"
+      ]
+    },
+    {
+      "id": "walk1_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "give → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "given"
+      ]
+    },
+    {
+      "id": "walk1_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "break → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "broken"
+      ]
+    },
+    {
+      "id": "walk1_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 동사를 「be동사+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "find → be _____________",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "found"
+      ]
+    }
+  ]
+}

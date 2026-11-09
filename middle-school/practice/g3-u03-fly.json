@@ -1,0 +1,461 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:fly",
+  "title": "Grammar Fly",
+  "subtitle": "Correct & transform present perfect (pp. 62–63)",
+  "pages": "62–63",
+  "timerMinutes": 28,
+  "introKo": "이 연습은 Section A 11문항(문장 전체 쓰기), Section B 11문항(빈칸 말만)입니다. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "sentence",
+      "promptKo": "그는 3년 동안 그 신발을 신어 왔다.",
+      "promptEn": "He has wear the shoes for three years.\n→ corrected:",
+      "accept": [
+        "He has worn the shoes for three years."
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "He has worn the shoes for three years.",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "sentence",
+      "promptKo": "우리 부모님은 이미 그 식물에 물을 주셨다.",
+      "promptEn": "My parents have watering the plants already.\n→ corrected:",
+      "accept": [
+        "My parents have watered the plants already."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "sentence",
+      "promptKo": "샌디는 2학년 때부터 내 친구이다.",
+      "promptEn": "Sandy have been my friend since the second grade.\n→ corrected:",
+      "accept": [
+        "Sandy has been my friend since the second grade."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "sentence",
+      "promptKo": "그 개는 어젯밤부터 짖는다.",
+      "promptEn": "The dog have barked since last night.\n→ corrected:",
+      "accept": [
+        "The dog has barked since last night."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "sentence",
+      "promptKo": "우리는 3년 동안 영어를 공부해 왔다.",
+      "promptEn": "We has study English for three years.\n→ corrected:",
+      "accept": [
+        "We have studied English for three years."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "sentence",
+      "promptKo": "나는 내 생일 케이크를 보지 못했다.",
+      "promptEn": "I haven't see my birthday cake.\n→ corrected:",
+      "accept": [
+        "I haven't seen my birthday cake.",
+        "I haven’t seen my birthday cake.",
+        "I have not seen my birthday cake.",
+        "I Have not seen my birthday cake."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "sentence",
+      "promptKo": "우리 선생님은 아직 도착하지 않으셨다.",
+      "promptEn": "Our teacher haven't arrived yet.\n→ corrected:",
+      "accept": [
+        "Our teacher hasn't arrived yet.",
+        "Our teacher hasn’t arrived yet.",
+        "Our teacher has not arrived yet.",
+        "Our teacher Has not arrived yet."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "sentence",
+      "promptKo": "마크는 전에 말을 타 본 적이 없다.",
+      "promptEn": "Mark hasn't ride a horse before.\n→ corrected:",
+      "accept": [
+        "Mark hasn't ridden a horse before.",
+        "Mark hasn’t ridden a horse before.",
+        "Mark has not ridden a horse before.",
+        "Mark Has not ridden a horse before."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "sentence",
+      "promptKo": "그들은 이틀째 탄산음료를 마시지 않는다.",
+      "promptEn": "They hasn't drink soda for two days.\n→ corrected:",
+      "accept": [
+        "They haven't drunk soda for two days.",
+        "They haven’t drunk soda for two days.",
+        "They have not drunk soda for two days.",
+        "They Have not drunk soda for two days."
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "sentence",
+      "promptKo": "그녀는 거실을 청소했니?",
+      "promptEn": "Has she cleanned the living room?\n→ corrected:",
+      "accept": [
+        "Has she cleaned the living room?"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "sentence",
+      "promptKo": "너는 초대장을 보냈니?",
+      "promptEn": "Has you sent the invitations?\n→ corrected:",
+      "accept": [
+        "Have you sent the invitations?"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "sentence",
+      "promptKo": "너희 어머니는 여러 해 동안 수의사시니?",
+      "promptEn": "Have your mother been a vet for many years?\n→ corrected:",
+      "accept": [
+        "Has your mother been a vet for many years?"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 바르게 고쳐 현재 완료 시제의 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표나 물음표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "He has worked at a post office since last year. (부정문)\n→ He _____ _____ _____ at a post office since last year.",
+      "accept": [
+        "has|not|worked"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "has / not / worked",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "We have talked for an hour. (부정문)\nWe _____ _____ _____ for an hour.",
+      "accept": [
+        "have|not|talked",
+        "haven't|talked"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "The birds have flown south. (부정문)\nThe birds _____ _____ _____ south.",
+      "accept": [
+        "have|not|flown",
+        "haven't|flown"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "They have spoken French for five years. (부정문)\nThey _____ _____ _____ French for five years.",
+      "accept": [
+        "have|not|spoken",
+        "haven't|spoken"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "She has sold her old car. (부정문)\nShe _____ _____ _____ her old car.",
+      "accept": [
+        "has|not|sold",
+        "hasn't|sold"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "blanks": 3,
+      "promptKo": "(부정문)",
+      "promptEn": "Mr. Moor has taught us since last week. (부정문)\nMr. Moor _____ _____ _____ us since last week.",
+      "accept": [
+        "has|not|taught",
+        "hasn't|taught"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "We have studied math. (의문문)\n_____ we _____ math?",
+      "accept": [
+        "Have|studied"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "The clock has stopped. (의문문)\n_____ the clock _____?",
+      "accept": [
+        "Has|stopped"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "You have known the secret. (의문문)\n_____ you _____ the secret?",
+      "accept": [
+        "Have|known"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "He has written lots of books. (의문문)\n_____ he _____ lots of books?",
+      "accept": [
+        "Has|written"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "They have done the dishes already. (의문문)\n_____ they _____ the dishes already?",
+      "accept": [
+        "Have|done"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "fill",
+      "blanks": 2,
+      "promptKo": "(의문문)",
+      "promptEn": "The soccer club has practiced on Saturdays. (의문문)\n_____ the soccer club _____ on Saturdays?",
+      "accept": [
+        "Has|practiced"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장을 괄호 안의 지시대로 바꿔 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

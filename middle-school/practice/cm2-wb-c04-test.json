@@ -1,0 +1,481 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c04:test",
+  "title": "WB Chapter Test",
+  "subtitle": "Chapter 04 수동태 (WB pp. 28–29)",
+  "pages": "28–29",
+  "timerMinutes": 30,
+  "unitId": "wb-chapter-04",
+  "unitTitle": "Ch 04 WB — 수동태",
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 [1–2] 2문항(고르기), [3–4] 2문항(고르기), [5–6] 2문항(빈칸 말만 쓰기), [7] 1문항(고르기), [8–9] 2문항(문장 전체 쓰기), [10] 1문항(고르기), [11–13] 3문항(빈칸 말만 쓰기), [14] 1문항(고르기), [15] 1문항(고르기), [16] 1문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "1-2",
+      "title": "[1–2]",
+      "instructionKo": "[1–2] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[1–2] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "3-4",
+      "title": "[3–4]",
+      "instructionKo": "[3–4] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "[3–4] 다음 중 어법상 알맞은 문장을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "5-6",
+      "title": "[5–6]",
+      "instructionKo": "[5–6] 주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "[5–6] 주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "[7]",
+      "instructionKo": "7 우리말과 일치하도록 주어진 단어를 올바르게 배열할 때, 세 번째로 오는 단어를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "7 우리말과 일치하도록 주어진 단어를 올바르게 배열할 때, 세 번째로 오는 단어를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "7"
+      ]
+    },
+    {
+      "id": "8-9",
+      "title": "[8–9]",
+      "instructionKo": "[8–9] 주어진 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "[8–9] 주어진 문장을 수동태로 바꿔 쓰세요.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "[10]",
+      "instructionKo": "10 다음 중 어색한 대화를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "10 다음 중 어색한 대화를 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "10"
+      ]
+    },
+    {
+      "id": "11-13",
+      "title": "[11–13]",
+      "instructionKo": "[11–13] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
+      "directionKo": "[11–13] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요.",
+      "ruleKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "[14]",
+      "instructionKo": "14 다음 중 어법상 알맞은 문장끼리 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "14 다음 중 어법상 알맞은 문장끼리 바르게 짝지어진 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "14"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "[15]",
+      "instructionKo": "15 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "15 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "15"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "[16]",
+      "instructionKo": "16 우리말과 일치하도록 조건에 맞게 문장을 쓰세요. should, pay를 쓰고 능동태와 수동태를 모두 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "16 우리말과 일치하도록 조건에 맞게 문장을 쓰세요. should, pay를 쓰고 능동태와 수동태를 모두 쓰세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "16"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "1",
+      "type": "mc",
+      "promptEn": "• The two towns ________ (A) by a bridge.\n• Our school's flag ________ (B) by Frank in the national sports festival.",
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "choices": [
+        "connect – raised",
+        "connected – was raised",
+        "connected – raised",
+        "are connect – raised",
+        "are connected – was raised"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q02",
+      "section": "1-2",
+      "sectionTitle": "[1–2]",
+      "sectionInstructionKo": "[1–2] 다음 중 (A), (B)에 들어갈 말이 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "2",
+      "type": "mc",
+      "promptEn": "• I was very pleased ________ (A) his invitation.\n• Leonardo da Vinci is known ________ (B) the Mona Lisa.",
+      "accept": [
+        "4",
+        "④"
+      ],
+      "choices": [
+        "in – as",
+        "in – with",
+        "with – as",
+        "with – for",
+        "from – for"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q03",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "3",
+      "type": "mc",
+      "promptEn": "어법상 알맞은 문장을 고르세요.",
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "choices": [
+        "Rice isn't grow in some countries.",
+        "Will the dessert made by the chef?",
+        "Your hands must be wash before meal.",
+        "A few decades ago, cell phones not were used.",
+        "The new amusement park will be opened next month."
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q04",
+      "section": "3-4",
+      "sectionTitle": "[3–4]",
+      "sectionInstructionKo": "[3–4] 다음 중 어법상 알맞은 문장을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "4",
+      "type": "mc",
+      "promptEn": "어법상 알맞은 문장을 고르세요.",
+      "accept": [
+        "3",
+        "③"
+      ],
+      "choices": [
+        "The table was made by wood.",
+        "The room was filled of useless things.",
+        "Children are usually interested in animals.",
+        "Ms. Page won't be satisfied for my report.",
+        "The cake is covered chocolate."
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "q05",
+      "section": "5-6",
+      "sectionTitle": "[5–6]",
+      "sectionInstructionKo": "[5–6] 주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "These beautiful flowers ________ by Julie a few hours ago. (send)",
+      "accept": [
+        "were sent"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "q06",
+      "section": "5-6",
+      "sectionTitle": "[5–6]",
+      "sectionInstructionKo": "[5–6] 주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "Dolphins ________ in this ocean. (can, find)",
+      "accept": [
+        "can be found"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "q07",
+      "section": "7",
+      "sectionTitle": "[7]",
+      "sectionInstructionKo": "7 우리말과 일치하도록 주어진 단어를 올바르게 배열할 때, 세 번째로 오는 단어를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "7",
+      "type": "mc",
+      "promptEn": "나는 우리 누나에 의해 이 시계를 받았다.\n(my sister / given / I / this / by / was / watch)",
+      "accept": [
+        "4",
+        "④"
+      ],
+      "choices": [
+        "was",
+        "watch",
+        "my sister",
+        "given",
+        "by"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q08",
+      "section": "8-9",
+      "sectionTitle": "[8–9]",
+      "sectionInstructionKo": "[8–9] 주어진 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "8",
+      "type": "sentence",
+      "promptEn": "Minho will take Yuna to the party.",
+      "accept": [
+        "Yuna will be taken to the party by Minho"
+      ]
+    },
+    {
+      "id": "q09",
+      "section": "8-9",
+      "sectionTitle": "[8–9]",
+      "sectionInstructionKo": "[8–9] 주어진 문장을 수동태로 바꿔 쓰세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "9",
+      "type": "sentence",
+      "promptEn": "The police officer stopped the car.",
+      "accept": [
+        "The car was stopped by the police officer"
+      ]
+    },
+    {
+      "id": "q10",
+      "section": "10",
+      "sectionTitle": "[10]",
+      "sectionInstructionKo": "10 다음 중 어색한 대화를 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "10",
+      "type": "mc",
+      "promptEn": "어색한 대화를 고르세요.",
+      "accept": [
+        "5",
+        "⑤"
+      ],
+      "choices": [
+        "A: Is French spoken in Canada? / B: Yes, it is.",
+        "A: How was the window broken? / B: It was broken by the storm.",
+        "A: Was the ring made of silver? / B: No, it wasn't. It was made of gold.",
+        "A: Were the roses bought by Tom? / B: Yes, they were. Tom bought them two days ago.",
+        "A: When were the first Olympic Games held? / B: They held in 1896."
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "q11",
+      "section": "11-13",
+      "sectionTitle": "[11–13]",
+      "sectionInstructionKo": "[11–13] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "11",
+      "type": "fill",
+      "promptEn": "Yesterday, the housework did by me.",
+      "accept": [
+        "did|was done"
+      ],
+      "blanks": 2,
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
+    },
+    {
+      "id": "q12",
+      "section": "11-13",
+      "sectionTitle": "[11–13]",
+      "sectionInstructionKo": "[11–13] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "12",
+      "type": "fill",
+      "promptEn": "The stars cannot be see on a cloudy night.",
+      "accept": [
+        "see|seen"
+      ],
+      "blanks": 2,
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
+    },
+    {
+      "id": "q13",
+      "section": "11-13",
+      "sectionTitle": "[11–13]",
+      "sectionInstructionKo": "[11–13] 다음 문장에서 어법상 알맞지 않은 부분을 찾아 바르게 고쳐 쓰세요. 첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "13",
+      "type": "fill",
+      "promptEn": "Was designed the dress by a famous designer?",
+      "accept": [
+        "designed the dress|the dress designed"
+      ],
+      "blanks": 2,
+      "blankPartLabels": [
+        "틀린 말",
+        "고친 말"
+      ],
+      "hintKo": "첫 칸에는 문장에 있는 틀린 말만, 둘째 칸에는 바르게 고친 말만 쓰세요. 화살표, X, 쉼표, 문장 전체를 쓰지 마세요."
+    },
+    {
+      "id": "q14",
+      "section": "14",
+      "sectionTitle": "[14]",
+      "sectionInstructionKo": "14 다음 중 어법상 알맞은 문장끼리 바르게 짝지어진 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "14",
+      "type": "mc",
+      "promptEn": "ⓐ The money will use for the poor.\nⓑ The accident was caused by thick fog.\nⓒ The new smartphone is made in Korea.\nⓓ Korean products are sold all over the world.\nⓔ The lost key was found in my jacket's pocket.",
+      "accept": [
+        "4",
+        "④"
+      ],
+      "choices": [
+        "ⓐ, ⓑ",
+        "ⓐ, ⓑ, ⓒ, ⓔ",
+        "ⓑ, ⓓ",
+        "ⓑ, ⓒ, ⓓ, ⓔ",
+        "ⓒ, ⓓ, ⓔ"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q15",
+      "section": "15",
+      "sectionTitle": "[15]",
+      "sectionInstructionKo": "15 다음 중 밑줄 친 부분이 어법상 알맞지 않은 것을 고르세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "15",
+      "type": "mc",
+      "promptEn": "밑줄 친 부분이 어법상 알맞지 않은 문장을 고르세요.",
+      "accept": [
+        "4",
+        "④"
+      ],
+      "choices": [
+        "The box was hidden for a long time.",
+        "The ground is covered with green grass.",
+        "A lot of fish were caught by the fishing net.",
+        "The fence will painted again by my father next week.",
+        "K-pop is enjoyed by millions of fans around the world."
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "q16",
+      "section": "16",
+      "sectionTitle": "[16]",
+      "sectionInstructionKo": "16 우리말과 일치하도록 조건에 맞게 문장을 쓰세요. should, pay를 쓰고 능동태와 수동태를 모두 쓰세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "16",
+      "type": "fill",
+      "promptEn": "소비자들은 농부들에게 공정한 가격을 지불해야 한다.\n(1) Consumers ________ a fair price to farmers.\n(2) A fair price ________ ________ consumers.",
+      "accept": [
+        "should pay|should be paid|by"
+      ],
+      "blanks": 3
+    }
+  ]
+}

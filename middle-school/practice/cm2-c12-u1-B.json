@@ -1,0 +1,100 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u1-B",
+  "title": "Unit 1 Unit Exercise — Section B",
+  "subtitle": "who(m) / which / that · POINT 1·2 (p. 155)",
+  "pages": "155",
+  "timerMinutes": 18,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 4문항(문장 전체 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2.",
+      "ruleKo": "문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "유리는 서울에 사는 나의 사촌이다.\n(Seoul / lives / my cousin / who / in)\n→ Yuri is ________________.",
+      "accept": [
+        "Yuri is my cousin who lives in Seoul.",
+        "Yuri is my cousin who lives in Seoul",
+        "my cousin who lives in Seoul"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "그녀는 영어로 쓰인 소설을 읽기를 좋아한다.\n(in English / are / novels / written / that)\n→ She likes to read ________________.",
+      "accept": [
+        "She likes to read novels that are written in English.",
+        "She likes to read novels that are written in English",
+        "novels that are written in English"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "우리 선생님은 우리에게 아주 어려운 숙제를 내주신다.\n(which / very difficult / homework / is)\n→ My teacher gives us ________________.",
+      "accept": [
+        "My teacher gives us homework which is very difficult.",
+        "My teacher gives us homework which is very difficult",
+        "homework which is very difficult"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 1·2. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Full sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "가수가 되고 싶어 하는 그 소녀는 나의 가장 친한 친구 Amy이다.\n(a singer / the girl / wants / be / that / to)\n→ ________________ is my best friend Amy.",
+      "accept": [
+        "The girl that wants to be a singer is my best friend Amy.",
+        "The girl that wants to be a singer is my best friend Amy",
+        "The girl that wants to be a singer",
+        "the girl that wants to be a singer"
+      ]
+    }
+  ]
+}

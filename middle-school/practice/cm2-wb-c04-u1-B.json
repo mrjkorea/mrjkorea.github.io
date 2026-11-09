@@ -1,0 +1,143 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c04:u1-B",
+  "title": "Workbook Unit 1 — Section B",
+  "subtitle": "수동태 빈칸 · POINT 2·3 (WB p. 24)",
+  "pages": "24",
+  "timerMinutes": 16,
+  "unitId": "wb-chapter-04",
+  "unitTitle": "Ch 04 WB — 수동태",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "그 박물관은 많은 관광객들에 의해 방문되었다. (visit)\nThe museum ________ ________ by many tourists.",
+      "accept": [
+        "was|visited"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "그 경기의 우승자가 곧 발표될 것이다. (announce)\nThe winner of the match ________ ________ ________ soon.",
+      "accept": [
+        "will|be|announced"
+      ],
+      "blanks": 3
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "나는 반장으로 선출되었다. (choose)\nI ________ ________ as a class president.",
+      "accept": [
+        "was|chosen"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "열차가 좋지 않은 날씨로 인해 연착될 것이다. (delay)\nThe train ________ ________ ________ because of the bad weather.",
+      "accept": [
+        "will|be|delayed"
+      ],
+      "blanks": 3
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "아메리카는 Columbus에 의해 발견되었다. (discover)\nAmerica ________ ________ by Columbus.",
+      "accept": [
+        "was|discovered"
+      ],
+      "blanks": 2
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "많은 유명한 사람들이 파티에 초대될 예정이다. (invite)\nMany famous people ________ ________ ________ to the party.",
+      "accept": [
+        "will|be|invited"
+      ],
+      "blanks": 3
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 2·3. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "그 건물들은 지진으로 인해 파괴되었다. (destroy)\nThe buildings ________ ________ by earthquakes.",
+      "accept": [
+        "were|destroyed"
+      ],
+      "blanks": 2
+    }
+  ]
+}

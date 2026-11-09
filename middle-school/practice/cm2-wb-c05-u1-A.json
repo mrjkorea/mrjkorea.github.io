@@ -1,0 +1,211 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c05:u1-A",
+  "title": "Workbook Unit 1 — Section A",
+  "subtitle": "명사적 용법 · POINT 1·2·3 (p. 34)",
+  "pages": "34",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-05",
+  "unitTitle": "Ch 05 WB — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어  ⓑ 목적어  ⓒ 주격보어.",
+      "ruleKo": "보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "His dream is [to become a national team player].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The company decided [to hire more people].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "[To walk up stairs] is good for your health.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The school wants [to build a soccer stadium].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Her job is [to take pictures of animals].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "It is dangerous [to ride a bike without a helmet].",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "We agreed [to volunteer at an animal shelter].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The kids hoped [to see lions at the safari park].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "My goal for this week is [to eat more vegetables].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 to부정사의 역할을 골라 그 기호를 쓰세요. POINT 1·2·3. <보기> ⓐ 주어 ⓑ 목적어 ⓒ 주격보어. 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "It is wise [to save money for rainy days].",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    }
+  ]
+}

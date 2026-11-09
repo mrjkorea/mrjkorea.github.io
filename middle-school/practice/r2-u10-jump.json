@@ -1,0 +1,424 @@
+{
+  "practiceId": "r2:u10:jump",
+  "title": "Grammar Jump",
+  "subtitle": "명령문 고르기 (p. 158–159)",
+  "pages": "158–159",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항, B 9문항(각 예시 1개는 채점 제외)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "your hands.",
+      "choices": [
+        "Wash",
+        "Washes"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Wash"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "the ball.",
+      "choices": [
+        "Catches",
+        "Catch"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "your room.",
+      "choices": [
+        "Clean",
+        "Cleans"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "a good boy.",
+      "choices": [
+        "Be",
+        "Am"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "to your teacher.",
+      "choices": [
+        "Listens",
+        "Listen"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "quiet in class.",
+      "choices": [
+        "Be",
+        "Being"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "Please (reading / read) slowly.",
+      "choices": [
+        "reading",
+        "read"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "Please (have / having) some cookies.",
+      "choices": [
+        "have",
+        "having"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "my question, please.",
+      "choices": [
+        "Answer",
+        "Answering"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "the window, please.",
+      "choices": [
+        "Closing",
+        "Close"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "Don't ___ sorry.",
+      "choices": [
+        "are",
+        "be"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "be"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Don't ___ here.",
+      "choices": [
+        "swim",
+        "swims"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Don't ___ afraid.",
+      "choices": [
+        "be",
+        "is"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Don't ___ the vase.",
+      "choices": [
+        "touching",
+        "touch"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "Don't ___ the bus.",
+      "choices": [
+        "taking",
+        "take"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "A: Let's ___ a bike. B: OK!",
+      "choices": [
+        "ride",
+        "rides"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "A: Let's ___ badminton. B: Yes!",
+      "choices": [
+        "play",
+        "plays"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "A: Let's ___ the homework. B: Sure.",
+      "choices": [
+        "does",
+        "do"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "A: Let's ___ the house. B: All right.",
+      "choices": [
+        "clean",
+        "cleaning"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "A: Let's ___ a monkey. B: Sure.",
+      "choices": [
+        "draw",
+        "drawing"
+      ],
+      "accept": [
+        "1"
+      ]
+    }
+  ],
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — 명령문",
+  "sectionsVersion": 1
+}

@@ -1,0 +1,191 @@
+{
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "practiceId": "cm1:wb-c01:u1-C",
+  "title": "Workbook Unit 1 — Section C",
+  "subtitle": "be동사의 긍정문 · POINT 1·2·4 (WB p. 2)",
+  "pages": "2",
+  "timerMinutes": 22,
+  "unitId": "wb-chapter-01",
+  "unitTitle": "Ch 01 WB — be동사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "A cat ________ in my room now.",
+      "blanks": 1,
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "It ________ sunny yesterday.",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "I ________ at home now.",
+      "blanks": 1,
+      "accept": [
+        "am"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "We ________ in the same class now.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "The kids ________ happy now.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "I ________ in Italy two months ago.",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "c07",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C7",
+      "type": "fill",
+      "promptEn": "You and James ________ in the same group now.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ]
+    },
+    {
+      "id": "c08",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C8",
+      "type": "fill",
+      "promptEn": "Sophia ________ free now.",
+      "blanks": 1,
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "c09",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C9",
+      "type": "fill",
+      "promptEn": "They ________ so angry last night.",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "c10",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 빈칸에 들어갈 be동사를 어법상 알맞은 형태로 쓰세요. POINT 1·2·4. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C10",
+      "type": "fill",
+      "promptEn": "My sister and I ________ very hungry an hour ago.",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    }
+  ]
+}

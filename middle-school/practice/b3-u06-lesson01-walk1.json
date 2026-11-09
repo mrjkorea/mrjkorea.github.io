@@ -1,0 +1,271 @@
+{
+  "practiceId": "b3:u06:lesson01-walk1",
+  "title": "Lesson 01 Walk 1 — be동사 과거형",
+  "subtitle": "긍정문·부정문 (p. 141)",
+  "pages": "141",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-3",
+  "bookTitle": "ZAP Blue 3",
+  "appName": "BlueZap 3",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 과거 시제 - be동사",
+  "sectionsVersion": 2,
+  "introKo": "Section A는 주어와 was/were를 각각 쓰세요(순서는 상관없음). Section B는 '현재' 또는 '과거'만 쓰세요. 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요.",
+      "ruleKo": "주어와 be동사 과거형을 각각 한 칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Tommy was eleven years old last year.",
+      "accept": [
+        "Tommy|was",
+        "was|Tommy"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Tommy / was",
+      "promptKo": "토미는 작년에 열한 살이었다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "You were very cute.",
+      "accept": [
+        "You|were",
+        "were|You"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "너는 매우 귀여웠다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "I was at home yesterday.",
+      "accept": [
+        "I|was",
+        "was|I"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "나는 어제 집에 있었다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "The peaches were sweet.",
+      "accept": [
+        "The peaches|were",
+        "were|The peaches"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "복숭아들은 달았다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, be동사 과거형을 찾아 동그라미 하세요. 주어와 be동사 과거형을 각각 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They were in the kitchen.",
+      "accept": [
+        "They|were",
+        "were|They"
+      ],
+      "blanks": 2,
+      "unordered": true,
+      "promptKo": "그들은 부엌에 있었다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My sister is a student.",
+      "accept": [
+        "현재"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "현재",
+      "promptKo": "내 여동생/누나는 학생이다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "My sister was a student.",
+      "accept": [
+        "과거"
+      ],
+      "promptKo": "내 여동생/누나는 학생이었다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "I am tall.",
+      "accept": [
+        "현재"
+      ],
+      "promptKo": "나는 키가 크다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "I was short last year.",
+      "accept": [
+        "과거"
+      ],
+      "promptKo": "나는 작년에 키가 작았다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "You are in the classroom.",
+      "accept": [
+        "현재"
+      ],
+      "promptKo": "너는 교실에 있다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "You were in the classroom.",
+      "accept": [
+        "과거"
+      ],
+      "promptKo": "너는 교실에 있었다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "My uncles are fast.",
+      "accept": [
+        "현재"
+      ],
+      "promptKo": "내 삼촌들은 빠르다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장이 현재 시제면 '현재'를, 과거 시제면 '과거'를 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "My uncles were fast.",
+      "accept": [
+        "과거"
+      ],
+      "promptKo": "내 삼촌들은 빨랐다."
+    }
+  ]
+}

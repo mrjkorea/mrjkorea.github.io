@@ -1,0 +1,194 @@
+{
+  "practiceId": "r2:u04:walk",
+  "title": "Grammar Walk",
+  "subtitle": "부사 · 전치사 따라쓰기 (p. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(부사 짝 맞추기), Section B 2문항(전치사 짝 맞추기)입니다. 왼쪽을 누른 다음 오른쪽을 눌러 연결하세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A — 부사",
+      "instructionKo": "다음 문장의 뜻을 생각하며 부사를 따라 써 보세요. 문장과 알맞은 부사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B — 전치사",
+      "instructionKo": "다음 말의 뜻을 생각하며 전치사를 따라 써 보세요. 표현과 알맞은 전치사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 부사를 따라 써 보세요. 문장과 알맞은 부사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "나는 잘 춤춘다.",
+          "right": "I dance well."
+        },
+        {
+          "left": "너는 아주 잘 노래한다.",
+          "right": "You sing very well."
+        },
+        {
+          "left": "그는 아주 부지런하다.",
+          "right": "He is so diligent."
+        },
+        {
+          "left": "그녀는 행복하게 산다.",
+          "right": "She lives happily."
+        },
+        {
+          "left": "우리는 신중하게 생각한다.",
+          "right": "We think carefully."
+        },
+        {
+          "left": "수지는 천천히 말한다.",
+          "right": "Susie speaks slowly."
+        },
+        {
+          "left": "수지는 일찍 일어난다.",
+          "right": "Susie gets up early."
+        }
+      ],
+      "accept": [
+        "나는 잘 춤춘다.|I dance well.",
+        "너는 아주 잘 노래한다.|You sing very well.",
+        "그는 아주 부지런하다.|He is so diligent.",
+        "그녀는 행복하게 산다.|She lives happily.",
+        "우리는 신중하게 생각한다.|We think carefully.",
+        "수지는 천천히 말한다.|Susie speaks slowly.",
+        "수지는 일찍 일어난다.|Susie gets up early."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 부사를 따라 써 보세요. 문장과 알맞은 부사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "하하는 빠르게 달린다.",
+          "right": "Haha runs fast."
+        },
+        {
+          "left": "간호사들은 열심히 공부한다.",
+          "right": "The nurses study hard."
+        },
+        {
+          "left": "간호사들은 친절하게 그를 돕는다.",
+          "right": "The nurses help him kindly."
+        }
+      ],
+      "accept": [
+        "하하는 빠르게 달린다.|Haha runs fast.",
+        "간호사들은 열심히 공부한다.|The nurses study hard.",
+        "간호사들은 친절하게 그를 돕는다.|The nurses help him kindly."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 뜻을 생각하며 전치사를 따라 써 보세요. 표현과 알맞은 전치사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "6시에",
+          "right": "at six o'clock"
+        },
+        {
+          "left": "일요일에",
+          "right": "on Sunday"
+        },
+        {
+          "left": "크리스마스에",
+          "right": "on Christmas Day"
+        },
+        {
+          "left": "10월에",
+          "right": "in October"
+        },
+        {
+          "left": "2013년에",
+          "right": "in 2013"
+        },
+        {
+          "left": "자동차 안에",
+          "right": "in the car"
+        },
+        {
+          "left": "피아노 위에",
+          "right": "on the piano"
+        }
+      ],
+      "accept": [
+        "6시에|at six o'clock",
+        "일요일에|on Sunday",
+        "크리스마스에|on Christmas Day",
+        "10월에|in October",
+        "2013년에|in 2013",
+        "자동차 안에|in the car",
+        "피아노 위에|on the piano"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 말의 뜻을 생각하며 전치사를 따라 써 보세요. 표현과 알맞은 전치사를 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "다리 아래에",
+          "right": "under the bridge"
+        },
+        {
+          "left": "병원 뒤에",
+          "right": "behind the hospital"
+        },
+        {
+          "left": "공원 옆에",
+          "right": "next to the park"
+        }
+      ],
+      "accept": [
+        "다리 아래에|under the bridge",
+        "병원 뒤에|behind the hospital",
+        "공원 옆에|next to the park"
+      ]
+    }
+  ]
+}

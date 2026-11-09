@@ -1,0 +1,307 @@
+{
+  "practiceId": "u02:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "Past negatives & questions (p. 33)",
+  "pages": "33",
+  "timerMinutes": 11,
+  "unitTitle": "Unit 02 과거 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 8문항(고르기), Section B 3문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 8,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "wasn't",
+      "type": "mc",
+      "promptEn": "She ( wasn't / weren't ) my best friend last year.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "wasn't"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "We ( wasn't / weren't ) happy then.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "weren't"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "I ( wasn't / weren't ) late for the concert.",
+      "choices": [
+        "wasn't",
+        "weren't"
+      ],
+      "accept": [
+        "wasn't"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "They ( doesn't / didn't ) watch TV last night.",
+      "choices": [
+        "doesn't",
+        "didn't"
+      ],
+      "accept": [
+        "didn't"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "Sam didn't ( make / made ) a model airplane.",
+      "choices": [
+        "make",
+        "made"
+      ],
+      "accept": [
+        "make"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "( Was / Were ) you at the swimming pool yesterday?",
+      "choices": [
+        "Was",
+        "Were"
+      ],
+      "accept": [
+        "Were"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "( Was / Were ) she busy this morning?",
+      "choices": [
+        "Was",
+        "Were"
+      ],
+      "accept": [
+        "Was"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "( Do / Did ) they move to Busan last month?",
+      "choices": [
+        "Do",
+        "Did"
+      ],
+      "accept": [
+        "Did"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "Did Kate ( have / has ) lunch with you today?",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "have"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "b. No, he wasn't.",
+      "type": "mc",
+      "promptEn": "Was he sick then?",
+      "choices": [
+        "a. Yes, they were.",
+        "b. No, he wasn't.",
+        "c. No, he didn't.",
+        "d. Yes, I did."
+      ],
+      "accept": [
+        "b. No, he wasn't.",
+        "b",
+        "No, he wasn't."
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "Did you brush your teeth?",
+      "choices": [
+        "a. Yes, they were.",
+        "b. No, he wasn't.",
+        "c. No, he didn't.",
+        "d. Yes, I did."
+      ],
+      "accept": [
+        "d. Yes, I did.",
+        "d",
+        "Yes, I did."
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Were they farmers?",
+      "choices": [
+        "a. Yes, they were.",
+        "b. No, he wasn't.",
+        "c. No, he didn't.",
+        "d. Yes, I did."
+      ],
+      "accept": [
+        "a. Yes, they were.",
+        "a",
+        "Yes, they were."
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 의문문에 알맞은 대답을 찾아 선으로 연결하세요. 알맞은 대답(a~d)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "Did Jordan call you last night?",
+      "choices": [
+        "a. Yes, they were.",
+        "b. No, he wasn't.",
+        "c. No, he didn't.",
+        "d. Yes, I did."
+      ],
+      "accept": [
+        "c. No, he didn't.",
+        "c",
+        "No, he didn't."
+      ]
+    }
+  ]
+}

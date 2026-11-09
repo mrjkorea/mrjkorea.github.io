@@ -1,0 +1,109 @@
+{
+  "practiceId": "g4:u07:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 159)",
+  "pages": "159",
+  "timerMinutes": 6,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 접속사 (1)",
+  "wordBank": [
+    "when",
+    "while",
+    "before",
+    "after"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "그림: 아기였을 때를 가리킨다.\n[그림 1] _____ you were babies, you were so cute.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "When",
+        "when"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "그림: 자고 있는 동안을 가리킨다.\n[그림 2] _____ you are sleeping, you look like angels.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "While",
+        "while"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "그림: 깨기 전을 가리킨다.\n[그림 3] _____ you wake up, we are very peaceful.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "Before",
+        "before"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (when / while / before / after) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "그림: 깬 뒤를 가리킨다.\n[그림 4] _____ you wake up, you make us crazy.",
+      "promptKo": "",
+      "blanks": 1,
+      "accept": [
+        "After",
+        "after"
+      ]
+    }
+  ]
+}

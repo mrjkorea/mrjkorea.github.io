@@ -1,0 +1,229 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "Hobbies & dialogues (pp. 64–65)",
+  "pages": "64–65",
+  "timerMinutes": 20,
+  "introKo": "Section A는 사진 참고. 각 섹션 안내를 읽고 빈칸에 들어갈 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "has / taken",
+      "type": "fill",
+      "promptKo": "클라라 — 발레 ( take ballet lessons )",
+      "promptEn": "Clara _____ _____ ballet lessons for two years.",
+      "blanks": 2,
+      "accept": [
+        "has|taken"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptKo": "벤 — 축구 ( play soccer )",
+      "promptEn": "Ben _____ _____ soccer for five years.",
+      "blanks": 2,
+      "accept": [
+        "has|played"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptKo": "린다 — 그림 ( draw pictures )",
+      "promptEn": "Linda _____ _____ pictures for six months.",
+      "blanks": 2,
+      "accept": [
+        "has|drawn"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptKo": "카일 — 우표 ( collect stamps )",
+      "promptEn": "Kyle _____ _____ stamps for three years.",
+      "blanks": 2,
+      "accept": [
+        "has|collected"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptKo": "리사 — 승마 ( ride a horse )",
+      "promptEn": "Lisa ______ ______ a horse for a year.",
+      "blanks": 2,
+      "accept": [
+        "has|ridden"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "사진을 보고, 친구들이 취미 생활을 얼마 동안 해 왔는지 주어진 말을 사용하여 현재 완료 시제 문장을 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: Eric에게 방을 치웠는지 묻는다.\nA: Have you cleaned your room, Eric?",
+      "accept": [
+        "Have|cleaned"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Have / cleaned",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: 이미 먹었다.\nA: _____ you _____ … ( eat )\nB: Yes, I have.",
+      "accept": [
+        "Have|eaten"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: 이미 물을 줬다.\nA: _____ you _____ … ( water )\nB: Yes, I have.",
+      "accept": [
+        "Have|watered"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: 이미 씻었다.\nA: _____ you _____ … ( wash )\nB: Yes, I have.",
+      "accept": [
+        "Have|washed"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: 이미 만들었다.\nA: _____ you _____ … ( make )\nB: Yes, I have.",
+      "accept": [
+        "Have|made"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "blanks": 2,
+      "promptEn": "그림: 이미 했다.\nA: _____ you _____ … ( do )\nB: Yes, I have.",
+      "accept": [
+        "Have|done"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "그림을 보고, 현재 완료 시제를 사용하여 주어진 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ]
+}

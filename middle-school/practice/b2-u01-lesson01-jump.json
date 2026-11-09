@@ -1,0 +1,545 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사의 현재 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u01:lesson01-jump",
+  "title": "Lesson 01 Jump — 일반동사의 현재 시제 (1)",
+  "subtitle": "뜻 쓰기 · 문장 완성 (pp. 16–17)",
+  "pages": "16–17",
+  "timerMinutes": 22,
+  "introKo": "Section A는 밑줄 동사의 우리말 뜻, Section B는 주어에 맞는 현재형을 씁니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01j_a_01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I <u>come</u> home at 3 o'clock.",
+      "accept": [
+        "온다"
+      ],
+      "promptKo": "나는 3시에 집에 ______.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "온다"
+    },
+    {
+      "id": "l01j_a_02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Minho <u>knows</u> the actress.",
+      "accept": [
+        "안다",
+        "알고 있다"
+      ],
+      "promptKo": "민호는 그 여배우를 ______."
+    },
+    {
+      "id": "l01j_a_03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We <u>drink</u> tea at 1 o'clock.",
+      "accept": [
+        "마신다",
+        "마셔"
+      ],
+      "promptKo": "우리는 1시에 차를 ______."
+    },
+    {
+      "id": "l01j_a_04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Sean <u>reads</u> comic books.",
+      "accept": [
+        "읽는다",
+        "읽어"
+      ],
+      "promptKo": "숀은 만화책을 ______."
+    },
+    {
+      "id": "l01j_a_05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The students <u>study</u> hard.",
+      "accept": [
+        "공부한다",
+        "공부해"
+      ],
+      "promptKo": "그 학생들은 열심히 ______."
+    },
+    {
+      "id": "l01j_a_06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "My puppy <u>likes</u> snow.",
+      "accept": [
+        "좋아한다",
+        "좋아해"
+      ],
+      "promptKo": "우리 강아지는 눈을 ______."
+    },
+    {
+      "id": "l01j_a_07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They <u>help</u> poor people.",
+      "accept": [
+        "돕는다",
+        "도와"
+      ],
+      "promptKo": "그들은 가난한 사람들을 ______."
+    },
+    {
+      "id": "l01j_a_08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "I <u>watch</u> TV in the evening.",
+      "accept": [
+        "본다",
+        "시청한다",
+        "봐"
+      ],
+      "promptKo": "나는 저녁에 TV를 ______."
+    },
+    {
+      "id": "l01j_a_09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The singer <u>lives</u> in New York.",
+      "accept": [
+        "산다",
+        "살아"
+      ],
+      "promptKo": "그 가수는 뉴욕에 ______."
+    },
+    {
+      "id": "l01j_a_10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My parents <u>get up</u> early.",
+      "accept": [
+        "일어난다",
+        "일어나"
+      ],
+      "promptKo": "우리 부모님은 일찍 ______."
+    },
+    {
+      "id": "l01j_a_11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "Cindy <u>plays</u> the piano.",
+      "accept": [
+        "친다",
+        "연주한다",
+        "쳐"
+      ],
+      "promptKo": "신디는 피아노를 ______."
+    },
+    {
+      "id": "l01j_a_12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Horses <u>run</u> fast.",
+      "accept": [
+        "달린다",
+        "뛴다"
+      ],
+      "promptKo": "말은 빨리 ______."
+    },
+    {
+      "id": "l01j_a_13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Yuna <u>speaks</u> English well.",
+      "accept": [
+        "말한다",
+        "해"
+      ],
+      "promptKo": "유나는 영어를 잘 ______."
+    },
+    {
+      "id": "l01j_a_14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "We <u>play</u> soccer after school.",
+      "accept": [
+        "한다",
+        "해"
+      ],
+      "promptKo": "우리는 방과 후에 축구를 ______."
+    },
+    {
+      "id": "l01j_a_15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 밑줄 친 부분의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 밑줄 친 부분의 우리말 뜻만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "The baby <u>sleeps</u> well.",
+      "accept": [
+        "잔다",
+        "자"
+      ],
+      "promptKo": "그 아기는 잘 ______."
+    },
+    {
+      "id": "l01j_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "They ______ in Busan. (live)",
+      "accept": [
+        "live"
+      ],
+      "promptKo": "그들은 부산에 산다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "live"
+    },
+    {
+      "id": "l01j_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "John ______ Korean. (speak)",
+      "accept": [
+        "speaks"
+      ],
+      "promptKo": "존은 한국어를 말한다."
+    },
+    {
+      "id": "l01j_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We ______ math. (learn)",
+      "accept": [
+        "learn"
+      ],
+      "promptKo": "우리는 수학을 배운다."
+    },
+    {
+      "id": "l01j_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Jisu ______ home at 8 o'clock. (come)",
+      "accept": [
+        "comes"
+      ],
+      "promptKo": "지수는 8시에 집에 온다."
+    },
+    {
+      "id": "l01j_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "They ______ basketball together. (play)",
+      "accept": [
+        "play"
+      ],
+      "promptKo": "그들은 함께 농구를 한다."
+    },
+    {
+      "id": "l01j_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Sally ______ her grandfather every week. (meet)",
+      "accept": [
+        "meets"
+      ],
+      "promptKo": "샐리는 매주 자신의 할아버지를 만난다."
+    },
+    {
+      "id": "l01j_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "I ______ warm bread. (want)",
+      "accept": [
+        "want"
+      ],
+      "promptKo": "나는 따뜻한 빵을 원한다."
+    },
+    {
+      "id": "l01j_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Minho ______ a new desk. (need)",
+      "accept": [
+        "needs"
+      ],
+      "promptKo": "민호는 새 책상이 필요하다."
+    },
+    {
+      "id": "l01j_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "Children ______ toys. (like)",
+      "accept": [
+        "like"
+      ],
+      "promptKo": "어린이들은 장난감을 좋아한다."
+    },
+    {
+      "id": "l01j_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "She ______ sick people. (help)",
+      "accept": [
+        "helps"
+      ],
+      "promptKo": "그녀는 아픈 사람들을 돕는다."
+    },
+    {
+      "id": "l01j_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "We ______ his address. (know)",
+      "accept": [
+        "know"
+      ],
+      "promptKo": "우리는 그의 주소를 안다."
+    },
+    {
+      "id": "l01j_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Nick ______ up early. (get)",
+      "accept": [
+        "gets up",
+        "gets"
+      ],
+      "promptKo": "닉은 일찍 일어난다."
+    },
+    {
+      "id": "l01j_b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "The library ______ at 9 a.m. (open)",
+      "accept": [
+        "opens"
+      ],
+      "promptKo": "그 도서관은 오전 9시에 문을 연다."
+    },
+    {
+      "id": "l01j_b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "My father ______ once a week. (cook)",
+      "accept": [
+        "cooks"
+      ],
+      "promptKo": "우리 아버지는 일주일에 한 번씩 요리를 하신다."
+    },
+    {
+      "id": "l01j_b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (주어진 말을 활용한 올바른 현재형을 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "Taemin ______ fast. (walk)",
+      "accept": [
+        "walks"
+      ],
+      "promptKo": "태민이는 빨리 걷는다."
+    }
+  ]
+}

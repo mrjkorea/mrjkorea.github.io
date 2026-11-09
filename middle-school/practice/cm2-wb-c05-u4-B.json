@@ -1,0 +1,116 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c05:u4-B",
+  "title": "Workbook Unit 4 — Section B",
+  "subtitle": "주요 구문 · POINT 10·11 (p. 40)",
+  "pages": "40",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-05",
+  "unitTitle": "Ch 05 WB — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My grandfather is ________ the mountain.",
+      "promptKo": "우리 할아버지는 그 산을 오를 수 있을 만큼 충분히 건강하시다. (healthy, climb)",
+      "blanks": 1,
+      "accept": [
+        "healthy enough to climb"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The field is ________ a soccer match.",
+      "promptKo": "그 경기장은 축구 경기를 할 만큼 충분히 크다. (large, play)",
+      "blanks": 1,
+      "accept": [
+        "large enough to play"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "The medicine is ________.",
+      "promptKo": "그 약은 너무 써서 삼킬 수가 없다. (swallow, bitter)",
+      "blanks": 1,
+      "accept": [
+        "too bitter to swallow"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "I am ________ one more piece of cake.",
+      "promptKo": "나는 너무 배가 불러서 케이크 한 조각을 더 먹을 수 없다. (full, eat)",
+      "blanks": 1,
+      "accept": [
+        "too full to eat"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어와 to부정사를 사용하여 문장을 완성하세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "My sister is ________ me math.",
+      "promptKo": "우리 누나는 내게 수학을 가르칠 만큼 충분히 인내심이 강하다. (patient, teach)",
+      "blanks": 1,
+      "accept": [
+        "patient enough to teach"
+      ]
+    }
+  ]
+}

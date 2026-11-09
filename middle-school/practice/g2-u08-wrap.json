@@ -1,0 +1,224 @@
+{
+  "practiceId": "g2:u08:wrap",
+  "title": "Wrap Up",
+  "subtitle": "Unit 08 summary fill-ins (p. 179)",
+  "pages": "179",
+  "timerMinutes": 8,
+  "bookId": "zap-green-2",
+  "bookTitle": "ZAP Green 2",
+  "appName": "GreenZap 2",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 동명사와 to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 1. 동명사와 to부정사 4문항(빈칸 말만 쓰기), 2. 동명사와 to부정사의 여러 가지 표현 7문항(빈칸 말만 쓰기)으로 되어 있어요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "1",
+      "title": "1. 동명사와 to부정사",
+      "instructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "directionKo": "Unit 08에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1-1",
+        "1-2",
+        "1-3",
+        "1-4"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "2. 동명사와 to부정사의 여러 가지 표현",
+      "instructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "directionKo": "Unit 08에서 배운 내용을 정리하세요.",
+      "ruleKo": "번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "2-1",
+        "2-2",
+        "2-3",
+        "2-4",
+        "2-5",
+        "2-6",
+        "2-7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "w1_1",
+      "section": "1",
+      "sectionTitle": "1. 동명사와 to부정사",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-1",
+      "type": "fill",
+      "promptKo": "① [1] 가 목적으로 오는 동사: enjoy, finish, … → [1]",
+      "blanks": 1,
+      "accept": [
+        "동명사"
+      ]
+    },
+    {
+      "id": "w1_2",
+      "section": "1",
+      "sectionTitle": "1. 동명사와 to부정사",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-2",
+      "type": "fill",
+      "promptKo": "② [2] 가 목적으로 오는 동사: want, wish, … → [2]",
+      "blanks": 1,
+      "accept": [
+        "to부정사",
+        "to 부정사"
+      ]
+    },
+    {
+      "id": "w1_3",
+      "section": "1",
+      "sectionTitle": "1. 동명사와 to부정사",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-3",
+      "type": "fill",
+      "promptKo": "③ [3] 와 [4] 가 목적으로 오는 동사: begin, start, … → [3]",
+      "blanks": 1,
+      "accept": [
+        "동명사"
+      ]
+    },
+    {
+      "id": "w1_4",
+      "section": "1",
+      "sectionTitle": "1. 동명사와 to부정사",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "1-4",
+      "type": "fill",
+      "promptKo": "③ [3] 와 [4] 가 목적으로 오는 동사: begin, start, … → [4]",
+      "blanks": 1,
+      "accept": [
+        "to부정사",
+        "to 부정사"
+      ]
+    },
+    {
+      "id": "w2_1",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-1",
+      "type": "fill",
+      "promptKo": "go ~ing (~하러 가다) → [1]",
+      "blanks": 1,
+      "accept": [
+        "go"
+      ]
+    },
+    {
+      "id": "w2_2",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-2",
+      "type": "fill",
+      "promptKo": "be [2] ~ing (~하느라 바쁘다) → [2]",
+      "blanks": 1,
+      "accept": [
+        "busy"
+      ]
+    },
+    {
+      "id": "w2_3",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-3",
+      "type": "fill",
+      "promptKo": "feel [3] ~ing (~하고 싶다) → [3]",
+      "blanks": 1,
+      "accept": [
+        "like"
+      ]
+    },
+    {
+      "id": "w2_4",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-4",
+      "type": "fill",
+      "promptKo": "[4] + to부정사 (무엇을 ~할지) → [4]",
+      "blanks": 1,
+      "accept": [
+        "what"
+      ]
+    },
+    {
+      "id": "w2_5",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-5",
+      "type": "fill",
+      "promptKo": "how + to부정사 ([5] ~할지) → [5]",
+      "blanks": 1,
+      "accept": [
+        "방법",
+        "어떻게"
+      ]
+    },
+    {
+      "id": "w2_6",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-6",
+      "type": "fill",
+      "promptKo": "[6] + to부정사 (언제 ~할지) → [6]",
+      "blanks": 1,
+      "accept": [
+        "when"
+      ]
+    },
+    {
+      "id": "w2_7",
+      "section": "2",
+      "sectionTitle": "2. 동명사와 to부정사의 여러 가지 표현",
+      "sectionInstructionKo": "Unit 08에서 배운 내용을 정리하세요. 번호가 붙은 빈칸에 들어갈 말만 쓰세요. (영어는 영어로, 문법 용어는 우리말로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "2-7",
+      "type": "fill",
+      "promptKo": "where + [7] (어디로 ~할지) → [7]",
+      "blanks": 1,
+      "accept": [
+        "to부정사",
+        "to 부정사"
+      ]
+    }
+  ]
+}

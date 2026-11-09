@@ -1,0 +1,211 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c06:u1-A",
+  "title": "Workbook Unit 1 — Section A",
+  "subtitle": "명사로 쓰이는 동명사 · POINT 1·2·3·4 (WB p. 44)",
+  "pages": "44",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-06",
+  "unitTitle": "Ch 06 WB — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어",
+      "ruleKo": "보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "[Reading someone's mind] is impossible.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "They kept [moving ahead along the road].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "My stress these days is [studying until late].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Many people enjoy [swimming in summer].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "[Learning something new] is a great joy.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "How about [playing board games together]?",
+      "blanks": 1,
+      "accept": [
+        "ⓓ",
+        "d",
+        "D"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Their job is [treating sick animals].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "I apologized to him for [being late].",
+      "blanks": 1,
+      "accept": [
+        "ⓓ",
+        "d",
+        "D"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "[Drinking hot tea before bed] helps me sleep well.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Sora took pride in [achieving her goals].",
+      "blanks": 1,
+      "accept": [
+        "ⓓ",
+        "d",
+        "D"
+      ]
+    }
+  ]
+}

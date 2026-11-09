@@ -1,0 +1,543 @@
+{
+  "practiceId": "b2:u06:lesson02-fly",
+  "title": "Lesson 02 Fly — 빈도부사",
+  "subtitle": "Grammar Fly (pp. 159–160)",
+  "pages": "159–160",
+  "timerMinutes": 28,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 14문항(위치 고치기), Section B 14문항(문장 완성). A1·B1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말만 각각 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "문장 전체를 쓰세요.",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "John <u>always is</u> diligent.",
+      "accept": [
+        "is|always"
+      ],
+      "promptKo": "존은 항상 부지런하다.",
+      "blanks": 2,
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "is|always"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Mandy <u>reads often</u> comic books.",
+      "accept": [
+        "often|reads"
+      ],
+      "promptKo": "맨디는 가끔 만화책을 읽는다.",
+      "blanks": 2
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Ostriches <u>never can</u> fly.",
+      "accept": [
+        "can|never"
+      ],
+      "promptKo": "타조는 결코 날 수 없다.",
+      "blanks": 2
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My pet <u>sleeps sometimes</u> with me.",
+      "accept": [
+        "sometimes|sleeps"
+      ],
+      "promptKo": "우리 애완동물은 가끔 나와 함께 잔다.",
+      "blanks": 2
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The students <u>take usually</u> a bus.",
+      "accept": [
+        "usually|take"
+      ],
+      "promptKo": "학생들은 보통 버스를 탄다.",
+      "blanks": 2
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "He <u>wears always</u> a wig.",
+      "accept": [
+        "always|wears"
+      ],
+      "promptKo": "그는 항상 가발을 쓴다.",
+      "blanks": 2
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They <u>go swimming never</u> in winter.",
+      "accept": [
+        "never|go"
+      ],
+      "promptKo": "그들은 겨울에 결코 수영하러 가지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "We <u>sometimes can</u> play golf.",
+      "accept": [
+        "can|sometimes"
+      ],
+      "promptKo": "우리는 가끔 골프를 칠 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "He <u>often is</u> sleepy in the morning.",
+      "accept": [
+        "is|often"
+      ],
+      "promptKo": "그는 아침에 자주 졸리다.",
+      "blanks": 2
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "Tom <u>eats usually</u> sandwiches for lunch.",
+      "accept": [
+        "usually|eats"
+      ],
+      "promptKo": "톰은 보통 점심으로 샌드위치를 먹는다.",
+      "blanks": 2
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "You <u>can use always</u> the phone.",
+      "accept": [
+        "can|always"
+      ],
+      "promptKo": "너는 항상 전화를 사용할 수 있다.",
+      "blanks": 2
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "My brother <u>cleans never</u> his room.",
+      "accept": [
+        "never|cleans"
+      ],
+      "promptKo": "우리 오빠는 결코 방을 청소하지 않는다.",
+      "blanks": 2
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "I <u>sometimes am</u> sad.",
+      "accept": [
+        "am|sometimes"
+      ],
+      "promptKo": "나는 가끔 슬프다.",
+      "blanks": 2
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "Yunho <u>watches often</u> baseball games.",
+      "accept": [
+        "often|watches"
+      ],
+      "promptKo": "윤호는 자주 야구 경기를 본다.",
+      "blanks": 2
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 빈칸 두 개에 바르게 고친 말을 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "We <u>go usually</u> to bed at 10 p.m.",
+      "accept": [
+        "usually|go"
+      ],
+      "promptKo": "우리는 보통 밤 10시에 잔다.",
+      "blanks": 2
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B1",
+      "type": "sentence",
+      "promptEn": "I ____ ____ lunch at school. ( have, usually )",
+      "accept": [
+        "I usually have lunch at school."
+      ],
+      "promptKo": "나는 보통 학교에서 점심을 먹는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "I usually have lunch at school."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B2",
+      "type": "sentence",
+      "promptEn": "My mother ____ ____ coffee. ( drink, never )",
+      "accept": [
+        "My mother never drinks coffee."
+      ],
+      "promptKo": "우리 어머니는 결코 커피를 마시지 않으신다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B3",
+      "type": "sentence",
+      "promptEn": "My friend ____ ____ late. ( be, sometimes )",
+      "accept": [
+        "My friend is sometimes late."
+      ],
+      "promptKo": "내 친구는 가끔 늦는다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B4",
+      "type": "sentence",
+      "promptEn": "We ____ ____ ____ outside. ( can, play, often )",
+      "accept": [
+        "We can often play outside."
+      ],
+      "promptKo": "우리는 자주 밖에서 놀 수 있다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B5",
+      "type": "sentence",
+      "promptEn": "Eddy ____ ____ up early. ( get, never )",
+      "accept": [
+        "Eddy never gets up early."
+      ],
+      "promptKo": "에디는 결코 일찍 일어나지 않는다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B6",
+      "type": "sentence",
+      "promptEn": "She ____ ____ a walk in the evening. ( take, usually )",
+      "accept": [
+        "She usually takes a walk in the evening."
+      ],
+      "promptKo": "그녀는 보통 저녁에 산책한다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B7",
+      "type": "sentence",
+      "promptEn": "She ____ ____ ____ . ( can, cook, sometimes )",
+      "accept": [
+        "She can sometimes cook."
+      ],
+      "promptKo": "그녀는 가끔 요리할 수 있다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B8",
+      "type": "sentence",
+      "promptEn": "Minho ____ ____ kind to others. ( be, always )",
+      "accept": [
+        "Minho is always kind to others."
+      ],
+      "promptKo": "민호는 항상 다른 사람들에게 친절하다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B9",
+      "type": "sentence",
+      "promptEn": "My mother ____ ____ spaghetti. ( make, often )",
+      "accept": [
+        "My mother often makes spaghetti."
+      ],
+      "promptKo": "우리 어머니는 자주 스파게티를 만드신다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B10",
+      "type": "sentence",
+      "promptEn": "They ____ ____ their homework. ( do, always )",
+      "accept": [
+        "They always do their homework."
+      ],
+      "promptKo": "그들은 항상 숙제를 한다."
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B11",
+      "type": "sentence",
+      "promptEn": "He ____ ____ quiet in class. ( be, usually )",
+      "accept": [
+        "He is usually quiet in class."
+      ],
+      "promptKo": "그는 보통 수업 시간에 조용하다."
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B12",
+      "type": "sentence",
+      "promptEn": "Amy ____ ____ letters to her friends. ( write, never )",
+      "accept": [
+        "Amy never writes letters to her friends."
+      ],
+      "promptKo": "에이미는 결코 친구들에게 편지를 쓰지 않는다."
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B13",
+      "type": "sentence",
+      "promptEn": "We ____ ____ to a concert. ( go, often )",
+      "accept": [
+        "We often go to a concert."
+      ],
+      "promptKo": "우리는 자주 콘서트에 간다."
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B14",
+      "type": "sentence",
+      "promptEn": "They ____ ____ pictures. ( draw, sometimes )",
+      "accept": [
+        "They sometimes draw pictures."
+      ],
+      "promptKo": "그들은 가끔 그림을 그린다."
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 문장 전체를 쓰세요. (첫 단어부터 마침표까지 완전한 문장으로 쓰세요.)",
+      "answerMode": "sentence",
+      "answerModeTag": "Sentence · 문장 전체",
+      "label": "B15",
+      "type": "sentence",
+      "promptEn": "You ____ ____ ____ this pencil. ( can, use, always )",
+      "accept": [
+        "You can always use this pencil."
+      ],
+      "promptKo": "너는 항상 이 연필을 사용할 수 있다."
+    }
+  ]
+}

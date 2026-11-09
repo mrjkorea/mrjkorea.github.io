@@ -1,0 +1,96 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c05:u4-C",
+  "title": "Unit 4 Unit Exercise — Section C",
+  "subtitle": "주요 구문 · POINT 10·11·12 (p. 74)",
+  "pages": "74",
+  "timerMinutes": 20,
+  "unitId": "chapter-05",
+  "unitTitle": "Chapter 05 — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "She is strong enough to move the heavy boxes.\n→ She is ________ the heavy boxes.",
+      "blanks": 1,
+      "accept": [
+        "so strong that she can move"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "The suitcase is so small that it can't hold all the clothes.\n→ The suitcase is ________ all the clothes.",
+      "blanks": 1,
+      "accept": [
+        "too small to hold"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "My sister ran fast enough to win the race.\n→ My sister ran ________ the race.",
+      "blanks": 1,
+      "accept": [
+        "so fast that she could win"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "두 문장의 의미가 같도록 빈칸에 알맞은 말을 쓰세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "Bill was too busy to attend his friend's wedding.\n→ Bill was ________ his friend's wedding.",
+      "blanks": 1,
+      "accept": [
+        "so busy that he couldn't attend",
+        "so busy that he could not attend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "practiceId": "r2:u10:walk",
+  "title": "Grammar Walk",
+  "subtitle": "명령문 따라쓰기 (p. 154–155)",
+  "pages": "154–155",
+  "timerMinutes": 20,
+  "introKo": "Section A 2문항(명령문 짝 맞추기), B 1문항(Don't), C 1문항(Let's 대화)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 뜻을 생각하며 동사원형을 따라 써 보세요. 한국어 뜻과 영어 명령문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 2,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 뜻을 생각하며 「Don't+동사원형」을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "B1"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. A의 Let's 문장과 B의 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "itemCount": 1,
+      "exampleCount": 0,
+      "labels": [
+        "C1"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 동사원형을 따라 써 보세요. 한국어 뜻과 영어 명령문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "들어오다",
+          "right": "Come in."
+        },
+        {
+          "left": "눈을 뜨세요",
+          "right": "Open your eyes."
+        },
+        {
+          "left": "일찍 일어나라",
+          "right": "Get up early."
+        },
+        {
+          "left": "일찍 자라",
+          "right": "Go to bed early."
+        },
+        {
+          "left": "조심해라",
+          "right": "Be careful."
+        }
+      ],
+      "accept": [
+        "들어오다|Come in.",
+        "눈을 뜨세요|Open your eyes.",
+        "일찍 일어나라|Get up early.",
+        "일찍 자라|Go to bed early.",
+        "조심해라|Be careful."
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 동사원형을 따라 써 보세요. 한국어 뜻과 영어 명령문을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "A2",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "친절하게 대해라",
+          "right": "Be kind."
+        },
+        {
+          "left": "천천히 말하세요",
+          "right": "Please speak slowly."
+        },
+        {
+          "left": "공을 건네주세요",
+          "right": "Please pass me the ball."
+        },
+        {
+          "left": "일어나세요",
+          "right": "Stand up, please."
+        },
+        {
+          "left": "앉으세요",
+          "right": "Sit down, please."
+        }
+      ],
+      "accept": [
+        "친절하게 대해라|Be kind.",
+        "천천히 말하세요|Please speak slowly.",
+        "공을 건네주세요|Please pass me the ball.",
+        "일어나세요|Stand up, please.",
+        "앉으세요|Sit down, please."
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 뜻을 생각하며 「Don't+동사원형」을 따라 써 보세요. 한국어 뜻과 영어 문장을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "B1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "울지 마라",
+          "right": "Don't cry."
+        },
+        {
+          "left": "걱정하지 마라",
+          "right": "Don't worry."
+        },
+        {
+          "left": "큰 소리로 말하지 마라",
+          "right": "Don't speak loudly."
+        },
+        {
+          "left": "슬퍼하지 마라",
+          "right": "Don't be sad."
+        },
+        {
+          "left": "어리석게 굴지 마라",
+          "right": "Don't be silly."
+        }
+      ],
+      "accept": [
+        "울지 마라|Don't cry.",
+        "걱정하지 마라|Don't worry.",
+        "큰 소리로 말하지 마라|Don't speak loudly.",
+        "슬퍼하지 마라|Don't be sad.",
+        "어리석게 굴지 마라|Don't be silly."
+      ]
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 대화의 뜻을 생각하며 따라 써 보세요. A의 Let's 문장과 B의 대답을 짝지어 연결하세요.",
+      "answerMode": "match",
+      "answerModeTag": "Match · 짝 맞추기",
+      "label": "C1",
+      "type": "match",
+      "pairs": [
+        {
+          "left": "수영하러 가자.",
+          "right": "A: Let's go swimming. B: OK!"
+        },
+        {
+          "left": "샌드위치를 만들자.",
+          "right": "A: Let's make sandwiches. B: Yes!"
+        },
+        {
+          "left": "체스를 두자.",
+          "right": "A: Let's play chess. B: Sure."
+        },
+        {
+          "left": "줄넘기를 하자.",
+          "right": "A: Let's jump rope. B: All right."
+        },
+        {
+          "left": "함께 노래하자.",
+          "right": "A: Let's sing together. B: Sure. (sing)"
+        }
+      ],
+      "accept": [
+        "수영하러 가자.|A: Let's go swimming. B: OK!",
+        "샌드위치를 만들자.|A: Let's make sandwiches. B: Yes!",
+        "체스를 두자.|A: Let's play chess. B: Sure.",
+        "줄넘기를 하자.|A: Let's jump rope. B: All right.",
+        "함께 노래하자.|A: Let's sing together. B: Sure. (sing)"
+      ]
+    }
+  ],
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — 명령문",
+  "sectionsVersion": 1
+}

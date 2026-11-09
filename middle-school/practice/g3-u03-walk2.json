@@ -1,0 +1,331 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "Present perfect negatives & questions (p. 57)",
+  "pages": "57",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 7문항(고르기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "have not played",
+      "type": "mc",
+      "promptKo": "나는 체스를 두지 않았다.",
+      "promptEn": "I have not played chess.",
+      "choices": [
+        "have not played",
+        "not have played",
+        "have played not",
+        "has not played"
+      ],
+      "accept": [
+        "have not played"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "케이트는 부엌을 청소하지 않았다.",
+      "promptEn": "Kate has not cleaned the kitchen.",
+      "choices": [
+        "has not cleaned",
+        "has cleaned",
+        "not has"
+      ],
+      "accept": [
+        "has not cleaned",
+        "hasn't cleaned"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "마일스 씨는 트럭을 운전한 적이 없다.",
+      "promptEn": "Mr. Miles has not driven a truck.",
+      "choices": [
+        "has not driven",
+        "has driven",
+        "not has"
+      ],
+      "accept": [
+        "has not driven",
+        "hasn't driven"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "그들은 전에 뉴욕을 방문한 적이 없다.",
+      "promptEn": "They have not visited New York before.",
+      "choices": [
+        "have not visited",
+        "has not visited",
+        "have visited",
+        "not have"
+      ],
+      "accept": [
+        "have not visited",
+        "haven't visited"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "이 책들은 인기가 있지 않다.",
+      "promptEn": "These books have not been popular.",
+      "choices": [
+        "have not been",
+        "has not been",
+        "have been",
+        "not have"
+      ],
+      "accept": [
+        "have not been",
+        "haven't been"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "로이는 아침 식사 이후로 몸이 좋지 않다.",
+      "promptEn": "Roy has not felt well since breakfast.",
+      "choices": [
+        "has not felt",
+        "has felt",
+        "not has"
+      ],
+      "accept": [
+        "has not felt",
+        "hasn't felt"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "우리 여동생은 어제부터 물을 마시지 않는다.",
+      "promptEn": "My sister has not drunk water since yesterday.",
+      "choices": [
+        "has not drunk",
+        "has drunk",
+        "not has"
+      ],
+      "accept": [
+        "has not drunk",
+        "hasn't drunk"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "내 남동생과 나는 월요일부터 말하지 않는다.",
+      "promptEn": "My brother and I have not talked since Monday.",
+      "choices": [
+        "have not talked",
+        "has not talked",
+        "have talked",
+        "not have"
+      ],
+      "accept": [
+        "have not talked",
+        "haven't talked"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 「have/has not+과거분사」를 찾아 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Kate / Has / finished",
+      "type": "fill",
+      "promptKo": "케이트는 벌써 숙제를 끝냈니?",
+      "promptEn": "Has Kate finished her homework already?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "Kate|Has|finished"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "너는 전에 그를 만난 적이 있니?",
+      "promptEn": "Have you met him before?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "you|Have|met"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "그들은 벌써 개에게 먹이를 주었니?",
+      "promptEn": "Have they fed their dog already?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "they|Have|fed"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "비가 그쳤니?",
+      "promptEn": "Has the rain stopped?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "the rain|Has|stopped"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "우리가 그 그림을 본 적이 있니?",
+      "promptEn": "Have we seen the picture?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "we|Have|seen"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "그 쇼는 이미 시작했니?",
+      "promptEn": "Has the show started yet?\n→ 주어 / have·has / 과거분사",
+      "blanks": 3,
+      "accept": [
+        "the show|Has|started"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어를 찾아 동그라미 하고, 「have/has+과거분사」를 찾아 밑줄을 치세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (주어, have/has, 과거분사 순으로 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "phraseBlanks": true
+    }
+  ]
+}

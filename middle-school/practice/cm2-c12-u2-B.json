@@ -1,0 +1,175 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c12:u2-B",
+  "title": "Unit 2 Unit Exercise — Section B",
+  "subtitle": "whom / which / that (목적격) · POINT 6 (p. 159)",
+  "pages": "159",
+  "timerMinutes": 20,
+  "unitId": "chapter-12",
+  "unitTitle": "Chapter 12 — 관계대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 8문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 8,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nI have a friend <u>that</u> lives in London.",
+      "blanks": 1,
+      "accept": [
+        "a",
+        "ⓐ",
+        "A"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nI think <u>that</u> it's going to rain soon.",
+      "blanks": 1,
+      "accept": [
+        "e",
+        "ⓔ",
+        "E"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nThe girl <u>that</u> I met last Christmas moved to my town.",
+      "blanks": 1,
+      "accept": [
+        "b",
+        "ⓑ",
+        "B"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nWhere did you find <u>that</u> book?",
+      "blanks": 1,
+      "accept": [
+        "d",
+        "ⓓ",
+        "D"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nThe book <u>that</u> you recommended to me was interesting.",
+      "blanks": 1,
+      "accept": [
+        "b",
+        "ⓑ",
+        "B"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nI didn't notice <u>that</u> was a lie.",
+      "blanks": 1,
+      "accept": [
+        "c",
+        "ⓒ",
+        "C"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nThis is the picture <u>that</u> my little brother drew.",
+      "blanks": 1,
+      "accept": [
+        "b",
+        "ⓑ",
+        "B"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "밑줄 친 that의 쓰임을 <보기>에서 골라 그 기호를 쓰세요. POINT 6. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "<보기> ⓐ 주격 관계대명사  ⓑ 목적격 관계대명사  ⓒ 지시대명사  ⓓ 지시형용사  ⓔ 접속사\nOlivia told me <u>that</u> she had to leave.",
+      "blanks": 1,
+      "accept": [
+        "e",
+        "ⓔ",
+        "E"
+      ]
+    }
+  ]
+}

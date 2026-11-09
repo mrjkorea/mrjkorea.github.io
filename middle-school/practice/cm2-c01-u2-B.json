@@ -1,0 +1,133 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c01:u2-B",
+  "title": "Unit 2 Unit Exercise — Section B",
+  "subtitle": "SVOC · POINT 5·6·7 (p. 17)",
+  "pages": "17",
+  "timerMinutes": 16,
+  "unitId": "chapter-01",
+  "unitTitle": "Chapter 01 — 문장의 주요 형식",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "Ms. Collins told us ________________ down during the lesson. (sit)",
+      "accept": [
+        "to sit"
+      ],
+      "blanks": 1,
+      "phraseBlanks": true
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Janet let her brother ________________ her computer today. (use)",
+      "accept": [
+        "use"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We saw some dolphins ________________ in the sea. (swim)",
+      "accept": [
+        "swim",
+        "swimming"
+      ],
+      "blanks": 1
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "My parents don't allow me ________________ out at night. (go)",
+      "accept": [
+        "to go"
+      ],
+      "blanks": 1,
+      "phraseBlanks": true
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Would you help us ________________ for the presentation? (prepare)",
+      "accept": [
+        "prepare",
+        "to prepare"
+      ],
+      "blanks": 1,
+      "phraseBlanks": true
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 쓰세요. POINT 5·6·7. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "Did you hear someone ________________ on the door? (knock)",
+      "accept": [
+        "knock",
+        "knocking"
+      ],
+      "blanks": 1
+    }
+  ]
+}

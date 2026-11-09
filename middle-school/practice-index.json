@@ -1,0 +1,2205 @@
+{
+ "AND BUT OR 접속사": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "141",
+   "grammar": "접속사",
+   "title": "Lesson 01 Walk — 접속사",
+   "file": "practice/b4-u06-lesson01-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "143",
+   "grammar": "접속사",
+   "title": "Lesson 02 Walk — 접속사",
+   "file": "practice/b4-u06-lesson02-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "144",
+   "grammar": "접속사",
+   "title": "Lesson 01 Run — 접속사",
+   "file": "practice/b4-u06-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "145",
+   "grammar": "접속사",
+   "title": "Lesson 02 Run — 접속사",
+   "file": "practice/b4-u06-lesson02-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "146–147",
+   "grammar": "접속사",
+   "title": "Lesson 02 Jump — 접속사",
+   "file": "practice/b4-u06-lesson02-jump.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "148–149",
+   "grammar": "접속사",
+   "title": "Lesson 02 Fly — 접속사",
+   "file": "practice/b4-u06-lesson02-fly.json"
+  }
+ ],
+ "BE GOING TO": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-03",
+   "page": "63",
+   "grammar": "be going to 긍정문",
+   "title": "Lesson 01 Walk 1 — be going to 긍정문",
+   "file": "practice/b4-u03-lesson01-walk1.json"
+  }
+ ],
+ "Be PAST": [
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "141",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 01 Walk 1 — be동사 과거형",
+   "file": "practice/b3-u06-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "143",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 01 Walk 2 — be동사 과거형",
+   "file": "practice/b3-u06-lesson01-walk2.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "144–145",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 01 Run — be동사 과거형",
+   "file": "practice/b3-u06-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "146–147",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 01 Jump — be동사 과거형",
+   "file": "practice/b3-u06-lesson01-jump.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "148–149",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 01 Fly — be동사 과거형",
+   "file": "practice/b3-u06-lesson01-fly.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-06",
+   "page": "151",
+   "grammar": "be동사 과거형",
+   "title": "Lesson 02 Walk 1 — be동사 과거형",
+   "file": "practice/b3-u06-lesson02-walk1.json"
+  }
+ ],
+ "Be동사": [
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "be동사의 긍정문",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm1-c01-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "be동사의 긍정문",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm1-c01-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "be동사의 긍정문",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm1-c01-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "wb-chapter-01",
+   "page": "2",
+   "grammar": "be동사의 긍정문",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm1-wb-c01-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "wb-chapter-01",
+   "page": "2",
+   "grammar": "be동사의 긍정문",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm1-wb-c01-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "wb-chapter-01",
+   "page": "2",
+   "grammar": "be동사의 긍정문",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm1-wb-c01-u1-C.json"
+  }
+ ],
+ "WILL": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-02",
+   "page": "37–38",
+   "grammar": "will + 동사원형",
+   "title": "Lesson 01 Walk 1 — 미래 시제 will",
+   "file": "practice/b4-u02-lesson01-walk1.json"
+  }
+ ],
+ "When접속사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-07",
+   "page": "143",
+   "grammar": "접속사 (1)",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u07-walk1.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-07",
+   "page": "145",
+   "grammar": "접속사 (1)",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u07-walk2.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-07",
+   "page": "154–158",
+   "grammar": "접속사 (1)",
+   "title": "Unit Test 07",
+   "file": "practice/g4-u07-quiz.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-07",
+   "page": "159",
+   "grammar": "접속사 (1)",
+   "title": "Wrap Up",
+   "file": "practice/g4-u07-wrap.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-07",
+   "page": "159",
+   "grammar": "접속사 (1)",
+   "title": "Check Up",
+   "file": "practice/g4-u07-checkup.json"
+  }
+ ],
+ "because 접속사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-08",
+   "page": "163",
+   "grammar": "접속사 because, if",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u08-walk1.json"
+  }
+ ],
+ "too너무": [
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-04",
+   "page": "58–59",
+   "grammar": "부사",
+   "title": "Grammar Walk",
+   "file": "practice/r2-u04-walk.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-04",
+   "page": "60–61",
+   "grammar": "부사",
+   "title": "Grammar Run",
+   "file": "practice/r2-u04-run.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-04",
+   "page": "62–63",
+   "grammar": "부사",
+   "title": "Grammar Jump",
+   "file": "practice/r2-u04-jump.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-04",
+   "page": "66",
+   "grammar": "부사",
+   "title": "QUIZ 2 — 부사 표",
+   "file": "practice/r2-u04-quiz2.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "142",
+   "grammar": "부사",
+   "title": "Lesson 01 Walk 1 — 부사",
+   "file": "practice/b2-u06-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "145–146",
+   "grammar": "부사",
+   "title": "Lesson 01 Run — 부사",
+   "file": "practice/b2-u06-lesson01-run.json"
+  }
+ ],
+ "to부정사부사": [
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-06",
+   "page": "121",
+   "grammar": "부사처럼 쓰이는 to부정사",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g2-u06-walk2.json"
+  }
+ ],
+ "to부정사의명사": [
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-05",
+   "page": "99",
+   "grammar": "to부정사",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g2-u05-walk1.json"
+  },
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-05",
+   "page": "106–107",
+   "grammar": "to부정사",
+   "title": "Grammar Fly",
+   "file": "practice/g2-u05-fly.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-10",
+   "page": "125",
+   "grammar": "to부정사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm1-c10-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-10",
+   "page": "125",
+   "grammar": "to부정사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm1-c10-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "chapter-10",
+   "page": "128",
+   "grammar": "to부정사",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm1-c10-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "wb-chapter-10",
+   "page": "76",
+   "grammar": "to부정사",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm1-wb-c10-u1-B.json"
+  }
+ ],
+ "감각 동사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "13",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u01-walk1.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "13",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u01-walk2.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "18–19",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Fly",
+   "file": "practice/g4-u01-fly.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "22–26",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Unit Test 01",
+   "file": "practice/g4-u01-quiz.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "27",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Wrap Up",
+   "file": "practice/g4-u01-wrap.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "27",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Check Up",
+   "file": "practice/g4-u01-checkup.json"
+  }
+ ],
+ "과거 동사": [
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "31",
+   "grammar": "과거 시제",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/u02-walk1.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "33",
+   "grammar": "과거 시제",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/u02-walk2.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "34–35",
+   "grammar": "과거 시제",
+   "title": "Grammar Run",
+   "file": "practice/u02-run.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "36–37",
+   "grammar": "과거 시제",
+   "title": "Grammar Jump",
+   "file": "practice/u02-jump.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "38–39",
+   "grammar": "과거 시제",
+   "title": "Grammar Fly",
+   "file": "practice/u02-fly.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-02",
+   "page": "40–41",
+   "grammar": "과거 시제",
+   "title": "Grammar & Writing",
+   "file": "practice/u02-writing.json"
+  }
+ ],
+ "동명사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-06",
+   "page": "83",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c06-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-06",
+   "page": "83",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c06-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-06",
+   "page": "83",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c06-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-06",
+   "page": "44",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm2-wb-c06-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-06",
+   "page": "44",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c06-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-06",
+   "page": "45",
+   "grammar": "명사로 쓰이는 동명사",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm2-wb-c06-u1-C.json"
+  }
+ ],
+ "명령문 NOTES1": [
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "163",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/u08-walk1.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "165",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/u08-walk2.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "166–167",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar Run",
+   "file": "practice/u08-run.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "168–169",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar Jump",
+   "file": "practice/u08-jump.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "170–171",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar Fly",
+   "file": "practice/u08-fly.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-08",
+   "page": "172–173",
+   "grammar": "여러 가지 문장",
+   "title": "Grammar & Writing",
+   "file": "practice/u08-writing.json"
+  }
+ ],
+ "명령문 NOTES2": [
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-10",
+   "page": "154–155",
+   "grammar": "명령문",
+   "title": "Grammar Walk",
+   "file": "practice/r2-u10-walk.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-10",
+   "page": "158–159",
+   "grammar": "명령문",
+   "title": "Grammar Jump",
+   "file": "practice/r2-u10-jump.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-10",
+   "page": "160–161",
+   "grammar": "명령문",
+   "title": "Grammar Fly",
+   "file": "practice/r2-u10-fly.json"
+  },
+  {
+   "book": "zap-red-2",
+   "book_title": "ZAP Red 2",
+   "unit": "unit-10",
+   "page": "162",
+   "grammar": "명령문",
+   "title": "QUIZ 1 — 명령문",
+   "file": "practice/r2-u10-quiz1.json"
+  },
+  {
+   "book": "zap-blue-3",
+   "book_title": "ZAP Blue 3",
+   "unit": "unit-08",
+   "page": "197",
+   "grammar": "명령문",
+   "title": "Lesson 01 Walk — 명령문",
+   "file": "practice/b3-u08-lesson01-walk.json"
+  }
+ ],
+ "부가의문문": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-07",
+   "page": "167",
+   "grammar": "부가 의문문의 의미와 형태",
+   "title": "Lesson 01 Walk 1 — 부가 의문문의 의미와 형태",
+   "file": "practice/b4-u07-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-07",
+   "page": "169",
+   "grammar": "부가 의문문의 의미와 형태",
+   "title": "Lesson 01 Walk 2 — 부가 의문문의 의미와 형태",
+   "file": "practice/b4-u07-lesson01-walk2.json"
+  }
+ ],
+ "비교급 ER": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-04",
+   "page": "89",
+   "grammar": "비교급 (1)",
+   "title": "Lesson 01 Walk 1 — 비교급 (1)",
+   "file": "practice/b4-u04-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-04",
+   "page": "91",
+   "grammar": "비교급 (1)",
+   "title": "Lesson 01 Walk 2 — 비교급 (1)",
+   "file": "practice/b4-u04-lesson01-walk2.json"
+  }
+ ],
+ "수여동사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-02",
+   "page": "31",
+   "grammar": "간접목적어·직접목적어",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u02-walk1.json"
+  }
+ ],
+ "원급as": [
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-04",
+   "page": "75",
+   "grammar": "as + 원급 + as",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g2-u04-walk1.json"
+  }
+ ],
+ "일반동사": [
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-01",
+   "page": "11",
+   "grammar": "일반동사의 현재 시제 (1)",
+   "title": "Lesson 01 Walk 1 — 일반동사의 현재 시제 (1)",
+   "file": "practice/b2-u01-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-01",
+   "page": "13",
+   "grammar": "일반동사의 현재 시제 (1)",
+   "title": "Lesson 01 Walk 2 — 일반동사의 현재 시제 (1)",
+   "file": "practice/b2-u01-lesson01-walk2.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-01",
+   "page": "14–15",
+   "grammar": "일반동사의 현재 시제 (1)",
+   "title": "Lesson 01 Run — 일반동사의 현재 시제 (1)",
+   "file": "practice/b2-u01-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-01",
+   "page": "16–17",
+   "grammar": "일반동사의 현재 시제 (1)",
+   "title": "Lesson 01 Jump — 일반동사의 현재 시제 (1)",
+   "file": "practice/b2-u01-lesson01-jump.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-01",
+   "page": "18–19",
+   "grammar": "일반동사의 현재 시제 (1)",
+   "title": "Lesson 01 Fly — 일반동사의 현재 시제 (1)",
+   "file": "practice/b2-u01-lesson01-fly.json"
+  }
+ ],
+ "재귀대명사": [
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-07",
+   "page": "143",
+   "grammar": "재귀대명사 의미·종류",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g3-u07-walk1.json"
+  }
+ ],
+ "접속사 that": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-08",
+   "page": "165, 167",
+   "grammar": "접속사 that",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u08-walk2.json"
+  }
+ ],
+ "최상급": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-05",
+   "page": "115–116",
+   "grammar": "최상급 (1)",
+   "title": "Lesson 01 Walk 1 — 최상급 (1)",
+   "file": "practice/b4-u05-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-05",
+   "page": "118",
+   "grammar": "최상급 (1)",
+   "title": "Lesson 01 Walk 2 — 최상급 (1)",
+   "file": "practice/b4-u05-lesson01-walk2.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-05",
+   "page": "119–120",
+   "grammar": "최상급 (1)",
+   "title": "Lesson 01 Run — 최상급 (1)",
+   "file": "practice/b4-u05-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-05",
+   "page": "121–122",
+   "grammar": "최상급 (1)",
+   "title": "Lesson 01 Jump — 최상급 (1)",
+   "file": "practice/b4-u05-lesson01-jump.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-05",
+   "page": "123–124",
+   "grammar": "최상급 (1)",
+   "title": "Lesson 01 Fly — 최상급 (1)",
+   "file": "practice/b4-u05-lesson01-fly.json"
+  }
+ ],
+ "현재진행": [
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "75",
+   "grammar": "진행 시제",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/u04-walk1.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "77",
+   "grammar": "진행 시제",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/u04-walk2.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "78–79",
+   "grammar": "진행 시제",
+   "title": "Grammar Run",
+   "file": "practice/u04-run.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "80–81",
+   "grammar": "진행 시제",
+   "title": "Grammar Jump",
+   "file": "practice/u04-jump.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "82–83",
+   "grammar": "진행 시제",
+   "title": "Grammar Fly",
+   "file": "practice/u04-fly.json"
+  },
+  {
+   "book": "zap-green-1",
+   "book_title": "ZAP Green 1",
+   "unit": "unit-04",
+   "page": "84–85",
+   "grammar": "진행 시제",
+   "title": "Grammar & Writing",
+   "file": "practice/u04-writing.json"
+  }
+ ],
+ "1-5형 소개": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c01-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c01-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c01-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c01-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm2-c01-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise C",
+   "file": "practice/cm2-c01-u2-C.json"
+  }
+ ],
+ "5형": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c01-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c01-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "12",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c01-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c01-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm2-c01-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-01",
+   "page": "17",
+   "grammar": "문장의 주요 형식",
+   "title": "Unit 2 Exercise C",
+   "file": "practice/cm2-c01-u2-C.json"
+  }
+ ],
+ "8.현재완료": [
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "55",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g3-u03-walk1.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "57",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g3-u03-walk2.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "58–59",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar Run",
+   "file": "practice/g3-u03-run.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "60–61",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar Jump",
+   "file": "practice/g3-u03-jump.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "62–63",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar Fly",
+   "file": "practice/g3-u03-fly.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-03",
+   "page": "64–65",
+   "grammar": "현재 완료 시제 (1)",
+   "title": "Grammar & Writing",
+   "file": "practice/g3-u03-writing.json"
+  }
+ ],
+ "ALTHOUGH": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "141",
+   "grammar": "접속사",
+   "title": "Lesson 01 Walk — 접속사",
+   "file": "practice/b4-u06-lesson01-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "143",
+   "grammar": "접속사",
+   "title": "Lesson 02 Walk — 접속사",
+   "file": "practice/b4-u06-lesson02-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "144",
+   "grammar": "접속사",
+   "title": "Lesson 01 Run — 접속사",
+   "file": "practice/b4-u06-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "145",
+   "grammar": "접속사",
+   "title": "Lesson 02 Run — 접속사",
+   "file": "practice/b4-u06-lesson02-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "146–147",
+   "grammar": "접속사",
+   "title": "Lesson 02 Jump — 접속사",
+   "file": "practice/b4-u06-lesson02-jump.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "148–149",
+   "grammar": "접속사",
+   "title": "Lesson 02 Fly — 접속사",
+   "file": "practice/b4-u06-lesson02-fly.json"
+  }
+ ],
+ "IF 조건절": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-08",
+   "page": "163",
+   "grammar": "접속사 because, if",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u08-walk1.json"
+  }
+ ],
+ "not only A but also B": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "141",
+   "grammar": "접속사",
+   "title": "Lesson 01 Walk — 접속사",
+   "file": "practice/b4-u06-lesson01-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "143",
+   "grammar": "접속사",
+   "title": "Lesson 02 Walk — 접속사",
+   "file": "practice/b4-u06-lesson02-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "144",
+   "grammar": "접속사",
+   "title": "Lesson 01 Run — 접속사",
+   "file": "practice/b4-u06-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "145",
+   "grammar": "접속사",
+   "title": "Lesson 02 Run — 접속사",
+   "file": "practice/b4-u06-lesson02-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "146–147",
+   "grammar": "접속사",
+   "title": "Lesson 02 Jump — 접속사",
+   "file": "practice/b4-u06-lesson02-jump.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "148–149",
+   "grammar": "접속사",
+   "title": "Lesson 02 Fly — 접속사",
+   "file": "practice/b4-u06-lesson02-fly.json"
+  }
+ ],
+ "thing 형용사": [
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "163",
+   "grammar": "부정대명사",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g3-u08-walk1.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "165–168",
+   "grammar": "부정대명사",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g3-u08-walk2.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "166",
+   "grammar": "부정대명사",
+   "title": "Grammar Run",
+   "file": "practice/g3-u08-run.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "168–169",
+   "grammar": "부정대명사",
+   "title": "Grammar Jump",
+   "file": "practice/g3-u08-jump.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "170–172",
+   "grammar": "부정대명사",
+   "title": "Grammar Fly",
+   "file": "practice/g3-u08-fly.json"
+  },
+  {
+   "book": "zap-green-3",
+   "book_title": "ZAP Green 3",
+   "unit": "unit-08",
+   "page": "172–173",
+   "grammar": "부정대명사",
+   "title": "Grammar & Writing",
+   "file": "practice/g3-u08-writing.json"
+  }
+ ],
+ "to 부정사 명사, 형용사, 부사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "65",
+   "grammar": "명사적 용법",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c05-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "65",
+   "grammar": "명사적 용법",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c05-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "65",
+   "grammar": "명사적 용법",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c05-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "34",
+   "grammar": "명사적 용법",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm2-wb-c05-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "34",
+   "grammar": "명사적 용법",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c05-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "35",
+   "grammar": "명사적 용법",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm2-wb-c05-u1-C.json"
+  }
+ ],
+ "가주어IT": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise A",
+   "file": "practice/cm2-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise B",
+   "file": "practice/cm2-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise C",
+   "file": "practice/cm2-c05-u4-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 A",
+   "file": "practice/cm2-wb-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 B",
+   "file": "practice/cm2-wb-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "41",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 C",
+   "file": "practice/cm2-wb-c05-u4-C.json"
+  }
+ ],
+ "감각동사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "13",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u01-walk1.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "13",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u01-walk2.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "18–19",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Grammar Fly",
+   "file": "practice/g4-u01-fly.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "22–26",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Unit Test 01",
+   "file": "practice/g4-u01-quiz.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "27",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Wrap Up",
+   "file": "practice/g4-u01-wrap.json"
+  },
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-01",
+   "page": "27",
+   "grammar": "여러 가지 동사 (1)",
+   "title": "Check Up",
+   "file": "practice/g4-u01-checkup.json"
+  }
+ ],
+ "감정 분사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "97",
+   "grammar": "주의해야 할 분사",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c07-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "97",
+   "grammar": "주의해야 할 분사",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm2-c07-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "97",
+   "grammar": "주의해야 할 분사",
+   "title": "Unit 2 Exercise C",
+   "file": "practice/cm2-c07-u2-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "52",
+   "grammar": "주의해야 할 분사",
+   "title": "WB Unit 2 A",
+   "file": "practice/cm2-wb-c07-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "52",
+   "grammar": "주의해야 할 분사",
+   "title": "WB Unit 2 B",
+   "file": "practice/cm2-wb-c07-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "53",
+   "grammar": "주의해야 할 분사",
+   "title": "WB Unit 2 C",
+   "file": "practice/cm2-wb-c07-u2-C.json"
+  }
+ ],
+ "명사 수식하는 분사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c07-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm2-wb-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "51",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm2-wb-c07-u1-C.json"
+  }
+ ],
+ "목적 보어로 to 부정사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-03",
+   "page": "57",
+   "grammar": "동사+목적어+to부정사",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u03-walk2.json"
+  }
+ ],
+ "목적관계대명사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "159",
+   "grammar": "whom / which / that (목적격)",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c12-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "159",
+   "grammar": "whom / which / that (목적격)",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm2-c12-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "159",
+   "grammar": "whom / which / that (목적격)",
+   "title": "Unit 2 Exercise C",
+   "file": "practice/cm2-c12-u2-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-12",
+   "page": "90",
+   "grammar": "whom / which / that (목적격)",
+   "title": "WB Unit 2 A",
+   "file": "practice/cm2-wb-c12-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-12",
+   "page": "90",
+   "grammar": "whom / which / that (목적격)",
+   "title": "WB Unit 2 B",
+   "file": "practice/cm2-wb-c12-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-12",
+   "page": "91",
+   "grammar": "whom / which / that (목적격)",
+   "title": "WB Unit 2 C",
+   "file": "practice/cm2-wb-c12-u2-C.json"
+  }
+ ],
+ "비교급강조": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-04",
+   "page": "89",
+   "grammar": "비교급 (1)",
+   "title": "Lesson 01 Walk 1 — 비교급 (1)",
+   "file": "practice/b4-u04-lesson01-walk1.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-04",
+   "page": "91",
+   "grammar": "비교급 (1)",
+   "title": "Lesson 01 Walk 2 — 비교급 (1)",
+   "file": "practice/b4-u04-lesson01-walk2.json"
+  }
+ ],
+ "빈도부사": [
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "152",
+   "grammar": "빈도부사",
+   "title": "Lesson 02 Walk 1 — 빈도부사",
+   "file": "practice/b2-u06-lesson02-walk1.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "154",
+   "grammar": "빈도부사",
+   "title": "Lesson 02 Walk 2 — 빈도부사",
+   "file": "practice/b2-u06-lesson02-walk2.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "155–156",
+   "grammar": "빈도부사",
+   "title": "Lesson 02 Run — 빈도부사",
+   "file": "practice/b2-u06-lesson02-run.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "157–158",
+   "grammar": "빈도부사",
+   "title": "Lesson 02 Jump — 빈도부사",
+   "file": "practice/b2-u06-lesson02-jump.json"
+  },
+  {
+   "book": "zap-blue-2",
+   "book_title": "ZAP Blue 2",
+   "unit": "unit-06",
+   "page": "159–160",
+   "grammar": "빈도부사",
+   "title": "Lesson 02 Fly — 빈도부사",
+   "file": "practice/b2-u06-lesson02-fly.json"
+  },
+  {
+   "book": "chunilmun-grammar-1",
+   "book_title": "천일문 GRAMMAR LEVEL 1",
+   "unit": "wb-chapter-07",
+   "page": "51",
+   "grammar": "빈도부사",
+   "title": "WB Unit 2 C",
+   "file": "practice/cm1-wb-c07-u2-C.json"
+  }
+ ],
+ "사역동사 make have let": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-04",
+   "page": "75",
+   "grammar": "사역동사 make, let, have",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u04-walk1.json"
+  }
+ ],
+ "수동태": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-05",
+   "page": "99",
+   "grammar": "능동태와 수동태",
+   "title": "Grammar Walk — Lesson 01",
+   "file": "practice/g4-u05-walk1.json"
+  }
+ ],
+ "의문사to부정사": [
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-08",
+   "page": "165",
+   "grammar": "동명사와 to부정사",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g2-u08-walk2.json"
+  },
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-08",
+   "page": "174–178",
+   "grammar": "동명사와 to부정사",
+   "title": "Unit Test 08",
+   "file": "practice/g2-u08-quiz.json"
+  },
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-08",
+   "page": "179",
+   "grammar": "동명사와 to부정사",
+   "title": "Wrap Up",
+   "file": "practice/g2-u08-wrap.json"
+  },
+  {
+   "book": "zap-green-2",
+   "book_title": "ZAP Green 2",
+   "unit": "unit-08",
+   "page": "179",
+   "grammar": "동명사와 to부정사",
+   "title": "Check Up",
+   "file": "practice/g2-u08-checkup.json"
+  }
+ ],
+ "주격 관계대명사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c12-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c12-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c12-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise A",
+   "file": "practice/cm2-c12-u3-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise B",
+   "file": "practice/cm2-c12-u3-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise C",
+   "file": "practice/cm2-c12-u3-C.json"
+  }
+ ],
+ "지각동사": [
+  {
+   "book": "zap-green-4",
+   "book_title": "ZAP Green 4",
+   "unit": "unit-04",
+   "page": "77",
+   "grammar": "지각동사 see, watch, hear, feel",
+   "title": "Grammar Walk — Lesson 02",
+   "file": "practice/g4-u04-walk2.json"
+  }
+ ],
+ "HAVE 목적어 PP": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c07-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm2-wb-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "51",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm2-wb-c07-u1-C.json"
+  }
+ ],
+ "if whether": [
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "141",
+   "grammar": "접속사",
+   "title": "Lesson 01 Walk — 접속사",
+   "file": "practice/b4-u06-lesson01-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "143",
+   "grammar": "접속사",
+   "title": "Lesson 02 Walk — 접속사",
+   "file": "practice/b4-u06-lesson02-walk.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "144",
+   "grammar": "접속사",
+   "title": "Lesson 01 Run — 접속사",
+   "file": "practice/b4-u06-lesson01-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "145",
+   "grammar": "접속사",
+   "title": "Lesson 02 Run — 접속사",
+   "file": "practice/b4-u06-lesson02-run.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "146–147",
+   "grammar": "접속사",
+   "title": "Lesson 02 Jump — 접속사",
+   "file": "practice/b4-u06-lesson02-jump.json"
+  },
+  {
+   "book": "zap-blue-4",
+   "book_title": "ZAP Blue 4",
+   "unit": "unit-06",
+   "page": "148–149",
+   "grammar": "접속사",
+   "title": "Lesson 02 Fly — 접속사",
+   "file": "practice/b4-u06-lesson02-fly.json"
+  }
+ ],
+ "the 비교급 the 비교급": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-10",
+   "page": "132",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c10-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-10",
+   "page": "132",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "Unit 2 Exercise B",
+   "file": "practice/cm2-c10-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-10",
+   "page": "132",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "Unit 2 Exercise C",
+   "file": "practice/cm2-c10-u2-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-10",
+   "page": "76",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "WB Unit 2 A",
+   "file": "practice/cm2-wb-c10-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-10",
+   "page": "76",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "WB Unit 2 B",
+   "file": "practice/cm2-wb-c10-u2-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-10",
+   "page": "77",
+   "grammar": "원급·비교급·최상급을 이용한 표현",
+   "title": "WB Unit 2 C",
+   "file": "practice/cm2-wb-c10-u2-C.json"
+  }
+ ],
+ "to부정사의 의미상 주어": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise A",
+   "file": "practice/cm2-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise B",
+   "file": "practice/cm2-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise C",
+   "file": "practice/cm2-c05-u4-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 A",
+   "file": "practice/cm2-wb-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 B",
+   "file": "practice/cm2-wb-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "41",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 C",
+   "file": "practice/cm2-wb-c05-u4-C.json"
+  }
+ ],
+ "가목적어 it": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise A",
+   "file": "practice/cm2-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise B",
+   "file": "practice/cm2-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-05",
+   "page": "74",
+   "grammar": "주요 구문",
+   "title": "Unit 4 Exercise C",
+   "file": "practice/cm2-c05-u4-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 A",
+   "file": "practice/cm2-wb-c05-u4-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "40",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 B",
+   "file": "practice/cm2-wb-c05-u4-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-05",
+   "page": "41",
+   "grammar": "주요 구문",
+   "title": "WB Unit 4 C",
+   "file": "practice/cm2-wb-c05-u4-C.json"
+  }
+ ],
+ "관계대명사 계속": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c12-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c12-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "155",
+   "grammar": "관계대명사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c12-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise A",
+   "file": "practice/cm2-c12-u3-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise B",
+   "file": "practice/cm2-c12-u3-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-12",
+   "page": "162",
+   "grammar": "관계대명사",
+   "title": "Unit 3 Exercise C",
+   "file": "practice/cm2-c12-u3-C.json"
+  }
+ ],
+ "분사": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise A",
+   "file": "practice/cm2-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise B",
+   "file": "practice/cm2-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-07",
+   "page": "94",
+   "grammar": "명사를 수식하는 분사",
+   "title": "Unit 1 Exercise C",
+   "file": "practice/cm2-c07-u1-C.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 A",
+   "file": "practice/cm2-wb-c07-u1-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "50",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c07-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-07",
+   "page": "51",
+   "grammar": "명사를 수식하는 분사",
+   "title": "WB Unit 1 C",
+   "file": "practice/cm2-wb-c07-u1-C.json"
+  }
+ ],
+ "조동사 있는 수동태": [
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-04",
+   "page": "57",
+   "grammar": "수동태",
+   "title": "Unit 2 Exercise A",
+   "file": "practice/cm2-c04-u2-A.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "chapter-04",
+   "page": "58–59",
+   "grammar": "수동태",
+   "title": "Chapter Test",
+   "file": "practice/cm2-c04-test.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-04",
+   "page": "24",
+   "grammar": "수동태",
+   "title": "WB Unit 1 B",
+   "file": "practice/cm2-wb-c04-u1-B.json"
+  },
+  {
+   "book": "chunilmun-grammar-2",
+   "book_title": "천일문 GRAMMAR LEVEL 2",
+   "unit": "wb-chapter-04",
+   "page": "28–29",
+   "grammar": "수동태",
+   "title": "WB Chapter Test",
+   "file": "practice/cm2-wb-c04-test.json"
+  }
+ ]
+}

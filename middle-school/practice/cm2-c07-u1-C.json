@@ -1,0 +1,111 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c07:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "명사를 수식하는 분사 · POINT 3 (p. 94)",
+  "pages": "94",
+  "timerMinutes": 22,
+  "unitId": "chapter-07",
+  "unitTitle": "Chapter 07 — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "The man is a famous actor. He is sitting on the bench.\n→ The man ________ is a famous actor.",
+      "blanks": 1,
+      "accept": [
+        "sitting on the bench"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "Tony knows the girl. She is looking out the window.\n→ Tony knows the girl ________.",
+      "blanks": 1,
+      "accept": [
+        "looking out the window"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "This is a novel. It was written by my favorite writer.\n→ This is a novel ________.",
+      "blanks": 1,
+      "accept": [
+        "written by my favorite writer"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "Dolphins are smart animals. They are living in the ocean.\n→ Dolphins are smart animals ________.",
+      "blanks": 1,
+      "accept": [
+        "living in the ocean"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "<보기>와 같이 주어진 두 문장을 분사를 사용하여 한 문장으로 다시 쓰세요. POINT 3. <보기> The girl is my friend. She is standing at the bus stop. → The girl standing at the bus stop is my friend. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "All staff members were invited to the event. They had to wear a suit.\n→ All staff members ________ had to wear a suit.",
+      "blanks": 1,
+      "accept": [
+        "invited to the event"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "practiceId": "g3:u07:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "재귀대명사 의미·종류 (p. 143)",
+  "pages": "143",
+  "timerMinutes": 10,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-07",
+  "unitTitle": "Unit 07 — 재귀대명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 7문항(고르기), Section B 7문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, 재귀대명사를 찾아 동그라미 하세요. 앱에서는 재귀대명사만 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 주어를 찾아 밑줄을 치고, 재귀대명사를 찾아 동그라미 하세요.",
+      "ruleKo": "앱에서는 재귀대명사만 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "walk1_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "myself",
+      "type": "mc",
+      "promptKo": "나는 거울 속의 나 자신을 보았다.",
+      "promptEn": "I looked at ( myself / me ) in the mirror.",
+      "choices": [
+        "myself",
+        "me"
+      ],
+      "accept": [
+        "myself"
+      ]
+    },
+    {
+      "id": "walk1_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptKo": "너는 스웨터를 네가 직접 떴니?",
+      "promptEn": "Did you knit the sweater ( yourself / you )?",
+      "choices": [
+        "yourself",
+        "you"
+      ],
+      "accept": [
+        "yourself"
+      ]
+    },
+    {
+      "id": "walk1_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptKo": "존은 우리에게 자기 자신에 대해 말했다.",
+      "promptEn": "John told us about ( himself / him ).",
+      "choices": [
+        "himself",
+        "him"
+      ],
+      "accept": [
+        "himself"
+      ]
+    },
+    {
+      "id": "walk1_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptKo": "브라운 선생님이 직접 저녁을 요리했다.",
+      "promptEn": "Ms. Brown cooked dinner ( herself / her ).",
+      "choices": [
+        "herself",
+        "her"
+      ],
+      "accept": [
+        "herself"
+      ]
+    },
+    {
+      "id": "walk1_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptKo": "우리 고양이는 항상 스스로 몸을 핥는다.",
+      "promptEn": "My cat always cleans ( itself / it ).",
+      "choices": [
+        "itself",
+        "it"
+      ],
+      "accept": [
+        "itself"
+      ]
+    },
+    {
+      "id": "walk1_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptKo": "우리는 우리 자신에게 그 질문을 했다.",
+      "promptEn": "We asked ( ourselves / us ) the question.",
+      "choices": [
+        "ourselves",
+        "us"
+      ],
+      "accept": [
+        "ourselves"
+      ]
+    },
+    {
+      "id": "walk1_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptKo": "너와 네 여동생은 스스로 숙제를 해야 한다.",
+      "promptEn": "You and your sister must do your homework ( yourselves / you ).",
+      "choices": [
+        "yourselves",
+        "you"
+      ],
+      "accept": [
+        "yourselves"
+      ]
+    },
+    {
+      "id": "walk1_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 재귀대명사를 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptKo": "어떤 새끼 동물들은 스스로 자신을 돌본다.",
+      "promptEn": "Some baby animals take care of ( themselves / them ).",
+      "choices": [
+        "themselves",
+        "them"
+      ],
+      "accept": [
+        "themselves"
+      ]
+    },
+    {
+      "id": "walk1_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "myself / 나 자신",
+      "type": "fill",
+      "promptEn": "I → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "myself|나 자신",
+        "myself|나자신",
+        "myself|자신"
+      ]
+    },
+    {
+      "id": "walk1_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "you (너) → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "yourself|너 자신",
+        "yourself|너자신",
+        "yourself|자신"
+      ]
+    },
+    {
+      "id": "walk1_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "she → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "herself|그녀 자신",
+        "herself|그녀자신",
+        "herself|자신"
+      ]
+    },
+    {
+      "id": "walk1_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "he → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "himself|그 자신",
+        "himself|그자신",
+        "himself|자신"
+      ]
+    },
+    {
+      "id": "walk1_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "it → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "itself|그것 자신",
+        "itself|그것자신",
+        "itself|자신"
+      ]
+    },
+    {
+      "id": "walk1_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "we → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "ourselves|우리 자신",
+        "ourselves|우리자신",
+        "ourselves|자신"
+      ]
+    },
+    {
+      "id": "walk1_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "you (너희들) → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "yourselves|너희 자신",
+        "yourselves|너희자신",
+        "yourselves|너희들 자신",
+        "yourselves|자신"
+      ]
+    },
+    {
+      "id": "walk1_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 인칭대명사와 짝이 되는 재귀대명사와 우리말 뜻을 빈칸에 쓰세요. 빈칸 두 개에 재귀대명사(영어)와 우리말 뜻을 각각 쓰세요. 한 칸에 한 단어(또는 뜻)씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "they → [1] _____  |  [2] _____",
+      "blanks": 2,
+      "accept": [
+        "themselves|그들 자신",
+        "themselves|그들자신",
+        "themselves|자신"
+      ]
+    }
+  ]
+}

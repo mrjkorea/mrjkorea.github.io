@@ -1,0 +1,287 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "smell, taste, feel & like (p. 13)",
+  "pages": "13",
+  "timerMinutes": 10,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, 빈칸에 들어갈 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "A21",
+        "A22",
+        "A23",
+        "A24",
+        "A25",
+        "A26",
+        "A27",
+        "A28"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "id": "a15",
+      "type": "fill",
+      "promptEn": "smell bad",
+      "blanks": 1,
+      "accept": [
+        "나쁜 냄새가 난다",
+        "나쁜냄새가난다",
+        "안 좋은 냄새가 난다",
+        "안좋은냄새가난다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A16",
+      "id": "a16",
+      "type": "fill",
+      "promptEn": "taste hot",
+      "blanks": 1,
+      "accept": [
+        "뜨거운 맛이 난다",
+        "뜨거운맛이난다",
+        "맵다",
+        "매운 맛이 난다",
+        "매운맛이난다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A17",
+      "id": "a17",
+      "type": "fill",
+      "promptEn": "taste good",
+      "blanks": 1,
+      "accept": [
+        "맛이 좋다",
+        "맛이좋다",
+        "맛있다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A18",
+      "id": "a18",
+      "type": "fill",
+      "promptEn": "taste bitter",
+      "blanks": 1,
+      "accept": [
+        "쓴 맛이 난다",
+        "쓴맛이난다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A19",
+      "id": "a19",
+      "type": "fill",
+      "promptEn": "taste salty",
+      "blanks": 1,
+      "accept": [
+        "짠맛이 난다",
+        "짠맛이난다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A20",
+      "id": "a20",
+      "type": "fill",
+      "promptEn": "taste sour",
+      "blanks": 1,
+      "accept": [
+        "신맛이 난다",
+        "신맛이난다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A21",
+      "id": "a21",
+      "type": "fill",
+      "promptEn": "feel cold",
+      "blanks": 1,
+      "accept": [
+        "춥게 느껴진다",
+        "춥게느껴진다",
+        "차갑게 느껴진다",
+        "차갑게느껴진다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A22",
+      "id": "a22",
+      "type": "fill",
+      "promptEn": "feel sleepy",
+      "blanks": 1,
+      "accept": [
+        "졸리게 느껴진다",
+        "졸리게느껴진다",
+        "졸린 느낌이 든다",
+        "졸린느낌이든다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A23",
+      "id": "a23",
+      "type": "fill",
+      "promptEn": "feel soft",
+      "blanks": 1,
+      "accept": [
+        "부드럽게 느껴진다",
+        "부드럽게느껴진다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A24",
+      "id": "a24",
+      "type": "fill",
+      "promptEn": "feel tired",
+      "blanks": 1,
+      "accept": [
+        "피곤하게 느껴진다",
+        "피곤하게느껴진다",
+        "피곤한 느낌이 든다",
+        "피곤한느낌이든다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A25",
+      "id": "a25",
+      "type": "fill",
+      "promptEn": "feel warm",
+      "blanks": 1,
+      "accept": [
+        "따뜻하게 느껴진다",
+        "따뜻하게느껴진다",
+        "포근하게 느껴진다",
+        "포근하게느껴진다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A26",
+      "id": "a26",
+      "type": "fill",
+      "promptEn": "feel happy",
+      "blanks": 1,
+      "accept": [
+        "행복하게 느껴진다",
+        "행복하게느껴진다",
+        "기분이 좋게 느껴진다",
+        "기분이좋게느껴진다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A27",
+      "id": "a27",
+      "type": "fill",
+      "promptEn": "look like his father",
+      "blanks": 1,
+      "accept": [
+        "그의 아버지처럼 보인다",
+        "그의아버지처럼보인다",
+        "아버지를 닮았다",
+        "아버지를닮았다"
+      ]
+    },
+    {
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 영어의 우리말 뜻을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A28",
+      "id": "a28",
+      "type": "fill",
+      "promptEn": "sound like a piano",
+      "blanks": 1,
+      "accept": [
+        "피아노 소리처럼 들린다",
+        "피아노소리처럼들린다"
+      ]
+    }
+  ]
+}

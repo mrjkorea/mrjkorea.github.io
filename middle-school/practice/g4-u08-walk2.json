@@ -1,0 +1,736 @@
+{
+  "practiceId": "g4:u08:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "접속사 that (pp. 165, 167)",
+  "pages": "165, 167",
+  "timerMinutes": 10,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 접속사 (2)",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요.",
+      "ruleKo": "알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요.",
+      "ruleKo": "①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 15,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "walk2-a01",
+      "section": "A",
+      "label": "A1",
+      "type": "mc",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "That",
+      "promptEn": "That we jump here is dangerous.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a02",
+      "section": "A",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "That he is handsome is true.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a03",
+      "section": "A",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "That they love K-pop is interesting.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a04",
+      "section": "A",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "That we save water is not difficult.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a05",
+      "section": "A",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "She knows that they are very lazy.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a06",
+      "section": "A",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "I believe that people are kind.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a07",
+      "section": "A",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "He thinks that she is a great skater.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a08",
+      "section": "A",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "We hope that you will win the game.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a09",
+      "section": "A",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "I think that he will be fine.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a10",
+      "section": "A",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "They expect that he will arrive today.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a11",
+      "section": "A",
+      "label": "A11",
+      "type": "mc",
+      "promptEn": "She thinks that Max broke the vase.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a12",
+      "section": "A",
+      "label": "A12",
+      "type": "mc",
+      "promptEn": "We know that Jack hurt his arm.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a13",
+      "section": "A",
+      "label": "A13",
+      "type": "mc",
+      "promptEn": "The fact is that a spider has eight legs.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a14",
+      "section": "A",
+      "label": "A14",
+      "type": "mc",
+      "promptEn": "The truth is that she told a lie.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-a15",
+      "section": "A",
+      "label": "A15",
+      "type": "mc",
+      "promptEn": "His problem is that he doesn't like singing.",
+      "choices": [
+        "Because",
+        "If",
+        "That",
+        "When",
+        "While"
+      ],
+      "accept": [
+        "That",
+        "3",
+        "③"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 접속사를 찾아 동그라미 하세요. 알맞은 접속사를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "walk2-b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "① Mom was sick, ② Dad cooked dinner for us. ( because )",
+      "promptKo": "엄마가 아프셔서, 아빠가 우리를 위해 저녁 식사를 요리하셨다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "① Harry was so busy, ② he didn't join us. ( because )",
+      "promptKo": "해리는 무척 바빠서, 우리와 함께하지 않았다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "① Clara is kind, ② she is popular. ( because )",
+      "promptKo": "클라라는 친절해서, 인기가 있다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "① Minjun lived in Canada, ② he speaks English well. ( because )",
+      "promptKo": "민준이는 캐나다에서 살았기 때문에, 영어를 잘 말한다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "① it is sunny tomorrow, ② we will go on a picnic. ( if )",
+      "promptKo": "내일 날씨가 화창하면, 우리는 소풍을 갈 것이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B6",
+      "type": "mc",
+      "promptEn": "① you hurry, ② you can catch the train. ( if )",
+      "promptKo": "너는 서두르면, 그 기차를 탈 수 있다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B7",
+      "type": "mc",
+      "promptEn": "① he studies harder, ② his mom will be happy. ( if )",
+      "promptKo": "그가 공부를 더 열심히 하면, 그의 엄마는 기뻐하실 것이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B8",
+      "type": "mc",
+      "promptEn": "① I send this letter now, ② you will get it tomorrow. ( if )",
+      "promptKo": "내가 이 편지를 지금 내면, 너는 내일 그것을 받을 것이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B9",
+      "type": "mc",
+      "promptEn": "① she loves Tom ② is true. ( that )",
+      "promptKo": "그녀가 톰을 사랑하는 것은 사실이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B10",
+      "type": "mc",
+      "promptEn": "① the Earth is round ② is a fact. ( that )",
+      "promptKo": "지구가 둥글다는 것은 사실이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "walk2-b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B11",
+      "type": "mc",
+      "promptEn": "① I know ② you are a good friend. ( that )",
+      "promptKo": "나는 네가 좋은 친구라는 것을 안다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "walk2-b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B12",
+      "type": "mc",
+      "promptEn": "① We believe ② Bill is very diligent. ( that )",
+      "promptKo": "우리는 빌이 매우 부지런하다고 믿는다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "walk2-b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B13",
+      "type": "mc",
+      "promptEn": "① They think ② he was one of the greatest kings. ( that )",
+      "promptKo": "그들은 그가 가장 위대한 왕들 중 한 사람이었다고 생각한다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "walk2-b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B14",
+      "type": "mc",
+      "promptEn": "① I hope ② you will enjoy yourself. ( that )",
+      "promptKo": "나는 네가 즐거운 시간을 보내기를 바란다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "walk2-b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 주어진 말이 들어갈 위치로 알맞은 곳에 동그라미 하세요. ①~② 중 알맞은 위치를 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B15",
+      "type": "mc",
+      "promptEn": "① Her problem is ② she is too lazy. ( that )",
+      "promptKo": "그녀의 문제는 그녀가 너무 게으르다는 것이다.",
+      "choices": [
+        "①",
+        "②"
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    }
+  ],
+  "introKo": "이 연습은 Section A 14문항(고르기), Section B 15문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요."
+}

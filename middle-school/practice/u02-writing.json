@@ -1,0 +1,212 @@
+{
+  "practiceId": "u02:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "Photo dialogues & table (pp. 40–41)",
+  "pages": "40–41",
+  "timerMinutes": 11,
+  "unitTitle": "Unit 02 과거 시제",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 5문항(빈칸 말만 쓰기), Section B 3문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "directionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "directionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 3,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Did / go / camping / did",
+      "type": "fill",
+      "promptEn": "[사진: go camping]\nQ: ______ Jenny ______ ______ last weekend?\nA: Yes, she ______.",
+      "blanks": 4,
+      "accept": [
+        "Did|go|camping|did"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "[사진: go fishing]\nQ: ______ Mike ______ ______ last weekend?\nA: Yes, he ______.",
+      "blanks": 4,
+      "accept": [
+        "Did|go|fishing|did"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "[사진: go swimming]\nQ: Did Kate go hiking last weekend?\nA: No, she ______. She ______ ______.",
+      "blanks": 3,
+      "accept": [
+        "didn't|went|swimming",
+        "did not|went|swimming"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "[사진: ride a bike]\nQ: ______ Kevin ______ ______ ______ last weekend?\nA: Yes, ______ ______.",
+      "blanks": 6,
+      "accept": [
+        "Did|ride|a|bike|he|did"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "[사진: at the zoo]\nQ: Was Nate ______ ______ ______ last weekend?\nA: Yes, he ______.",
+      "blanks": 4,
+      "accept": [
+        "at|the|zoo|was"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 제니와 친구들이 주말에 한 일에 대해 묻고 대답하는 대화입니다. 사진을 보고, 주어진 말을 사용하여 대화를 완성하세요. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸 수만큼만 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "[사진: at the museum]\nQ: ______ Brian at the pool last weekend?\nA: No, he ______. He was ______ ______ ______.",
+      "blanks": 5,
+      "accept": [
+        "Was|wasn't|at|the|museum",
+        "Was|was not|at|the|museum"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "walked to school / go to school by bus",
+      "type": "fill",
+      "promptKo": "[표] I: last year walk to school → this year go to school by bus / my brother: not wear a school uniform → wear a school uniform / my father: come home late → come home early / my mother: not exercise → do yoga",
+      "promptEn": "I ________________ last year.\nI ________________ this year.",
+      "blanks": 2,
+      "accept": [
+        "walked to school|go to school by bus"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "[표] I: last year walk to school → this year go to school by bus / my brother: not wear a school uniform → wear a school uniform / my father: come home late → come home early / my mother: not exercise → do yoga",
+      "promptEn": "My brother ________________ last year.\nHe ________________ this year.",
+      "blanks": 2,
+      "accept": [
+        "didn't wear a school uniform|wears a school uniform",
+        "did not wear a school uniform|wears a school uniform"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "[표] I: last year walk to school → this year go to school by bus / my brother: not wear a school uniform → wear a school uniform / my father: come home late → come home early / my mother: not exercise → do yoga",
+      "promptEn": "My father ________________ last year.\nHe ________________ this year.",
+      "blanks": 2,
+      "accept": [
+        "came home late|comes home early"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[표 해석하기] 다음은 나미와 나미 가족이 작년에 비해 올해 어떤 점이 달라졌는지 정리한 표입니다. 표를 보고, 다음 문장을 완성하세요. 빈칸 두 개에 들어갈 말(동사 + 뒤의 말)을 각각 쓰세요. 첫째 칸은 작년(과거), 둘째 칸은 올해(현재)예요. 주어가 3인칭 단수면 현재 동사에 -s/-es를 붙이세요. (last year / this year는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "[표] I: last year walk to school → this year go to school by bus / my brother: not wear a school uniform → wear a school uniform / my father: come home late → come home early / my mother: not exercise → do yoga",
+      "promptEn": "My mother ________________ last year.\nShe ________________ this year.",
+      "blanks": 2,
+      "accept": [
+        "didn't exercise|does yoga",
+        "did not exercise|does yoga"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c07:u2-B",
+  "title": "Workbook Unit 2 — Section B",
+  "subtitle": "주의해야 할 분사 · POINT 4 (p. 52)",
+  "pages": "52",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-07",
+  "unitTitle": "Ch 07 WB — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4.",
+      "ruleKo": "빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "(surprise)\nTom's life in Japan was ________ to us.\nWe were ________ by Tom's life in Japan.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "surprising|surprised"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "(confuse)\nHer explanations were ________ to them.\nThey were ________ by her explanations.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "confusing|confused"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "(amaze)\nEveryone was ________ by her wisdom.\nHer wisdom was ________ to everyone.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "amazed|amazing"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "(tire)\nTeaching little children is very ________ to her.\nShe is very ________ from teaching little children.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "tiring|tired"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "(shock)\nThe scientists were ________ by the result of the experiment.\nThe result of the experiment was ________ to the scientists.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "shocked|shocking"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 각각 쓰세요. POINT 4. 빈칸마다 들어갈 말을 한 칸에 한 단어씩 각각 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "(touch)\nThe ending of the book was very ________ to me.\nI was very ________ by the ending of the book.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "(1)",
+        "(2)"
+      ],
+      "accept": [
+        "touching|touched"
+      ]
+    }
+  ]
+}

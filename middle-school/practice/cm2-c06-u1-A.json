@@ -1,0 +1,157 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c06:u1-A",
+  "title": "Unit 1 Unit Exercise — Section A",
+  "subtitle": "명사로 쓰이는 동명사 · POINT 1·2·3·4 (p. 83)",
+  "pages": "83",
+  "timerMinutes": 20,
+  "unitId": "chapter-06",
+  "unitTitle": "Chapter 06 — 동명사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어",
+      "ruleKo": "보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Their aim is [making a better world].",
+      "blanks": 1,
+      "accept": [
+        "ⓑ",
+        "b",
+        "B"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "The city map will be helpful for [finding your way].",
+      "blanks": 1,
+      "accept": [
+        "ⓓ",
+        "d",
+        "D"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "[Dancing] is great exercise.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He suggested [going for a walk in the park].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Protect your eyes by [wearing sunglasses].",
+      "blanks": 1,
+      "accept": [
+        "ⓓ",
+        "d",
+        "D"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We finished [decorating the Christmas tree].",
+      "blanks": 1,
+      "accept": [
+        "ⓒ",
+        "c",
+        "C"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "<보기>에서 밑줄 친 동명사의 쓰임을 골라 그 기호를 쓰세요. POINT 1·2·3·4. <보기> ⓐ 주어 ⓑ 보어 ⓒ 동사의 목적어 ⓓ 전치사의 목적어 보기의 기호만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "[Eating too much sugar] is unhealthy.",
+      "blanks": 1,
+      "accept": [
+        "ⓐ",
+        "a",
+        "A"
+      ]
+    }
+  ]
+}

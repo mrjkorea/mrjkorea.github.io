@@ -1,0 +1,529 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사의 현재 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u01:lesson01-fly",
+  "title": "Lesson 01 Fly — 일반동사의 현재 시제 (1)",
+  "subtitle": "고치기 · 문장 완성 (pp. 18–19)",
+  "pages": "18–19",
+  "timerMinutes": 26,
+  "introKo": "Section A는 밑줄 동사를 고친 형태만, Section B는 주어에 맞는 현재형을 씁니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요.",
+      "ruleKo": "고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 말을 사용하여 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01f_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Michael <u>drive</u> a car.",
+      "accept": [
+        "drives"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "drives",
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "My sister <u>ride</u> a bicycle.",
+      "accept": [
+        "rides"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "The cat <u>sleep</u> well.",
+      "accept": [
+        "sleeps"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Taylor <u>sing</u> well.",
+      "accept": [
+        "sings"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "The boys <u>runs</u> every morning.",
+      "accept": [
+        "run"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "My mother <u>cook</u> delicious pasta.",
+      "accept": [
+        "cooks"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They <u>walks</u> to school.",
+      "accept": [
+        "walk"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "My brother <u>know</u> my shoe size.",
+      "accept": [
+        "knows"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "We <u>loves</u> sweets.",
+      "accept": [
+        "love"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My grandmother <u>live</u> in Jeonju.",
+      "accept": [
+        "lives"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "The girls <u>drinks</u> milk every day.",
+      "accept": [
+        "drink"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Minho <u>make</u> robots.",
+      "accept": [
+        "makes"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "They <u>likes</u> steak.",
+      "accept": [
+        "like"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "We <u>visits</u> our uncle every month.",
+      "accept": [
+        "visit"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장의 밑줄 친 부분을 바르게 고쳐 빈칸에 쓰세요. 고친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Her aunt <u>swim</u> in the sea.",
+      "accept": [
+        "swims"
+      ],
+      "promptKo": "밑줄 친 동사를 바르게 고친 형태를 쓰세요."
+    },
+    {
+      "id": "l01f_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "I ______ the piano after school. (play)",
+      "accept": [
+        "play"
+      ],
+      "promptKo": "나는 방과 후에 피아노를 친다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "play"
+    },
+    {
+      "id": "l01f_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "Alice ______ flowers. (like)",
+      "accept": [
+        "likes"
+      ],
+      "promptKo": "앨리스는 꽃을 좋아한다."
+    },
+    {
+      "id": "l01f_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "We ______ galbi in the evening. (eat)",
+      "accept": [
+        "eat"
+      ],
+      "promptKo": "우리는 저녁에 갈비를 먹는다."
+    },
+    {
+      "id": "l01f_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Taewhan ______ 10 kilometers every day. (run)",
+      "accept": [
+        "runs"
+      ],
+      "promptKo": "태환은 매일 10킬로미터를 달린다."
+    },
+    {
+      "id": "l01f_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "Her uncle ______ Chicago once a year. (visit)",
+      "accept": [
+        "visits"
+      ],
+      "promptKo": "그녀의 삼촌은 일 년에 한 번 시카고를 방문한다."
+    },
+    {
+      "id": "l01f_b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "The restaurant ______ at 8 p.m. (close)",
+      "accept": [
+        "closes"
+      ],
+      "promptKo": "그 식당은 오후 8시에 문을 닫는다."
+    },
+    {
+      "id": "l01f_b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "My cousin ______ hip-hop music. (listen to)",
+      "accept": [
+        "listens to",
+        "listens"
+      ],
+      "promptKo": "우리 사촌은 힙합 음악을 듣는다."
+    },
+    {
+      "id": "l01f_b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Johnny ______ his parents. (help)",
+      "accept": [
+        "helps"
+      ],
+      "promptKo": "조니는 부모님을 돕는다."
+    },
+    {
+      "id": "l01f_b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "They ______ their books every day. (read)",
+      "accept": [
+        "read"
+      ],
+      "promptKo": "그들은 매일 책을 읽는다."
+    },
+    {
+      "id": "l01f_b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "My aunt ______ yoga. (learn)",
+      "accept": [
+        "learns"
+      ],
+      "promptKo": "우리 이모는 요가를 배운다."
+    },
+    {
+      "id": "l01f_b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "Tim and Susan ______ home together. (come)",
+      "accept": [
+        "come"
+      ],
+      "promptKo": "팀과 수잔은 함께 집에 온다."
+    },
+    {
+      "id": "l01f_b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "That singer ______ well. (dance)",
+      "accept": [
+        "dances"
+      ],
+      "promptKo": "저 가수는 잘 춘다."
+    },
+    {
+      "id": "l01f_b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "We ______ her face. (know)",
+      "accept": [
+        "know"
+      ],
+      "promptKo": "우리는 그녀의 얼굴을 안다."
+    },
+    {
+      "id": "l01f_b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "Floppy ______ my ball. (love)",
+      "accept": [
+        "loves"
+      ],
+      "promptKo": "플로피는 내 공을 좋아한다."
+    },
+    {
+      "id": "l01f_b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 말을 사용하여 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "He ______ a notebook. (need)",
+      "accept": [
+        "needs"
+      ],
+      "promptKo": "그는 공책이 필요하다."
+    }
+  ]
+}

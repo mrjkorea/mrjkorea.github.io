@@ -1,0 +1,168 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "unitId": "chapter-10",
+  "unitTitle": "Chapter 10 — 비교표현",
+  "practiceId": "cm2:c10:u2-B",
+  "title": "Unit 2 Unit Exercise — Section B",
+  "subtitle": "원급·비교급·최상급을 이용한 표현 · POINT 5·6·7·8 (p. 132)",
+  "pages": "132",
+  "timerMinutes": 22,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 7문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "This is one of ________ in the town. (old, tree)",
+      "blanks": 1,
+      "accept": [
+        "the oldest trees"
+      ],
+      "promptKo": "이것은 마을에서 가장 오래된 나무 중 하나이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The ________ the weather becomes, the ________ we sweat. (hot, much)",
+      "blanks": 2,
+      "accept": [
+        "hotter|more"
+      ],
+      "promptKo": "날씨가 더 더워질수록 우리는 더 많이 땀을 흘린다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "Wash your hands ________ possible. (often)",
+      "blanks": 1,
+      "accept": [
+        "as often as"
+      ],
+      "promptKo": "가능한 한 자주 손을 씻어라.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "The ________ the sunlight is, the ________ the fruit grows. (strong, well)",
+      "blanks": 2,
+      "accept": [
+        "stronger|better"
+      ],
+      "promptKo": "햇빛이 더 강할수록 과일은 더 잘 자란다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "It is one of ________ of this year. (interesting, movie)",
+      "blanks": 1,
+      "accept": [
+        "the most interesting movies"
+      ],
+      "promptKo": "그것은 올해의 가장 재미있는 영화 중 하나이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "The river is ________ the lake. (three, deep, times, as)",
+      "blanks": 1,
+      "accept": [
+        "three times as deep as",
+        "3 times as deep as"
+      ],
+      "promptKo": "그 강은 호수보다 세 배 더 깊다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "주어진 단어를 빈칸에 어법상 알맞은 형태로 바꿔 쓰세요. POINT 5·6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "The field is getting ________ and ________. (dry)",
+      "blanks": 2,
+      "accept": [
+        "drier|drier",
+        "dryer|dryer"
+      ],
+      "promptKo": "들판은 점점 더 말라가고 있다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ]
+    }
+  ]
+}

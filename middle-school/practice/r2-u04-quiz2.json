@@ -1,0 +1,142 @@
+{
+  "practiceId": "r2:u04:quiz2",
+  "title": "QUIZ 2 — 부사 표",
+  "subtitle": "p. 66",
+  "pages": "66",
+  "timerMinutes": 12,
+  "introKo": "7문항. 표의 빈칸에 알맞은 부사를 쓰세요. (만화는 학습용이며 채점하지 않습니다.)",
+  "sections": [
+    {
+      "id": "A",
+      "title": "QUIZ 2",
+      "instructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 7,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "q01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "loud → ___",
+      "blanks": 1,
+      "accept": [
+        "loudly"
+      ],
+      "promptKo": "형용사 loud"
+    },
+    {
+      "id": "q02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "quick → ___",
+      "blanks": 1,
+      "accept": [
+        "quickly"
+      ],
+      "promptKo": "형용사 quick"
+    },
+    {
+      "id": "q03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "careful → ___",
+      "blanks": 1,
+      "accept": [
+        "carefully"
+      ],
+      "promptKo": "형용사 careful"
+    },
+    {
+      "id": "q04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "happy → ___",
+      "blanks": 1,
+      "accept": [
+        "happily"
+      ],
+      "promptKo": "형용사 happy"
+    },
+    {
+      "id": "q05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "5",
+      "type": "fill",
+      "promptEn": "fast → ___",
+      "blanks": 1,
+      "accept": [
+        "fast"
+      ],
+      "promptKo": "형용사 fast"
+    },
+    {
+      "id": "q06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "6",
+      "type": "fill",
+      "promptEn": "hard → ___",
+      "blanks": 1,
+      "accept": [
+        "hard"
+      ],
+      "promptKo": "형용사 hard"
+    },
+    {
+      "id": "q07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 표의 빈칸에 알맞은 부사를 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "7",
+      "type": "fill",
+      "promptEn": "good → ___",
+      "blanks": 1,
+      "accept": [
+        "well"
+      ],
+      "promptKo": "형용사 good"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "practiceId": "g3:u08:walk1",
+  "title": "Grammar Walk — Lesson 01",
+  "subtitle": "one, another, the other (p. 163)",
+  "pages": "163",
+  "timerMinutes": 10,
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-08",
+  "unitTitle": "Unit 08 — 부정대명사",
+  "sectionsVersion": 2,
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "directionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요.",
+      "ruleKo": "문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "She needs a car. She will buy _____ soon.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "promptKo": "그녀는 자동차가 필요하다. 곧 한 대 살 것이다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "one",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "There are a few dresses. The red _____ is mine.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Tom likes apples, and he is eating _____ now.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "This bakery is famous for pumpkin pies. Let's buy _____.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Bob didn't win many prizes, but he will win _____ today.",
+      "blanks": 1,
+      "accept": [
+        "one"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "I ate a cookie, and Mom gave me _____.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "They already have a pet, but they want _____.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "He already wrote five books, and he is writing _____ now.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "She returned the book, and she borrowed _____.",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "The ice cream was great. Can I have _____?",
+      "blanks": 1,
+      "accept": [
+        "another"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "There are two birds on the roof. _____ is brown, and _____ is blue.",
+      "blanks": 2,
+      "accept": [
+        "One|the other",
+        "One|The other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "Mom made two sandwiches. I ate _____, and my brother ate _____.",
+      "blanks": 2,
+      "accept": [
+        "one|the other",
+        "one|The other",
+        "One|the other",
+        "One|The other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "I have two best friends. _____ is Mike, and _____ is Susan.",
+      "blanks": 2,
+      "accept": [
+        "One|the other",
+        "One|The other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "We had three cats. _____ was white, _____ was black, and _____ was yellow.",
+      "blanks": 3,
+      "accept": [
+        "One|another|the other",
+        "One|Another|the other",
+        "One|another|The other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Three friends came to my party. _____ is Peter, _____ is Kyle, and _____ is Tim.",
+      "blanks": 3,
+      "accept": [
+        "One|another|the other",
+        "One|Another|the other",
+        "One|another|The other"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부정대명사를 모두 찾아 동그라미 하세요. 문장에 나온 부정대명사를 순서대로 각 빈칸에 하나씩 쓰세요. (책에서는 동그라미 하세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    }
+  ],
+  "introKo": "이 연습은 Section A 15문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 책의 ‘동그라미’ 활동은 부정대명사를 순서대로 빈칸에 쓰는 방식으로 바꿨어요."
+}

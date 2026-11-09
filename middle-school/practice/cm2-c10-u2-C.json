@@ -1,0 +1,127 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "unitId": "chapter-10",
+  "unitTitle": "Chapter 10 — 비교표현",
+  "practiceId": "cm2:c10:u2-C",
+  "title": "Unit 2 Unit Exercise — Section C",
+  "subtitle": "원급·비교급·최상급을 이용한 표현 · POINT 6·7·8 (p. 132)",
+  "pages": "132",
+  "timerMinutes": 20,
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "________ they grew, ________ they became. (old, wise)",
+      "blanks": 2,
+      "accept": [
+        "The older|the wiser"
+      ],
+      "promptKo": "그들은 나이가 더 들수록 더 현명해졌다.",
+      "blankPartLabels": [
+        "1",
+        "2"
+      ],
+      "phraseBlanks": true
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "I will finish it ________. (quickly, possible)",
+      "blanks": 1,
+      "accept": [
+        "as quickly as possible"
+      ],
+      "phraseBlanks": true
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "The kite flew away ________. (high)",
+      "blanks": 1,
+      "accept": [
+        "higher and higher"
+      ],
+      "promptKo": "그 연은 점점 더 높이 날아갔다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "The British Museum is ________ in the world. (large, museum)",
+      "blanks": 1,
+      "accept": [
+        "one of the largest museums"
+      ],
+      "promptKo": "대영 박물관은 세계에서 가장 큰 박물관 중 하나이다.",
+      "phraseBlanks": true
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 문장을 완성하세요. POINT 6·7·8. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "________ he gets, ________ he shouts. (angry, loudly)",
+      "blanks": 2,
+      "accept": [
+        "The angrier|the more loudly"
+      ],
+      "blankPartLabels": [
+        "1",
+        "2"
+      ],
+      "phraseBlanks": true
+    }
+  ]
+}

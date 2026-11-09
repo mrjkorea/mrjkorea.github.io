@@ -1,0 +1,251 @@
+{
+  "practiceId": "b2:u06:lesson02-walk1",
+  "title": "Lesson 02 Walk 1 — 빈도부사",
+  "subtitle": "빈도부사 (p. 152)",
+  "pages": "152",
+  "timerMinutes": 10,
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-06",
+  "unitTitle": "Unit 06 — 부사",
+  "sectionsVersion": 2,
+  "introKo": "Section A 4문항, Section B 5문항. A1 예시는 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 빈도부사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요.",
+      "ruleKo": "알맞은 뜻(a~e)을 하나 골라 누르세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "Minho never gets up early.",
+      "accept": [
+        "never",
+        "Never"
+      ],
+      "promptKo": "민호는 결코 일찍 일어나지 않는다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "never"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Minsu sometimes gets up early.",
+      "accept": [
+        "sometimes",
+        "Sometimes"
+      ],
+      "promptKo": "민수는 가끔 일찍 일어난다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "Jenny often gets up early.",
+      "accept": [
+        "often",
+        "Often"
+      ],
+      "promptKo": "제니는 자주 일찍 일어난다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Jimin usually gets up early.",
+      "accept": [
+        "usually",
+        "Usually"
+      ],
+      "promptKo": "지민이는 보통 일찍 일어난다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 빈도부사를 찾아 동그라미 하세요. 동그라미 친 빈도부사만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Anna always gets up early.",
+      "accept": [
+        "always",
+        "Always"
+      ],
+      "promptKo": "애나는 항상 일찍 일어난다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "1. never",
+      "choices": [
+        "a. 결코 ~ 않다",
+        "b. 자주, 흔히",
+        "c. 가끔, 때때로",
+        "d. 보통, 대개",
+        "e. 항상"
+      ],
+      "accept": [
+        "1",
+        "a. 결코 ~ 않다"
+      ],
+      "promptKo": "never → 결코 ~ 않다"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "2. sometimes",
+      "choices": [
+        "a. 결코 ~ 않다",
+        "b. 자주, 흔히",
+        "c. 가끔, 때때로",
+        "d. 보통, 대개",
+        "e. 항상"
+      ],
+      "accept": [
+        "3",
+        "c. 가끔, 때때로"
+      ],
+      "promptKo": "sometimes → 가끔"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "3. often",
+      "choices": [
+        "a. 결코 ~ 않다",
+        "b. 자주, 흔히",
+        "c. 가끔, 때때로",
+        "d. 보통, 대개",
+        "e. 항상"
+      ],
+      "accept": [
+        "2",
+        "b. 자주, 흔히"
+      ],
+      "promptKo": "often → 자주"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "4. usually",
+      "choices": [
+        "a. 결코 ~ 않다",
+        "b. 자주, 흔히",
+        "c. 가끔, 때때로",
+        "d. 보통, 대개",
+        "e. 항상"
+      ],
+      "accept": [
+        "4",
+        "d. 보통, 대개"
+      ],
+      "promptKo": "usually → 보통"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 빈도부사의 뜻을 찾아 선으로 연결하세요. 알맞은 뜻(a~e)을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "5. always",
+      "choices": [
+        "a. 결코 ~ 않다",
+        "b. 자주, 흔히",
+        "c. 가끔, 때때로",
+        "d. 보통, 대개",
+        "e. 항상"
+      ],
+      "accept": [
+        "5",
+        "e. 항상"
+      ],
+      "promptKo": "always → 항상"
+    }
+  ]
+}

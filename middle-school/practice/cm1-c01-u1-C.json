@@ -1,0 +1,152 @@
+{
+  "practiceId": "cm1:c01:u1-C",
+  "title": "Unit 1 Unit Exercise — Section C",
+  "subtitle": "be동사의 긍정문 · POINT 2·3·4 (p. 12)",
+  "pages": "12",
+  "timerMinutes": 22,
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "unitId": "chapter-01",
+  "unitTitle": "Chapter 01 — be동사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 5문항(빈칸 말만 쓰기)으로 되어 있어요. 각 문항마다 be동사 칸과 우리말 해석 칸이 있습니다.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4.",
+      "ruleKo": "첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "Jimin ( are / is ) in the hospital now.",
+      "promptKo": "→ 지민이는 지금 ________________.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "be동사",
+        "해석"
+      ],
+      "accept": [
+        "is|병원에 있다",
+        "is|지금 병원에 있다",
+        "is|병원에 있어",
+        "is|지금 병원에 있어"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "The streets ( is / are ) very clean.",
+      "promptKo": "→ 거리는 매우 ________________.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "be동사",
+        "해석"
+      ],
+      "accept": [
+        "are|깨끗하다",
+        "are|매우 깨끗하다",
+        "are|깨끗해",
+        "are|매우 깨끗해"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "The stars ( was / were ) so bright last night.",
+      "promptKo": "→ 어젯밤에 별들이 매우 ________________.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "be동사",
+        "해석"
+      ],
+      "accept": [
+        "were|밝았다",
+        "were|매우 밝았다",
+        "were|아주 밝았다",
+        "were|밝았어",
+        "were|매우 밝았어"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "Sujin and Minho ( is / are ) my best friends.",
+      "promptKo": "→ 수진이와 민호는 ________________.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "be동사",
+        "해석"
+      ],
+      "accept": [
+        "are|나의 가장 친한 친구들이다",
+        "are|내 가장 친한 친구들이다",
+        "are|나의 가장 친한 친구들이야",
+        "are|내 가장 친한 친구들이야"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "괄호 안에서 알맞은 be동사를 고르고, 우리말 해석을 완성하세요. POINT 2·3·4. 첫 칸에는 괄호 안에서 고른 be동사만, 둘째 칸에는 빈칸에 들어갈 우리말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "Your wallet ( was / were ) on the table.",
+      "promptKo": "→ 너의 지갑은 ________________.",
+      "blanks": 2,
+      "blankPartLabels": [
+        "be동사",
+        "해석"
+      ],
+      "accept": [
+        "was|탁자 위에 있었다",
+        "was|테이블 위에 있었다",
+        "was|탁자 위에 있었어",
+        "was|테이블 위에 있었어"
+      ]
+    }
+  ]
+}

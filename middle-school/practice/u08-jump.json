@@ -1,0 +1,485 @@
+{
+  "practiceId": "u08:jump",
+  "title": "Grammar Jump",
+  "subtitle": "Word box & tag blanks (pp. 168–169)",
+  "pages": "168–169",
+  "timerMinutes": 23,
+  "unitTitle": "Unit 08 — 여러 가지 문장",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 11문항(고르기), Section B 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요.",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "directionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Pass",
+      "type": "fill",
+      "promptEn": "Pass me the scissors, please.",
+      "blanks": 1,
+      "accept": [
+        "Pass"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "________ your name and address.",
+      "blanks": 1,
+      "accept": [
+        "Write"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "________ be sad.",
+      "blanks": 1,
+      "accept": [
+        "Don't",
+        "Do not"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "Please ________ ________ water.",
+      "blanks": 2,
+      "accept": [
+        "don't|waste",
+        "do not|waste"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Clear your desk, ________ Mom will get angry.",
+      "blanks": 1,
+      "accept": [
+        "or"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "Leave now, ________ you will arrive in time.",
+      "blanks": 1,
+      "accept": [
+        "and"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "________ read these comic books.",
+      "blanks": 1,
+      "accept": [
+        "Let's"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "________ ________ play on the swings.",
+      "blanks": 2,
+      "accept": [
+        "Let's|not"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "________ ride bikes after school.",
+      "blanks": 1,
+      "accept": [
+        "Let's"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "________ beautiful islands they are!",
+      "blanks": 1,
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "________ a brave boy he is!",
+      "blanks": 1,
+      "accept": [
+        "What"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (pass / let's / write / waste / and / or / not / how / what / don't) 중복해서 사용할 수 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "________ fast the cheetahs run!",
+      "blanks": 1,
+      "accept": [
+        "How"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "isn't / it",
+      "type": "fill",
+      "promptEn": "Today is Thursday, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "isn't|it",
+        "is not|it"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "She was a pilot, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "wasn't|she",
+        "was not|she"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "You have new shoes, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "don't|you",
+        "do not|you"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Nancy passed the test, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "didn't|she",
+        "did not|she"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "You can write a diary in English, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "can't|you",
+        "can not|you",
+        "cannot|you"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "The children will ride a roller coaster, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "won't|they",
+        "will not|they"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B7",
+      "type": "fill",
+      "promptEn": "You weren't tired then, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "were|you"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B8",
+      "type": "fill",
+      "promptEn": "Harry doesn't like noodles, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "does|he"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B9",
+      "type": "fill",
+      "promptEn": "The man can't lift the rock, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "can|he"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B10",
+      "type": "fill",
+      "promptEn": "She won't go to the dentist, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "will|she"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B11",
+      "type": "fill",
+      "promptEn": "Finish your homework before bed, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "will|you"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B12",
+      "type": "fill",
+      "promptEn": "Lend me your glue, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "will|you"
+      ]
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B13",
+      "type": "fill",
+      "promptEn": "Don't make a fire in the mountains, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "will|you"
+      ]
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B14",
+      "type": "fill",
+      "promptEn": "Let's help that old woman, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "shall|we"
+      ]
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 빈칸에 알맞은 부가 의문문을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (부가 의문문을 두 칸에 나누어 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B15",
+      "type": "fill",
+      "promptEn": "Let's not swim in the river, ________ ________?",
+      "blanks": 2,
+      "accept": [
+        "shall|we"
+      ]
+    }
+  ]
+}

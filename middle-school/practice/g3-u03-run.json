@@ -1,0 +1,828 @@
+{
+  "bookId": "zap-green-3",
+  "bookTitle": "ZAP Green 3",
+  "appName": "GreenZap 3",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 현재 완료 시제 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g3:u03:run",
+  "title": "Grammar Run",
+  "subtitle": "Present perfect forms (pp. 58–59)",
+  "pages": "58–59",
+  "timerMinutes": 20,
+  "introKo": "이 연습은 Section A 29문항(빈칸 말만 쓰기), Section B 14문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 29,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "A21",
+        "A22",
+        "A23",
+        "A24",
+        "A25",
+        "A26",
+        "A27",
+        "A28",
+        "A29",
+        "A30"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "talk → have _____",
+      "blanks": 1,
+      "accept": [
+        "talked"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "talked",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "visit → have _____",
+      "blanks": 1,
+      "accept": [
+        "visited"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "like → have _____",
+      "blanks": 1,
+      "accept": [
+        "liked"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "arrive → have _____",
+      "blanks": 1,
+      "accept": [
+        "arrived"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "try → have _____",
+      "blanks": 1,
+      "accept": [
+        "tried"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "study → have _____",
+      "blanks": 1,
+      "accept": [
+        "studied"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "drop → have _____",
+      "blanks": 1,
+      "accept": [
+        "dropped"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "shop → have _____",
+      "blanks": 1,
+      "accept": [
+        "shopped"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "stay → have _____",
+      "blanks": 1,
+      "accept": [
+        "stayed"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "play → have _____",
+      "blanks": 1,
+      "accept": [
+        "played"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "make → have _____",
+      "blanks": 1,
+      "accept": [
+        "made"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "leave → have _____",
+      "blanks": 1,
+      "accept": [
+        "left"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "have → have _____",
+      "blanks": 1,
+      "accept": [
+        "had"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "teach → have _____",
+      "blanks": 1,
+      "accept": [
+        "taught"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "buy → have _____",
+      "blanks": 1,
+      "accept": [
+        "bought"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a16",
+      "section": "A",
+      "label": "A16",
+      "type": "fill",
+      "promptEn": "sleep → have _____",
+      "blanks": 1,
+      "accept": [
+        "slept"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a17",
+      "section": "A",
+      "label": "A17",
+      "type": "fill",
+      "promptEn": "meet → have _____",
+      "blanks": 1,
+      "accept": [
+        "met"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a18",
+      "section": "A",
+      "label": "A18",
+      "type": "fill",
+      "promptEn": "speak → have _____",
+      "blanks": 1,
+      "accept": [
+        "spoken"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a19",
+      "section": "A",
+      "label": "A19",
+      "type": "fill",
+      "promptEn": "wear → have _____",
+      "blanks": 1,
+      "accept": [
+        "worn"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a20",
+      "section": "A",
+      "label": "A20",
+      "type": "fill",
+      "promptEn": "begin → have _____",
+      "blanks": 1,
+      "accept": [
+        "begun"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a21",
+      "section": "A",
+      "label": "A21",
+      "type": "fill",
+      "promptEn": "sing → have _____",
+      "blanks": 1,
+      "accept": [
+        "sung"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a22",
+      "section": "A",
+      "label": "A22",
+      "type": "fill",
+      "promptEn": "eat → have _____",
+      "blanks": 1,
+      "accept": [
+        "eaten"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a23",
+      "section": "A",
+      "label": "A23",
+      "type": "fill",
+      "promptEn": "are → have _____",
+      "blanks": 1,
+      "accept": [
+        "been"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a24",
+      "section": "A",
+      "label": "A24",
+      "type": "fill",
+      "promptEn": "know → have _____",
+      "blanks": 1,
+      "accept": [
+        "known"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a25",
+      "section": "A",
+      "label": "A25",
+      "type": "fill",
+      "promptEn": "go → have _____",
+      "blanks": 1,
+      "accept": [
+        "gone"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a26",
+      "section": "A",
+      "label": "A26",
+      "type": "fill",
+      "promptEn": "do → have _____",
+      "blanks": 1,
+      "accept": [
+        "done"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a27",
+      "section": "A",
+      "label": "A27",
+      "type": "fill",
+      "promptEn": "run → have _____",
+      "blanks": 1,
+      "accept": [
+        "run"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a28",
+      "section": "A",
+      "label": "A28",
+      "type": "fill",
+      "promptEn": "become → have _____",
+      "blanks": 1,
+      "accept": [
+        "become"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a29",
+      "section": "A",
+      "label": "A29",
+      "type": "fill",
+      "promptEn": "read → have _____",
+      "blanks": 1,
+      "accept": [
+        "read"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "a30",
+      "section": "A",
+      "label": "A30",
+      "type": "fill",
+      "promptEn": "put → have _____",
+      "blanks": 1,
+      "accept": [
+        "put"
+      ],
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 동사를 「have+과거분사」로 바꿔 쓸 때 빈칸에 알맞은 말을 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만"
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "label": "B1",
+      "type": "mc",
+      "promptKo": "샘은 자기 애완동물을 씻겼다.",
+      "promptEn": "Sam ( has / does ) washed his pet.",
+      "choices": [
+        "has",
+        "does"
+      ],
+      "accept": [
+        "has"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "has",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "label": "B2",
+      "type": "mc",
+      "promptKo": "너는 네 방을 이미 청소했다.",
+      "promptEn": "You ( have / do ) cleaned your room already.",
+      "choices": [
+        "have",
+        "do"
+      ],
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "label": "B3",
+      "type": "mc",
+      "promptKo": "나는 홀 씨를 2년 동안 알아 왔다.",
+      "promptEn": "I ( have / do ) known Mrs. Hall for two years.",
+      "choices": [
+        "have",
+        "do"
+      ],
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "label": "B4",
+      "type": "mc",
+      "promptKo": "밥은 3년 동안 한국어를 공부해 왔다.",
+      "promptEn": "Bob ( has / does ) studied Korean for three years.",
+      "choices": [
+        "has",
+        "does"
+      ],
+      "accept": [
+        "has"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "label": "B5",
+      "type": "mc",
+      "promptKo": "그 쇼는 이미 시작했다.",
+      "promptEn": "The show ( have / has ) started already.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "has"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "label": "B6",
+      "type": "mc",
+      "promptKo": "그들은 2010년부터 런던에 살아 왔다.",
+      "promptEn": "They ( have / has ) lived in London since 2010.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "label": "B7",
+      "type": "mc",
+      "promptKo": "그녀는 숙제를 끝냈다.",
+      "promptEn": "She ( have / has ) finished her homework.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "has"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "label": "B8",
+      "type": "mc",
+      "promptKo": "우리는 그 영화를 봤다.",
+      "promptEn": "We ( have / has ) watched the movie.",
+      "choices": [
+        "have",
+        "has"
+      ],
+      "accept": [
+        "have"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "label": "B9",
+      "type": "mc",
+      "promptKo": "나는 이미 저녁 식사를 했다.",
+      "promptEn": "I have _____ dinner already. ( ate / eaten )",
+      "choices": [
+        "ate",
+        "eaten"
+      ],
+      "accept": [
+        "eaten"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "label": "B10",
+      "type": "mc",
+      "promptKo": "내 여동생은 6년 동안 안경을 써 왔다.",
+      "promptEn": "My sister has _____ glasses for six years. ( wore / worn )",
+      "choices": [
+        "wore",
+        "worn"
+      ],
+      "accept": [
+        "worn"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "label": "B11",
+      "type": "mc",
+      "promptKo": "우리는 유령을 본 적이 있다.",
+      "promptEn": "We have _____ a ghost. ( saw / seen )",
+      "choices": [
+        "saw",
+        "seen"
+      ],
+      "accept": [
+        "seen"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "label": "B12",
+      "type": "mc",
+      "promptKo": "그 새는 자기 둥지를 틀었다.",
+      "promptEn": "The bird has _____ its nest. ( built / build )",
+      "choices": [
+        "built",
+        "build"
+      ],
+      "accept": [
+        "built"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b13",
+      "section": "B",
+      "label": "B13",
+      "type": "mc",
+      "promptKo": "그 남자아이는 작년부터 무척 많이 자랐다.",
+      "promptEn": "The boy has _____ so much since last year. ( grew / grown )",
+      "choices": [
+        "grew",
+        "grown"
+      ],
+      "accept": [
+        "grown"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b14",
+      "section": "B",
+      "label": "B14",
+      "type": "mc",
+      "promptKo": "너는 이미 설거지를 했다.",
+      "promptEn": "You have _____ the dishes already. ( did / done )",
+      "choices": [
+        "did",
+        "done"
+      ],
+      "accept": [
+        "done"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    },
+    {
+      "id": "b15",
+      "section": "B",
+      "label": "B15",
+      "type": "mc",
+      "promptKo": "우리 부모님은 이미 집에 오셨다.",
+      "promptEn": "My parents have _____ home already. ( come / came )",
+      "choices": [
+        "come",
+        "came"
+      ],
+      "accept": [
+        "come"
+      ],
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장의 괄호 안에서 알맞은 말을 골라 동그라미 하세요. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기"
+    }
+  ]
+}

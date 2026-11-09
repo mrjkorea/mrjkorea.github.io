@@ -1,0 +1,250 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "unitId": "wb-chapter-10",
+  "unitTitle": "Ch 10 WB — 비교표현",
+  "practiceId": "cm2:wb-c10:u2-B",
+  "title": "Workbook Unit 2 — Section B",
+  "subtitle": "원급·비교급·최상급을 이용한 표현 · POINT 6·7·8 (WB p. 76)",
+  "pages": "76",
+  "timerMinutes": 22,
+  "sectionsVersion": 3,
+  "introKo": "이 연습은 Section B 10문항(O/X 고르고 고치기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "directionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8.",
+      "ruleKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B1",
+      "type": "ox",
+      "promptEn": "The more you exercise, <u>more</u> calories you burn.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "the more"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B2",
+      "type": "ox",
+      "promptEn": "She is one of <u>the popular singer</u> in our country.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "the most popular singers",
+        "most popular singers"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B3",
+      "type": "ox",
+      "promptEn": "Shanghai is one of <u>the biggest cities</u> in the world.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B4",
+      "type": "ox",
+      "promptEn": "You should get out of this building <u>as fast possible</u>.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "as fast as possible"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B5",
+      "type": "ox",
+      "promptEn": "The daytime is getting <u>shorter and shorter</u>.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B6",
+      "type": "ox",
+      "promptEn": "The lower the price is, <u>the most</u> people buy.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "the more"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B7",
+      "type": "ox",
+      "promptEn": "The story became <u>more interesting and interesting</u>.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "more and more interesting"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B8",
+      "type": "ox",
+      "promptEn": "The sooner the Sun sets, <u>the cold</u> the weather gets.",
+      "accept": [
+        "X"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "rewriteAccept": [
+        "the colder"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B9",
+      "type": "ox",
+      "promptEn": "Mt. Everest is one of <u>the highest mountains</u> in the world.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 밑줄 친 부분이 맞으면 O, 틀리면 X하고 바르게 고치세요. POINT 6·7·8. O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다.",
+      "answerMode": "ox",
+      "answerModeTag": "O/X · 맞으면 O, 틀리면 고친 말",
+      "label": "B10",
+      "type": "ox",
+      "promptEn": "Keep the food <u>as cool as possible</u>.",
+      "accept": [
+        "O"
+      ],
+      "choices": [
+        "O",
+        "X"
+      ],
+      "hintKo": "O 또는 X를 누르세요. X이면 틀린 부분만 바르게 고친 말을 쓰세요. X, 쉼표, 문장 전체를 붙이지 마세요. O이면 고친 말을 쓰지 않습니다."
+    }
+  ]
+}

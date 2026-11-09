@@ -1,0 +1,129 @@
+{
+  "practiceId": "cm1:c01:u1-A",
+  "title": "Unit 1 Unit Exercise — Section A",
+  "subtitle": "be동사의 긍정문 · POINT 1·2 (p. 12)",
+  "pages": "12",
+  "timerMinutes": 18,
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "unitId": "chapter-01",
+  "unitTitle": "Chapter 01 — be동사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 6문항(빈칸 말만 쓰기)으로 되어 있어요. [ ] 안의 말이 밑줄 친 부분이에요. 각 섹션 맨 위의 안내를 읽고, 밑줄 친 부분을 어법에 맞게 고친 말만 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2.",
+      "ruleKo": "[ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "You [is] always very nice.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She [are] always a good teacher.",
+      "blanks": 1,
+      "accept": [
+        "is"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "[It're] sunny and clear today.",
+      "blanks": 1,
+      "accept": [
+        "It's",
+        "It is"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "I [are] very tired today.",
+      "blanks": 1,
+      "accept": [
+        "am"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "[We'are] in the first grade this year.",
+      "blanks": 1,
+      "accept": [
+        "We're",
+        "We are"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 어법상 알맞은 형태로 고치세요. POINT 1·2. [ ] 안의 말이 밑줄 친 부분이에요. 고친 말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "My parents and I [am] so close together.",
+      "blanks": 1,
+      "accept": [
+        "are"
+      ]
+    }
+  ]
+}

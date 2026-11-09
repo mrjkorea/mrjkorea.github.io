@@ -1,0 +1,502 @@
+{
+  "practiceId": "u02:run",
+  "title": "Grammar Run",
+  "subtitle": "Past tense practice (pp. 34–35)",
+  "pages": "34–35",
+  "timerMinutes": 18,
+  "unitTitle": "Unit 02 과거 시제",
+  "wordBank": [
+    "was",
+    "were",
+    "did",
+    "visited",
+    "sent",
+    "studied",
+    "had",
+    "played",
+    "found",
+    "fed",
+    "wore",
+    "cooked"
+  ],
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기), Section B 11문항(고르기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "directionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 11,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "was",
+      "type": "fill",
+      "promptEn": "I ________ busy all day last Sunday. ( be )",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "Sally and Harry ________ at the bookstore then. ( be )",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "It ________ sunny yesterday. ( be )",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "My mother ________ a sandwich for me. ( make )",
+      "blanks": 1,
+      "accept": [
+        "made"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "He ________ his grandmother this afternoon. ( call )",
+      "blanks": 1,
+      "accept": [
+        "called"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "We ________ to the zoo last Saturday. ( go )",
+      "blanks": 1,
+      "accept": [
+        "went"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "I ________ the heavy boxes yesterday. ( carry )",
+      "blanks": 1,
+      "accept": [
+        "carried"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "The baby ________ some milk. ( drink )",
+      "blanks": 1,
+      "accept": [
+        "drank"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "John and I ________ books yesterday. ( read )",
+      "blanks": 1,
+      "accept": [
+        "read"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My family ________ near the river then. ( live )",
+      "blanks": 1,
+      "accept": [
+        "lived"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "They ________ at the stars in the sky. ( look )",
+      "blanks": 1,
+      "accept": [
+        "looked"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "The train ________ at 11 o'clock. ( arrive )",
+      "blanks": 1,
+      "accept": [
+        "arrived"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "He ________ some birthday presents from his friends. ( get )",
+      "blanks": 1,
+      "accept": [
+        "got"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "His sister ________ a cold last week. ( have )",
+      "blanks": 1,
+      "accept": [
+        "had"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 말을 사용하여 과거 시제의 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) 괄호 안의 말을 과거형으로 바꿔 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "My father ________ a big fish at the lake. ( catch )",
+      "blanks": 1,
+      "accept": [
+        "caught"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "was",
+      "type": "fill",
+      "promptKo": "어제는 날씨가 흐렸지만, 오늘은 화창하다.",
+      "promptEn": "It ________ cloudy yesterday, but it is sunny today.",
+      "blanks": 1,
+      "accept": [
+        "was"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B2",
+      "type": "fill",
+      "promptKo": "브라운 씨는 저녁 식사로 스파게티를 요리했다.",
+      "promptEn": "Mr. Brown ________ spaghetti for dinner.",
+      "blanks": 1,
+      "accept": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B3",
+      "type": "fill",
+      "promptKo": "우리 가족은 지난 주말에 조부모님을 찾아뵈었다.",
+      "promptEn": "My family ________ my grandparents last weekend.",
+      "blanks": 1,
+      "accept": [
+        "visited"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B4",
+      "type": "fill",
+      "promptKo": "농장에는 돼지 일곱 마리가 있었다.",
+      "promptEn": "There ________ seven pigs on the farm.",
+      "blanks": 1,
+      "accept": [
+        "were"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B5",
+      "type": "fill",
+      "promptKo": "나는 그 귀여운 토끼들에게 먹이를 주었다.",
+      "promptEn": "I ________ the cute rabbits.",
+      "blanks": 1,
+      "accept": [
+        "fed"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B6",
+      "type": "fill",
+      "promptKo": "우리는 침대 밑에서 열쇠를 찾았다.",
+      "promptEn": "We ________ the key under the bed.",
+      "blanks": 1,
+      "accept": [
+        "found"
+      ]
+    },
+    {
+      "id": "b07",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B7",
+      "type": "fill",
+      "promptKo": "그들은 밖에서 점심 식사를 했다.",
+      "promptEn": "They ________ lunch outside.",
+      "blanks": 1,
+      "accept": [
+        "had"
+      ]
+    },
+    {
+      "id": "b08",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B8",
+      "type": "fill",
+      "promptKo": "나는 한 시간 전에 그녀에게 이메일을 보냈다.",
+      "promptEn": "I ________ her e-mail an hour ago.",
+      "blanks": 1,
+      "accept": [
+        "sent"
+      ]
+    },
+    {
+      "id": "b09",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B9",
+      "type": "fill",
+      "promptKo": "우리 누나와 나는 체스를 두었다.",
+      "promptEn": "My sister and I ________ chess.",
+      "blanks": 1,
+      "accept": [
+        "played"
+      ]
+    },
+    {
+      "id": "b10",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B10",
+      "type": "fill",
+      "promptKo": "그녀는 파티에서 아름다운 드레스를 입고 있었다.",
+      "promptEn": "She ________ a beautiful dress to the party.",
+      "blanks": 1,
+      "accept": [
+        "wore"
+      ]
+    },
+    {
+      "id": "b11",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B11",
+      "type": "fill",
+      "promptKo": "폴은 밤에 숙제를 했다.",
+      "promptEn": "Paul ________ his homework at night.",
+      "blanks": 1,
+      "accept": [
+        "did"
+      ]
+    },
+    {
+      "id": "b12",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 중 알맞은 말을 찾아 문장을 완성하세요. (was / were / did / visited / sent / studied / had / played / found / fed / wore / cooked) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "B12",
+      "type": "fill",
+      "promptKo": "민호는 저녁에 수학을 공부했다.",
+      "promptEn": "Minho ________ math in the evening.",
+      "blanks": 1,
+      "accept": [
+        "studied"
+      ]
+    }
+  ]
+}

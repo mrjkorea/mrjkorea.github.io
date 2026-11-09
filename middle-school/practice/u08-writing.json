@@ -1,0 +1,226 @@
+{
+  "practiceId": "u08:writing",
+  "title": "Grammar & Writing",
+  "subtitle": "Zoo tags & flea-market exclamations (pp. 172–173)",
+  "pages": "172–173",
+  "timerMinutes": 20,
+  "unitTitle": "Unit 08 — 여러 가지 문장",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 4문항(빈칸 말만 쓰기), Section B 5문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "directionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요.",
+      "ruleKo": "빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "directionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "swims fast / doesn't it",
+      "type": "fill",
+      "promptEn": "( swim fast )\nA: A turtle ________ ________?\nB: Yes, it does.",
+      "blanks": 2,
+      "accept": [
+        "swims fast|doesn't it"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "( doesn't have legs )\nA: A snake ______ ______ ______ ______ ______?\nB: No, it doesn't.",
+      "blanks": 5,
+      "accept": [
+        "doesn't|have|legs|does|it",
+        "does not|have|legs|does|it"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "( is tall )\nA: A giraffe ______ ______ ______ ______?\nB: Yes, it is.",
+      "blanks": 4,
+      "accept": [
+        "is|tall|isn't|it",
+        "is|tall|is not|it"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "( can carry heavy things )\nA: Elephants ______ ______ ______ ______ ______ ______?\nB: Yes, they can.",
+      "blanks": 6,
+      "accept": [
+        "can|carry|heavy|things|can't|they",
+        "can|carry|heavy|things|can not|they",
+        "can|carry|heavy|things|cannot|they"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "[정보 활용하기] 강산이가 동생과 동물원에 갔어요. 호기심 많은 동생이 동물들에 대해 계속 질문을 하네요. 주어진 말을 사용하여 빈칸에 알맞은 말을 쓰세요. 빈칸 두 개에 들어갈 말을 각각 쓰세요. 한 칸에 한 단어씩 쓰세요. (문장 전체를 쓰지 마세요.) (A의 말 빈칸 두 개에 각각 한 단어 이상씩 쓰세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "( can't fly )\nA: Ostriches ______ ______ ______ ______?\nB: No, they can't.",
+      "blanks": 4,
+      "accept": [
+        "can't|fly|can|they",
+        "can not|fly|can|they",
+        "cannot|fly|can|they"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "What a beautiful painting",
+      "type": "fill",
+      "promptEn": "그림: 아름다운 그림 한 점.\nWhat a beautiful painting it is! ( a beautiful painting )",
+      "blanks": 1,
+      "accept": [
+        "What a beautiful painting"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "그림: 예쁜 인형들.\n________ they are! ( pretty dolls )",
+      "blanks": 1,
+      "accept": [
+        "What pretty dolls"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "그림: 두꺼운 책 한 권.\n________ it is! ( a thick book )",
+      "blanks": 1,
+      "accept": [
+        "What a thick book"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "그림: 오래된 트렁크 하나.\n________ it is! ( an old trunk )",
+      "blanks": 1,
+      "accept": [
+        "What an old trunk"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "그림: 맛있는 쿠키들.\n________ they are! ( delicious cookies )",
+      "blanks": 1,
+      "accept": [
+        "What delicious cookies"
+      ]
+    },
+    {
+      "id": "b06",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "[그림 묘사하기] 수지네 마을 공원에서 벼룩 시장이 열렸어요. 벼룩 시장에는 놀랄 만한 물건들이 많아요. 수지가 벼룩 시장에 있는 물건들을 보면서 어떻게 감탄하는지 다음 문장을 완성하세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.) (빈칸에는 What으로 시작하는 감탄 부분만 쓰세요. it is!/they are!는 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B6",
+      "type": "fill",
+      "promptEn": "그림: 재미있는 가면들.\n________ they are! ( funny masks )",
+      "blanks": 1,
+      "accept": [
+        "What funny masks"
+      ]
+    }
+  ]
+}

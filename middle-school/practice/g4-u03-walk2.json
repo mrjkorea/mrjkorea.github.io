@@ -1,0 +1,273 @@
+{
+  "practiceId": "g4:u03:walk2",
+  "title": "Grammar Walk — Lesson 02",
+  "subtitle": "동사+목적어+to부정사 (p. 57)",
+  "pages": "57",
+  "timerMinutes": 10,
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-03",
+  "unitTitle": "Unit 03 — 여러 가지 동사 (3)",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 14문항(빈칸 말만 쓰기)으로 되어 있어요. 회색 '예시' 문제는 책에 답이 나와 있는 예시라서 채점하지 않아요. 각 섹션 맨 위의 안내를 읽고, '빈칸 말만'이면 빈칸에 들어갈 말만, '문장 전체'면 문장 전체를 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요.",
+      "ruleKo": "빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 14,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "I want you to make your bed.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "want|to make your bed"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "want / to make your bed"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "He wants you to leave early.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "wants|to leave early"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "My mother wants me to study hard.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "wants|to study hard"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "He wanted his dog to catch the ball.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "wanted|to catch the ball"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "Ms. White wanted him to paint the fence.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "wanted|to paint the fence"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "She told the children to wash their hands.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "told|to wash their hands"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "The doctor told me to take medicine.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "told|to take medicine"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "She told her daughter to lock the door.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "told|to lock the door"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "The coach told the player to try again.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "told|to try again"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "I will tell Clara to call you.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "tell|to call you"
+      ]
+    },
+    {
+      "id": "a11",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A11",
+      "type": "fill",
+      "promptEn": "I asked my brother to help me.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "asked|to help me"
+      ]
+    },
+    {
+      "id": "a12",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A12",
+      "type": "fill",
+      "promptEn": "She always asks John to be on time.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "asks|to be on time"
+      ]
+    },
+    {
+      "id": "a13",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A13",
+      "type": "fill",
+      "promptEn": "Bob asked me to come to his party.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "asked|to come to his party"
+      ]
+    },
+    {
+      "id": "a14",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A14",
+      "type": "fill",
+      "promptEn": "The kid asked his mother to bring his umbrella.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "asked|to bring his umbrella"
+      ]
+    },
+    {
+      "id": "a15",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 동사와 목적격 보어(to부정사)를 각각 쓰세요. 빈칸 두 개에 동사와 목적격 보어를 한 칸에 하나씩 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A15",
+      "type": "fill",
+      "promptEn": "Mary asked him to be quiet.\n동사: _____   목적격 보어: _____",
+      "blanks": 2,
+      "accept": [
+        "asked|to be quiet"
+      ]
+    }
+  ]
+}

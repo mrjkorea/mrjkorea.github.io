@@ -1,0 +1,99 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c05:u4-B",
+  "title": "Unit 4 Unit Exercise — Section B",
+  "subtitle": "주요 구문 · POINT 10·11 (p. 74)",
+  "pages": "74",
+  "timerMinutes": 20,
+  "unitId": "chapter-05",
+  "unitTitle": "Chapter 05 — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section B 4문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "These jellies are ________.",
+      "promptKo": "이 젤리는 너무 딱딱해서 씹을 수가 없다. (hard, chew)",
+      "blanks": 1,
+      "accept": [
+        "too hard to chew"
+      ]
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "The cat is ________ through the hole.",
+      "promptKo": "그 고양이는 구멍을 통과해 갈 만큼 작다. (small, go)",
+      "blanks": 1,
+      "accept": [
+        "small enough to go"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "This chicken soup is ________ eating.",
+      "promptKo": "이 치킨 수프는 너무 맛있어서 먹는 것을 멈출 수가 없다. (delicious, stop)",
+      "blanks": 1,
+      "accept": [
+        "too delicious to stop"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 사용하여 빈칸에 알맞은 말을 쓰세요. POINT 10·11. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Dogs are ________ human language.",
+      "promptKo": "개는 사람의 언어를 이해할 만큼 충분히 똑똑하다. (smart, understand)",
+      "blanks": 1,
+      "accept": [
+        "smart enough to understand"
+      ]
+    }
+  ]
+}

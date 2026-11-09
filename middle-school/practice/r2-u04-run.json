@@ -1,0 +1,370 @@
+{
+  "practiceId": "r2:u04:run",
+  "title": "Grammar Run",
+  "subtitle": "부사 · 전치사 찾기 (p. 60–61)",
+  "pages": "60–61",
+  "timerMinutes": 20,
+  "introKo": "Section A 10문항(부사 쓰기), B 5문항(시간 전치사), C 5문항(장소 전치사)입니다. 예시 2개는 채점하지 않습니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 5,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "She jumps well.",
+      "blanks": 1,
+      "accept": [
+        "well"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "well"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "She studies English very hard.",
+      "blanks": 1,
+      "accept": [
+        "hard",
+        "very hard"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "We walk slowly.",
+      "blanks": 1,
+      "accept": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "We are very happy.",
+      "blanks": 1,
+      "accept": [
+        "very"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "They are so fat.",
+      "blanks": 1,
+      "accept": [
+        "so"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "They drive a car quickly.",
+      "blanks": 1,
+      "accept": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Mark looks at me sadly.",
+      "blanks": 1,
+      "accept": [
+        "sadly"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Mark shouts loudly.",
+      "blanks": 1,
+      "accept": [
+        "loudly"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "My grandpa makes a box easily.",
+      "blanks": 1,
+      "accept": [
+        "easily"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 문장에서 부사를 찾아 동그라미 하세요. 동그라미 친 부사만 빈칸에 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "My grandpa smiles happily.",
+      "blanks": 1,
+      "accept": [
+        "happily"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My birthday is in March.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "in"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "He gets up at five o'clock.",
+      "blanks": 1,
+      "accept": [
+        "at"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "He doesn't go to school on Sunday.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "We go to Seoul in October.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 시간을 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "We play soccer on Monday.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ]
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "She is in the room.",
+      "blanks": 1,
+      "accept": [
+        "in"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "She is under the tree.",
+      "blanks": 1,
+      "accept": [
+        "under"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "A doll is on the box.",
+      "blanks": 1,
+      "accept": [
+        "on"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "A doll is next to the box.",
+      "blanks": 1,
+      "accept": [
+        "next to"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 문장에서 장소를 나타내는 전치사를 찾아 동그라미 하세요. 전치사만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "A doll is behind the box.",
+      "blanks": 1,
+      "accept": [
+        "behind"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "practiceId": "r2:u10:fly",
+  "title": "Grammar Fly",
+  "subtitle": "명령문 완성 (p. 160–161)",
+  "pages": "160–161",
+  "timerMinutes": 20,
+  "introKo": "Section A 9문항, B 4문항, C 4문항(각 예시 1개는 채점 제외)입니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "___ high. (jump)",
+      "blanks": 1,
+      "accept": [
+        "Jump"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Jump"
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "___ every day. (exercise)",
+      "blanks": 1,
+      "accept": [
+        "Exercise"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "___ the dishes. (wash)",
+      "blanks": 1,
+      "accept": [
+        "Wash"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "___ diligent. (is)",
+      "blanks": 1,
+      "accept": [
+        "Be"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "___ ___ your coat. (put on)",
+      "blanks": 2,
+      "accept": [
+        "Put|on"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "___ a strong boy. (am)",
+      "blanks": 1,
+      "accept": [
+        "Be"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "Please ___ your name. (write)",
+      "blanks": 1,
+      "accept": [
+        "write"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "Please ___ some cake. (have)",
+      "blanks": 1,
+      "accept": [
+        "have"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "___ my bike, please. (fix)",
+      "blanks": 1,
+      "accept": [
+        "Fix"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "주어진 동사를 사용하여 다음 문장을 완성하세요. 빈칸에 알맞은 말(동사원형)만 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "___ to me, please. (listen)",
+      "blanks": 1,
+      "accept": [
+        "Listen"
+      ]
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "___ ___ here. (shout)",
+      "blanks": 2,
+      "accept": [
+        "Don't|shout"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Don't shout"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "___ ___ at the pool. (run)",
+      "blanks": 2,
+      "accept": [
+        "Don't|run"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "___ ___ angry. (be)",
+      "blanks": 2,
+      "accept": [
+        "Don't|be"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "___ ___ on the bench. (sit)",
+      "blanks": 2,
+      "accept": [
+        "Don't|sit"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "Don't와 주어진 단어를 사용하여 ‘~하지 마라’라는 문장을 완성하세요. 빈칸에 Don't와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "___ ___ the box. (open)",
+      "blanks": 2,
+      "accept": [
+        "Don't|open"
+      ]
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "A: ___ ___ a walk. (take) B: Sure.",
+      "blanks": 2,
+      "accept": [
+        "Let's|take"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "Let's take"
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "A: ___ ___ camping. (go) B: All right.",
+      "blanks": 2,
+      "accept": [
+        "Let's|go"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "A: ___ ___ dinner. (have) B: OK!",
+      "blanks": 2,
+      "accept": [
+        "Let's|have"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "A: ___ ___ her. (help) B: Yes!",
+      "blanks": 2,
+      "accept": [
+        "Let's|help"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "Let's와 주어진 단어를 사용하여 제안하는 문장을 완성하세요. 빈칸에 Let's와 동사원형을 순서대로 쓰세요.",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "A: ___ ___ together. (dance) B: All right.",
+      "blanks": 2,
+      "accept": [
+        "Let's|dance"
+      ]
+    }
+  ],
+  "bookId": "zap-red-2",
+  "bookTitle": "ZAP Red 2",
+  "appName": "RedZap 2",
+  "unitId": "unit-10",
+  "unitTitle": "Unit 10 — 명령문",
+  "sectionsVersion": 1
+}

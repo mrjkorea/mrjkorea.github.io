@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var DATA = [], band = '1';
+  var DATA = [], PRACTICE = {}, band = '1';
   var KEY = 'mse_progress_v1';
   var done = {};
   try { done = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { done = {}; }
@@ -14,9 +14,18 @@
   var mbody = document.getElementById('mbody');
   var qEl = document.getElementById('q');
 
-  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); }
   function key(t) { return 'mse' + t.band + '_' + t.note.replace(/[^a-z0-9]/gi, ''); }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
+  function closeModal() { modal.hidden = true; mbody.innerHTML = ''; }
+
+  var BOOK_NAME = { green: 'Green Zap', blue: 'Blue Zap', red: 'Red Zap', chunilmun: '천일문 Grammar' };
+  function bookLabel(b, title) {
+    var m = /^([a-z]+)(\d+)$/.exec(b || '');
+    if (m) return (BOOK_NAME[m[1]] || m[1]) + ' ' + m[2];
+    if (b && b.indexOf('chunilmun') === 0) return '천일문 Grammar ' + (b.replace(/\D/g, '') || '');
+    return title || b;
+  }
 
   function render() {
     var q = (qEl.value || '').toLowerCase().trim();
@@ -26,6 +35,7 @@
 
     rows.forEach(function (t, i) {
       var k = key(t), st = done[k] || {};
+      var hasPractice = (PRACTICE[t.topic] || []).length > 0;
       var allDone = st.note && st.video;
       var el = document.createElement('div');
       el.className = 'topic' + (allDone ? ' done' : '');
@@ -36,18 +46,20 @@
           '<a class="chip gold" href="notes/' + encodeURIComponent(t.note) + '" target="_blank" rel="noopener" data-k="' + k + '" data-p="note">' + (st.note ? '✓ ' : '') + '노트 Notes</a>' +
           (t.video
             ? '<button class="chip purple" data-video="' + esc(t.video) + '" data-k="' + k + '" data-p="video" data-title="' + esc(t.topic) + '">' + (st.video ? '✓ ' : '') + '영상 Video</button>'
-            : '<span class="chip soon">영상 준비 중 · Video soon</span>') +
+            : '<span class="chip soon">영상 준비 중</span>') +
           '<span class="chip soon">퀵 테스트 준비 중</span>' +
-          (t.zap
-            ? '<a class="chip pink" href="' + t.zap + '" target="_blank" rel="noopener" title="' + esc(t.zapNote || 'Zap exercise for this grammar') + '">Zap</a>'
-            : '<span class="chip soon" title="' + esc(t.zapNote || 'No Zap exercise for this point') + '">Zap 없음</span>') +
+          (hasPractice
+            ? '<button class="chip pink" data-practice="' + esc(t.topic) + '">연습 More practice · ' + (PRACTICE[t.topic] || []).length + '</button>'
+            : '<span class="chip soon" title="' + esc(t.zapNote || '') + '">연습 없음</span>') +
         '</div>';
       listEl.appendChild(el);
     });
 
-    // wiring
     listEl.querySelectorAll('[data-video]').forEach(function (btn) {
       btn.addEventListener('click', function () { openVideo(btn.dataset.video, btn.dataset.title); mark(btn.dataset.k, 'video'); });
+    });
+    listEl.querySelectorAll('[data-practice]').forEach(function (btn) {
+      btn.addEventListener('click', function () { openPractice(btn.dataset.practice); });
     });
     listEl.querySelectorAll('a[data-p="note"]').forEach(function (a) {
       a.addEventListener('click', function () { mark(a.dataset.k, 'note'); });
@@ -58,11 +70,6 @@
   function mark(k, p) {
     if (!done[k]) done[k] = {};
     if (!done[k][p]) { done[k][p] = true; save(); }
-    var st = done[k];
-    var row = listEl.querySelector('[data-k="' + k + '"]');
-    if (row) { var chip = row; if (p === 'note') chip.textContent = '✓ 노트 Notes'; else chip.textContent = '✓ 영상 Video'; }
-    var card = row; while (card && !card.classList.contains('topic')) card = card.parentElement;
-    if (card && done[k].note && done[k].video) { card.classList.add('done'); var n = card.querySelector('.num'); if (n) n.textContent = '✓'; }
     updateBar();
   }
 
@@ -81,9 +88,100 @@
     modal.hidden = false;
   }
 
-  document.getElementById('close').addEventListener('click', function () { modal.hidden = true; mbody.innerHTML = ''; });
-  modal.addEventListener('click', function (e) { if (e.target === modal) { modal.hidden = true; mbody.innerHTML = ''; } });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { modal.hidden = true; mbody.innerHTML = ''; } });
+  function openPractice(topic) {
+    var list = PRACTICE[topic] || [];
+    mtitle.textContent = topic + ' · More practice';
+    var groups = {};
+    list.forEach(function (e) { (groups[e.book] = groups[e.book] || []).push(e); });
+    var html = '<p class="pnote">아래 연습은 Zap 책과 천일문 책에서 이 문법을 다루는 문제만 모은 것입니다. 눌러서 바로 풀 수 있습니다.</p>';
+    Object.keys(groups).sort().forEach(function (b) {
+      html += '<h4 class="pbook">' + esc(bookLabel(b, groups[b][0].book_title)) + '</h4><div class="plist">';
+      groups[b].forEach(function (e, i) {
+        html += '<button class="pitem" data-file="' + esc(e.file) + '" data-title="' + esc(e.title || e.grammar) + '">' +
+          '<b>' + esc(e.grammar || e.title || '') + '</b>' +
+          '<span>p.' + esc(e.page || '?') + ' · ' + esc(e.title || '') + '</span></button>';
+      });
+      html += '</div>';
+    });
+    mbody.innerHTML = html;
+    mbody.querySelectorAll('.pitem').forEach(function (btn) {
+      btn.addEventListener('click', function () { openExercise(btn.dataset.file, btn.dataset.title); });
+    });
+    modal.hidden = false;
+  }
+
+  function norm(s) { return String(s || '').toLowerCase().replace(/[’']/g, "'").replace(/\s+/g, ' ').trim(); }
+
+  function openExercise(file, title) {
+    mtitle.textContent = title || 'Practice';
+    mbody.innerHTML = '<p class="pnote">불러오는 중…</p>';
+    fetch(file, { cache: 'force-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+      var html = '';
+      if (d.title) html += '<h4 class="pbook">' + esc(d.title) + (d.pages ? ' · p.' + esc(d.pages) : '') + '</h4>';
+      if (d.introKo) html += '<p class="pnote">' + esc(d.introKo) + '</p>';
+      var lastSec = '';
+      (d.items || []).forEach(function (it, idx) {
+        if (it.sectionTitle && it.sectionTitle !== lastSec) {
+          lastSec = it.sectionTitle;
+          html += '<div class="sec">' + esc(it.sectionTitle) + (it.sectionInstructionKo ? ' — ' + esc(it.sectionInstructionKo) : '') + '</div>';
+        }
+        var prompt = esc(it.promptEn || it.promptKo || '');
+        if (it.example) {
+          html += '<div class="qi ex"><span class="lbl">' + esc(it.label || '') + '</span><div>' + prompt +
+                  ' <em>' + esc((it.accept || [it.exampleAnswer])[0] || '') + '</em></div></div>';
+          return;
+        }
+        if (it.type === 'mc' && (it.choices || []).length) {
+          html += '<div class="qi" data-i="' + idx + '"><span class="lbl">' + esc(it.label || '') + '</span><div>' + prompt +
+            '<div class="opts">' + it.choices.map(function (c, j) {
+              return '<button class="opt" data-c="' + j + '">' + esc(c) + '</button>';
+            }).join('') + '</div></div></div>';
+        } else {
+          html += '<div class="qi" data-i="' + idx + '"><span class="lbl">' + esc(it.label || '') + '</span><div>' + prompt +
+            '<div class="opts"><input class="tin" type="text" placeholder="답을 쓰세요"><button class="chk">확인</button></div></div></div>';
+        }
+      });
+      mbody.innerHTML = html;
+      attach(d.items || []);
+    }).catch(function () { mbody.innerHTML = '<p class="pnote">연습을 불러오지 못했습니다.</p>'; });
+    modal.hidden = false;
+  }
+
+  function attach(items) {
+    mbody.querySelectorAll('.qi').forEach(function (box) {
+      var it = items[+box.dataset.i];
+      if (!it) return;
+      var accept = (it.accept || []).map(norm);
+      function good(v) { return accept.indexOf(norm(v)) >= 0; }
+      box.querySelectorAll('.opt').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          if (box.classList.contains('answered')) return;
+          var val = it.choices[+btn.dataset.c];
+          box.classList.add('answered');
+          if (good(val)) { btn.classList.add('ok'); box.classList.add('right'); }
+          else {
+            btn.classList.add('bad'); box.classList.add('wrong');
+            box.querySelectorAll('.opt').forEach(function (b2) {
+              if (good(it.choices[+b2.dataset.c])) b2.classList.add('ok');
+            });
+          }
+        });
+      });
+      var chk = box.querySelector('.chk');
+      if (chk) chk.addEventListener('click', function () {
+        if (box.classList.contains('answered')) return;
+        var inp = box.querySelector('.tin');
+        box.classList.add('answered');
+        if (good(inp.value)) { inp.classList.add('ok'); box.classList.add('right'); }
+        else { inp.classList.add('bad'); box.classList.add('wrong');
+          var ans = document.createElement('div'); ans.className = 'ans'; ans.textContent = '답: ' + (it.accept || []).join(' / '); box.appendChild(ans); }
+      });
+    });
+  }
+
+  document.getElementById('close').addEventListener('click', closeModal);
+  modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
 
   document.querySelectorAll('.band').forEach(function (b) {
     b.addEventListener('click', function () {
@@ -94,8 +192,12 @@
   });
   qEl.addEventListener('input', render);
 
-  fetch('topics.json', { cache: 'no-store' })
-    .then(function (r) { return r.json(); })
-    .then(function (j) { DATA = Array.isArray(j) ? j : []; render(); })
-    .catch(function () { DATA = []; render(); });
+  Promise.all([
+    fetch('topics.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).catch(function () { return []; }),
+    fetch('practice-index.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).catch(function () { return {}; })
+  ]).then(function (res) {
+    DATA = Array.isArray(res[0]) ? res[0] : [];
+    PRACTICE = res[1] || {};
+    render();
+  });
 })();

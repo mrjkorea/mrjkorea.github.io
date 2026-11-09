@@ -1,0 +1,133 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:wb-c05:u4-C",
+  "title": "Workbook Unit 4 — Section C",
+  "subtitle": "주요 구문 · POINT 10·11·12 (p. 41)",
+  "pages": "41",
+  "timerMinutes": 20,
+  "unitId": "wb-chapter-05",
+  "unitTitle": "Ch 05 WB — to부정사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 6문항(빈칸 말만 쓰기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 6,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C1",
+      "type": "fill",
+      "promptEn": "They don't ________.",
+      "promptKo": "그들은 서로 잘 지내는 것 같지 않다. (seem / to / get along / well)",
+      "blanks": 1,
+      "accept": [
+        "seem to get along well"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C2",
+      "type": "fill",
+      "promptEn": "Kate ________ in science.",
+      "promptKo": "Kate는 과학에 관심이 있는 것 같다. (seems / have / to / an interest)",
+      "blanks": 1,
+      "accept": [
+        "seems to have an interest"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C3",
+      "type": "fill",
+      "promptEn": "It is ________ in a marathon.",
+      "promptKo": "마라톤을 하기에는 너무 덥다. (hot / run / too / to)",
+      "blanks": 1,
+      "accept": [
+        "too hot to run"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C4",
+      "type": "fill",
+      "promptEn": "You are not ________ this movie.",
+      "promptKo": "너는 이 영화를 볼 만큼 충분히 나이가 많지 않다. (enough / watch / to / old)",
+      "blanks": 1,
+      "accept": [
+        "old enough to watch"
+      ]
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C5",
+      "type": "fill",
+      "promptEn": "The bookshelf is ________ without a ladder.",
+      "promptKo": "그 책장은 너무 높아서 사다리 없이는 손이 닿지 않는다. (reach / too / to / high)",
+      "blanks": 1,
+      "accept": [
+        "too high to reach"
+      ]
+    },
+    {
+      "id": "c06",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "우리말과 일치하도록 주어진 단어를 올바르게 배열하세요. POINT 10·11·12. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "C6",
+      "type": "fill",
+      "promptEn": "This room is ________ hide-and-seek.",
+      "promptKo": "이 방은 숨바꼭질을 할 만큼 충분히 크다. (play / big / to / enough)",
+      "blanks": 1,
+      "accept": [
+        "big enough to play"
+      ]
+    }
+  ]
+}

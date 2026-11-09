@@ -1,0 +1,201 @@
+{
+  "practiceId": "cm1:wb-c01:u1-A",
+  "title": "Workbook Unit 1 — Section A",
+  "subtitle": "be동사의 긍정문 · POINT 1 (WB p. 2)",
+  "pages": "2",
+  "timerMinutes": 22,
+  "bookId": "chunilmun-grammar-1",
+  "bookTitle": "천일문 GRAMMAR LEVEL 1",
+  "appName": "천일문 Grammar 1",
+  "unitId": "wb-chapter-01",
+  "unitTitle": "Ch 01 WB — be동사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section A 10문항(빈칸 말만 쓰기)으로 되어 있어요. 밑줄 친 부분을 줄임말로 바꿔 쓰세요.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1.",
+      "ruleKo": "줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "itemCount": 10,
+      "exampleCount": 0,
+      "labels": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "[We are] from England.",
+      "blanks": 1,
+      "accept": [
+        "We're",
+        "We are"
+      ]
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "[I am] a good cook.",
+      "blanks": 1,
+      "accept": [
+        "I'm",
+        "I am"
+      ]
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "[It is] cloudy today.",
+      "blanks": 1,
+      "accept": [
+        "It's",
+        "It is"
+      ]
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "[She is] my cousin.",
+      "blanks": 1,
+      "accept": [
+        "She's",
+        "She is"
+      ]
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "[You are] so pretty.",
+      "blanks": 1,
+      "accept": [
+        "You're",
+        "You are"
+      ]
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "[They are] in the playground.",
+      "blanks": 1,
+      "accept": [
+        "They're",
+        "They are"
+      ]
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "[He is] very clever.",
+      "blanks": 1,
+      "accept": [
+        "He's",
+        "He is"
+      ]
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "[You are] a good student.",
+      "blanks": 1,
+      "accept": [
+        "You're",
+        "You are"
+      ]
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "[I am] in the flower shop.",
+      "blanks": 1,
+      "accept": [
+        "I'm",
+        "I am"
+      ]
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 밑줄 친 부분을 줄임말로 바꿔 쓰세요. POINT 1. 줄임말만 한 칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words only · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "[It is] delicious and sweet.",
+      "blanks": 1,
+      "accept": [
+        "It's",
+        "It is"
+      ]
+    }
+  ]
+}

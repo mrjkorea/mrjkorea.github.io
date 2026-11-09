@@ -1,0 +1,446 @@
+{
+  "practiceId": "r2:u04:jump",
+  "title": "Grammar Jump",
+  "subtitle": "부사 · 전치사 고르기 (p. 62–63)",
+  "pages": "62–63",
+  "timerMinutes": 20,
+  "introKo": "Section A 10문항, B 5문항, C 5문항(고르기)입니다. 예시 3개는 채점하지 않습니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A1",
+      "type": "mc",
+      "promptEn": "I play tennis ( good / well ).",
+      "choices": [
+        "good",
+        "well"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "well",
+      "promptKo": "나는 테니스를 잘 친다."
+    },
+    {
+      "id": "a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A2",
+      "type": "mc",
+      "promptEn": "You swim ( fast / fastly ).",
+      "choices": [
+        "fast",
+        "fastly"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "너는 빨리 헤엄친다."
+    },
+    {
+      "id": "a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A3",
+      "type": "mc",
+      "promptEn": "He plays the violin ( very / verily ) well.",
+      "choices": [
+        "very",
+        "verily"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "그는 바이올린을 매우 잘 켠다."
+    },
+    {
+      "id": "a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A4",
+      "type": "mc",
+      "promptEn": "The airplane flies ( high / highly ).",
+      "choices": [
+        "high",
+        "highly"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "그 비행기는 높이 난다."
+    },
+    {
+      "id": "a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A5",
+      "type": "mc",
+      "promptEn": "They speak English ( slow / slowly ).",
+      "choices": [
+        "slow",
+        "slowly"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그들은 영어를 천천히 말한다."
+    },
+    {
+      "id": "a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A6",
+      "type": "mc",
+      "promptEn": "My grandma gets up ( late / lately ).",
+      "choices": [
+        "late",
+        "lately"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "우리 할머니는 늦게 일어나신다."
+    },
+    {
+      "id": "a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A7",
+      "type": "mc",
+      "promptEn": "His sister helps us ( kind / kindly ).",
+      "choices": [
+        "kind",
+        "kindly"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그의 여동생은 우리를 친절하게 돕는다."
+    },
+    {
+      "id": "a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A8",
+      "type": "mc",
+      "promptEn": "The baby cries ( loud / loudly ).",
+      "choices": [
+        "loud",
+        "loudly"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그 아기는 큰 소리로 운다."
+    },
+    {
+      "id": "a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A9",
+      "type": "mc",
+      "promptEn": "The cook drives a car ( careful / carefully ).",
+      "choices": [
+        "careful",
+        "carefully"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그 요리사는 차를 조심스럽게 운전한다."
+    },
+    {
+      "id": "a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "A10",
+      "type": "mc",
+      "promptEn": "The men sing ( happy / happily ).",
+      "choices": [
+        "happy",
+        "happily"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "그 남자들은 행복하게 노래한다."
+    },
+    {
+      "id": "b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B1",
+      "type": "mc",
+      "promptEn": "I go to school ( at / in ) nine o'clock.",
+      "choices": [
+        "at",
+        "in"
+      ],
+      "accept": [
+        "1"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "at"
+    },
+    {
+      "id": "b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B2",
+      "type": "mc",
+      "promptEn": "She doesn't work ( on / at ) Monday.",
+      "choices": [
+        "on",
+        "at"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B3",
+      "type": "mc",
+      "promptEn": "Children's Day is ( in / at ) May.",
+      "choices": [
+        "in",
+        "at"
+      ],
+      "accept": [
+        "1"
+      ]
+    },
+    {
+      "id": "b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B4",
+      "type": "mc",
+      "promptEn": "They have breakfast ( in / at ) six o'clock.",
+      "choices": [
+        "in",
+        "at"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "B5",
+      "type": "mc",
+      "promptEn": "My mom goes to the park ( in / on ) Sunday.",
+      "choices": [
+        "in",
+        "on"
+      ],
+      "accept": [
+        "2"
+      ]
+    },
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C1",
+      "type": "mc",
+      "promptEn": "A cup is ( on / next to ) the book.",
+      "choices": [
+        "on",
+        "next to"
+      ],
+      "accept": [
+        "2"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "next to",
+      "promptKo": "컵 한 개가 책 옆에 있다."
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C2",
+      "type": "mc",
+      "promptEn": "An apple is ( in / on ) the box.",
+      "choices": [
+        "in",
+        "on"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "사과 한 개가 상자 안에 있다."
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C3",
+      "type": "mc",
+      "promptEn": "The mittens are ( under / behind ) the chair.",
+      "choices": [
+        "under",
+        "behind"
+      ],
+      "accept": [
+        "1"
+      ],
+      "promptKo": "그 벙어리장갑이 의자 아래에 있다."
+    },
+    {
+      "id": "c04",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C4",
+      "type": "mc",
+      "promptEn": "My kitten is ( under / on ) the bike.",
+      "choices": [
+        "under",
+        "on"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "내 새끼 고양이가 자전거 위에 있다."
+    },
+    {
+      "id": "c05",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 괄호 안에서 알맞은 말을 골라 동그라미 하세요.",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C5",
+      "type": "mc",
+      "promptEn": "Two puppies are ( on / behind ) the tree.",
+      "choices": [
+        "on",
+        "behind"
+      ],
+      "accept": [
+        "2"
+      ],
+      "promptKo": "강아지 두 마리가 나무 뒤에 있다."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "bookId": "chunilmun-grammar-2",
+  "bookTitle": "천일문 GRAMMAR LEVEL 2",
+  "appName": "천일문 Grammar 2",
+  "practiceId": "cm2:c07:u2-C",
+  "title": "Unit 2 Unit Exercise — Section C",
+  "subtitle": "주의해야 할 분사 · POINT 5 (p. 97)",
+  "pages": "97",
+  "timerMinutes": 20,
+  "unitId": "chapter-07",
+  "unitTitle": "Chapter 07 — 분사",
+  "sectionsVersion": 2,
+  "introKo": "이 연습은 Section C 3문항(고르기)으로 되어 있어요.",
+  "sections": [
+    {
+      "id": "C",
+      "title": "Section C",
+      "instructionKo": "다음 중 밑줄 친 부분의 쓰임이 <보기>와 같은 문장을 고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "directionKo": "다음 중 밑줄 친 부분의 쓰임이 <보기>와 같은 문장을 고르세요. POINT 5.",
+      "ruleKo": "보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "itemCount": 3,
+      "exampleCount": 0,
+      "labels": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분의 쓰임이 <보기>와 같은 문장을 고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C1",
+      "type": "mc",
+      "promptEn": "<보기> He is an [amazing] genius in science.",
+      "choices": [
+        "Speaking other languages is not easy.",
+        "Look at the singing children."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "c02",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분의 쓰임이 <보기>와 같은 문장을 고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C2",
+      "type": "mc",
+      "promptEn": "<보기> Her main interest is [studying] history.",
+      "choices": [
+        "The floating iceberg melted very fast.",
+        "She finished doing the dishes after lunch."
+      ],
+      "accept": [
+        "2",
+        "②"
+      ],
+      "answer": "2"
+    },
+    {
+      "id": "c03",
+      "section": "C",
+      "sectionTitle": "Section C",
+      "sectionInstructionKo": "다음 중 밑줄 친 부분의 쓰임이 <보기>와 같은 문장을 고르세요. POINT 5. 보기 중에서 알맞은 것을 하나 골라 누르세요. (직접 쓰지 않아요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose · 고르기",
+      "label": "C3",
+      "type": "mc",
+      "promptEn": "<보기> The girl's courage was [surprising].",
+      "choices": [
+        "The huge damage from the typhoon was shocking to us.",
+        "I don't like taking a bus in a short distance."
+      ],
+      "accept": [
+        "1",
+        "①"
+      ],
+      "answer": "1"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "bookId": "zap-green-4",
+  "bookTitle": "ZAP Green 4",
+  "appName": "GreenZap 4",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 여러 가지 동사 (1)",
+  "sectionsVersion": 2,
+  "practiceId": "g4:u01:checkup",
+  "title": "Check Up",
+  "subtitle": "Comic dialogue blanks (p. 27)",
+  "pages": "27",
+  "timerMinutes": 6,
+  "wordBank": [
+    "happy",
+    "looks",
+    "smells",
+    "hungry"
+  ],
+  "introKo": "이 연습은 Check Up 4문항(고르기)으로 되어 있어요. 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요.",
+  "sections": [
+    {
+      "id": "CU",
+      "title": "Check Up",
+      "instructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry)",
+      "ruleKo": "상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "itemCount": 4,
+      "exampleCount": 0,
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c01",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "1",
+      "type": "fill",
+      "promptEn": "그림: 강아지가 먹이를 보며 배고파한다.\n[그림 1] 강아지가 먹이를 보며\nI am _____ .",
+      "blanks": 1,
+      "accept": [
+        "hungry"
+      ]
+    },
+    {
+      "id": "c02",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "2",
+      "type": "fill",
+      "promptEn": "그림: 강아지가 빵 냄새를 맡으며 좋다고 느낀다.\n[그림 2] 강아지가 빵 냄새를 맡으며\nIt _____ good.",
+      "blanks": 1,
+      "accept": [
+        "smells"
+      ]
+    },
+    {
+      "id": "c03",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "3",
+      "type": "fill",
+      "promptEn": "그림: 배가 부른 강아지가 행복해한다.\n[그림 3] 배불리 누운 강아지\nI feel _____ .",
+      "blanks": 1,
+      "accept": [
+        "happy"
+      ]
+    },
+    {
+      "id": "c04",
+      "section": "CU",
+      "sectionTitle": "Check Up",
+      "sectionInstructionKo": "그림을 보고, 알맞은 말을 찾아 다음 대화의 빈칸에 쓰세요. (happy / looks / smells / hungry) 상자 안의 말 중에서 알맞은 말을 골라 그 단어만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "choice",
+      "answerModeTag": "Choose & type the word · 골라서 그 단어만 쓰기",
+      "label": "4",
+      "type": "fill",
+      "promptEn": "그림: 화난 표정의 여자를 본다.\n[그림 4] 화난 표정의 여자를 보며\nShe _____ very angry.",
+      "blanks": 1,
+      "accept": [
+        "looks"
+      ]
+    }
+  ]
+}

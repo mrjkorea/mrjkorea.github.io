@@ -1,0 +1,278 @@
+{
+  "bookId": "zap-blue-2",
+  "bookTitle": "ZAP Blue 2",
+  "appName": "BlueZap 2",
+  "unitId": "unit-01",
+  "unitTitle": "Unit 01 — 일반동사의 현재 시제",
+  "sectionsVersion": 2,
+  "practiceId": "b2:u01:lesson01-walk2",
+  "title": "Lesson 01 Walk 2 — 일반동사의 현재 시제 (1)",
+  "subtitle": "3인칭 단수 -s (p. 13)",
+  "pages": "13",
+  "timerMinutes": 10,
+  "introKo": "3인칭 단수 현재형을 쓰거나 문장에서 찾아 타이핑합니다.",
+  "sections": [
+    {
+      "id": "A",
+      "title": "Section A",
+      "instructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요.",
+      "ruleKo": "빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 9,
+      "exampleCount": 1,
+      "labels": [
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "A10"
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Section B",
+      "instructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "directionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요.",
+      "ruleKo": "동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "itemCount": 4,
+      "exampleCount": 1,
+      "labels": [
+        "B2",
+        "B3",
+        "B4",
+        "B5"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "l01w2_a01",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A1",
+      "type": "fill",
+      "promptEn": "come →",
+      "accept": [
+        "comes"
+      ],
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "comes"
+    },
+    {
+      "id": "l01w2_a02",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A2",
+      "type": "fill",
+      "promptEn": "write →",
+      "accept": [
+        "writes"
+      ]
+    },
+    {
+      "id": "l01w2_a03",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A3",
+      "type": "fill",
+      "promptEn": "sleep →",
+      "accept": [
+        "sleeps"
+      ]
+    },
+    {
+      "id": "l01w2_a04",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A4",
+      "type": "fill",
+      "promptEn": "like →",
+      "accept": [
+        "likes"
+      ]
+    },
+    {
+      "id": "l01w2_a05",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A5",
+      "type": "fill",
+      "promptEn": "cook →",
+      "accept": [
+        "cooks"
+      ]
+    },
+    {
+      "id": "l01w2_a06",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A6",
+      "type": "fill",
+      "promptEn": "need →",
+      "accept": [
+        "needs"
+      ]
+    },
+    {
+      "id": "l01w2_a07",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A7",
+      "type": "fill",
+      "promptEn": "walk →",
+      "accept": [
+        "walks"
+      ]
+    },
+    {
+      "id": "l01w2_a08",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A8",
+      "type": "fill",
+      "promptEn": "live →",
+      "accept": [
+        "lives"
+      ]
+    },
+    {
+      "id": "l01w2_a09",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A9",
+      "type": "fill",
+      "promptEn": "run →",
+      "accept": [
+        "runs"
+      ]
+    },
+    {
+      "id": "l01w2_a10",
+      "section": "A",
+      "sectionTitle": "Section A",
+      "sectionInstructionKo": "다음 일반동사의 3인칭 단수 현재형을 빈칸에 쓰세요. 빈칸에 들어갈 말만 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "A10",
+      "type": "fill",
+      "promptEn": "make →",
+      "accept": [
+        "makes"
+      ]
+    },
+    {
+      "id": "l01w2_b01",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B1",
+      "type": "fill",
+      "promptEn": "My mother <u>cleans</u> the house.",
+      "accept": [
+        "cleans"
+      ],
+      "promptKo": "우리 어머니가 집을 청소한다.",
+      "example": true,
+      "displayOnly": true,
+      "exampleAnswer": "cleans"
+    },
+    {
+      "id": "l01w2_b02",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B2",
+      "type": "fill",
+      "promptEn": "She <u>drinks</u> orange juice.",
+      "accept": [
+        "drinks"
+      ],
+      "promptKo": "그녀는 오렌지 주스를 마신다."
+    },
+    {
+      "id": "l01w2_b03",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B3",
+      "type": "fill",
+      "promptEn": "The boy <u>plays</u> basketball.",
+      "accept": [
+        "plays"
+      ],
+      "promptKo": "그 남자아이는 농구를 한다."
+    },
+    {
+      "id": "l01w2_b04",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B4",
+      "type": "fill",
+      "promptEn": "Kevin <u>runs</u> 5 kilometers a day.",
+      "accept": [
+        "runs"
+      ],
+      "promptKo": "케빈은 하루에 5킬로미터를 달린다."
+    },
+    {
+      "id": "l01w2_b05",
+      "section": "B",
+      "sectionTitle": "Section B",
+      "sectionInstructionKo": "다음 문장에서 일반동사의 3인칭 단수 현재형을 찾아 동그라미 하세요. 동그라미 친 말만 빈칸에 쓰세요. (문장 전체를 쓰지 마세요.)",
+      "answerMode": "words",
+      "answerModeTag": "Words · 빈칸 말만",
+      "label": "B5",
+      "type": "fill",
+      "promptEn": "That dog <u>likes</u> shoes.",
+      "accept": [
+        "likes"
+      ],
+      "promptKo": "저 개는 신발을 좋아한다."
+    }
+  ]
+}
