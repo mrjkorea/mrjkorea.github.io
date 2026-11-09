@@ -13,14 +13,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t02/TF"
    }
   ]
@@ -39,14 +45,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t03/TF"
    }
   ]
@@ -65,14 +77,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t06/TF"
    }
   ]
@@ -91,14 +109,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t05/TF"
    }
   ]
@@ -117,14 +141,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t11/TF"
    }
   ]
@@ -143,14 +173,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t12/TF"
    }
   ]
@@ -169,14 +205,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t13/TF"
    }
   ]
@@ -194,14 +236,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t24/TF"
    }
   ]
@@ -220,14 +268,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t25/TF"
    }
   ]
@@ -246,14 +300,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/TF"
    }
   ]
@@ -272,14 +332,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/TF"
    }
   ]
@@ -298,14 +364,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t31/TF"
    }
   ]
@@ -324,14 +396,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/TF"
    }
   ]
@@ -349,14 +427,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/TF"
    }
   ]
@@ -375,14 +459,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t37/TF"
    }
   ]
@@ -401,14 +491,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t38/TF"
    }
   ]
@@ -427,14 +523,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/TF"
    }
   ]
@@ -453,14 +555,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t44/TF"
    }
   ]
@@ -479,14 +587,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t45/TF"
    }
   ]
@@ -505,14 +619,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t46/TF"
    }
   ]
@@ -531,14 +651,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t47/TF"
    }
   ]
@@ -557,14 +683,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t49/TF"
    }
   ]
@@ -583,14 +715,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t51/TF"
    }
   ]
@@ -609,14 +747,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t52/TF"
    }
   ]
@@ -628,7 +772,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__044__%EC%A4%91%EB%93%B1%EC%9D%B8%EA%B0%95_%EC%A4%912_%EC%98%81%EC%96%B4__5%ED%98%95%EC%8B%9D_%EB%B3%B4%EC%96%B4_-_%EC%88%98%EB%B0%95%EC%94%A8%EB%8B%B7%EC%BB%B4_%ED%99%8D%EC%9E%AC%EC%9B%90%EC%84%A0%EC%83%9D%EB%8B%98.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/chunilmun-grammar-2/chapter-01/c01-u1-A",
   "zapNote": "p.12 · 문장의 주요 형식",
-  "zapConf": "unit"
+  "zapConf": "unit",
+  "qt": "t53",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t53/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t53/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t53/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -637,7 +803,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__044__%EC%A4%91%EB%93%B1%EC%9D%B8%EA%B0%95_%EC%A4%912_%EC%98%81%EC%96%B4__5%ED%98%95%EC%8B%9D_%EB%B3%B4%EC%96%B4_-_%EC%88%98%EB%B0%95%EC%94%A8%EB%8B%B7%EC%BB%B4_%ED%99%8D%EC%9E%AC%EC%9B%90%EC%84%A0%EC%83%9D%EB%8B%98.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/chunilmun-grammar-2/chapter-01/c01-u2-A",
   "zapNote": "Unit 2 Exercise A · 문장의 주요 형식",
-  "zapConf": "unread"
+  "zapConf": "unread",
+  "qt": "t54",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t54/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t54/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t54/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -646,7 +834,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__160_%ED%98%84%EC%9E%AC%EC%99%84%EB%A3%8C_%28Have_pp%29_%EC%9D%B4_%EC%98%81%EC%83%81_%EB%B3%B4%EB%A9%B4_%EC%9D%B4%ED%95%B4%ED%95%98%EA%B2%8C_%EB%90%A9%EB%8B%88%EB%8B%A4.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-3/unit-03/walk1",
   "zapNote": "p.55 · 현재 완료 시제 (1)",
-  "zapConf": "printed"
+  "zapConf": "printed",
+  "qt": "t55",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 24,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t55/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 24,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t55/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t55/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -662,14 +872,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t01/TF"
    }
   ]
@@ -681,7 +897,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__048__%EC%A4%91%EB%93%B1%EC%9D%B8%EA%B0%95_%EC%A4%912_%EC%98%81%EC%96%B4__%EC%A0%91%EC%86%8D%EC%82%AC_if_-_%EC%88%98%EB%B0%95%EC%94%A8%EB%8B%B7%EC%BB%B4_%EB%A0%88%EC%9D%B4%EC%B2%BC%EC%84%A0%EC%83%9D%EB%8B%98.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-4/unit-08/walk1",
   "zapNote": "p.163 · 접속사 because, if",
-  "zapConf": "printed"
+  "zapConf": "printed",
+  "qt": "t56",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 23,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t56/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 14,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t56/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t56/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -697,14 +935,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t21/TF"
    }
   ]
@@ -722,14 +966,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/TF"
    }
   ]
@@ -741,7 +991,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__097_thing___%ED%98%95%EC%9A%A9%EC%82%AC.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-3/unit-08/walk2",
   "zapNote": "p.165–168 · 부정대명사",
-  "zapConf": "unit"
+  "zapConf": "unit",
+  "qt": "t57",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t57/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t57/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t57/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -757,14 +1029,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t27/TF"
    }
   ]
@@ -776,7 +1054,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__110_y2mate.com_-_%EA%B0%80%EC%A3%BC%EC%96%B4%EC%A7%84%EC%A3%BC%EC%96%B4itto%EB%B6%80%EC%A0%95%EC%82%AC_itthat%EC%A0%88%EC%99%9C_%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EA%B1%B8%EA%B9%8C_%EA%B5%AC%EB%AC%B8%EC%9D%98_%EB%AA%A8%EC%8A%B5_%EC%93%B0%EB%8A%94_%EB%B0%A9%EB%B2%95%EB%B6%80%ED%84%B0_%EB%AA%A8%EC%96%91%EC%9D%B4_%EB%98%91%EA%B0%99%EC%9D%80_%EB%B9%84%EC%9D%B8%EC%B9%AD%EC%A3%BC%EC%96%B4it_%EB%8C%80%EB%AA%85%EC%82%ACit.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/chunilmun-grammar-2/chapter-05/c05-u4-A",
   "zapNote": "Unit 4 Exercise A · to부정사",
-  "zapConf": "unread"
+  "zapConf": "unread",
+  "qt": "t58",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t58/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t58/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t58/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -784,7 +1084,29 @@
   "note": "ganjepquestion.pdf",
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__022_Y2Mate.is_-___%EC%98%81%EC%96%B4_%EA%B0%84%EC%A0%91%EC%9D%98%EB%AC%B8%EB%AC%B8___PART_1.mp4",
   "zapNote": "No Zap exercise. Wh- questions are drilled (GreenZap 3 U01-02) but not embedded questions.",
-  "zapConf": "none"
+  "zapConf": "none",
+  "qt": "t59",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t59/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 17,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t59/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t59/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -800,14 +1122,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t30/TF"
    }
   ]
@@ -826,14 +1154,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
    }
   ]
@@ -851,14 +1185,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t35/TF"
    }
   ]
@@ -877,14 +1217,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t36/TF"
    }
   ]
@@ -903,14 +1249,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
    }
   ]
@@ -922,7 +1274,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__043__%EC%A4%91%EB%93%B1%EC%9D%B8%EA%B0%95_%EC%A4%912_%EC%98%81%EC%96%B4__5%ED%98%95%EC%8B%9D_to%EB%B6%80%EC%A0%95%EC%82%AC-%EC%88%98%EB%B0%95%EC%94%A8%EB%8B%B7%EC%BB%B4_%EA%B9%80%EB%AF%BC%EC%95%84_%EC%84%A0%EC%83%9D%EB%8B%98.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-4/unit-03/walk2",
   "zapNote": "p.57 · 동사+목적어+to부정사",
-  "zapConf": "printed"
+  "zapConf": "printed",
+  "qt": "t60",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t60/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t60/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t60/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -931,7 +1305,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__143_%EC%84%B8%EA%B0%80%EC%98%81_116%ED%99%94_-_%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC__%EC%83%9D%EB%9E%B5%ED%95%A0_%EC%88%98_%EC%9E%88%EC%9D%84%EA%B9%8C_%EC%97%86%EC%9D%84%EA%B9%8C__%EB%AA%A9%EC%A0%81%EA%B2%A9_%EB%AA%A9%EC%A0%81%EA%B2%A9%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/chunilmun-grammar-2/chapter-12/c12-u2-A",
   "zapNote": "p.159 · whom / which / that (목적격)",
-  "zapConf": "printed"
+  "zapConf": "printed",
+  "qt": "t61",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t61/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t61/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t61/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -947,14 +1343,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t42/TF"
    }
   ]
@@ -972,10 +1374,14 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t18/T3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t18/TF"
    }
   ]
@@ -987,7 +1393,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__112_y2mate.com_-_%EC%82%AC%EC%97%AD%EB%8F%99%EC%82%AC%EC%9D%98_%EB%AA%A8%EB%93%A0_%EA%B2%83_%EC%82%AC%EC%97%AD%EB%8F%99%EC%82%AC_%EC%B4%9D%EC%A0%95%EB%A6%AC_%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80_%EC%98%81%EB%AC%B8%EB%B2%95_%EC%97%AD%EC%82%AC_%EC%82%AC%EC%97%AD%EB%8F%99%EC%82%AC_%EC%A4%80%EC%82%AC%EC%97%AD%EB%8F%99%EC%82%AC_%EC%96%B4%EC%9B%90_%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94_%EC%98%81%EC%96%B4%EC%9C%A0%ED%8A%9C%EB%B8%8C_1080p.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-4/unit-04/walk1",
   "zapNote": "Grammar Walk — Lesson 01 · 여러 가지 동사 (4)",
-  "zapConf": "unread"
+  "zapConf": "unread",
+  "qt": "t62",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t62/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t62/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t62/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -1003,10 +1431,14 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/F3"
    }
   ]
@@ -1018,7 +1450,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__151_%EC%9D%98%EB%AC%B8%EC%82%ACto%EB%B6%80%EC%A0%95%EC%82%AC1.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-2/unit-08/walk2",
   "zapNote": "p.165 · 동명사와 to부정사",
-  "zapConf": "printed"
+  "zapConf": "printed",
+  "qt": "t63",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t63/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t63/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t63/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -1027,7 +1481,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__157_%EC%A3%BC%EA%B2%A9_%EA%B4%80%EA%B3%84%EB%8C%80%EB%AA%85%EC%82%AC_%28%EC%98%81%EC%96%B45%EB%B6%84%EA%B5%AC%EC%9D%B4_0084%29.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/chunilmun-grammar-2/chapter-12/c12-u1-A",
   "zapNote": "p.155 · 관계대명사",
-  "zapConf": "unit"
+  "zapConf": "unit",
+  "qt": "t64",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t64/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t64/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t64/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "2",
@@ -1036,7 +1512,29 @@
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__037__%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C_%EA%B0%80%EC%9E%A5_%EC%89%AC%EC%9A%B4_%EC%98%81%EC%96%B4_101%ED%99%94__%EC%A7%80%EA%B0%81%EB%8F%99%EC%82%AC_%EC%82%AC%EC%9A%A9%EB%B2%95_see_%EC%A7%80%EA%B0%81%EB%8F%99%EC%82%AC.mp4",
   "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-green-4/unit-04/walk2",
   "zapNote": "p.77 · 지각동사 see, watch, hear, feel",
-  "zapConf": "unit"
+  "zapConf": "unit",
+  "qt": "t65",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t65/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t65/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t65/TF"
+   }
+  ],
+  "qtMatch": "exact"
  },
  {
   "band": "3",
@@ -1051,14 +1549,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t07/TF"
    }
   ]
@@ -1077,14 +1581,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t08/TF"
    }
   ]
@@ -1102,14 +1612,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t09/TF"
    }
   ]
@@ -1128,14 +1644,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t20/TF"
    }
   ]
@@ -1153,14 +1675,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t22/TF"
    }
   ]
@@ -1179,14 +1707,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t23/TF"
    }
   ]
@@ -1205,14 +1739,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t26/TF"
    }
   ]
@@ -1231,14 +1771,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t29/TF"
    }
   ]
@@ -1256,14 +1802,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t17/TF"
    }
   ]
@@ -1281,14 +1833,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t32/TF"
    }
   ]
@@ -1307,14 +1865,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t33/TF"
    }
   ]
@@ -1332,14 +1896,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t34/TF"
    }
   ]
@@ -1358,14 +1928,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t39/TF"
    }
   ]
@@ -1383,14 +1959,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t40/TF"
    }
   ]
@@ -1408,14 +1990,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t41/TF"
    }
   ]
@@ -1432,14 +2020,20 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/F3"
    },
    {
     "shape": "TF",
+    "items": 25,
+    "minutes": 5,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t48/TF"
    }
   ]
@@ -1458,10 +2052,14 @@
   "qtTests": [
    {
     "shape": "T3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/T3"
    },
    {
     "shape": "F3",
+    "items": 25,
+    "minutes": 15,
     "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t50/F3"
    }
   ]
@@ -1472,6 +2070,28 @@
   "note": "presentperfectcont.pdf",
   "video": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/msenew__032_Y2Mate.is_-_%EC%9D%B4%EC%A0%9C_%ED%97%B7%EA%B0%88%EB%A6%BC%EC%9D%80_%EB%81%9D__%EC%98%81%EC%96%B4%EC%8B%A4%EB%A0%A5%EC%9D%B4_2%EB%8B%A8%EA%B3%84_%EC%83%81%EC%8A%B9%ED%95%98%EB%8A%94_%EC%8B%9C%EC%A0%9C_%EA%B3%B5%EB%B6%80_%28%ED%98%84%EC%9E%AC%EC%99%84%EB%A3%8C_vs_%ED%98%84%EC%9E%AC%EC%99%84%EB%A3%8C%EC%A7%84%ED%96%89%29-3mWbOzQ6kKg-1080p-1.mp4",
   "zapNote": "No Zap exercise. Present perfect progressive is not in any Zap book.",
-  "zapConf": "none"
+  "zapConf": "none",
+  "qt": "t66",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t66/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t66/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t66/TF"
+   }
+  ],
+  "qtMatch": "exact"
  }
 ]

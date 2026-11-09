@@ -49,14 +49,18 @@
     return '<button class="chip ' + (on ? 'ok' : cls) + '"' + (attrs || '') + '>' + (on ? '✓ ' : '') + label + '</button>';
   }
 
-  var QT_NAME = { T3: 'T3 · 15분', F3: 'F3 · 15분', TF: 'TF · 5분' };
+  function qtLabel(q) {
+    var min = q.minutes || (q.shape === 'TF' ? 5 : 15);
+    var items = q.items ? q.items + '문항' : '';
+    return q.shape + ' · ' + min + '분' + (items ? ' · ' + items : '');
+  }
 
   function qtChip(t, q) {
     var k = key(t) + '|qt|' + q.shape;
     var d = done[k] ? ' ok' : '';
     return '<a class="chip qt' + d + '" href="' + esc(q.url) + '" target="_blank" rel="noopener" ' +
       'data-qtk="' + esc(k) + '" data-qtt="' + esc(t.topic) + '" data-qts="' + esc(q.shape) + '" ' +
-      'title="' + esc(t.topic + ' · ' + q.shape) + '">' + (done[k] ? '✓ ' : '⚡ ') + esc(QT_NAME[q.shape] || q.shape) + '</a>';
+      'title="' + esc(t.topic + ' · ' + q.shape) + '">' + (done[k] ? '✓ ' : '⚡ ') + esc(qtLabel(q)) + '</a>';
   }
 
   function render() {
