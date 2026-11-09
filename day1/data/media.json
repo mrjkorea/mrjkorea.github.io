@@ -4,7 +4,8 @@
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__008_basica__Day_1_Animation_8.mp4"
   },
   "2": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__007_basica__Day_1_Animation_7.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__007_basica__Day_1_Animation_7.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basica_u2.mp4"
   },
   "3": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__006_basica__Day_1_Animation_6.mp4"
@@ -27,7 +28,8 @@
  },
  "basicb": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__016_basicb__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__016_basicb__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicb_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__015_basicb__Day_1_Animation_7.mp4"
@@ -53,7 +55,8 @@
  },
  "basicc": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__024_basicc__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__024_basicc__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__basicc_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__023_basicc__Day_1_Animation_7.mp4"
@@ -112,7 +115,8 @@
  },
  "inter2b": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__079_inter2b__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__079_inter2b__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int2b_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__078_inter2b__Day_1_Animation_7.mp4",
@@ -179,7 +183,8 @@
  },
  "inter3a": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__032_inter3a__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__032_inter3a__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3a_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__031_inter3a__Day_1_Animation_7.mp4"
@@ -205,7 +210,8 @@
  },
  "inter3b": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__040_inter3b__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__040_inter3b__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3b_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__039_inter3b__Day_1_Animation_7.mp4"
@@ -231,7 +237,8 @@
  },
  "inter3c": {
   "1": {
-   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__048_inter3c__Day_1_Animation_8.mp4"
+   "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__048_inter3c__Day_1_Animation_8.mp4",
+   "mrj": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-explanation__int3c_u1.mp4"
   },
   "2": {
    "animation": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-books-and-culture__047_inter3c__Day_1_Animation_7.mp4"
