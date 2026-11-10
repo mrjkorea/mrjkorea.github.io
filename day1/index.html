@@ -84,6 +84,14 @@
   const ALIAS = {int2a: 'inter2a', int2b: 'inter2b', int2c: 'inter2c', int3a: 'inter3a', int3b: 'inter3b', int3c: 'inter3c'};
   const rawBook = (params.get('book') || '').replace(/_/g, '');   // basic_a, basica, int2a ...
   const book = ALIAS[rawBook] || rawBook;                        // int2a -> inter2a
+  // The score book names a book with the slug from courses.json exams.books, not the
+  // media key: basic_a, int2a. Reg/Metrics 2026-11-11: keep Day 1 rows in the same book.
+  const BOOK_SLUG = {basica:'basic_a', basicb:'basic_b', basicc:'basic_c',
+                     inter2a:'int2a', inter2b:'int2b', inter2c:'int2c',
+                     inter3a:'int3a', inter3b:'int3b', inter3c:'int3c',
+                     int2a:'int2a', int2b:'int2b', int2c:'int2c',
+                     int3a:'int3a', int3b:'int3b', int3c:'int3c'};
+  const bookSlug = BOOK_SLUG[book] || book;
   const unitNo = String(params.get('unit') || '').replace(/^u/i,'');
   const unitKey = book + unitNo;                    // basica1
   const state = { q: [], i: 0, right: 0, tries: 0 };
@@ -170,9 +178,9 @@
         window.MRJ_SCORES.post({
           program: 'day1-video',
           appName: 'Study World Day 1',
-          bookTitle: book,
+          bookTitle: bookSlug,
           unitTitle: 'Unit ' + unitNo,
-          itemId: book + '_u' + unitNo + '|quiz',
+          itemId: bookSlug + '_u' + unitNo + '|quiz',
           itemType: 'quiz',
           eventKind: 'learning_result',
           scoreValue: state.right,
