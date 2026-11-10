@@ -6,85 +6,85 @@
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basica_u2.mp4",
    "book": "basica",
    "unit": 2,
-   "sizeBytes": 8342564
+   "sizeBytes": 2912112
   },
   "basicau2": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basica_u2.mp4",
    "book": "basica",
    "unit": 2,
-   "sizeBytes": 8342564
+   "sizeBytes": 2912112
   },
   "basicb_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basicb_u1.mp4",
    "book": "basicb",
    "unit": 1,
-   "sizeBytes": 11372345
+   "sizeBytes": 2341173
   },
   "basicbu1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basicb_u1.mp4",
    "book": "basicb",
    "unit": 1,
-   "sizeBytes": 11372345
+   "sizeBytes": 2341173
   },
   "basicc_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basicc_u1.mp4",
    "book": "basicc",
    "unit": 1,
-   "sizeBytes": 11009409
+   "sizeBytes": 2818795
   },
   "basiccu1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__basicc_u1.mp4",
    "book": "basicc",
    "unit": 1,
-   "sizeBytes": 11009409
+   "sizeBytes": 2818795
   },
   "inter2b_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int2b_u1.mp4",
    "book": "inter2b",
    "unit": 1,
-   "sizeBytes": 5016572
+   "sizeBytes": 2882912
   },
   "inter2bu1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int2b_u1.mp4",
    "book": "inter2b",
    "unit": 1,
-   "sizeBytes": 5016572
+   "sizeBytes": 2882912
   },
   "inter3a_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3a_u1.mp4",
    "book": "inter3a",
    "unit": 1,
-   "sizeBytes": 3322340
+   "sizeBytes": 2095126
   },
   "inter3au1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3a_u1.mp4",
    "book": "inter3a",
    "unit": 1,
-   "sizeBytes": 3322340
+   "sizeBytes": 2095126
   },
   "inter3b_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3b_u1.mp4",
    "book": "inter3b",
    "unit": 1,
-   "sizeBytes": 7492798
+   "sizeBytes": 2268126
   },
   "inter3bu1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3b_u1.mp4",
    "book": "inter3b",
    "unit": 1,
-   "sizeBytes": 7492798
+   "sizeBytes": 2268126
   },
   "inter3c_1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3c_u1.mp4",
    "book": "inter3c",
    "unit": 1,
-   "sizeBytes": 5425346
+   "sizeBytes": 2914998
   },
   "inter3cu1": {
    "url": "https://pub-d7972b5c3535449e961d5352ae875efa.r2.dev/videos/day1-full-v2__int3c_u1.mp4",
    "book": "inter3c",
    "unit": 1,
-   "sizeBytes": 5425346
+   "sizeBytes": 2914998
   }
  }
 }
