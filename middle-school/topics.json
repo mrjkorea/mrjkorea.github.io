@@ -766,6 +766,38 @@
   ]
  },
  {
+  "band": "1",
+  "topic": "감탄문 How/What",
+  "note": "gamtammun howwhat.pdf",
+  "video": "https://mrj-videos.canadianvegetarian.workers.dev/videos/grammar-note__gamtammun-howwhat.mp4",
+  "zap": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/#/p/zap-blue-3/unit-08/lesson03-walk1",
+  "zapNote": "p.207 · 감탄문 (What)",
+  "zapConf": "unit",
+  "qt": "t67",
+  "qtUrl": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/topic/t67",
+  "qtMatch": "exact",
+  "qtTests": [
+   {
+    "shape": "T3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t67/T3"
+   },
+   {
+    "shape": "F3",
+    "items": 25,
+    "minutes": 15,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t67/F3"
+   },
+   {
+    "shape": "TF",
+    "items": 25,
+    "minutes": 5,
+    "url": "https://mrjkorea.github.io/MRJ-Zap-Grammar-Books/quicktest/#/test/t67/TF"
+   }
+  ]
+ },
+ {
   "band": "2",
   "topic": "1-5형 소개",
   "note": "1-5HS1-5.pdf.pdf",
