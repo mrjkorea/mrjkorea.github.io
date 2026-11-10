@@ -116,6 +116,28 @@
     return t ? key(t) : '';
   }
 
+  /* Jay 2026-11-11: a finished note or video must reach the score book, not only the
+     progress pack. One row per activity per page, no invented score. */
+  var scorePosted = {};
+  function postActivity(t, p) {
+    if (!t || !window.MRJ_SCORES || typeof window.MRJ_SCORES.post !== 'function') return;
+    var id = sid(t, p);
+    if (scorePosted[id]) return;
+    scorePosted[id] = 1;
+    try {
+      window.MRJ_SCORES.post({
+        program: 'mse-grammar',
+        appName: '중학 영문법 Middle School Grammar',
+        bookTitle: '중학 영문법',
+        unitTitle: t.topic,
+        itemId: id,
+        itemType: p,
+        eventKind: 'learning_result',
+        completed: true
+      });
+    } catch (e) {}
+  }
+
   function mark(topicName, p) {
     var t = DATA.filter(function (x) { return x.topic === topicName; })[0];
     if (!t) return;
@@ -124,6 +146,7 @@
     done[k][p] = true; save();
     var s = sp();
     if (s && s.markDone) { try { s.markDone(sid(t, p)); } catch (e) {} }
+    if (p === 'note' || p === 'video') postActivity(t, p);
     render();
   }
 

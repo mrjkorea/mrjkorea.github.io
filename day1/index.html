@@ -36,6 +36,9 @@
 </style>
 </head>
 <body>
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.3"></script>
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.3" data-mrj-app="day1-video" data-mrj-chip="off"></script>
+<script src="/mrj-scores.js"></script>
 <div class="wrap">
   <header>
     <a class="back" href="#" id="back">← Back</a>
@@ -161,6 +164,23 @@
       rec.push({when:new Date().toISOString(), right:state.right, total, try:rec.length+1});
       localStorage.setItem(key, JSON.stringify(rec));
     } catch(e){}
+    /* Jay 2026-11-11: the Day 1 step must reach the score book. One row per finished try. */
+    try {
+      if (window.MRJ_SCORES && typeof window.MRJ_SCORES.post === 'function') {
+        window.MRJ_SCORES.post({
+          program: 'day1-video',
+          appName: 'Study World Day 1',
+          bookTitle: book,
+          unitTitle: 'Unit ' + unitNo,
+          itemId: book + '_u' + unitNo + '|quiz',
+          itemType: 'quiz',
+          eventKind: 'learning_result',
+          scoreValue: state.right,
+          scoreMax: total
+        });
+      }
+    } catch(e){}
+    try { if (window.StudyProgress && window.StudyProgress.markDone) window.StudyProgress.markDone('day1|' + book + '|u' + unitNo); } catch(e){}
   }
 
   $('again').onclick = () => {
