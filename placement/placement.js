@@ -42,6 +42,67 @@
     return true;
   }
 
+  function preview() { var a = auth(); return !!(a && (a.preview || a.previewStub)); }
+
+  /* Real try number for this student and part, so a retake is try 2 in the book, not try 0. */
+  function nextAttempt(partId) {
+    var k = 'placement.attempt.' + student() + '.' + partId, n = 0;
+    try { n = parseInt(localStorage.getItem(k) || '0', 10) || 0; } catch (e) {}
+    n += 1;
+    try { localStorage.setItem(k, String(n)); } catch (e) {}
+    return n;
+  }
+
+  /* One finished part -> one row in the shared score book, then the student index (noteScore).
+   * Item id is "<part>|band-<n>"; the human level label rides in metadata.placementLevel because the
+   * sheet has no level column. Nothing is posted with no student, or in the local preview. */
+  function postPartScore(part, r) {
+    var S = g.MRJ_SCORES;
+    if (!S || !S.post || !student() || preview()) return Promise.resolve(null);
+    var attempt = nextAttempt(part.id);
+    return S.post({
+      program: 'placement',
+      appName: 'MRJ Placement',
+      source: 'mrj-placement',
+      bookTitle: 'MRJ Placement',
+      unitTitle: part.label,
+      courseName: 'MRJ Placement',
+      unitId: 'placement|' + part.id,
+      assignmentId: 'placement|' + part.id,
+      itemId: part.id + '|band-' + r.band,
+      itemType: 'placement_part',
+      scoreValue: r.correct,
+      scoreMax: r.total,
+      scorePct: r.pct,
+      correctness: r.correct === r.total ? 'correct' : (r.correct ? 'partial' : 'incorrect'),
+      attemptIndex: attempt,
+      completed: true,
+      metadata: { part: part.id, placementLevel: r.bandLabel, band: r.band, correct: r.correct, total: r.total, attempt: attempt }
+    }).catch(function () { return null; });
+  }
+
+  /* Typing is linked practice with no score of its own: record that it was opened, score left blank. */
+  function postTypingOpened(part) {
+    var S = g.MRJ_SCORES;
+    if (!S || !S.post || !student() || preview()) return Promise.resolve(null);
+    var attempt = nextAttempt('typing');
+    return S.post({
+      program: 'placement',
+      appName: 'MRJ Placement',
+      source: 'mrj-placement',
+      bookTitle: 'MRJ Placement',
+      unitTitle: part.label,
+      itemId: 'typing|opened',
+      itemType: 'placement_part',
+      courseName: 'MRJ Placement',
+      unitId: 'placement|typing',
+      assignmentId: 'placement|typing',
+      attemptIndex: attempt,
+      completed: true,
+      metadata: { part: 'typing', placementLevel: 'Practice opened', scored: false, attempt: attempt }
+    }).catch(function () { return null; });
+  }
+
   function typingUrl(C) {
     var link = (C.links || []).find(function (x) { return x.name === 'Typing'; });
     return (link && link.url) || 'https://www.typing.com/';
@@ -132,6 +193,7 @@
     A.querySelector('#pl-type-open').onclick = function () {
       if (!requireSignIn()) return;
       P().setPlacementPart('typing', { openedAt: Date.now() }).then(function () {
+        postTypingOpened(part);
         A.querySelector('#pl-type-msg').textContent = 'Recorded ✔ You can keep practicing on typing.com.';
       });
     };
@@ -176,6 +238,7 @@
       pct: r.pct,
       at: Date.now()
     }).then(function () {
+      postPartScore(part, r);                       // book + index; never blocks the screen
       A.innerHTML = back('#placement', part.label + ' — done') +
         '<div class="card pl-card"><h3>Your level</h3>' +
         '<p class="pl-level">' + esc(r.bandLabel) + '</p>' +
