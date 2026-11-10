@@ -5,72 +5,78 @@
  "units": [
   {
    "unit": 1,
-   "title": "I Can Draw a Monster",
+   "title": "What can you draw?",
    "video": "inter3a_u1",
    "source_lines": [
     "What can you draw?",
-    "I can draw a monster."
+    "I can draw a monster.",
+    "Today we are going to learn how to ask what you can draw and how to answer.",
+    "I can draw blank. Put any word in the blank.",
+    "I can draw a star.",
+    "I can draw a tree.",
+    "Do you know what it is? No? Sorry, I cannot draw well.",
+    "I can draw a monster!"
    ],
    "questions": [
     {
-     "id": "inter3a_u1_v1",
+     "id": "intera_u1_w1",
      "type": "choice",
-     "prompt": "The monster behind him asks ___.",
-     "choices": [
-      "What is it?",
-      "Do you like sweet food?",
-      "What can you draw?"
-     ],
-     "answer": 2,
-     "cue": "What can you draw?"
-    },
-    {
-     "id": "inter3a_u1_v2",
-     "type": "choice",
-     "prompt": "The young man answers ___.",
+     "prompt": "What can you draw? The boy answers ___.",
      "choices": [
       "I can draw a monster.",
-      "I can draw a star.",
-      "I can draw a tree."
+      "I am in the fifth grade.",
+      "Yes, I do."
      ],
      "answer": 0,
-     "cue": "I can draw a monster."
+     "cue": "I can draw a monster!"
     },
     {
-     "id": "inter3a_u1_v3",
+     "id": "intera_u1_w2",
      "type": "choice",
-     "prompt": "The woman says ___.",
+     "prompt": "The teacher puts any word in the ___.",
      "choices": [
-      "I can draw a circle.",
-      "I can draw a star.",
-      "I can draw a flag."
+      "shop",
+      "blank",
+      "grade"
      ],
      "answer": 1,
-     "cue": "I can draw a star."
+     "cue": "Put any word in the blank."
     },
     {
-     "id": "inter3a_u1_v4",
-     "type": "missing_word",
-     "prompt": "One body, ___ eyes, one smile.",
-     "choices": [
-      "three",
-      "one",
-      "two"
-     ],
-     "answer": 2,
-     "cue": "One body, two eyes, one smile."
-    },
-    {
-     "id": "inter3a_u1_v5",
+     "id": "intera_u1_w3",
      "type": "choice",
-     "prompt": "Which line did you hear?",
+     "prompt": "He draws a star and ___.",
      "choices": [
-      "I can draw a hat.",
-      "I can draw a tree.",
-      "I can draw a monster."
+      "a tree",
+      "a shop",
+      "a snake"
      ],
      "answer": 0,
-     "cue": "I can draw a hat."
+     "cue": "I can draw a star. I can draw a tree."
+    },
+    {
+     "id": "intera_u1_w4",
+     "type": "choice",
+     "prompt": "Nobody knows his picture. He says ___.",
+     "choices": [
+      "Good girl.",
+      "Sorry, I cannot draw well.",
+      "It is Saturday."
+     ],
+     "answer": 1,
+     "cue": "Sorry, I cannot draw well."
+    },
+    {
+     "id": "intera_u1_w5",
+     "type": "missing_word",
+     "prompt": "I can draw a ___.",
+     "choices": [
+      "monster",
+      "Monster?",
+      "Mr."
+     ],
+     "answer": 0,
+     "cue": "I can draw a monster!"
     }
    ]
   },

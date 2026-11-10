@@ -5,74 +5,78 @@
  "units": [
   {
    "unit": 1,
-   "title": "Hello, This is Pizza Land",
+   "title": "What day is it today?",
    "video": "inter2b_u1",
    "source_lines": [
-    "Mom! What day is it today?",
+    "Mom, what day is it today?",
     "It is Saturday.",
-    "What day is it today?",
-    "It is Monday."
+    "Today we are going to learn the 7 days of the week and how to ask if a shop is open.",
+    "Monday is often shortened to M-O-N.",
+    "Saturday is often shortened to SAT.",
+    "The English day names come from the sky. Monday is the moon's day. Sunday is the sun's day.",
+    "We close every Monday. On Monday, the shop is closed.",
+    "Is the shop open? Yes, it is. Or no, it is not."
    ],
    "questions": [
     {
-     "id": "inter2b_u1_v1",
+     "id": "interb_u1_w1",
      "type": "choice",
-     "prompt": "The boy at home asks ___.",
+     "prompt": "The boy asks, what day is it today? His mother says ___.",
      "choices": [
-      "How are you?",
-      "What grade are you in?",
-      "What day is it today?"
-     ],
-     "answer": 2,
-     "cue": "What day is it today?"
-    },
-    {
-     "id": "inter2b_u1_v2",
-     "type": "choice",
-     "prompt": "His mother answers ___.",
-     "choices": [
-      "It is Saturday.",
       "It is Monday.",
-      "We close every Monday."
+      "It is Saturday.",
+      "It is Sunday."
      ],
-     "answer": 0,
+     "answer": 1,
      "cue": "It is Saturday."
     },
     {
-     "id": "inter2b_u1_v3",
+     "id": "interb_u1_w2",
      "type": "choice",
-     "prompt": "On the phone they say ___.",
+     "prompt": "Monday is the ___'s day.",
      "choices": [
-      "Hello, Mr. Monkey.",
-      "Hello, this is Pizza Land.",
-      "Good morning, Ms. Lee."
-     ],
-     "answer": 1,
-     "cue": "Hello, this is Pizza Land."
-    },
-    {
-     "id": "inter2b_u1_v4",
-     "type": "choice",
-     "prompt": "Monday comes from ___.",
-     "choices": [
-      "the sun",
-      "the stars",
-      "the moon"
-     ],
-     "answer": 2,
-     "cue": "Monday = moon. Sunday = sun."
-    },
-    {
-     "id": "inter2b_u1_v5",
-     "type": "missing_word",
-     "prompt": "We close every ___.",
-     "choices": [
-      "Monday",
-      "Sunday",
-      "Saturday"
+      "moon",
+      "sun",
+      "sky"
      ],
      "answer": 0,
-     "cue": "We close every Monday."
+     "cue": "Monday is the moon's day."
+    },
+    {
+     "id": "interb_u1_w3",
+     "type": "choice",
+     "prompt": "Sunday is the ___'s day.",
+     "choices": [
+      "moon",
+      "star",
+      "sun"
+     ],
+     "answer": 2,
+     "cue": "Sunday is the sun's day."
+    },
+    {
+     "id": "interb_u1_w4",
+     "type": "choice",
+     "prompt": "Saturday is often shortened to ___.",
+     "choices": [
+      "SUN",
+      "SAT",
+      "THU"
+     ],
+     "answer": 1,
+     "cue": "Saturday is often shortened to SAT."
+    },
+    {
+     "id": "interb_u1_w5",
+     "type": "missing_word",
+     "prompt": "Is the shop ___? Yes, it is.",
+     "choices": [
+      "open",
+      "closed",
+      "sour"
+     ],
+     "answer": 0,
+     "cue": "Is the shop open? Yes, it is."
     }
    ]
   },

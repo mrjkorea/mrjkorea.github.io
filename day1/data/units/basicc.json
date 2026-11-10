@@ -5,81 +5,80 @@
  "units": [
   {
    "unit": 1,
-   "title": "I Love My Dog Zoey",
+   "title": "I love my dog Zoe",
    "video": "basicc_u1",
    "source_lines": [
-    "I love my dog Zoey.",
-    "Good girl.",
-    "I love my dog Zoe.",
+    "I love my dog Zoe. Good girl.",
+    "Let's meet five pets.",
+    "I love my blank. Now you fill the blank.",
+    "We say the animal, then the name. That shows we love our pet.",
+    "A friend asks, what is its name? You say, her name is Zoe.",
     "I love my cat Leo.",
     "I love my bird Sarah.",
     "I love my rabbit Sam.",
-    "I love my hamster Fluffy.",
-    "I love my fish Nemo.",
-    "I love my beetle Bob.",
-    "I love my turtle Tom.",
-    "I love my snake Jessica."
+    "I love my snake Jessica.",
+    "Do you have a pet? What is its name?"
    ],
    "questions": [
     {
-     "id": "basicc_u1_v1",
+     "id": "basicc_u1_w1",
      "type": "choice",
-     "prompt": "The girl in the park says ___.",
+     "prompt": "The girl says, I love my dog ___.",
      "choices": [
-      "This is my cat Leo.",
-      "I love my bird Sarah.",
-      "I love my dog Zoey."
-     ],
-     "answer": 2,
-     "cue": "I love my dog Zoey."
-    },
-    {
-     "id": "basicc_u1_v2",
-     "type": "choice",
-     "prompt": "I love + ___.",
-     "choices": [
-      "my dog + Zoey",
-      "Zoey + my dog",
-      "love + my"
-     ],
-     "answer": 0,
-     "cue": "I love + my dog + Zoe"
-    },
-    {
-     "id": "basicc_u1_v3",
-     "type": "missing_word",
-     "prompt": "I love my ___ Leo.",
-     "choices": [
-      "dog",
-      "cat",
-      "bird"
+      "Leo",
+      "Zoe",
+      "Sarah"
      ],
      "answer": 1,
+     "cue": "I love my dog Zoe."
+    },
+    {
+     "id": "basicc_u1_w2",
+     "type": "choice",
+     "prompt": "I love my ___ Leo.",
+     "choices": [
+      "cat",
+      "dog",
+      "bird"
+     ],
+     "answer": 0,
      "cue": "I love my cat Leo."
     },
     {
-     "id": "basicc_u1_v4",
+     "id": "basicc_u1_w3",
      "type": "choice",
-     "prompt": "Another way to say it is ___.",
+     "prompt": "A friend asks, what is its name? You say ___.",
      "choices": [
-      "My dog is Zoey?",
-      "I like my dog Zoey.",
-      "This is my dog Zoey."
-     ],
-     "answer": 2,
-     "cue": "This is my dog Zoe."
-    },
-    {
-     "id": "basicc_u1_v5",
-     "type": "choice",
-     "prompt": "The teacher asks: ___",
-     "choices": [
-      "Do you have a pet?",
-      "What day is it today?",
-      "What can you draw?"
+      "Her name is Zoe.",
+      "I am happy.",
+      "It is sour."
      ],
      "answer": 0,
-     "cue": "Do you have a pet?"
+     "cue": "You say, her name is Zoe."
+    },
+    {
+     "id": "basicc_u1_w4",
+     "type": "choice",
+     "prompt": "How many pets do we meet?",
+     "choices": [
+      "three",
+      "five",
+      "seven"
+     ],
+     "answer": 1,
+     "cue": "Let's meet five pets."
+    },
+    {
+     "id": "basicc_u1_w5",
+     "type": "choice",
+     "prompt": "We say the animal, then ___.",
+     "choices": [
+      "the day",
+      "the name",
+      "the grade"
+     ],
+     "answer": 1,
+     "cue": "We say the animal, then the name."
     }
    ]
   },

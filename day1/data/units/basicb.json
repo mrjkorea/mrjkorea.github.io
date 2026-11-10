@@ -10,75 +10,76 @@
    "source_lines": [
     "How are you?",
     "I am happy!",
+    "Today we are going to learn how to ask how someone feels.",
+    "Choose a feeling word.",
     "I am happy.",
     "I am sad.",
     "I am angry.",
     "I am hungry.",
-    "I am bored.",
-    "I am scared.",
-    "I am sick.",
-    "I am worried."
+    "I am tired.",
+    "How are you? asks about feelings.",
+    "How old are you? asks about age."
    ],
    "questions": [
     {
-     "id": "basicb_u1_v1",
+     "id": "basicb_u1_w1",
      "type": "choice",
      "prompt": "How are you? asks about ___.",
      "choices": [
       "your age",
-      "your grade",
-      "your feelings"
+      "your feelings",
+      "your grade"
      ],
-     "answer": 2,
-     "cue": "This question asks about feelings."
+     "answer": 1,
+     "cue": "How are you? asks about feelings."
     },
     {
-     "id": "basicb_u1_v2",
+     "id": "basicb_u1_w2",
+     "type": "choice",
+     "prompt": "How old are you? asks about ___.",
+     "choices": [
+      "your age",
+      "your feelings",
+      "your name"
+     ],
+     "answer": 0,
+     "cue": "How old are you? asks about age."
+    },
+    {
+     "id": "basicb_u1_w3",
      "type": "choice",
      "prompt": "The boy on the rollercoaster says ___.",
      "choices": [
-      "I am happy.",
+      "I am tired.",
       "I am angry.",
-      "I am tired."
+      "I am happy."
      ],
-     "answer": 0,
+     "answer": 2,
      "cue": "I am happy!"
     },
     {
-     "id": "basicb_u1_v3",
+     "id": "basicb_u1_w4",
      "type": "choice",
-     "prompt": "The woman is not happy. She says ___.",
+     "prompt": "Which one is NOT a feeling word in the video?",
      "choices": [
-      "I am hungry.",
-      "I am sad.",
-      "I am happy."
-     ],
-     "answer": 1,
-     "cue": "I am sad."
-    },
-    {
-     "id": "basicb_u1_v4",
-     "type": "choice",
-     "prompt": "How are you? is not the same as ___.",
-     "choices": [
-      "What day is it today?",
-      "What is your name?",
-      "How old are you?"
+      "tired",
+      "hungry",
+      "Saturday"
      ],
      "answer": 2,
-     "cue": "How are you? is not How old are you?"
+     "cue": "I am tired. I am hungry. Saturday is a day."
     },
     {
-     "id": "basicb_u1_v5",
+     "id": "basicb_u1_w5",
      "type": "missing_word",
      "prompt": "I am ___.",
      "choices": [
-      "hungry",
-      "angry",
-      "sad"
+      "happy",
+      "Saturday",
+      "Mr."
      ],
      "answer": 0,
-     "cue": "I am hungry."
+     "cue": "I am happy."
     }
    ]
   },

@@ -82,75 +82,75 @@
     "Hello, Mr. Monkey!",
     "Hello, Mrs. Hippo!",
     "Hello, Ms. Tiger!",
-    "Hello, Mr. Cat.",
-    "Hello, Mr. Cow.",
-    "Hello, Mr. Horse.",
-    "Hello, Mr. Dog.",
-    "Hello, Miss Pig.",
-    "Hello, Miss Chicken.",
-    "Hello, Miss Goat.",
-    "Goodbye, Mom."
+    "What do you call your teacher in English?",
+    "Careful. 선생님 is not the English word teacher.",
+    "English has no single word you call a teacher. It is only the job name.",
+    "We say the title, then the family name. Mr. Kim. Mrs. Park. Ms. Lee.",
+    "Mr. is for a man. Mr. Kim.",
+    "Mrs. is for a married woman. Mrs. Park.",
+    "Ms. is for a woman. Use it when you are not sure.",
+    "Hello, Mr. Kim. Good morning, Ms. Lee."
    ],
    "questions": [
     {
-     "id": "basica_u2_v1",
+     "id": "basica_u2_w1",
      "type": "choice",
-     "prompt": "You meet a man teacher in the morning. What do you say?",
+     "prompt": "Your teacher is a man. What do you say?",
      "choices": [
-      "Hello, Mr. Kim.",
-      "Teacher!",
-      "Goodbye, Mr. Kim."
+      "Ms. Kim.",
+      "Mr. Kim.",
+      "Mrs. Kim."
      ],
-     "answer": 0,
-     "cue": "Hello, Mr. Kim!"
+     "answer": 1,
+     "cue": "Mr. is for a man. Mr. Kim."
     },
     {
-     "id": "basica_u2_v2",
+     "id": "basica_u2_w2",
      "type": "choice",
      "prompt": "Mrs. is for ___.",
      "choices": [
-      "a man",
       "a married woman",
+      "a man",
       "a woman you are not sure about"
      ],
-     "answer": 1,
-     "cue": "Mrs. = a married woman"
+     "answer": 0,
+     "cue": "Mrs. is for a married woman. Mrs. Park."
     },
     {
-     "id": "basica_u2_v3",
+     "id": "basica_u2_w3",
      "type": "choice",
-     "prompt": "Ms. is for ___.",
+     "prompt": "You are not sure if your teacher is married. What do you say?",
      "choices": [
-      "a man",
-      "a married woman",
-      "a woman, when you are not sure"
+      "Mr. Lee.",
+      "Mrs. Lee.",
+      "Ms. Lee."
      ],
      "answer": 2,
-     "cue": "Ms. = a woman, when you are not sure"
+     "cue": "Ms. is for a woman. Use it when you are not sure."
     },
     {
-     "id": "basica_u2_v4",
+     "id": "basica_u2_w4",
      "type": "missing_word",
      "prompt": "Hello, ___ Hippo.",
      "choices": [
-      "Mrs.",
       "Mr.",
+      "Mrs.",
       "Ms."
      ],
-     "answer": 0,
+     "answer": 1,
      "cue": "Hello, Mrs. Hippo!"
     },
     {
-     "id": "basica_u2_v5",
+     "id": "basica_u2_w5",
      "type": "choice",
-     "prompt": "Which line did you hear?",
+     "prompt": "In English, what do we say first?",
      "choices": [
-      "Goodbye, Mom.",
-      "Hello, Ms. Tiger.",
-      "Teacher!"
+      "the family name",
+      "the title",
+      "nothing"
      ],
      "answer": 1,
-     "cue": "Hello, Ms. Tiger!"
+     "cue": "We say the title, then the family name. Mr. Kim."
     }
    ]
   },

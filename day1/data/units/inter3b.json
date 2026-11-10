@@ -5,75 +5,78 @@
  "units": [
   {
    "unit": 1,
-   "title": "What Grade Are You In?",
+   "title": "What grade are you in?",
    "video": "inter3b_u1",
    "source_lines": [
     "What grade are you in?",
-    "I am in the fifth grade!",
-    "I am in kindergarten.",
-    "I am in the first grade.",
-    "I am in the second grade."
+    "I am in the fifth grade.",
+    "Today we are going to learn how to say which grade you are in.",
+    "I am in the blank grade. Choose a number word.",
+    "I am in the fifth grade.",
+    "I am in the sixth grade.",
+    "English does not say middle school one. We say seventh grade.",
+    "Elementary school is grades one to six."
    ],
    "questions": [
     {
-     "id": "inter3b_u1_v1",
+     "id": "interb_u1_w1",
      "type": "choice",
-     "prompt": "The older boys ask ___.",
+     "prompt": "What grade are you in? He answers ___.",
      "choices": [
-      "How old are you?",
-      "What can you draw?",
-      "What grade are you in?"
-     ],
-     "answer": 2,
-     "cue": "What grade are you in?"
-    },
-    {
-     "id": "inter3b_u1_v2",
-     "type": "choice",
-     "prompt": "The small boy answers ___.",
-     "choices": [
+      "I am in the sixth grade.",
       "I am in the fifth grade.",
-      "I am in the seventh grade.",
-      "I am in the tenth grade."
+      "I am in the seventh grade."
      ],
-     "answer": 0,
+     "answer": 1,
      "cue": "I am in the fifth grade."
     },
     {
-     "id": "inter3b_u1_v3",
+     "id": "interb_u1_w2",
      "type": "choice",
-     "prompt": "English changes the number shape: ___",
+     "prompt": "English does not say middle school one. We say ___.",
      "choices": [
-      "one, two, three",
-      "first, second, third",
-      "first, two, third"
+      "first grade",
+      "grade one",
+      "seventh grade"
      ],
-     "answer": 1,
-     "cue": "first, second, third"
+     "answer": 2,
+     "cue": "We say seventh grade."
     },
     {
-     "id": "inter3b_u1_v4",
+     "id": "interb_u1_w3",
      "type": "choice",
      "prompt": "Elementary school is grades ___.",
      "choices": [
-      "1 to 3",
-      "7 to 12",
-      "1 to 6"
-     ],
-     "answer": 2,
-     "cue": "Elementary school = grades 1 to 6"
-    },
-    {
-     "id": "inter3b_u1_v5",
-     "type": "choice",
-     "prompt": "중1 in English is ___.",
-     "choices": [
-      "seventh grade",
-      "sixth grade",
-      "tenth grade"
+      "one to six",
+      "one to three",
+      "seven to nine"
      ],
      "answer": 0,
-     "cue": "Seventh grade!"
+     "cue": "Elementary school is grades one to six."
+    },
+    {
+     "id": "interb_u1_w4",
+     "type": "missing_word",
+     "prompt": "I am in the ___ grade.",
+     "choices": [
+      "Saturday",
+      "sixth",
+      "sour"
+     ],
+     "answer": 1,
+     "cue": "I am in the sixth grade."
+    },
+    {
+     "id": "interb_u1_w5",
+     "type": "choice",
+     "prompt": "Which answer fits the question what grade are you in?",
+     "choices": [
+      "I am in the sixth grade.",
+      "I can draw a star.",
+      "Do you like sweet food?"
+     ],
+     "answer": 0,
+     "cue": "I am in the sixth grade."
     }
    ]
   },

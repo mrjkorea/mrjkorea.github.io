@@ -5,76 +5,80 @@
  "units": [
   {
    "unit": 1,
-   "title": "Do You Like Sweet Food?",
+   "title": "Do you like sweet food?",
    "video": "inter3c_u1",
    "source_lines": [
-    "Do you like sweet food?",
-    "Yes, I do.",
-    "Yes, I will try it.",
-    "What is it?",
-    "It is a sticky rice dessert.",
-    "I do not know."
+    "Do you like sweet food? Yes, I do.",
+    "Today we learn four tastes and four Korean foods.",
+    "Sweet.",
+    "Salty!",
+    "Sour!",
+    "Bitter!",
+    "This is 떡. In English, it is a sticky rice dessert.",
+    "In English, a soy paste stew.",
+    "Kimchi is sour.",
+    "Do you like blank food? Yes, I do. Or no, I do not."
    ],
    "questions": [
     {
-     "id": "inter3c_u1_v1",
+     "id": "interc_u1_w1",
      "type": "choice",
-     "prompt": "The grandmother asks ___.",
+     "prompt": "How many tastes does the lesson teach?",
      "choices": [
-      "What is it?",
-      "Do you have a pet?",
-      "Do you like sweet food?"
-     ],
-     "answer": 2,
-     "cue": "Do you like sweet food?"
-    },
-    {
-     "id": "inter3c_u1_v2",
-     "type": "choice",
-     "prompt": "The girl answers ___.",
-     "choices": [
-      "Yes, I do.",
-      "It is Saturday.",
-      "No, I do not."
-     ],
-     "answer": 0,
-     "cue": "Yes, I do."
-    },
-    {
-     "id": "inter3c_u1_v3",
-     "type": "choice",
-     "prompt": "ddeok is ___.",
-     "choices": [
-      "a soy paste stew",
-      "a sticky rice dessert",
-      "a sauteed root"
+      "three",
+      "four",
+      "seven"
      ],
      "answer": 1,
-     "cue": "ddeok — a sticky rice dessert"
+     "cue": "Today we learn four tastes and four Korean foods."
     },
     {
-     "id": "inter3c_u1_v4",
+     "id": "interc_u1_w2",
      "type": "choice",
-     "prompt": "Doenjang guk tastes ___.",
+     "prompt": "Which one is a taste?",
+     "choices": [
+      "Saturday",
+      "bitter",
+      "fifth"
+     ],
+     "answer": 1,
+     "cue": "Sweet. Salty. Sour. Bitter."
+    },
+    {
+     "id": "interc_u1_w3",
+     "type": "choice",
+     "prompt": "Kimchi is ___.",
      "choices": [
       "sweet",
       "sour",
       "salty"
      ],
-     "answer": 2,
-     "cue": "doenjang guk — a soy paste stew"
+     "answer": 1,
+     "cue": "Kimchi is sour."
     },
     {
-     "id": "inter3c_u1_v5",
+     "id": "interc_u1_w4",
      "type": "choice",
-     "prompt": "Kimchi is ___.",
+     "prompt": "A sticky rice dessert in English is ___.",
      "choices": [
-      "sour",
-      "sweet",
-      "bitter"
+      "떡",
+      "kimchi",
+      "soy paste stew"
      ],
      "answer": 0,
-     "cue": "Kimchi is sour."
+     "cue": "This is 떡. In English, it is a sticky rice dessert."
+    },
+    {
+     "id": "interc_u1_w5",
+     "type": "missing_word",
+     "prompt": "Do you like sweet food? ___.",
+     "choices": [
+      "Yes, I do.",
+      "Yes, I am.",
+      "No, they do."
+     ],
+     "answer": 0,
+     "cue": "Yes, I do."
     }
    ]
   },
