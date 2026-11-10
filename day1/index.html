@@ -39,6 +39,7 @@
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.3"></script>
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.3" data-mrj-app="day1-video" data-mrj-chip="off"></script>
 <script src="/mrj-scores.js"></script>
+<script src="/progress.js"></script>
 <div class="wrap">
   <header>
     <a class="back" href="#" id="back">← Back</a>
@@ -92,6 +93,11 @@
                      int2a:'int2a', int2b:'int2b', int2c:'int2c',
                      int3a:'int3a', int3b:'int3b', int3c:'int3c'};
   const bookSlug = BOOK_SLUG[book] || book;
+  // The map names a step "<Level>|Unit <n>|Day 1" (courses.json level names), so the Day 1
+  // page must use that exact id or the trail never lights this step.
+  const LEVEL_NAME = {basic_a:'Basic A', basic_b:'Basic B', basic_c:'Basic C',
+                      int2a:'Int 2 A', int2b:'Int 2 B', int2c:'Int 2 C',
+                      int3a:'Int 3 A', int3b:'Int 3 B', int3c:'Int 3 C'};
   const unitNo = String(params.get('unit') || '').replace(/^u/i,'');
   const unitKey = book + unitNo;                    // basica1
   const state = { q: [], i: 0, right: 0, tries: 0 };
@@ -188,7 +194,12 @@
         });
       }
     } catch(e){}
-    try { if (window.StudyProgress && window.StudyProgress.markDone) window.StudyProgress.markDone('day1|' + book + '|u' + unitNo); } catch(e){}
+    try {
+      const lv = LEVEL_NAME[bookSlug];
+      if (lv && window.StudyProgress && window.StudyProgress.markDone) {
+        window.StudyProgress.markDone(lv + '|Unit ' + unitNo + '|Day 1');
+      }
+    } catch(e){}
   }
 
   $('again').onclick = () => {
