@@ -1,5 +1,5 @@
 {
  "app": "day1-video",
- "build": "20261110l",
- "note": "Day 1: all videos now load from a Cloudflare Worker in front of the R2 bucket (normal CDN speed)."
+ "build": "20261110m",
+ "note": "Day 1: every lesson video loads from the Cloudflare Worker. Extra copies removed from the site folder."
 }
