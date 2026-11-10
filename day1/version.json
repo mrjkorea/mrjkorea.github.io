@@ -1,5 +1,5 @@
 {
  "app": "day1-video",
- "build": "20261110j",
- "note": "Day 1: same three steps on every unit. 1 Explanation (seven joined clips now served from Pages), 2 Animation, 3 Quiz."
+ "build": "20261110l",
+ "note": "Day 1: all videos now load from a Cloudflare Worker in front of the R2 bucket (normal CDN speed)."
 }
