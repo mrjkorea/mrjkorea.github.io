@@ -24,7 +24,7 @@
   var qEl = document.getElementById('q');
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); }
-  function key(t) { return 'mse' + t.band + '_' + t.note.replace(/[^a-z0-9]/gi, ''); }
+  function key(t) { return 'mse' + t.band + '_' + String(t.note || t.topic).replace(/[^a-z0-9]/gi, ''); }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
   function closeModal() { modal.hidden = true; mbody.innerHTML = ''; }
 
@@ -37,12 +37,15 @@
   }
 
   function topicState(t) {
+    /* Count only the parts a row really has (Grammar 2026-11-11: a new point may arrive with
+       a quick test before its note or video exists; an absent part must not block "done"). */
     var k = key(t), st = done[k] || {};
+    var hasNote = !!t.note, hasVideo = !!t.video;
     var hasPractice = (PRACTICE[t.topic] || []).length > 0;
-    var total = 2 + (hasPractice ? 1 : 0);
-    var st2 = { note: isDone(t, 'note'), video: isDone(t, 'video'), practice: isDone(t, 'practice') };
+    var total = (hasNote ? 1 : 0) + (hasVideo ? 1 : 0) + (hasPractice ? 1 : 0);
+    var st2 = { note: hasNote && isDone(t, 'note'), video: hasVideo && isDone(t, 'video'), practice: hasPractice && isDone(t, 'practice') };
     var n = (st2.note ? 1 : 0) + (st2.video ? 1 : 0) + (st2.practice ? 1 : 0);
-    return { k: k, st: st2, hasPractice: hasPractice, total: total, n: n, all: n >= total && total > 0 };
+    return { k: k, st: st2, hasPractice: hasPractice, total: total, n: n, all: total > 0 && n >= total };
   }
 
   function chip(cls, on, label, attrs) {
@@ -77,7 +80,9 @@
         '<div class="num">' + (s.all ? '✓' : (s.n > 0 ? s.n + '/' + s.total : (i + 1))) + '</div>' +
         '<div class="tt">' + esc(t.topic) + '</div>' +
         '<div class="chips">' +
-          '<button class="chip ' + (s.st.note ? 'ok' : 'gold') + '" data-note="' + esc(t.note) + '" data-k="' + s.k + '" data-title="' + esc(t.topic) + '">' + (s.st.note ? '✓ ' : '') + '노트 Notes</button>' +
+          (t.note
+            ? '<button class="chip ' + (s.st.note ? 'ok' : 'gold') + '" data-note="' + esc(t.note) + '" data-k="' + s.k + '" data-title="' + esc(t.topic) + '">' + (s.st.note ? '✓ ' : '') + '노트 Notes</button>'
+            : '<span class="chip soon" title="노트가 아직 없습니다">노트 준비 중</span>') +
           (t.video
             ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
             : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
