@@ -24,6 +24,12 @@
   var qEl = document.getElementById('q');
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c]; }); }
+  /* A point may have more than one clip (Jay 2026-11-11: show every one we hold). */
+  function videoList(t) {
+    if (t.videos && t.videos.length) return t.videos;
+    return t.video ? [t.video] : [];
+  }
+
   function key(t) { return 'mse' + t.band + '_' + String(t.note || t.topic).replace(/[^a-z0-9]/gi, ''); }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} }
   function closeModal() { modal.hidden = true; mbody.innerHTML = ''; }
@@ -40,7 +46,7 @@
     /* Count only the parts a row really has (Grammar 2026-11-11: a new point may arrive with
        a quick test before its note or video exists; an absent part must not block "done"). */
     var k = key(t), st = done[k] || {};
-    var hasNote = !!t.note, hasVideo = !!t.video;
+    var hasNote = !!t.note, hasVideo = videoList(t).length > 0;
     var hasPractice = (PRACTICE[t.topic] || []).length > 0;
     var total = (hasNote ? 1 : 0) + (hasVideo ? 1 : 0) + (hasPractice ? 1 : 0);
     var st2 = { note: hasNote && isDone(t, 'note'), video: hasVideo && isDone(t, 'video'), practice: hasPractice && isDone(t, 'practice') };
@@ -83,9 +89,14 @@
           (t.note
             ? '<button class="chip ' + (s.st.note ? 'ok' : 'gold') + '" data-note="' + esc(t.note) + '" data-k="' + s.k + '" data-title="' + esc(t.topic) + '">' + (s.st.note ? '✓ ' : '') + '노트 Notes</button>'
             : '<span class="chip soon" title="노트가 아직 없습니다">노트 준비 중</span>') +
-          (t.video
-            ? '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(t.video) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' + (s.st.video ? '✓ ' : '') + '영상 Video</button>'
-            : '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>') +
+          (function () {
+            var vs = videoList(t);
+            if (!vs.length) return '<span class="chip soon" title="영상이 아직 없습니다">영상 준비 중</span>';
+            return vs.map(function (u, i) {
+              return '<button class="chip ' + (s.st.video ? 'ok' : 'purple') + '" data-video="' + esc(u) + '" data-k="' + s.k + '" data-p="video" data-topic="' + esc(t.topic) + '" data-title="' + esc(t.topic) + '">' +
+                (s.st.video ? '✓ ' : '') + (vs.length > 1 ? '영상 ' + (i + 1) : '영상 Video') + '</button>';
+            }).join('');
+          })() +
           (t.qtTests && t.qtTests.length
             ? t.qtTests.map(function (q) { return qtChip(t, q); }).join('')
             : '<span class="chip soon" title="문항을 새로 만드는 중입니다">⚡ 퀵 테스트 준비 중</span>') +
