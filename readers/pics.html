@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MRJ leveled readers — pictures and words</title>
+<style>
+body{margin:0;background:#111;color:#f4f1ea;font-family:Georgia,serif}
+header{position:sticky;top:0;background:#1b1b1b;padding:10px;z-index:2}
+header a{color:#ffd84a;font-family:system-ui,sans-serif;font-size:14px;text-decoration:none}
+select{width:100%;font-size:17px;padding:8px 10px;margin-top:6px;background:#f4f1ea;border:0;border-radius:6px}
+#tag{font-size:12px;opacity:.7;margin-top:6px;font-family:system-ui,sans-serif}
+main{max-width:560px;margin:0 auto;padding:8px 8px 96px}
+#frame{width:100%;aspect-ratio:3/2;background:#222;border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+img{width:100%;height:100%;object-fit:cover;display:block}
+#frame.empty{background:#191919;border:1px dashed #444}
+#frame .wait{font-family:system-ui,sans-serif;font-size:13px;color:#777;text-align:center;padding:20px}
+#print{font-size:26px;line-height:1.35;white-space:pre-wrap;margin:14px 4px 0}
+#meta{font-size:13px;opacity:.65;margin:10px 4px;font-family:system-ui,sans-serif}
+.nav{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;padding:10px;background:#1b1b1b}
+.nav button{flex:1;font-size:18px;background:#f4f1ea;border:0;border-radius:8px;padding:10px;font-family:system-ui,sans-serif}
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html">&larr; All levels</a>
+  <select id="book"></select>
+  <div id="tag">Back and Next stay in level order · pictures are made so far</div>
+</header>
+<main>
+  <div id="frame"><img id="pic" alt=""><div class="wait" id="wait">No picture on this page yet</div></div>
+  <div id="print"></div>
+  <div id="meta"></div>
+</main>
+<div class="nav">
+  <button id="prev" type="button">Back</button>
+  <button id="next" type="button">Next</button>
+</div>
+<script>
+const V = "LEVELEDREADERS20261112v1";
+let books = [], bi = 0, pi = 0;
+const book = document.getElementById("book");
+const pic = document.getElementById("pic");
+const frame = document.getElementById("frame");
+const print = document.getElementById("print");
+const meta = document.getElementById("meta");
+function show(){
+  const b = books[bi], p = b.pages[pi];
+  const wait = document.getElementById("wait");
+  if (p.img){ pic.style.display = ""; wait.style.display = "none";
+    pic.src = p.img + "?v=" + V; frame.classList.remove("empty"); }
+  else { pic.style.display = "none"; pic.removeAttribute("src");
+    wait.style.display = "block"; frame.classList.add("empty"); }
+  print.textContent = p.text || "";
+  meta.textContent = "Level " + b.level + " · " + b.title + " · page " + (pi + 1) + " of " + b.pages.length;
+  book.value = String(bi);
+}
+function step(n){
+  const b = books[bi];
+  pi += n;
+  if (pi >= b.pages.length){ bi = (bi + 1) % books.length; pi = 0; }
+  if (pi < 0){ bi = (bi - 1 + books.length) % books.length; pi = books[bi].pages.length - 1; }
+  show();
+}
+book.onchange = () => { bi = Number(book.value); pi = 0; show(); };
+document.getElementById("prev").onclick = () => step(-1);
+document.getElementById("next").onclick = () => step(1);
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowRight") step(1);
+  if (e.key === "ArrowLeft") step(-1);
+});
+fetch("books.json?v=" + V).then(r => r.json()).then(data => {
+  books = data;
+  const groups = {};
+  books.forEach((b, i) => { (groups[b.level] ||= []).push({i, b}); });
+  book.innerHTML = Object.keys(groups).map(level => {
+    const opts = groups[level].map(x =>
+      `<option value="${x.i}">${level}${String(x.i + 1).padStart(3, "0")} · ${x.b.title}</option>`).join("");
+    return `<optgroup label="Level ${level}">${opts}</optgroup>`;
+  }).join("");
+  show();
+});
+</script>
+</body>
+</html>
