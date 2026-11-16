@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Picture test — seven books</title>
+<style>
+:root{--ink:#1b1b1b;--muted:#6b7280;--line:#e5e7eb;--accent:#1a5c8a}
+*{box-sizing:border-box}
+body{margin:0;background:#f4f5f7;color:var(--ink);font:17px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#fff;border-bottom:1px solid var(--line);padding:14px 18px;position:sticky;top:0;z-index:5}
+h1{margin:0;font-size:18px}
+header p{margin:3px 0 0;color:var(--muted);font-size:13px}
+main{max-width:1000px;margin:0 auto;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;
+ padding:0;text-align:left;font:inherit;color:inherit}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#e9edf1}
+.card div{padding:9px 11px 12px}
+.card b{display:block;font-size:15px}
+.card span{color:var(--muted);font-size:12.5px}
+.reader{display:none}
+.reader.on{display:block}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+button{border:1px solid var(--line);background:#fff;border-radius:9px;padding:8px 13px;font:inherit;cursor:pointer}
+button:disabled{opacity:.4;cursor:default}
+.meta{color:var(--muted);font-size:13.5px}
+.sheet{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.sheet img{width:100%;display:block;background:#e9edf1}
+.words{padding:16px 18px 22px;font-size:21px;line-height:1.45}
+.words .tag{display:block;color:var(--muted);font-size:12px;letter-spacing:.06em;
+ text-transform:uppercase;margin-bottom:7px;font-weight:600}
+.thumbs{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.thumbs button{width:66px;height:38px;padding:0;border:2px solid transparent;border-radius:6px;overflow:hidden}
+.thumbs button img{width:100%;height:100%;object-fit:cover;display:block}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}
+.hidden{display:none}
+.note{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 16px;
+ font-size:14px;color:var(--muted)}
+</style></head><body>
+<header><h1>Picture test — seven books, flux schnell</h1>
+<p id="sub">Loading…</p></header>
+<main>
+<div id="home">
+  <p class="note" id="note"></p>
+  <div class="grid" id="grid"></div>
+</div>
+<div class="reader" id="reader">
+  <div class="bar">
+    <button id="back">← All books</button>
+    <button id="prev">Previous page</button>
+    <button id="next">Next page</button>
+    <span class="meta" id="rmeta"></span>
+  </div>
+  <div class="sheet">
+    <img id="rimg" alt="">
+    <div class="words"><span class="tag" id="rnum"></span><span id="rtext"></span></div>
+  </div>
+  <div class="thumbs" id="rthumbs"></div>
+</div>
+</main>
+<script>
+let D=null, book=null, page=0;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const KIND={photo:"real photos", cart:"cartoon (famous person)", draw:"painted drawing (past)"};
+fetch("data.json").then(r=>r.json()).then(d=>{
+  D=d;
+  const pages=d.books.reduce((n,b)=>n+b.pages.length,0);
+  $("sub").textContent=`${d.books.length} books · ${pages} pictures · click a book, then read the words under each picture`;
+  $("note").textContent="Every picture here was made by fal-ai/flux/schnell from that page's own words. Tell me which books work and which do not.";
+  const g=$("grid");
+  d.books.forEach(b=>{
+    const c=document.createElement("button");
+    c.className="card";
+    c.innerHTML=`<img loading="lazy" src="${b.pages[0].img}" alt="">
+      <div><b>${esc(b.title)}</b><span>Level ${esc(b.level)} · ${b.pages.length} pages · ${KIND[b.kind]||b.kind}</span></div>`;
+    c.onclick=()=>{location.hash="b="+b.id;};
+    g.appendChild(c);
+  });
+  route();
+}).catch(()=>{$("sub").textContent="The data did not load.";});
+function route(){
+  if(!D) return;
+  const m=location.hash.match(/b=([A-Za-z0-9_]+)/);
+  if(m){book=D.books.find(b=>b.id===m[1]);page=0;}
+  if(book){$("home").classList.add("hidden");$("reader").classList.add("on");draw();}
+  else{book=null;$("reader").classList.remove("on");$("home").classList.remove("hidden");window.scrollTo(0,0);}
+}
+function draw(){
+  const p=book.pages[page];
+  $("rimg").src=p.img; $("rimg").alt=p.text;
+  $("rtext").textContent=p.text;
+  $("rnum").textContent=`page ${p.n}`;
+  $("rmeta").textContent=`${book.title} · Level ${book.level} · page ${page+1} of ${book.pages.length}`;
+  $("prev").disabled=page===0; $("next").disabled=page===book.pages.length-1;
+  const th=$("rthumbs");th.innerHTML="";
+  book.pages.forEach((q,i)=>{
+    const b=document.createElement("button");
+    b.setAttribute("aria-current",i===page);
+    b.innerHTML=`<img loading="lazy" src="${q.img}" alt="">`;
+    b.onclick=()=>{page=i;draw();};
+    th.appendChild(b);
+  });
+  window.scrollTo(0,0);
+}
+$("back").onclick=()=>{location.hash="";route();};
+$("prev").onclick=()=>{if(page>0){page--;draw();}};
+$("next").onclick=()=>{if(book&&page<book.pages.length-1){page++;draw();}};
+document.addEventListener("keydown",e=>{if(!book)return;
+  if(e.key==="ArrowRight")$("next").click();
+  if(e.key==="ArrowLeft")$("prev").click();
+  if(e.key==="Escape")$("back").click();});
+window.addEventListener("hashchange",route);
+</script></body></html>
