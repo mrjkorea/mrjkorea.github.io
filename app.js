@@ -214,17 +214,26 @@ function subtitles() {
   bs.forEach(b => { b.classList.toggle('on', b.dataset.cc === ccWant); b.onclick = () => { ccWant = b.dataset.cc; bs.forEach(x => x.classList.toggle('on', x === b)); applyCC(); [400, 1200, 2500].forEach(t => setTimeout(applyCC, t)); }; });
   ytApi().then(() => { YTP = new YT.Player('yt', { events: { onReady: applyCC, onStateChange: e => { if (e.data === 1) applyCC(); }, onApiChange: applyCC } }); });
 }
+// Tab label + icon per area (Jay 2026-11-16): one short word, colour does the rest.
+let tabKey = '';
+function setTab(area, suffix) {
+  const T = window.TABICONS && window.TABICONS[area]; if (!T) return;
+  const k = area + '|' + (suffix || ''); if (k === tabKey) return; tabKey = k;
+  document.title = suffix ? T.t + ' ' + suffix : T.t;
+  const f = document.getElementById('fav'); if (f) f.href = T.u;
+  const a = document.getElementById('ati'); if (a) a.href = T.p;
+}
 function route() {
   M.innerHTML = '';
   if (window.TeacherCorner) TeacherCorner.setVisible(false);
   const [r, a, b] = location.hash.slice(1).split('/').map(decodeURIComponent);
-  if (r === 'home' || r === '') return home();
-  if (r === 'conversation') return conversation();
-  if (r === 'levels') return levels();
-  if (r === 'path') return pathMap(a);
-  if (r === 'placement') return window.Placement ? Placement.route(A, C, a) : home();
-  if (r === 'news') return news(a);
-  if (r === 'scores') return window.MyScores ? MyScores.show(A, C, steps) : home();
+  if (r === 'home' || r === '') { setTab('home'); return home(); }
+  if (r === 'conversation') { setTab('conversation'); return conversation(); }
+  if (r === 'levels') { setTab('conversation'); return levels(); }
+  if (r === 'path') { const L = findLevel(a); setTab('conversation', L ? L.name.split(' ').pop() : ''); return pathMap(a); }
+  if (r === 'placement') { setTab('placement'); return window.Placement ? Placement.route(A, C, a) : home(); }
+  if (r === 'news') { setTab('news'); return news(a); }
+  if (r === 'scores') { setTab('scores'); return window.MyScores ? MyScores.show(A, C, steps) : home(); }
   home(); scrollTo(0, 0);
 }
 function signinButton() {

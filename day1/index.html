@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Day 1 · Video lesson · MRJ English</title>
+<title>회화</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxMCIgZmlsbD0iIzE2QTM0QSIvPjx0ZXh0IHg9IjMyIiB5PSIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiIGZvbnQtZmFtaWx5PSInQXBwbGUgU0QgR290aGljIE5lbycsJ01hbGd1biBHb3RoaWMnLCdOb3RvIFNhbnMgS1InLCdIZWx2ZXRpY2EgTmV1ZScsQXJpYWwsc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSI0NiIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuNiI+66eQPC90ZXh0Pjwvc3ZnPg==">
+<link rel="apple-touch-icon" href="../img/tab/tab-conversation.png">
 <style>
   :root{--bg:#f7f3ea;--card:#fff;--ink:#222;--hot:#ff6b35;--ok:#1f9d55;--bad:#d64545;--line:#e6e0d4}
   *{box-sizing:border-box}
@@ -271,7 +273,7 @@
       if(!u){ throw new Error('unit not found'); }
       $('unitTitle').textContent = `${data.title} · Unit ${u.unit}`;
       $('unitSub').textContent = `Day 1 · ${u.title}`;
-      document.title = `Day 1 · ${data.title} Unit ${u.unit}`;
+      document.title = `회화 U${u.unit}`;
       state.q = u.questions;
       state.pass = u.pass_score;
       renderQuestion();

@@ -316,6 +316,7 @@
     b.addEventListener('click', function () {
       band = b.dataset.band;
       document.querySelectorAll('.band').forEach(function (x) { x.classList.toggle('on', x === b); });
+      document.title = '문법 중' + band;
       render();
     });
   });
