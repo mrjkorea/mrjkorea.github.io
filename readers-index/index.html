@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leveled readers — 705 books, text and picture briefs</title>
+<style>
+:root{--ink:#16181d;--muted:#666f7a;--line:#e3e6ea;--accent:#1a5c8a;--chip:#eef2f6}
+*{box-sizing:border-box}
+body{margin:0;background:#f4f5f7;color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#fff;border-bottom:1px solid var(--line);padding:14px 18px;position:sticky;top:0;z-index:6}
+h1{margin:0;font-size:18px}
+header p{margin:3px 0 0;color:var(--muted);font-size:13px}
+main{max-width:1080px;margin:0 auto;padding:16px 16px 60px}
+.bar{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-bottom:14px}
+input[type=search]{flex:1;min-width:200px;border:1px solid var(--line);border-radius:9px;padding:9px 12px;font:inherit}
+button{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 12px;font:inherit;cursor:pointer}
+button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+.levels{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.levels button{font-size:14px;padding:5px 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;text-align:left;
+ font:inherit;color:inherit;display:flex;flex-direction:column;gap:6px}
+.card:hover{border-color:#b9c6d3}
+.card b{font-size:16px;line-height:1.3}
+.card .sub{color:var(--muted);font-size:12.5px}
+.chip{display:inline-block;background:var(--chip);color:#33414f;border-radius:99px;padding:2px 9px;font-size:11.5px;
+ letter-spacing:.03em}
+.chip.photo{background:#e6f3ea;color:#1d6b38}
+.chip.drawing{background:#fdf0e2;color:#8a4a09}
+.chip.cartoon{background:#ede8fb;color:#4a3390}
+.reader{display:none}
+.reader.on{display:block}
+#home.off{display:none}
+.meta{color:var(--muted);font-size:13.5px}
+.sheet{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px 20px}
+.pnum{color:var(--muted);font-size:12px;letter-spacing:.09em;text-transform:uppercase;font-weight:600}
+.words{font-size:23px;line-height:1.45;margin:8px 0 0}
+.brief{margin-top:16px;border-top:1px dashed var(--line);padding-top:14px}
+.brief .lbl{color:var(--accent);font-size:12px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+.brief p{margin:6px 0 0;font-size:16.5px;color:#2c3440}
+.flags{margin-top:12px;font-size:12.5px;color:#8a4a09;background:#fff7ec;border:1px solid #f4e2c8;
+ border-radius:8px;padding:8px 11px}
+.note{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 16px;font-size:14px;color:var(--muted)}
+.info{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 0}
+.pagelist{display:flex;gap:5px;flex-wrap:wrap;margin-top:14px}
+.pagelist button{width:36px;padding:4px 0;font-size:13px}
+.pagelist button[aria-current=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+</style></head><body>
+<header><h1>Leveled readers — read-through</h1>
+<p id="sub">Loading…</p></header>
+<main>
+<div id="home">
+  <p class="note" id="note">Every book shows its rewritten page text with the picture brief made for that page.
+  Photo = real photograph, Drawing = pre-camera history, Cartoon = famous people only.</p>
+  <div class="bar"><input id="q" type="search" placeholder="Search a title…"><button id="reset">All levels</button></div>
+  <div class="levels" id="levels"></div>
+  <div class="grid" id="grid"></div>
+</div>
+<div class="reader" id="reader">
+  <div class="bar">
+    <button id="back">← All books</button>
+    <button id="prev">‹ Previous</button>
+    <button id="next">Next ›</button>
+    <span class="meta" id="rmeta"></span>
+  </div>
+  <div class="sheet">
+    <div class="pnum" id="rnum"></div>
+    <div class="words" id="rtext"></div>
+    <div class="info" id="rinfo"></div>
+    <div class="brief"><span class="lbl">Picture brief</span><p id="rbrief"></p></div>
+    <div class="flags" id="rflags" hidden></div>
+    <div class="pagelist" id="rpages"></div>
+  </div>
+</div>
+</main>
+<script>
+let INDEX=null, DATA={}, cur=null, page=0, level=null, q="";
+const $=s=>document.querySelector(s);
+const LEVEL_LABEL={"aa": "Starter (aa)", "A": "Level A", "B": "Level B", "C": "Level C", "D": "Level D", "E": "Level E", "F": "Level F", "G": "Level G", "H": "Level H", "I": "Level I", "J": "Level J", "K": "Level K", "L": "Level L", "M": "Level M", "N": "Level N", "O": "Level O", "P": "Level P", "Q": "Level Q", "R": "Level R", "S": "Level S", "T": "Level T", "U": "Level U", "V": "Level V", "W": "Level W", "X": "Level X", "Y": "Level Y", "Z": "Level Z", "Z1": "Level Z1", "Z2": "Level Z2"}, ART_LABEL={"photo": "Real photo", "drawing": "Drawing", "cartoon": "Cartoon (famous person)"};
+
+async function boot(){
+  INDEX=await (await fetch('books.json')).json();
+  $('#sub').textContent=INDEX.total_books+' books · '+INDEX.total_pages+' pages · '+INDEX.levels.length+' levels';
+  const lv=$('#levels');
+  const all=document.createElement('button'); all.textContent='All'; all.dataset.level=''; lv.append(all);
+  for(const L of INDEX.levels){const b=document.createElement('button');b.textContent=(LEVEL_LABEL[L]||L)+' ('+INDEX.counts[L]+')';b.dataset.level=L;lv.append(b);}
+  lv.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;level=b.dataset.level;paintLevels();draw();});
+  paintLevels(); draw();
+  $('#q').addEventListener('input',e=>{q=e.target.value.toLowerCase();draw();});
+  $('#reset').addEventListener('click',()=>{q='';level=null;$('#q').value='';paintLevels();draw();});
+  $('#back').addEventListener('click',closeBook);
+  $('#prev').addEventListener('click',()=>go(page-1));
+  $('#next').addEventListener('click',()=>go(page+1));
+  document.addEventListener('keydown',e=>{
+    if(!$('#reader').classList.contains('on'))return;
+    if(e.key==='ArrowRight')go(page+1); if(e.key==='ArrowLeft')go(page-1);
+    if(e.key==='Escape')closeBook();});
+  window.addEventListener('hashchange',openBookFromHash);
+  location.hash&&openBookFromHash();
+}
+function paintLevels(){document.querySelectorAll('#levels button').forEach(b=>b.setAttribute('aria-pressed',(b.dataset.level||'')===(level||'')?'true':'false'));}
+
+function draw(){
+  const g=$('#grid'); g.innerHTML='';
+  const rows=INDEX.books.filter(b=>(!level||b.level===level)&&(!q||b.title.toLowerCase().includes(q)));
+  $('#note').hidden=rows.length!==INDEX.books.length&&!q&&!level?false:$('#note').hidden;
+  if(!rows.length){g.innerHTML='<p class="meta">No book matches.</p>';return;}
+  for(const b of rows){
+    const c=document.createElement('button'); c.className='card'; c.type='button';
+    c.innerHTML='<b></b><span class="sub"></span><span class="sub"></span>';
+    c.querySelector('b').textContent=b.title;
+    c.querySelectorAll('.sub')[0].textContent=(LEVEL_LABEL[b.level]||b.level)+' · '+b.pages+' '+(b.pages===1?'page':'pages');
+    const chip=document.createElement('span'); chip.className='chip '+b.art; chip.textContent=ART_LABEL[b.art]||b.art||'—';
+    c.querySelectorAll('.sub')[1].append(chip,' ',document.createTextNode(' '+b.narrator_label));
+    c.addEventListener('click',()=>openBook(b));
+    g.append(c);
+  }
+}
+
+async function openBook(b){
+  if(!DATA[b.level]) DATA[b.level]=await (await fetch('data/'+b.level+'.json')).json();
+  const book=DATA[b.level].books.find(x=>x.id===b.id)||b;
+  cur=book; location.hash='#'+b.level+'/'+b.id; page=0;
+  $('#home').classList.add('off'); $('#reader').classList.add('on');
+  render();
+}
+async function openBookFromHash(){
+  const m=location.hash.slice(1).split('/'); if(m.length!==2)return;
+  const [L,id]=m; if(!DATA[L])DATA[L]=await (await fetch('data/'+L+'.json')).json();
+  const book=DATA[L].books.find(x=>x.id===id); if(!book)return;
+  cur=book;page=0;$('#home').classList.add('off');$('#reader').classList.add('on');render();
+}
+function closeBook(){$('#reader').classList.remove('on');$('#home').classList.remove('off');history.replaceState(null,'',' ');cur=null;}
+function go(n){if(!cur)return;page=Math.max(0,Math.min(n,cur.pages.length-1));render();}
+function render(){
+  const p=cur.pages[page];
+  $('#rmeta').textContent=cur.title+' · '+(LEVEL_LABEL[cur.level]||cur.level)+' · page '+(page+1)+' of '+cur.pages.length;
+  $('#rnum').textContent='Page '+p.n;
+  $('#rtext').textContent=p.text;
+  const info=$('#rinfo'); info.innerHTML='';
+  const c1=document.createElement('span');c1.className='chip '+cur.art;c1.textContent=ART_LABEL[cur.art]||cur.art;info.append(c1);
+  const c2=document.createElement('span');c2.className='chip';c2.textContent='Narrator: '+(cur.narrator_label||'—');info.append(c2);
+  $('#rbrief').textContent=p.brief||'(no brief)';
+  const fl=$('#rflags'); const notes=(p.flags||[]).filter(f=>f!=='cleaned');
+  if(notes.length){fl.hidden=false;fl.textContent='Note: '+notes.join(', ');}else{fl.hidden=true;}
+  $('#prev').disabled=page===0; $('#next').disabled=page===cur.pages.length-1;
+  const pl=$('#rpages'); pl.innerHTML='';
+  cur.pages.forEach((pp,i)=>{const b=document.createElement('button');b.textContent=pp.n;b.setAttribute('aria-current',i===page);b.onclick=()=>go(i);pl.append(b);});
+}
+boot();
+</script></body></html>
