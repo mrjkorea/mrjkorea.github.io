@@ -7,281 +7,281 @@
       "id": "L01",
       "name": "Paris",
       "place": "France",
-      "x": 495,
-      "y": 205
+      "x": 522,
+      "y": 248
     },
     {
       "id": "L02",
       "name": "Amsterdam",
       "place": "Netherlands",
-      "x": 510,
-      "y": 167
+      "x": 541,
+      "y": 180
     },
     {
       "id": "L03",
       "name": "Taiwan",
       "place": "Taiwan",
-      "x": 953,
-      "y": 395
+      "x": 972,
+      "y": 400
     },
     {
       "id": "L04",
       "name": "Canada",
       "place": "Canada",
-      "x": 239,
-      "y": 247
+      "x": 220,
+      "y": 210
     },
     {
       "id": "L05",
       "name": "Japan",
       "place": "Japan",
-      "x": 1004,
-      "y": 320
+      "x": 1019,
+      "y": 299
     },
     {
       "id": "L06",
       "name": "Haiti",
       "place": "Haiti",
-      "x": 261,
-      "y": 416
+      "x": 316,
+      "y": 414
     },
     {
       "id": "L07",
       "name": "India",
       "place": "India",
-      "x": 796,
-      "y": 396
+      "x": 805,
+      "y": 400
     },
     {
       "id": "L08",
       "name": "Singapore",
       "place": "Singapore",
-      "x": 881,
-      "y": 490
+      "x": 904,
+      "y": 498
     },
     {
       "id": "L09",
       "name": "Seoul",
       "place": "South Korea",
-      "x": 973,
-      "y": 303
+      "x": 982,
+      "y": 312
     },
     {
       "id": "L10",
       "name": "Athens",
       "place": "Greece",
-      "x": 598,
-      "y": 298
+      "x": 643,
+      "y": 281
     },
     {
       "id": "L11",
       "name": "Dubai",
       "place": "United Arab Emirates",
-      "x": 724,
-      "y": 394
+      "x": 715,
+      "y": 378
     },
     {
       "id": "L12",
       "name": "Nigeria",
       "place": "Nigeria",
-      "x": 522,
-      "y": 461
+      "x": 575,
+      "y": 495
     },
     {
       "id": "L13",
       "name": "Rio de Janeiro",
       "place": "Brazil",
-      "x": 354,
-      "y": 547
+      "x": 365,
+      "y": 535
     },
     {
       "id": "L14",
       "name": "Denmark",
       "place": "Denmark",
-      "x": 530,
-      "y": 127
+      "x": 571,
+      "y": 152
     },
     {
       "id": "L15",
       "name": "Freeport",
       "place": "The Bahamas",
-      "x": 241,
-      "y": 371
+      "x": 265,
+      "y": 357
     },
     {
       "id": "L16",
       "name": "Lake Titicaca",
       "place": "Peru",
-      "x": 266,
-      "y": 533
+      "x": 276,
+      "y": 517
     },
     {
       "id": "L17",
       "name": "Iceland",
       "place": "Iceland",
-      "x": 419,
-      "y": 48
+      "x": 463,
+      "y": 105
     },
     {
       "id": "L18",
       "name": "Shanghai",
       "place": "China",
-      "x": 945,
-      "y": 345
+      "x": 960,
+      "y": 330
     },
     {
       "id": "L19",
       "name": "Valparaiso",
       "place": "Chile",
-      "x": 262,
-      "y": 578
+      "x": 270,
+      "y": 572
     },
     {
       "id": "L20",
       "name": "Oslo",
       "place": "Norway",
-      "x": 536,
-      "y": 91
+      "x": 575,
+      "y": 125
     },
     {
       "id": "L21",
       "name": "Rome",
       "place": "Italy",
-      "x": 549,
-      "y": 267
+      "x": 574,
+      "y": 263
     },
     {
       "id": "L22",
       "name": "Lisbon",
       "place": "Portugal",
-      "x": 442,
-      "y": 293
+      "x": 468,
+      "y": 292
     },
     {
       "id": "L23",
       "name": "Prague",
       "place": "Czechia",
-      "x": 555,
-      "y": 192
+      "x": 606,
+      "y": 207
     },
     {
       "id": "L24",
       "name": "Budapest",
       "place": "Hungary",
-      "x": 578,
-      "y": 221
+      "x": 648,
+      "y": 218
     },
     {
       "id": "L25",
       "name": "Ghana",
       "place": "Ghana",
-      "x": 476,
-      "y": 468
+      "x": 536,
+      "y": 469
     },
     {
       "id": "L26",
       "name": "Cuba",
       "place": "Cuba",
-      "x": 237,
-      "y": 402
+      "x": 270,
+      "y": 385
     },
     {
       "id": "L27",
       "name": "Mexico",
       "place": "Mexico",
-      "x": 160,
-      "y": 398
+      "x": 185,
+      "y": 395
     },
     {
       "id": "L28",
       "name": "Berlin",
       "place": "Germany",
-      "x": 549,
-      "y": 166
+      "x": 585,
+      "y": 184
     },
     {
       "id": "L29",
       "name": "Wellington",
       "place": "New Zealand",
-      "x": 1110,
-      "y": 574
+      "x": 1156,
+      "y": 578
     },
     {
       "id": "L30",
       "name": "Whitby",
       "place": "United Kingdom",
-      "x": 479,
-      "y": 147
+      "x": 498,
+      "y": 142
     },
     {
       "id": "L31",
       "name": "Vietnam",
       "place": "Vietnam",
-      "x": 885,
-      "y": 404
+      "x": 925,
+      "y": 428
     },
     {
       "id": "L32",
       "name": "Queensland",
       "place": "Australia",
-      "x": 1019,
-      "y": 538
+      "x": 1056,
+      "y": 516
     },
     {
       "id": "L33",
       "name": "Yemen",
       "place": "Yemen",
-      "x": 699,
-      "y": 434
+      "x": 690,
+      "y": 430
     },
     {
       "id": "L34",
       "name": "Zurich",
       "place": "Switzerland",
-      "x": 525,
-      "y": 223
+      "x": 548,
+      "y": 228
     },
     {
       "id": "L35",
       "name": "Cook Islands",
       "place": "Cook Islands",
-      "x": 1178,
-      "y": 543
+      "x": 1192,
+      "y": 558
     },
     {
       "id": "L36",
       "name": "Waterloo",
       "place": "Belgium",
-      "x": 505,
-      "y": 185
+      "x": 523,
+      "y": 202
     },
     {
       "id": "L37",
       "name": "Mawlamyine",
       "place": "Myanmar",
-      "x": 850,
-      "y": 424
+      "x": 870,
+      "y": 450
     },
     {
       "id": "L38",
       "name": "Cape Town",
       "place": "South Africa",
-      "x": 578,
-      "y": 571
+      "x": 610,
+      "y": 572
     },
     {
       "id": "L39",
       "name": "Bangkok",
       "place": "Thailand",
-      "x": 865,
-      "y": 438
+      "x": 895,
+      "y": 447
     },
     {
       "id": "L40",
       "name": "Phoenix",
       "place": "United States of America",
-      "x": 129,
-      "y": 333
+      "x": 128,
+      "y": 342
     }
   ]
 }
