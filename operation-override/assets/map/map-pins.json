@@ -1,0 +1,287 @@
+{
+  "image": "world-map.png",
+  "width": 1280,
+  "height": 720,
+  "places": [
+    {
+      "id": "L01",
+      "name": "Paris",
+      "place": "France",
+      "x": 495,
+      "y": 205
+    },
+    {
+      "id": "L02",
+      "name": "Amsterdam",
+      "place": "Netherlands",
+      "x": 510,
+      "y": 167
+    },
+    {
+      "id": "L03",
+      "name": "Taiwan",
+      "place": "Taiwan",
+      "x": 953,
+      "y": 395
+    },
+    {
+      "id": "L04",
+      "name": "Canada",
+      "place": "Canada",
+      "x": 239,
+      "y": 247
+    },
+    {
+      "id": "L05",
+      "name": "Japan",
+      "place": "Japan",
+      "x": 1004,
+      "y": 320
+    },
+    {
+      "id": "L06",
+      "name": "Haiti",
+      "place": "Haiti",
+      "x": 261,
+      "y": 416
+    },
+    {
+      "id": "L07",
+      "name": "India",
+      "place": "India",
+      "x": 796,
+      "y": 396
+    },
+    {
+      "id": "L08",
+      "name": "Singapore",
+      "place": "Singapore",
+      "x": 881,
+      "y": 490
+    },
+    {
+      "id": "L09",
+      "name": "Seoul",
+      "place": "South Korea",
+      "x": 973,
+      "y": 303
+    },
+    {
+      "id": "L10",
+      "name": "Athens",
+      "place": "Greece",
+      "x": 598,
+      "y": 298
+    },
+    {
+      "id": "L11",
+      "name": "Dubai",
+      "place": "United Arab Emirates",
+      "x": 724,
+      "y": 394
+    },
+    {
+      "id": "L12",
+      "name": "Nigeria",
+      "place": "Nigeria",
+      "x": 522,
+      "y": 461
+    },
+    {
+      "id": "L13",
+      "name": "Rio de Janeiro",
+      "place": "Brazil",
+      "x": 354,
+      "y": 547
+    },
+    {
+      "id": "L14",
+      "name": "Denmark",
+      "place": "Denmark",
+      "x": 530,
+      "y": 127
+    },
+    {
+      "id": "L15",
+      "name": "Freeport",
+      "place": "The Bahamas",
+      "x": 241,
+      "y": 371
+    },
+    {
+      "id": "L16",
+      "name": "Lake Titicaca",
+      "place": "Peru",
+      "x": 266,
+      "y": 533
+    },
+    {
+      "id": "L17",
+      "name": "Iceland",
+      "place": "Iceland",
+      "x": 419,
+      "y": 48
+    },
+    {
+      "id": "L18",
+      "name": "Shanghai",
+      "place": "China",
+      "x": 945,
+      "y": 345
+    },
+    {
+      "id": "L19",
+      "name": "Valparaiso",
+      "place": "Chile",
+      "x": 262,
+      "y": 578
+    },
+    {
+      "id": "L20",
+      "name": "Oslo",
+      "place": "Norway",
+      "x": 536,
+      "y": 91
+    },
+    {
+      "id": "L21",
+      "name": "Rome",
+      "place": "Italy",
+      "x": 549,
+      "y": 267
+    },
+    {
+      "id": "L22",
+      "name": "Lisbon",
+      "place": "Portugal",
+      "x": 442,
+      "y": 293
+    },
+    {
+      "id": "L23",
+      "name": "Prague",
+      "place": "Czechia",
+      "x": 555,
+      "y": 192
+    },
+    {
+      "id": "L24",
+      "name": "Budapest",
+      "place": "Hungary",
+      "x": 578,
+      "y": 221
+    },
+    {
+      "id": "L25",
+      "name": "Ghana",
+      "place": "Ghana",
+      "x": 476,
+      "y": 468
+    },
+    {
+      "id": "L26",
+      "name": "Cuba",
+      "place": "Cuba",
+      "x": 237,
+      "y": 402
+    },
+    {
+      "id": "L27",
+      "name": "Mexico",
+      "place": "Mexico",
+      "x": 160,
+      "y": 398
+    },
+    {
+      "id": "L28",
+      "name": "Berlin",
+      "place": "Germany",
+      "x": 549,
+      "y": 166
+    },
+    {
+      "id": "L29",
+      "name": "Wellington",
+      "place": "New Zealand",
+      "x": 1110,
+      "y": 574
+    },
+    {
+      "id": "L30",
+      "name": "Whitby",
+      "place": "United Kingdom",
+      "x": 479,
+      "y": 147
+    },
+    {
+      "id": "L31",
+      "name": "Vietnam",
+      "place": "Vietnam",
+      "x": 885,
+      "y": 404
+    },
+    {
+      "id": "L32",
+      "name": "Queensland",
+      "place": "Australia",
+      "x": 1019,
+      "y": 538
+    },
+    {
+      "id": "L33",
+      "name": "Yemen",
+      "place": "Yemen",
+      "x": 699,
+      "y": 434
+    },
+    {
+      "id": "L34",
+      "name": "Zurich",
+      "place": "Switzerland",
+      "x": 525,
+      "y": 223
+    },
+    {
+      "id": "L35",
+      "name": "Cook Islands",
+      "place": "Cook Islands",
+      "x": 1178,
+      "y": 543
+    },
+    {
+      "id": "L36",
+      "name": "Waterloo",
+      "place": "Belgium",
+      "x": 505,
+      "y": 185
+    },
+    {
+      "id": "L37",
+      "name": "Mawlamyine",
+      "place": "Myanmar",
+      "x": 850,
+      "y": 424
+    },
+    {
+      "id": "L38",
+      "name": "Cape Town",
+      "place": "South Africa",
+      "x": 578,
+      "y": 571
+    },
+    {
+      "id": "L39",
+      "name": "Bangkok",
+      "place": "Thailand",
+      "x": 865,
+      "y": 438
+    },
+    {
+      "id": "L40",
+      "name": "Phoenix",
+      "place": "United States of America",
+      "x": 129,
+      "y": 333
+    }
+  ]
+}
