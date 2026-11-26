@@ -1,0 +1,3 @@
+Place real pictures, films, and voice files in this folder.
+The game also checks assetBaseUrl in ../asset-config.json, so the same
+paths can live on external storage instead of in git.
