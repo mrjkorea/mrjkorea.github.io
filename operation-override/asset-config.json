@@ -1,3 +1,4 @@
 {
-  "assetBaseUrl": "./assets"
+  "assetBaseUrl": "./assets",
+  "mediaBaseUrl": "https://mrjkorea.github.io/operation-override-media"
 }
